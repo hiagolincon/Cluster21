@@ -213,7 +213,7 @@
 #depoimentos {
   #depoimentos_container {
     padding-top: 200px;
-    @include  mq('tablet1', 'max') {
+    @include  mq('tablet', 'max') {
       padding-top: 0;
     }
     .slide-depoimento {
