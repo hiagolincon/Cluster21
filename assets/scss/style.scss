@@ -31,8 +31,9 @@ $breakpoints: (
 
 html, body {
   font-family: 'Nunito Sans';
-  width: 100%;
-  max-width: 100%;
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 .btn.focus, .btn:focus {
   box-shadow: 0 0 5px;

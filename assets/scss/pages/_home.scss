@@ -377,12 +377,16 @@
   }
 }
 #footer {
+  padding-bottom: 20px;
+  background: url(/assets/img/bg-footer.png) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
   #brands {
     div+div {
       margin-left: 5px;
     }
   }
-  svg {
+  #bgsvg {
     width: 100%;
   }
   @include mq('tablet1','max') {
