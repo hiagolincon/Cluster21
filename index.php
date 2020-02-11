@@ -2,6 +2,21 @@
 include 'inc/topo.php';
 include 'inc/menu.php';
 ?>
+    <div class="row" id="banner-content">
+        <div class="col-lg-6">
+            <h1><strong>Torne-se sócio</strong> de startups inovadoras a partir de <strong>R$ 500,00</strong></h1>
+            <h5>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h5>
+            <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
+                Quero investir agora
+            </a>
+        </div>
+        <div class="col-lg-6">
+            <img src="/assets/img/man-home.png" class="img-fluid" alt="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora." title="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora.">
+        </div>
+    </div>
+    </div>
+</section>
+<!--Termina seção topo-->
 <section class="wow slideInLeft" data-wow-duration="2s" id="vantagens">
     <svg class="STICKER" viewBox="119.738 -73.106 615.437 695.583">
         <path fill="rgba(246,215,214,1)" id="STICKER" d="M 442.2153930664063 -73.10621643066406 C 505.3286743164063 -73.10621643066406 536.917724609375 -9.876947402954102 588.3456420898438 19.36474418640137 C 694.4686279296875 79.70550537109375 735.1754760742188 201.0425262451172 735.1754760742188 332.124267578125 C 735.1754760742188 526.3192138671875 487.9191284179688 622.4124755859375 293.7241821289063 622.4124755859375 C 290.4228515625 622.4124755859375 296.9515380859375 622.5567626953125 293.7241821289063 622.4124755859375 C 106.9826126098633 614.0654296875 119.9301910400391 428.0609741210938 119.9301910400391 237.1673278808594 C 119.9301910400391 136.9633178710938 208.2841339111328 111.5718536376953 267.8978271484375 58.2515869140625 C 323.9686279296875 8.100099563598633 348.2244873046875 -73.10621643066406 442.2153930664063 -73.10621643066406 Z">

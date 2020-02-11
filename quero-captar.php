@@ -1,69 +1,7 @@
-<!doctype html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cluster21</title>
-
-    <!--  Bootstrap  -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <!-- SlickSlide -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <!-- FontAwesome -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js"></script>
-    <!-- Estilo  -->
-    <link rel="stylesheet" href="assets/scss/quero-captar/quero-captar.css">
-</head>
-<body>
-  <section id="topo">
-    <div class="container">
-        <div class="d-flex" id="topbar">
-            <div class="d-inline-block b-lft">
-                <a title="contato@cluster21.com.br" href="mailto:contato@cluster21.com.br"><i class="fas fa-paper-plane"></i> contato@cluster21.com.br</a>
-                <a title="(51) 3407-4707" href="tel:+555134074707"><i class="fas fa-phone-alt"></i> (51) 3407-4707</a>
-            </div>
-            <div class="ml-auto d-inline-block">
-                <a class="text-red" href="/login" title="Entrar">Entrar <i class="fas fa-sign-in-alt"></i></a>
-                <a class="btn btn-topbar" href="/cadastro" title="Abrir conta">Abrir conta</a>
-            </div>
-        </div>
-
-        <hr>
-
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="/" title="Cluster21">
-                <img src="assets/img/logo.png" class="navbar-logo" alt="Cluster21" title="Cluster21">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/sobre.php">SOBRE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="/quero-investir.php">QUERO INVESTIR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="/quero-captar.php">QUERO CAPTAR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/blog.php">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contato.php">CONTATO</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-
-
-
+<?php
+include 'inc/topo.php';
+include 'inc/menu.php';
+?>
         <div class="row" id="banner-content">
             <div class="col-lg-6">
                 <h1>Impulsione o <strong>sucesso</strong> do <strong>seu negócio</strong></h1>
@@ -76,13 +14,9 @@
                 <img src="assets/img/ilustracao-arrow-topo.png" class="img-fluid" alt="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora." title="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora.">
             </div>
         </div>
-
-
     </div>
-
-
-
 </section>
+<!--Termina seção topo-->
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="segurança">
   <div class="container">

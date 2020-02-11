@@ -1,3 +1,4 @@
+<!--Seção topo-->
 <section id="topo">
     <div class="container">
         <div class="d-flex" id="topbar">
@@ -10,9 +11,7 @@
                 <a class="btn btn-topbar" href="/cadastro" title="Abrir conta">Abrir conta</a>
             </div>
         </div>
-
         <hr>
-
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="/" title="Cluster21">
                 <img src="/assets/img/logo.png" class="navbar-logo" alt="Cluster21" title="Cluster21">
@@ -41,26 +40,3 @@
                 </ul>
             </div>
         </nav>
-
-
-
-
-        <div class="row" id="banner-content">
-            <div class="col-lg-6">
-                <h1><strong>Torne-se sócio</strong> de startups inovadoras a partir de <strong>R$ 500,00</strong></h1>
-                <h5>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h5>
-                <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
-                    Quero investir agora
-                </a>
-            </div>
-            <div class="col-lg-6">
-                <img src="/assets/img/man-home.png" class="img-fluid" alt="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora." title="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora.">
-            </div>
-        </div>
-
-
-    </div>
-
-
-
-</section>

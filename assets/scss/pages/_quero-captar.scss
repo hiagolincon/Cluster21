@@ -1,0 +1,92 @@
+#segurança {
+  padding: 10rem 0;
+  span {
+    background-color: #fff;
+    padding: 18px 0 3px 0;
+    width: 350px;
+    margin: 5px 80px;
+    box-shadow: 0 0 20px #ccc;
+  }
+  span:nth-of-type(2) {
+    width: 430px;
+  }
+  span:nth-of-type(3) {
+    margin-left: 110px;
+    padding-right: 70px;
+  }
+  p {
+    font-size: 18px;
+    color: $dark-blue;
+  }
+}
+
+.text-box p {
+  color: $dark-blue;
+  font-size: 15px !important;
+}
+
+.title-style2 {
+  font-weight: 700 !important;
+  font-size: 35px;
+  background-image: url('/assets/img/Caminho\ 624.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+
+}
+
+.title-style3 {
+  font-size: 35px;
+}
+
+.font-strong {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+
+
+#saiba-mais {
+  padding: 30px 0;
+  h4 {
+    font-weight: 700 !important;
+  }
+  ul li {
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+    font-weight: 600;
+    padding: 10px 0;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul li a {
+    color: rgb(119, 119, 119);
+    margin: 0;
+  }
+  p {
+    font-size: 18px;
+    color: gray;
+    font-weight: 500 !important;
+    padding: 10px 0;
+  }
+}
+.btn-investir {
+  background: linear-gradient(135deg, $red 0%, $red_1 50%);
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  width: 360px;
+  border-radius: 50px;
+  height: 50px;
+  line-height: 35px;
+}
+.box-button {
+
+  text-align: center;
+  box-shadow: 0 0 20px #ccc;
+  margin: 4rem 0 ;
+  padding: 3rem 0 !important;
+  width: 700px;
+}
+
