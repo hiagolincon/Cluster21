@@ -159,25 +159,25 @@ background-size: contain;
     background: #fff;
     border-radius: 50%;
     z-index: 10;
-}
 
-.box .chart {
-  position: relative;
-  width: 60px;
-  height: 60px;
-  margin: 0s auto; 
-  text-align: center;
-  font-size: 23px;
-  line-height: 70px;
-  color: $red;
-  padding: 14px 0 1rem 30px;
-}
+  .chart {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0s auto; 
+    text-align: center;
+    font-size: 23px;
+    line-height: 70px;
+    color: $red;
+    padding: 14px 0 1rem 30px;
+  }
 
-.box .chart canvas {
-  position: absolute;
-  top: 0;
-  left:0;
-  padding: 10px 20px 10px 10px;
+  .box .chart canvas {
+    position: absolute;
+    top: 0;
+    left:0;
+    padding: 10px 20px 10px 10px;
+  }
 }
 
 

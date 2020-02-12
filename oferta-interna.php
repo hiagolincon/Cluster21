@@ -63,11 +63,7 @@
                     <form>
                       <div class="embed-submit-field">
                         <input type='text' name='pesquisa' placeholder='500 min.'>
-                        <button type='submit' class="btn btn-red">INVESTIR<i class="fas fa-long-arrow-alt-right ml-2" style="font-size: 23px; vertical-align: text-bottom;"></i>
-
-                        </i>
-                        </i>
-                        </i></button>
+                        <button type='submit' class="btn btn-red">INVESTIR<i class="fas fa-long-arrow-alt-right ml-2" style="font-size: 23px; vertical-align: text-bottom;"></i></button>
                       </div>
                     </form>
                   </div>            

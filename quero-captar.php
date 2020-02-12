@@ -20,6 +20,8 @@ include 'inc/menu.php';
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="segurança">
   <div class="container">
+  <img src="assets/img/Componente 2 – 1.png" title="" alt="" class="img-style" >
+
     <div class="row my-2">
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column text-box my-3">
             <span class="text-center"><p>Mais R$ 150 milhões investido. <i class="fas fa-check text-red"></i></p></span><br>
@@ -122,104 +124,24 @@ include 'inc/menu.php';
     </div>
 </section>
 
-<div class="accordion" id="accordionExample">
-    <div class="card">
-      <div class="card-header" id="headingOne">
-        <h5 class="mb-0">
-          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Grupo de itens colapsável #1
-          </button>
-        </h5>
-      </div>
-  
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non alemanha 0 x 2 coreia do sul cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Grupo de itens colapsável #2
-          </button>
-        </h5>
-      </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header" id="headingThree">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Grupo de itens colapsável #3
-          </button>
-        </h5>
-      </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
-      </div>
-    </div>
-  </div>
 
-
-
-////////////////
-<div class="accordion" id="accordionExample">
-    <div id="headingOne">
-        <p>
-            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-            Link com href
-            </a>
-        </p>
-    
-            <div id="collapseExample"  class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                </div>
-              </div>
-    </div>
-    
-    <div id="headingTwo">
-        <p>
-            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
-            Link com href
-            </a>
-        </p>
-           
-     
-      <div id="collapseExample2"  class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
-        <div class="card-body">
-          cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
-      </div>
-    
-    </div>
-       
-</div>
-
-  ////////////
-<section class="wow slideInLeft" data-wow-duration="2s" id="saiba-mais">
+  <section class="wow slideInLeft" data-wow-duration="2s" id="saiba-mais">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-5">
-        
                 <h1 class="title-style2">Saiba Mais</h1>
                   <ul>
-                    <li><a href="#list-item-1" title="" alt="" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-item-1">Como funciona</a></li><hr>
-                    <li><a href="#list-item-2" title="" alt="" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-item-2">Por que Equity Crowdfunding?</a></li><hr>
-                    <li><a href="#list-item-3" title="" alt="" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-item-3">Quem pode arrecadar fundos</a></li><hr>
-                    <li><a href=#list-item-4 title="" alt="">Quem não pode arrecadar</a></li><hr>
-                    <li><a href="#list-item-5" title="" alt="" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-item-5">Recursos</a></li><hr>
-                    <li><a href="#list-item-6" title="" alt="">Custos</a></li><hr>
-                    <li><a href="#list-item-7" title="" alt="">Quando posso aceitar fundos?</a></li><hr>
-                    <li><a href="#list-item-8" title="" alt="">O que Equity Crowdfunding é para mim?</a></li>
+                    <li>
+                      <a href="#list-item-1" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba1" role="button" aria-expanded="false" aria-controls="list-item-1"><i class="fas fa-long-arrow-alt-right mr-2"></i>Como funciona</a>
+                    </li>
+                    <hr>
+                    <li><a href="#list-item-2" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba2"  role="button" aria-expanded="false" aria-controls="list-item-2">Por que Equity Crowdfunding?</a></li><hr>
+                    <li><a href="#list-item-3" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba3"  role="button" aria-expanded="false" aria-controls="list-item-3">Quem pode arrecadar fundos</a></li><hr>
+                    <li><a href="#list-item-4" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba4"  role="button" aria-expanded="false" aria-controls="list-item-4">Quem não pode arrecadar</a></li><hr>
+                    <li><a href="#list-item-5" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba5"  role="button" aria-expanded="false" aria-controls="list-item-5">Recursos</a></li><hr>
+                    <li><a href="#list-item-6" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba6"  role="button" aria-expanded="false" aria-controls="list-item-6">Custos</a></li><hr>
+                    <li><a href="#list-item-7" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba7"  role="button" aria-expanded="false" aria-controls="list-item-7">Quando posso aceitar fundos?</a></li><hr>
+                    <li><a href="#list-item-8" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba8"  role="button" aria-expanded="false" aria-controls="list-item-5">O que Equity Crowdfunding é para mim?</a></li>
                   </ul> 
                 </div>
                                
@@ -227,44 +149,169 @@ include 'inc/menu.php';
 
             <div class="col-sm-12 col-md-12 col-lg-7 pt-5">
                 <div data-spy="scroll" data-offset="0">
-                    <div class="collapse card card-body active" id="list-item-1">
-                        <h4>O que há de tão especial?</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                       
-                    </div> 
-                    <div class="collapse card card-body" id="list-item-2">
-                        <h4>laaaaaaaaaaaa?</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <hr>
+                  <div id="div_aba1" style="display: none;">
+                    <div id="list-item-1">  
+                      <h4>O que há de tão especial?</h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                     
+                     </div> 
+                  </div>
+                   
+                  <div id="div_aba2" style="display: none;">
+                    <div id="list-item-2">
+                      <h4>Por que Equity Crowdfunding?</h4>
+                      <p>L has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                     
+                     </div> 
+                  </div>
 
-                        <h4>Como recebo retorno</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        
-                    </div> 
-                    <div class="collapse card card-body" id="list-item-3">
-                        <h4>goooooooooooooo?</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        
-                    </div> 
+                  <div id="div_aba3" style="display: none;">
+                    <div id="list-item-3">
+                      <h4>Quem pode arrecadar fundos?</h4>
+                      <p>f the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                     
+                     </div> 
+                  </div>
+
+                  <div id="div_aba4" style="display: none;">
+                    <div id="list-item-4">
+                      <h4>O que há l?</h4>
+                      <p>g and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                     
+                     </div> 
+                  </div>
+
+                  <div id="div_aba5" style="display: none;">
+                    <div id="list-item-5">  
+                      <h4>O que há de tão especial?</h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                     
+                     </div> 
+                  </div>
+                   
+                  <div id="div_aba6" style="display: none;">
+                    <div id="list-item-6">
+                      <h4>Por que Equity Crowdfunding?</h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                     
+                     </div> 
+                  </div>
+
+                  <div id="div_aba7" style="display: none;">
+                    <div id="list-item-7">
+                      <h4>Quem pode arrecadar fundos?</h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                     
+                     </div> 
+                  </div>
+
+                  <div id="div_aba8" style="display: none;">
+                    <div id="list-item-8">
+                      <h4>O que há l?</h4>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                     
+                     </div> 
+                  </div>
+
+                  
+                   
                 </div>
             </div>
         </div>
-      
+        <div class="row justify-content-center">
+          <div class="box-button">
+            <h4>INSCREVA SUA EMPRESA</h4>
+            <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
+                COMEÇAR AGORA
+            </a>
+          </div>
+        </div>
     </div>
 </section>
-<div class="container text-center">
-    <div class="box-button">
-        <h4>INSCREVA SUA EMPRESA</h4>
-        <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
-            COMEÇAR AGORA
-        </a>
+
+<footer id="footer">
+    <svg class="bg_p" viewBox="0 0 2000 555">
+        <path fill="rgba(245,245,245,1)" id="bg_footer_q" d="M 0 194.146484375 L 2000 0 L 2000 555 L 0 555 L 0 194.146484375 Z">
+        </path>
+    </svg>
+    <div class="container" id="content">
+        <div class="row">
+            <div class="col-lg-3">
+                <img src="/assets/img/logo.png" class="img-fluid" alt="Cluster21">
+                <ul>
+                    <li>
+                        <i class="fas fa-phone-alt"></i> (51) 3407-4707
+                    </li>
+                    <li>
+                        <i class="fas fa-paper-plane"></i> contato@cluster21.com.br
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i> Av. Carlos Gomes, 1155, Petrópolis, Porto Alegre - RS
+                    </li>
+                </ul>
+                <p>CNPJ: 26.687.832/0001-00</p>
+                <div class="d-flex" id="brands">
+                    <div class="d-inline">
+                        <a href="https://www.facebook.com/clustervinteum/">
+                            <img src="/assets/img/facebook-square-brands.png" alt="Siga-nos no facebook!" title="Siga-nos no Facebook!">
+                        </a>
+                    </div>
+                    <div class="d-inline">
+                        <a href="https://www.instagram.com/clustervinteum/?hl=pt-br">
+                            <img src="/assets/img/instagram-brands.png" alt="Siga-nos no Instagram!" title="Siga-nos no Instgram!">
+                        </a>
+                    </div>
+                    <div class="d-inline">
+                        <a href="https://br.linkedin.com/company/clustervinteum">
+                            <img src="/assets/img/linkedin-brands.png" alt="Siga-nos no Linkedin!" title="Siga-nos no Linkedin!">
+                        </a>
+                    </div>
+                    <div class="d-inline">
+                        <a href="https://twitter.com/Cluster_vinteum">
+                            <img src="/assets/img/twitter-square-brands.png" alt="Siga-nos no Twitter!" title="Siga-nos no Twitter!">
+                        </a>
+                    </div>
+                    <div class="d-inline">
+                        <a href="">
+                            <img src="/assets/img/whatsapp-square-brands.png" alt="Entre em contato via whatsapp" title="Entre em contato via whatsapp">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 my-auto">
+                <h5>Para investidores</h5>
+                <hr>
+                <ul>
+                    <li><a href="/quero-investir.php">Quero Investir</a></li>
+                    <li><a href="/quero-investir.php">Por que investir</a></li>
+                    <li><a href="/quero-investir.php">Como funciona</a></li>
+                    <li><a href="/quero-investir.php">Perguntas frequentes</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 my-auto">
+                <h5>Para startups</h5>
+                <hr>
+                <ul>
+                    <li><a href="/quero-captar.php">Quero captar</a></li>
+                    <li><a href="/quero-investir.php">Por que captar conosco</a></li>
+                    <li><a href="/quero-investir.php">Como funciona</a></li>
+                    <li><a href="/quero-investir.php">Perguntas frequentes</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 my-auto">
+                <h5>Institucional</h5>
+                <hr>
+                <ul>
+                    <li><a href="/sobre.php">Sobre</a></li>
+                    <li><a href="/termos-de-uso.php">Termos de uso</a></li>
+                    <li><a href="/politica-de-privacidade.php">Política de privacidade</a></li>
+                    <li><a href="/contato.php">Contato</a></li>
+                    <li><a href="/trabalhe-conosco.php">Trabalhe Conosco</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-</div>
-
-
-
+</footer>
 
 
 
@@ -280,6 +327,8 @@ include 'inc/menu.php';
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <!-- Main -->
 <script src="/assets/js/script.js"></script>
+<script src="/assets/js/quero-captar.js"></script>
+
 
 
 </body>
