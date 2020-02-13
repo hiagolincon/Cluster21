@@ -63,6 +63,7 @@
       border-radius: 50px;
       height: 50px;
       line-height: 35px;
+      margin-top: 20px;
     }
     h1 {
       font-size: 55px;
@@ -71,6 +72,13 @@
     h5 {color: $grey;opacity: 0.6;}
   }
 }
+
+@media screen and (max-width: 600px) {
+  .btn-investir{
+    width: 320px !important;
+  }
+}
+
 #vantagens {
   .STICKER {
     z-index: -1;

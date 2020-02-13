@@ -211,6 +211,7 @@ a:hover {
   border-radius: 50px;
   height: 50px;
   line-height: 35px;
+  margin-top: 20px;
 }
 
 #topo #banner-content h1 {
@@ -221,6 +222,12 @@ a:hover {
 #topo #banner-content h5 {
   color: #37475e;
   opacity: 0.6;
+}
+
+@media screen and (max-width: 600px) {
+  .btn-investir {
+    width: 320px !important;
+  }
 }
 
 #vantagens .STICKER {
@@ -867,11 +874,15 @@ a:hover {
   padding: 14px 0 1rem 30px;
 }
 
-.box .box .chart canvas {
+.box .chart canvas {
   position: absolute;
   top: 0;
   left: 0;
   padding: 10px 20px 10px 10px;
+}
+
+#segurança {
+  padding-bottom: 7rem;
 }
 
 #segurança span {
@@ -895,6 +906,42 @@ a:hover {
 #segurança p {
   font-size: 18px;
   color: #37475E;
+}
+
+@media screen and (max-width: 600px) {
+  #segurança {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 7rem;
+  }
+  #segurança span {
+    background-color: #fff;
+    padding: 18px 0 3px 0 !important;
+    width: 320px;
+    margin: 5px 80px !important;
+  }
+  #segurança span:nth-of-type(2) {
+    width: 320px;
+  }
+  #segurança .text-box {
+    position: relative;
+    right: 60px;
+    padding: 0px 1px !important;
+    margin: 0 !important;
+  }
+  #segurança .title-style2 {
+    padding-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-style {
+    position: absolute;
+    top: 1.5rem !important;
+    right: 0rem !important;
+    width: 110px !important;
+    z-index: 10;
+  }
 }
 
 .img-style {
@@ -932,8 +979,111 @@ a:hover {
   display: block !important;
 }
 
-.none {
-  display: none;
+@media screen and (max-width: 600px) {
+  #vantagens {
+    text-align: center;
+  }
+}
+
+#carousel {
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+
+#carousel .card {
+  border-radius: 10px;
+  width: 85% !important;
+  height: 60%;
+  padding: 3rem 1rem;
+  margin: auto;
+  color: #37475E;
+}
+
+#carousel .card1 {
+  background-color: rgba(251, 247, 210, 0.781);
+}
+
+#carousel .card2 {
+  background-color: rgba(213, 249, 255, 0.828);
+}
+
+#carousel .card3 {
+  background-color: rgba(234, 214, 251, 0.801);
+}
+
+#carousel strong {
+  font-size: large;
+}
+
+#carousel .dados-text {
+  padding-top: 2rem;
+  font-weight: 600;
+}
+
+#carousel h4 {
+  font-weight: bold;
+}
+
+#carousel .font-text {
+  font-size: large;
+}
+
+#carousel .text-muted {
+  margin: 0 !important;
+  padding-top: 1rem;
+  font-weight: 100;
+}
+
+#carousel .icon-arrow {
+  color: #37475E;
+  font-size: 23px;
+}
+
+#carousel .span-icon {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 8px #37475E;
+          box-shadow: 0 0 8px #37475E;
+  width: 50px;
+  height: 50px;
+  padding: 13px 6px 0 6px;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  #carousel {
+    text-align: center;
+  }
+  #carousel .title-style2 {
+    text-align: center;
+  }
+}
+
+.carousel-img-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-img-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 #saiba-mais {
@@ -965,16 +1115,26 @@ a:hover {
   padding: 10px 0;
 }
 
+@media screen and (max-width: 600px) {
+  #saiba-mais {
+    margin-top: 4rem;
+  }
+}
+
 .box-button {
   position: relative;
-  top: 13rem;
+  top: 4rem;
   text-align: center;
+  background-color: #fff;
   -webkit-box-shadow: 0 0 70px #ccc;
           box-shadow: 0 0 70px #ccc;
   margin: 4rem 0 !important;
   padding: 3rem 0 !important;
   width: 700px;
-  z-index: 10;
+}
+
+.box-button h4 {
+  font-weight: bold;
 }
 
 .box-button a {
@@ -984,10 +1144,23 @@ a:hover {
   text-transform: uppercase;
   color: #fff;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 900;
   width: 360px;
   border-radius: 50px;
   height: 50px;
   line-height: 35px;
+}
+
+@media screen and (max-width: 600px) {
+  .box-button a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px !important;
+    font-weight: 800 !important;
+    width: 300px !important;
+    border-radius: 50px !important;
+    height: 50px !important;
+    line-height: 35px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

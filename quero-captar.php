@@ -18,19 +18,21 @@ include 'inc/menu.php';
 </section>
 <!--Termina seção topo-->
 
+<!--SEGURANÇA-->
+
 <section class="wow slideInLeft" data-wow-duration="2s" id="segurança">
   <div class="container">
   <img src="assets/img/Componente 2 – 1.png" title="" alt="" class="img-style" >
 
     <div class="row my-2">
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column text-box my-3">
-            <span class="text-center"><p>Mais R$ 150 milhões investido. <i class="fas fa-check text-red"></i></p></span><br>
-            <span class="text-center"><p>Mais de R$ 700 mil empreendedores. <i class="fas fa-check text-red"></i></p></span><br>
-            <span class="text-center"><p>Mais de 150 startups. <i class="fas fa-check text-red"></i></p></span>
+            <span class="text-center text-box-sm"><p>Mais R$ 150 milhões investido. <i class="fas fa-check text-red"></i></p></span><br>
+            <span class="text-center text-box-sm"><p>Mais de R$ 700 mil empreendedores. <i class="fas fa-check text-red"></i></p></span><br>
+            <span class="text-center text-box-sm"><p>Mais de 150 startups. <i class="fas fa-check text-red"></i></p></span>
       </div>
 
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-        <h1 class="title-style2" style="margin-top: 0 !important;">Tranquilidade e segurança</h1>
+        <h1 class="title-style2">Tranquilidade e segurança</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Duis vitae aliquam libero. Nulla volutpat velit eu neque 
             commodo porttitor. Nullam accumsan ornare tortor id laoreet.
@@ -86,6 +88,10 @@ include 'inc/menu.php';
   </div>
 </section>
 
+
+<!--VANTAGENS-->
+
+
 <section class="wow slideInLeft" data-wow-duration="2s" id="vantagens">
     
     <svg class="bg_p" viewBox="-22.5 48.096 2000 1108.908">
@@ -124,19 +130,214 @@ include 'inc/menu.php';
     </div>
 </section>
 
+<!--CAROUSEL-->
+
+<section class="wow slideInLeft" data-wow-duration="2s" id="carousel">
+  <div class="container">
+    <div class="row justify-content-center">
+      <h1 class="title-style2 mb-5">Startups brasileiras que decolaram com Equity Crowdfunding</h1>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        
+            <div class="carousel-item active">
+              <div class="card card1">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                      <img src="" title="" alt="">
+                      <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+                      
+                      <h4 class="pt-3 pb-2">Resultados da campanha</h4>                    
+  
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      
+                    
+  
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                      <div class="carousel-img-logo">
+                        <img src="assets/img/foto_vj_pattern.png" class="rounded-circle " alt="..." width="50">
+                          <div class="flex-column mx-2">
+                            <strong>John Silva</strong>
+                            <p>Co-fundador e CEO</p>
+                          </div>
+                     
+                        <img src="assets/img/foto_vj_pattern.png" class="rounded-circle mx-2" alt="..." width="50">
+                          <div class="flex-column">
+                            <strong>John Silva</strong>
+                            <p>Co-fundador e CEO</p>
+                          </div>
+                      </div>
+                        
+                      
+
+                        <div class="dados-text">
+                          <p class="text-muted">Nome:</p>
+                          <p class="font-text">OSSOPIM</p>
+                          <hr>
+                          <p class="text-muted">Modelo de negócio</p>
+                          <p class="font-text">B2B</p>
+                          <hr>
+                          <p class="text-muted">Segmentos</p>
+                          <p class="font-text">Tecnologia de saúde</p>
+                          <hr>
+                          <p class="text-muted">Descrição</p>
+                          <p class="font-text">Lorem ipsum dolor sit amet, consectetur </p>
+                        </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="card card2">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                      <img src="" title="" alt="">
+                      <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+                      
+                      <h4 class="pt-3 pb-2">Resultados da campanha</h4>                    
+  
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      
+                    
+  
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                      <div class="carousel-img-logo">
+                        <img src="assets/img/foto_vj_pattern.png" class="rounded-circle " alt="..." width="50">
+                          <div class="flex-column mx-2">
+                            <strong>John Silva</strong>
+                            <p>Co-fundador e CEO</p>
+                          </div>
+                     
+                        <img src="assets/img/foto_vj_pattern.png" class="rounded-circle mx-2" alt="..." width="50">
+                          <div class="flex-column">
+                            <strong>John Silva</strong>
+                            <p>Co-fundador e CEO</p>
+                          </div>
+                      </div>
+                      
+                        <div class="dados-text">
+                          <p class="text-muted">Nome:</p>
+                          <p class="font-text">OSSOPIM</p>
+                          <hr>
+                          <p class="text-muted">Modelo de negócio</p>
+                          <p class="font-text">B2B</p>
+                          <hr>
+                          <p class="text-muted">Segmentos</p>
+                          <p class="font-text">Tecnologia de saúde</p>
+                          <hr>
+                          <p class="text-muted">Descrição</p>
+                          <p class="font-text">Lorem ipsum dolor sit amet, consectetur </p>
+                        </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="card card3">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                      <img src="" title="" alt="">
+                      <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+                      
+                      <h4 class="pt-3 pb-2">Resultados da campanha</h4>                    
+  
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+                      
+                    
+  
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                      <div class="carousel-img-logo">
+                        <img src="assets/img/foto_vj_pattern.png" class="rounded-circle " alt="..." width="50">
+                          <div class="flex-column mx-2">
+                            <strong>John Silva</strong>
+                            <p>Co-fundador e CEO</p>
+                          </div>
+                     
+                        <img src="assets/img/foto_vj_pattern.png" class="rounded-circle mx-2" alt="..." width="50">
+                          <div class="flex-column">
+                            <strong>John Silva</strong>
+                            <p>Co-fundador e CEO</p>
+                          </div>
+                      </div>
+
+
+                        <div class="dados-text">
+                          <p class="text-muted">Nome:</p>
+                          <p class="font-text">OSSOPIM</p>
+                          <hr>
+                          <p class="text-muted">Modelo de negócio</p>
+                          <p class="font-text">B2B</p>
+                          <hr>
+                          <p class="text-muted">Segmentos</p>
+                          <p class="font-text">Tecnologia de saúde</p>
+                          <hr>
+                          <p class="text-muted">Descrição</p>
+                          <p class="font-text">Lorem ipsum dolor sit amet, consectetur </p>
+                        </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            
+          </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="span-icon" aria-hidden="true"><i class="fas fa-long-arrow-alt-left icon-arrow"></i></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="span-icon" aria-hidden="true"><i class="fas fa-long-arrow-alt-right icon-arrow"></i></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  
+</section>
+
+<!--SAIBA MAIS-->
 
   <section class="wow slideInLeft" data-wow-duration="2s" id="saiba-mais">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-5">
-                <h1 class="title-style2">Saiba Mais</h1>
+            <div class="col-sm-12 col-md-12 col-lg-5" id="nav">
+                <h1 class="title-style2 pb-3">Saiba Mais</h1>
                   <ul>
-                    <li>
-                      <a href="#list-item-1" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba1" role="button" aria-expanded="false" aria-controls="list-item-1"><i class="fas fa-long-arrow-alt-right mr-2"></i>Como funciona</a>
+                    <li class="item-menu active">
+                      <a href="#list-item-1" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba1" role="button" aria-expanded="false" aria-controls="list-item-1"><i class="fas fa-long-arrow-alt-right mr-2" id="icon"></i>Como funciona</a>
                     </li>
                     <hr>
-                    <li><a href="#list-item-2" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba2"  role="button" aria-expanded="false" aria-controls="list-item-2">Por que Equity Crowdfunding?</a></li><hr>
-                    <li><a href="#list-item-3" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba3"  role="button" aria-expanded="false" aria-controls="list-item-3">Quem pode arrecadar fundos</a></li><hr>
+                    <li><a href="#list-item-2" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba2"  role="button" aria-expanded="false" aria-controls="list-item-2"></i>Por que Equity Crowdfunding?</a></li><hr>
+                    <li><a href="#list-item-3" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba3"  role="button" aria-expanded="false" aria-controls="list-item-3"></i>Quem pode arrecadar fundos</a></li><hr>
                     <li><a href="#list-item-4" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba4"  role="button" aria-expanded="false" aria-controls="list-item-4">Quem não pode arrecadar</a></li><hr>
                     <li><a href="#list-item-5" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba5"  role="button" aria-expanded="false" aria-controls="list-item-5">Recursos</a></li><hr>
                     <li><a href="#list-item-6" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba6"  role="button" aria-expanded="false" aria-controls="list-item-6">Custos</a></li><hr>
@@ -147,13 +348,13 @@ include 'inc/menu.php';
                                
     
 
-            <div class="col-sm-12 col-md-12 col-lg-7 pt-5">
-                <div data-spy="scroll" data-offset="0">
-                  <div id="div_aba1" style="display: none;">
+            <div class="col-sm-12 col-md-12 col-lg-7 mt-5">
+                <div data-spy="scroll" data-offset="0" >
+                  <div id="div_aba1">
                     <div id="list-item-1">  
                       <h4>O que há de tão especial?</h4>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                     
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      </div> 
                   </div>
                    
@@ -218,18 +419,21 @@ include 'inc/menu.php';
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="box-button">
-            <h4>INSCREVA SUA EMPRESA</h4>
-            <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
-                COMEÇAR AGORA
-            </a>
-          </div>
-        </div>
+        
     </div>
 </section>
 
+<!--RODAPÉ-->
+
 <footer id="footer">
+  <div class="row justify-content-center">
+    <div class="box-button">
+      <h4>INSCREVA SUA EMPRESA</h4>
+      <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
+          COMEÇAR AGORA
+      </a>
+    </div>
+  </div>
     <svg class="bg_p" viewBox="0 0 2000 555">
         <path fill="rgba(245,245,245,1)" id="bg_footer_q" d="M 0 194.146484375 L 2000 0 L 2000 555 L 0 555 L 0 194.146484375 Z">
         </path>
@@ -331,5 +535,21 @@ include 'inc/menu.php';
 
 
 
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
