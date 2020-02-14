@@ -28,12 +28,6 @@ $breakpoints: (
     }
   }
 }
-.fs-16 {
-  font-size: 16px;
-}
-.fs-14 {
-  font-size: 14px;
-}
 html, body {
   font-family: 'Nunito Sans';
   width: 100vw;
@@ -151,3 +145,12 @@ a {
 @import "pages/home";
 @import "pages/oferta-interna";
 @import "pages/quero-captar";
+
+
+
+.fs-16 {
+  font-size: 16px;
+}
+.fs-14 {
+  font-size: 14px;
+}
