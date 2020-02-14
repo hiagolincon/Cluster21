@@ -141,10 +141,20 @@ a {
 .hide {
   display: none;
 }
+.fs-16 {
+  font-size: 16px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.btn.focus, .btn:focus {
+  box-shadow: 0 0 5px;
+}
 
 @import "pages/home";
 @import "pages/oferta-interna";
 @import "pages/quero-captar";
+<<<<<<< HEAD
 <<<<<<< HEAD
 @import "pages/quero-investir";
 =======
@@ -158,3 +168,8 @@ a {
   font-size: 14px;
 }
 >>>>>>> 3aad71ddd34c15cf6a72584d9963797834e3891d
+=======
+@import "pages/quero-investir";
+
+
+>>>>>>> b301cd474bd43294b5d1b691a2b76edd981507bd
