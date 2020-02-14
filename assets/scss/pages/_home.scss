@@ -3,15 +3,57 @@ section {
     font-size: 36px;
   }
 }
-
+.video_preview {
+  img {
+    width: 100%;
+    z-index: -1;
+  }
+  width: 100%;
+  .overlay {
+    /*margin-left: 15px*/;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(93, 120, 158, 0.4);
+    //opacity: 0.4;
+    height: 100%;
+    border-radius: 10px;
+    width: calc(100%);
+    object-fit: cover;
+    .play {
+      z-index: 3;
+      height: 80px;
+      width: 80px;
+      background: rgba(0,0,0,0.5);
+      border: 2px solid #fff;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      text-align: center;
+      line-height: calc(80px - 6px);
+      font-size: 24px;
+      position: absolute;
+      top: calc(50% - (80px/3));
+      left: calc(50% - (80px/3));
+    }
+    .play-text {
+      position: absolute;
+      top: calc(50% + 60px);
+      width: 50%;
+      text-align: center;
+      left: 25%;
+    }
+  }
+}
 #topo {
   display: block;
   width: 100%;
-  height: 100%;
   background: url("/assets/img/bg.png");
   background-repeat: no-repeat;
-  background-size: contain;
-
+  background-size: cover;
+  background-position: right;
+  padding-bottom: 20px;
   #topbar {
     padding-top: 30px;
 
@@ -246,6 +288,7 @@ section {
     }
     .slide-depoimento {
       .card {
+        background: transparent;
         border-radius: 5px;
         border: 2px solid #ccc;
         .name {

@@ -121,7 +121,17 @@ include 'inc/menu.php';
             <div class="col-lg-6">
                 <div id="video">
                     <div class="preview-video">
-                        <img src="/assets/img/foto_vj_pattern.png" class="img-fluid" alt="Aperte o play para conhecer mais" title="Aperte o play para conhecer mais">
+                        <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo2">
+                            <img src="/assets/img/foto_vj_pattern.png" alt="Dr. João da Silva" title="Dr. João da Silva">
+                            <div class="overlay">
+                                <div>
+                                    <div class="play">
+                                        <i class="fas fa-play text-white"></i>
+                                    </div>
+                                    <p class="play-text text-white">APERTE O PLAY PARA CONHECER MAIS</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <svg class="Caminho_375" viewBox="119.738 -73.106 615.437 695.583">
                         <path fill="rgba(246,215,214,1)" id="Caminho_375" d="M 442.2153930664063 -73.10621643066406 C 505.3286743164063 -73.10621643066406 536.917724609375 -9.876947402954102 588.3456420898438 19.36474418640137 C 694.4686279296875 79.70550537109375 735.1754760742188 201.0425262451172 735.1754760742188 332.124267578125 C 735.1754760742188 526.3192138671875 487.9191284179688 622.4124755859375 293.7241821289063 622.4124755859375 C 290.4228515625 622.4124755859375 296.9515380859375 622.5567626953125 293.7241821289063 622.4124755859375 C 106.9826126098633 614.0654296875 119.9301910400391 428.0609741210938 119.9301910400391 237.1673278808594 C 119.9301910400391 136.9633178710938 208.2841339111328 111.5718536376953 267.8978271484375 58.2515869140625 C 323.9686279296875 8.100099563598633 348.2244873046875 -73.10621643066406 442.2153930664063 -73.10621643066406 Z">
@@ -147,6 +157,17 @@ include 'inc/menu.php';
                         <?php
                             }
                         ?>
+                    </div>
+
+                    <!--Modal Dr João-->
+                    <div class="modal fade modalVideo2" tabindex="-1" role="dialog" aria-labelledby="modalVideo2" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0&autoplay" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -201,7 +222,7 @@ include 'inc/menu.php';
 <section class="wow slideInLeft" data-wow-duration="2s" id="midia">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 my-auto">
+            <div class="col-lg-5 my-auto">
                 <h2 class="font-weight-bold">Cluster21 na mídia</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
                 <a href="#" title="Ver Mais" class="btn btn-vermais d-inline mx-auto">
@@ -209,7 +230,7 @@ include 'inc/menu.php';
                     <div class="d-inline-block square"><i class="fas fa-long-arrow-alt-right"></i></div>
                 </a>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-7">
                 <img class="img-fluid" src="/assets/img/print_reportagem_gaucha.png" alt="Cluster21 na mídia" title="Cluster21 na midia">
             </div>
         </div>
@@ -218,8 +239,27 @@ include 'inc/menu.php';
 <section class="wow slideInLeft" data-wow-duration="2s" id="regulamentacao">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8">
-                <img src="/assets/img/img_vk_pattern.png" alt="Cluster21 na mídia" title="Cluster21 na midia" class="img-fluid">
+            <div class="col-lg-8 pl-0 pr-0">
+                <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo1">
+                    <img src="/assets/img/img_vk_pattern.png" alt="Cluster21" title="Cluster21">
+                    <div class="overlay">
+                        <div>
+                            <div class="play">
+                                <i class="fas fa-play text-white"></i>
+                            </div>
+                            <p class="play-text text-white">APERTE O PLAY PARA CONHECER MAIS</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="modal fade modalVideo1" tabindex="-1" role="dialog" aria-labelledby="modalVideo1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0&autoplay" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-4 my-auto">
                 <h2 class="font-weight-bold">Cluster21</h2>
