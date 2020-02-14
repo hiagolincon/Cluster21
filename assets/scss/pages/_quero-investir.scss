@@ -1,0 +1,77 @@
+.box-unicornio{
+  text-align: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 0 70px #ccc;
+  padding: 5rem 10rem;
+  margin: 15rem 0 7rem 0;
+  border-radius: 7px;
+  h1{
+    font-size: 50px;
+  }
+  p{
+    opacity: 0.8;
+    padding-top: 1rem;
+    line-height: 35px;
+    font-size: 19px;
+    color: $dark-blue;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box-unicornio{
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 80px 3px;
+    h1{
+      font-size: 30px;
+    }
+    p{
+      font-size: 15px;
+    }
+  } 
+}
+
+
+#como-funciona {
+  padding-bottom: 6rem;
+  h1{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-weight: bold;
+  }
+  p{
+    font-size: 18px;
+  }
+  p:nth-of-type(2) {
+    opacity: 0.9;
+  }
+  .como_funciona-texto{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+  }
+  span{
+    background-color: #fff;
+    box-shadow: 0 0 35px rgb(214, 214, 214);
+    width: 100px;
+    height: 68px;
+    padding-top: 7px;
+    border-radius: 100%;
+    margin: 0 30px 0 0;
+    color: $red;
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #como-funciona {
+    padding-bottom: 0;
+  }
+}

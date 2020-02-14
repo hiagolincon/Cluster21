@@ -141,16 +141,19 @@ a {
 .hide {
   display: none;
 }
-
-@import "pages/home";
-@import "pages/oferta-interna";
-@import "pages/quero-captar";
-
-
-
 .fs-16 {
   font-size: 16px;
 }
 .fs-14 {
   font-size: 14px;
 }
+.btn.focus, .btn:focus {
+  box-shadow: 0 0 5px;
+}
+
+@import "pages/home";
+@import "pages/oferta-interna";
+@import "pages/quero-captar";
+@import "pages/quero-investir";
+
+
