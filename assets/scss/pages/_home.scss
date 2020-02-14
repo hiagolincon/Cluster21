@@ -1,3 +1,9 @@
+section {
+  h2 {
+    font-size: 36px;
+  }
+}
+
 #topo {
   display: block;
   width: 100%;
@@ -65,11 +71,16 @@
       line-height: 35px;
       margin-top: 20px;
     }
-    h1 {
+    h2 {
       font-size: 55px;
       line-height: 65px;
     }
-    h5 {color: $grey;opacity: 0.6;}
+    h3 {
+      margin-top: 20px;
+      color: $grey;opacity: 0.6;
+      font-size: 20px;
+      line-height: 25px;
+    }
   }
 }
 
@@ -96,7 +107,7 @@
       opacity: 0.37;
     }
   }
-  h1 {
+  h2 {
     font-size: 36px;
     font-weight: 700;
     @include mq('tablet1') {
@@ -105,6 +116,9 @@
     }
   }
   .vntg-box {
+    @include mq('tablet1', 'min') {
+      transform: translateY(-17%);
+    }
     img {
       //box-shadow: #ccc 0px 0px 30px;
       margin-bottom: 10px;
@@ -113,7 +127,7 @@
         margin-left: -15%;
       }
     }
-    h2 {
+    h3 {
       color: $red;
       font-weight: 700;
       font-size: 24px;
@@ -150,6 +164,7 @@
     }
   }
   .oferta {
+    border-radius: 5px;
     .card-brand {
       width: 70px;
       height: 70px;
@@ -179,6 +194,7 @@
       background: linear-gradient(135deg, $yellow 0%, $yellow_1 70%);
       position: absolute;
       width: 100%;
+      border-radius: 5px 5px 0px 0px;
       div {
         margin: auto;
         span {
@@ -188,6 +204,7 @@
     }
   }
   .is_capturing {
+    border-radius: 0px 0px 5px 5px;
     height: 30px;
     background: rgba(15,157,88,1);
     color: #fff;
@@ -206,7 +223,7 @@
     @include mq('tablet1', 'max') {
       padding-top: 80px;
     }
-    h1 {
+    h2 {
       color: $dark-blue;
       font-size: 36px;
       font-weight: bold;
@@ -219,6 +236,9 @@
   }
 }
 #depoimentos {
+  h2 {
+    font-size: 36px;
+  }
   #depoimentos_container {
     padding-top: 200px;
     @include  mq('tablet', 'max') {
@@ -268,6 +288,10 @@
     }
   }
   #como_comecar {
+    margin-top: 20px;
+    h3 {
+      font-size: 24px;
+    }
     @include mq('tablet1', 'max') {
       padding-top: 80px;
     }
@@ -364,8 +388,28 @@
   }
 }
 #card-footer{
+  h2 {
+    font-size: 20px;
+    font-weight: bolder;
+  }
   @include mq('tablet1') {
     transform: translateY(100%);
+  }
+  a {
+    color: $dark-blue;
+    -webkit-transition: ease 0.4s;
+    -moz-transition: ease 0.4s;
+    -ms-transition: ease 0.4s;
+    -o-transition: ease 0.4s;
+    transition: ease 0.4s;
+    &:hover {
+      transform: scale(1.03);
+      -webkit-transform-origin: center;
+      -moz-transform-origin: center;
+      -ms-transform-origin: center;
+      -o-transform-origin: center;
+      transform-origin: center;
+    }
   }
   .card {
     .card-body {
@@ -378,13 +422,17 @@
         @include mq('tablet1') {
           transform: translateX(-33%);
           width: 25%;
-
+          object-fit: cover;
         }
       }
     }
   }
 }
 #footer {
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
   padding-bottom: 20px;
   background: url(/assets/img/bg-footer.png) no-repeat;
   -webkit-background-size: cover;

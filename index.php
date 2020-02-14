@@ -4,8 +4,8 @@ include 'inc/menu.php';
 ?>
     <div class="row" id="banner-content">
         <div class="col-lg-6">
-            <h1><strong>Torne-se sócio</strong> de startups inovadoras a partir de <strong>R$ 500,00</strong></h1>
-            <h5>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h5>
+            <h2><strong>Torne-se sócio</strong> de startups inovadoras a partir de <strong>R$ 500,00</strong></h2>
+            <h3>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h3>
             <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
                 Quero investir agora
             </a>
@@ -23,26 +23,26 @@ include 'inc/menu.php';
         </path>
     </svg>
     <div class="container">
-        <h1 class="text-center">Vantagens de investir conosco</h1>
+        <h2 class="text-center">Vantagens de Investir Conosco</h2>
         <div class="row">
             <div class="col-lg-3 vntg-box">
                 <img src="/assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
-                <h2>Alta Rentabilidade</h2>
+                <h3>Alta Rentabilidade</h3>
                 <p>Possibilidade de rendimento acima de qualquer ativo do mercado financeiro, para investidores;</p>
             </div>
             <div class="col-lg-3 vntg-box">
                 <img src="/assets/img/icon-processo.png" class="img-circle" alt="Processo Seletivo" title="Processo Seletivo">
-                <h2>Processo Seletivo</h2>
+                <h3>Processo Seletivo</h3>
                 <p>Sinta-se confiante para investir em nossas startups que foram analisadas por quem entende do mercado;</p>
             </div>
             <div class="col-lg-3 vntg-box">
                 <img src="/assets/img/icon-investir.png" class="img-circle" alt="Fácil Investir" title="Fácil Investir">
-                <h2>Fácil Investir</h2>
+                <h3>Fácil Investir</h3>
                 <p>Modalidade permite que pequenos investidores, não profissionais, realizem investimentos.</p>
             </div>
             <div class="col-lg-3 vntg-box">
                 <img src="/assets/img/icon-ajude.png" class="img-circle" alt="Ajude a financiar o futuro" title="Ajude a financiar o futuro">
-                <h2>Ajude a financiar o futuro</h2>
+                <h3>Ajude a financiar o futuro</h3>
                 <p>Os empresários são inovadores, sonhadores, loucos o suficiente para potencialmente mudar o mundo. Ao apoiá-los, você também pode fazer a diferença.</p>
             </div>
         </div>
@@ -60,7 +60,7 @@ include 'inc/menu.php';
     </svg>
     <div class="container">
         <div class="title">
-            <h1 class="text-center">Ofertas em Destaque</h1>
+            <h2 class="text-center">Ofertas em Destaque</h2>
             <p>Todas as empresas são rigorosamente analisadas por quem entende do mercado</p>
         </div>
 
@@ -81,13 +81,13 @@ include 'inc/menu.php';
                         <div class="card-brand shadow">
                             <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
                         </div>
-                        <h5 class="card-title">Wolf Coffee</h5>
+                        <h3 class="card-title">Wolf Coffee</h3>
                         <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
                     </div>
                     <div class="card-footer">
                         <div class="d-flex">
-                            <div class="d-inline-block circle-percent">
-                                <p>100%</p>
+                            <div class="box">
+                                <div class="chart" data-percent="75">75%<canvas></canvas></div>
                             </div>
                             <div class="d-inline oferta-info">
                                 <p class="text-blue">Investido: R$ 700,00</p>
@@ -131,7 +131,7 @@ include 'inc/menu.php';
             </div>
             <div class="col-lg-6">
                 <div id="depoimentos_container">
-                    <h1 class="text-right"><b>Depoimentos de</b><br>QUEM INVESTE</h1>
+                    <h2 class="text-right"><b>Depoimentos de</b><br>QUEM INVESTE</h2>
                     <div class="slide-depoimento">
                         <?php
                             for ($i=0;$i<4;$i++) {
@@ -140,7 +140,7 @@ include 'inc/menu.php';
                                     <div class="card-body">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
 
-                                        <h5 class="name">Dr. João da Silva</h5>
+                                        <h3 class="name">Dr. João da Silva</h3>
                                         <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
                                     </div>
                                 </div>
@@ -154,7 +154,7 @@ include 'inc/menu.php';
         </div>
         <div class="row" id="como_comecar">
             <div class="col-lg-12">
-                <h3 class="text-blue font-weight-bold text-center">Como começar</h3>
+                <h2 class="text-blue font-weight-bold text-center">COMO COMEÇAR</h2>
             </div>
         </div>
         <div class="hto mx-auto">
@@ -164,7 +164,7 @@ include 'inc/menu.php';
                     <div class="image-howto">
                         <img src="/assets/img/icon-processo.png" alt="Escolher" title="Escolher">
                     </div>
-                    <h5 class="text-blue text-center font-weight-bold">Escolher</h5>
+                    <h3 class="text-blue text-center font-weight-bold">Escolher</h3>
                     <p class="text-center howto-text">Escolha uma startup que você gosta. Revise o discurso da empresa, os termos e decida se você acredita que eles serão bem-sucedidos.</p>
                     <div class="d-flex">
                         <a class="btn btn-red mx-auto">Passo 1</a>
@@ -174,7 +174,7 @@ include 'inc/menu.php';
                     <div class="image-howto">
                         <img src="/assets/img/icon-investir1.png" alt="Investir" title="Investir">
                     </div>
-                    <h5 class="text-blue text-center font-weight-bold">Investir</h5>
+                    <h3 class="text-blue text-center font-weight-bold">Investir</h3>
                     <p class="text-center howto-text">Invista uma pequena quantia para começar. Planeje diversificar, o que significa investir quantias menores em várias empresas.</p>
                     <div class="d-flex">
                         <a class="btn btn-red mx-auto">Passo 2</a>
@@ -184,7 +184,7 @@ include 'inc/menu.php';
                     <div class="image-howto">
                         <img src="/assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
                     </div>
-                    <h5 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h5>
+                    <h3 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h3>
                     <p class="text-center howto-text">Aguarde para ver se a inicialização foi bem-sucedida. Se a startup funcionar bem, seu investimento poderá trazer um retorno.</p>
                     <div class="d-flex">
                         <a class="btn btn-red mx-auto">Passo 3</a>
@@ -202,7 +202,7 @@ include 'inc/menu.php';
     <div class="container">
         <div class="row">
             <div class="col-lg-6 my-auto">
-                <h1 class="font-weight-bold">Cluster21 na mídia</h1>
+                <h2 class="font-weight-bold">Cluster21 na mídia</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
                 <a href="#" title="Ver Mais" class="btn btn-vermais d-inline mx-auto">
                     Ver Mais
@@ -222,7 +222,7 @@ include 'inc/menu.php';
                 <img src="/assets/img/img_vk_pattern.png" alt="Cluster21 na mídia" title="Cluster21 na midia" class="img-fluid">
             </div>
             <div class="col-lg-4 my-auto">
-                <h1 class="font-weight-bold">Cluster21</h1>
+                <h2 class="font-weight-bold">Cluster21</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
                 <a href="#" title="Ver Mais" class="btn btn-vermais d-inline mx-auto">
                     Ver Mais
@@ -263,7 +263,7 @@ include 'inc/menu.php';
                 <div class="list" id="one">
                     <div class="card shadow border">
                         <div class="card-body">
-                            <h1 class="text-center text-blue font-weight-bold">Lactec</h1>
+                            <h2 class="text-center text-blue font-weight-bold">Lactec</h2>
                             <p>Aqui, a inovação está presente em cada projeto, em cada serviço que prestamos. Isso é ser inovador.
                                 <br>
                                 <br>
@@ -277,7 +277,7 @@ include 'inc/menu.php';
                 <div class="list hide" id="two">
                     <div class="card shadow border">
                         <div class="card-body">
-                            <h1 class="text-center text-blue font-weight-bold">Lactec</h1>
+                            <h2 class="text-center text-blue font-weight-bold">Lactec</h2>
                             <p>Aqui, a inovação está presente em cada projeto, em cada serviço que prestamos. Isso é ser inovador.
                                 <br>
                                 <br>
@@ -291,7 +291,7 @@ include 'inc/menu.php';
                 <div class="list hide" id="three">
                     <div class="card shadow border">
                         <div class="card-body">
-                            <h1 class="text-center text-blue font-weight-bold">Lactec</h1>
+                            <h2 class="text-center text-blue font-weight-bold">Lactec</h2>
                             <p>Aqui, a inovação está presente em cada projeto, em cada serviço que prestamos. Isso é ser inovador.
                                 <br>
                                 <br>
@@ -315,7 +315,7 @@ include 'inc/menu.php';
                 for($i=0;$i<8;$i++){
                     ?>
                     <div class="card d-inline-block bg-light pl-2 pt-3 m-1">
-                        <h4>Lorem Ipsum is simply dummy is simply</h4>
+                        <h3>Lorem Ipsum is simply dummy is simply</h3>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything</p>
                         <div class="text-center">
                             <a href="" class="text-red font-weight-bold mb-2">Leia mais</a>
