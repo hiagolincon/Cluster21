@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cluster21</title>
 
+    <meta name="title" content="Cluster21">
+    <meta name="description" content="Torne-se sócio de startups inovadoras a partir de R$ 500,00">
     <!--  Bootstrap  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <!-- SlickSlide -->
@@ -17,3 +19,4 @@
     <link rel="stylesheet" href="/assets/scss/style.css">
 </head>
 <body>
+<h1 style="font-size: 0px;display: none;">Cluster21</h1>

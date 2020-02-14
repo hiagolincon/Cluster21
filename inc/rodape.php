@@ -1,27 +1,27 @@
 <div class="container" id="card-footer">
     <div class="row">
-        <div class="col-lg-6">
+        <a href="quero-investir.php" class="col-lg-6">
             <div class="card shadow">
                 <div class="card-body">
                     <img class="d-inline" src="/assets/img/figura-footer.png" alt="Quero investir" title="Quero investir">
                     <div class="cfo-text w-75">
-                        <h5 class="text-red font-weight-bold">QUERO INVESTIR <i class="fas fa-long-arrow-alt-right"></i></h5>
+                        <h2 class="text-red font-weight-bold">QUERO INVESTIR <i class="fas fa-long-arrow-alt-right"></i></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-6">
+        </a>
+        <a href="quero-captar.php" class="col-lg-6">
             <div class="card shadow">
                 <div class="card-body">
                     <img class="d-inline" src="/assets/img/figura-footer-02.png" alt="Quero captar" title="Quero captar">
                     <div class="cfo-text ">
-                        <h5 class="text-blue font-weight-bold">QUERO CAPTAR <i class="fas fa-long-arrow-alt-right"></i></h5>
+                        <h2 class="text-blue font-weight-bold">QUERO CAPTAR <i class="fas fa-long-arrow-alt-right"></i></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor.</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </a>
     </div>
 </div>
 
@@ -75,7 +75,7 @@
                 </div>
             </div>
             <div class="col-lg-3 my-auto">
-                <h5>Para investidores</h5>
+                <h2>Para investidores</h2>
                 <hr>
                 <ul>
                     <li><a href="/quero-investir.php">Quero Investir</a></li>
@@ -85,7 +85,7 @@
                 </ul>
             </div>
             <div class="col-lg-3 my-auto">
-                <h5>Para startups</h5>
+                <h2>Para startups</h2>
                 <hr>
                 <ul>
                     <li><a href="/quero-captar.php">Quero captar</a></li>
@@ -95,7 +95,7 @@
                 </ul>
             </div>
             <div class="col-lg-3 my-auto">
-                <h5>Institucional</h5>
+                <h2>Institucional</h2>
                 <hr>
                 <ul>
                     <li><a href="/sobre.php">Sobre</a></li>
@@ -104,6 +104,24 @@
                     <li><a href="/contato.php">Contato</a></li>
                     <li><a href="/trabalhe-conosco.php">Trabalhe Conosco</a></li>
                 </ul>
+            </div>
+            <div class="col-lg-12 mt-4 mb-4">
+                <hr>
+            </div>
+            <div class="col-lg-2 my-auto">
+                <img src="assets/img/logocvm_color.png" alt="Logo CVM" title="CVM" class="img-fluid">
+            </div>
+            <div class="col-lg-10">
+                <p class="text-blue text-center fs-16">Você está SEGURO, somos regulados pela CVM 588.</p>
+                <p class="text-blue fs-14">As sociedades empresárias de pequeno porte e as ofertas apresentadas nesta plataforma estão automaticamente dispensadas de registro pela Comissão de Valores Mobiliários - CVM. A CVM não analisa previamente as ofertas. As ofertas realizadas não implicam por parte da CVM a garantia da veracidade das informações prestadas, de adequação à legislação vigente ou julgamento sobre a qualidade da sociedade empresária de pequeno porte. Antes de aceitar uma oferta leia com atenção as informações essenciais da oferta, em especial a seção de alertas sobre riscos.</p>
+            </div>
+            <div class="col-lg-6">
+                <p class="text-blue fs-16">© Copyright 2020 Cluster21. Todos os direitos reservados</p>
+            </div>
+            <div class="col-lg-6">
+                <a href="https://agenciapublicidade.com.br/" class="float-right text-blue fs-16">
+                    Desenvolvido por Segundo Andar
+                </a>
             </div>
         </div>
     </div>
@@ -117,6 +135,8 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!--WowJS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<!--EasyPieChart-->
+<script src="assets/js/jquery.easypiechart.js"></script>
 <!-- Main -->
 <script src="/assets/js/script.js"></script>
 
