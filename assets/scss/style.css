@@ -1115,6 +1115,29 @@ a:hover {
   padding: 10px 0;
 }
 
+.active a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #37475E !important;
+}
+
+.active .icone {
+  color: #37475E;
+  display: block;
+  text-align: center;
+}
+
+.icone {
+  display: none;
+  text-align: center;
+  margin-top: 3px;
+}
+
 @media screen and (max-width: 600px) {
   #saiba-mais {
     margin-top: 4rem;
@@ -1123,7 +1146,7 @@ a:hover {
 
 .box-button {
   position: relative;
-  top: 4rem;
+  top: 14rem;
   text-align: center;
   background-color: #fff;
   -webkit-box-shadow: 0 0 70px #ccc;
@@ -1131,6 +1154,7 @@ a:hover {
   margin: 4rem 0 !important;
   padding: 3rem 0 !important;
   width: 700px;
+  border-radius: 5px;
 }
 
 .box-button h4 {
@@ -1161,6 +1185,103 @@ a:hover {
     border-radius: 50px !important;
     height: 50px !important;
     line-height: 35px !important;
+  }
+}
+
+.box-unicornio {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 70px #ccc;
+          box-shadow: 0 0 70px #ccc;
+  padding: 5rem 10rem;
+  margin: 15rem 0 7rem 0;
+  border-radius: 7px;
+}
+
+.box-unicornio h1 {
+  font-size: 50px;
+}
+
+.box-unicornio p {
+  opacity: 0.8;
+  padding-top: 1rem;
+  line-height: 35px;
+  font-size: 19px;
+  color: #37475E;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .box-unicornio {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 2rem;
+    margin: 80px 3px;
+  }
+  .box-unicornio h1 {
+    font-size: 30px;
+  }
+  .box-unicornio p {
+    font-size: 15px;
+  }
+}
+
+#como-funciona {
+  padding-bottom: 6rem;
+}
+
+#como-funciona h1 {
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 3rem;
+  font-weight: bold;
+}
+
+#como-funciona p {
+  font-size: 18px;
+}
+
+#como-funciona p:nth-of-type(2) {
+  opacity: 0.9;
+}
+
+#como-funciona .como_funciona-texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 25px;
+}
+
+#como-funciona span {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 35px #d6d6d6;
+          box-shadow: 0 0 35px #d6d6d6;
+  width: 100px;
+  height: 68px;
+  padding-top: 7px;
+  border-radius: 100%;
+  margin: 0 30px 0 0;
+  color: #CF3736;
+  text-align: center;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  #como-funciona {
+    padding-bottom: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

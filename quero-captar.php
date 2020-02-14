@@ -161,13 +161,13 @@ include 'inc/menu.php';
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
                       <div class="carousel-img-logo">
-                        <img src="assets/img/foto_vj_pattern.png" class="rounded-circle " alt="..." width="50">
+                        <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle " alt="..." width="55" height="55">
                           <div class="flex-column mx-2">
                             <strong>John Silva</strong>
                             <p>Co-fundador e CEO</p>
                           </div>
                      
-                        <img src="assets/img/foto_vj_pattern.png" class="rounded-circle mx-2" alt="..." width="50">
+                          <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mx-2" alt="..." width="55" height="55">
                           <div class="flex-column">
                             <strong>John Silva</strong>
                             <p>Co-fundador e CEO</p>
@@ -208,6 +208,7 @@ include 'inc/menu.php';
   
                       <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
                       <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
+
                       <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
                       <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
                       <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
@@ -218,13 +219,13 @@ include 'inc/menu.php';
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
                       <div class="carousel-img-logo">
-                        <img src="assets/img/foto_vj_pattern.png" class="rounded-circle " alt="..." width="50">
+                        <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle " alt="..." width="55" height="55">
                           <div class="flex-column mx-2">
                             <strong>John Silva</strong>
                             <p>Co-fundador e CEO</p>
                           </div>
                      
-                        <img src="assets/img/foto_vj_pattern.png" class="rounded-circle mx-2" alt="..." width="50">
+                          <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mx-2" alt="..." width="55" height="55">
                           <div class="flex-column">
                             <strong>John Silva</strong>
                             <p>Co-fundador e CEO</p>
@@ -273,13 +274,13 @@ include 'inc/menu.php';
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
                       <div class="carousel-img-logo">
-                        <img src="assets/img/foto_vj_pattern.png" class="rounded-circle " alt="..." width="50">
+                        <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle " alt="..." width="55" height="55">
                           <div class="flex-column mx-2">
                             <strong>John Silva</strong>
                             <p>Co-fundador e CEO</p>
                           </div>
                      
-                        <img src="assets/img/foto_vj_pattern.png" class="rounded-circle mx-2" alt="..." width="50">
+                        <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mx-2" alt="..." width="55" height="55">
                           <div class="flex-column">
                             <strong>John Silva</strong>
                             <p>Co-fundador e CEO</p>
@@ -331,18 +332,18 @@ include 'inc/menu.php';
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-5" id="nav">
                 <h1 class="title-style2 pb-3">Saiba Mais</h1>
-                  <ul>
-                    <li class="item-menu active">
-                      <a href="#list-item-1" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba1" role="button" aria-expanded="false" aria-controls="list-item-1"><i class="fas fa-long-arrow-alt-right mr-2" id="icon"></i>Como funciona</a>
+                  <ul class="list_item">
+                    <li id="li-1" class="active">
+                      <a href="#list-item-1" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba1" role="button" aria-expanded="false" aria-controls="list-item-1"><i class="fas fa-long-arrow-alt-right mr-2 icone"></i>Como funciona</a>
                     </li>
                     <hr>
-                    <li><a href="#list-item-2" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba2"  role="button" aria-expanded="false" aria-controls="list-item-2"></i>Por que Equity Crowdfunding?</a></li><hr>
-                    <li><a href="#list-item-3" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba3"  role="button" aria-expanded="false" aria-controls="list-item-3"></i>Quem pode arrecadar fundos</a></li><hr>
-                    <li><a href="#list-item-4" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba4"  role="button" aria-expanded="false" aria-controls="list-item-4">Quem não pode arrecadar</a></li><hr>
-                    <li><a href="#list-item-5" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba5"  role="button" aria-expanded="false" aria-controls="list-item-5">Recursos</a></li><hr>
-                    <li><a href="#list-item-6" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba6"  role="button" aria-expanded="false" aria-controls="list-item-6">Custos</a></li><hr>
-                    <li><a href="#list-item-7" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba7"  role="button" aria-expanded="false" aria-controls="list-item-7">Quando posso aceitar fundos?</a></li><hr>
-                    <li><a href="#list-item-8" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba8"  role="button" aria-expanded="false" aria-controls="list-item-5">O que Equity Crowdfunding é para mim?</a></li>
+                    <li id="li-2"><a href="#list-item-2" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba2"  role="button" aria-expanded="false" aria-controls="list-item-2"><i class="fas fa-long-arrow-alt-right mr-2 icone"></i>Por que Equity Crowdfunding?</a></li><hr>
+                    <li id="li-3"><a href="#list-item-3" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba3"  role="button" aria-expanded="false" aria-controls="list-item-3"><i class="fas fa-long-arrow-alt-right mr-2 icone"></i>Quem pode arrecadar fundos</a></li><hr>
+                    <li id="li-4"><a href="#list-item-4" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba4"  role="button" aria-expanded="false" aria-controls="list-item-4"><i class="fas fa-long-arrow-alt-right mr-2 icone"></i>Quem não pode arrecadar</a></li><hr>
+                    <li id="li-5"><a href="#list-item-5" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba5"  role="button" aria-expanded="false" aria-controls="list-item-5"><i class="fas fa-long-arrow-alt-right mr-2 icone"></i>Recursos</a></li><hr>
+                    <li id="li-6"><a href="#list-item-6" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba6"  role="button" aria-expanded="false" aria-controls="list-item-6"><i class="fas fa-long-arrow-alt-right mr-2 icone"></i>Custos</a></li><hr>
+                    <li id="li-7"><a href="#list-item-7" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba7"  role="button" aria-expanded="false" aria-controls="list-item-7"><i class="fas fa-long-arrow-alt-right mr-2 icone"></i>Quando posso aceitar fundos?</a></li><hr>
+                    <li id="li-8"><a href="#list-item-8" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba8"  role="button" aria-expanded="false" aria-controls="list-item-5"><i class="fas fa-long-arrow-alt-right mr-2 icone"></i>O que Equity Crowdfunding é para mim?</a></li>
                   </ul> 
                 </div>
                                
@@ -419,21 +420,20 @@ include 'inc/menu.php';
                 </div>
             </div>
         </div>
-        
+        <div class="row justify-content-center">
+          <div class="box-button">
+            <h4>INSCREVA SUA EMPRESA</h4>
+            <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
+                COMEÇAR AGORA
+            </a>
+          </div>
+        </div>
     </div>
 </section>
 
 <!--RODAPÉ-->
 
 <footer id="footer">
-  <div class="row justify-content-center">
-    <div class="box-button">
-      <h4>INSCREVA SUA EMPRESA</h4>
-      <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
-          COMEÇAR AGORA
-      </a>
-    </div>
-  </div>
     <svg class="bg_p" viewBox="0 0 2000 555">
         <path fill="rgba(245,245,245,1)" id="bg_footer_q" d="M 0 194.146484375 L 2000 0 L 2000 555 L 0 555 L 0 194.146484375 Z">
         </path>

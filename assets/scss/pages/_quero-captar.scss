@@ -218,6 +218,25 @@
   }
 }
 
+.active{
+  a{
+    display:flex;
+  flex-direction: row;
+  color: $dark-blue !important;
+  }
+  .icone{
+    color: $dark-blue;
+    display:block;
+    text-align: center;
+  } 
+}
+.icone{
+  display: none;
+  text-align: center;
+  margin-top: 3px;
+}
+
+
 
 @media screen and (max-width: 600px) {
   #saiba-mais{
@@ -228,13 +247,14 @@
 
 .box-button {
   position: relative;
-  top: 4rem;
+  top: 14rem;
   text-align: center;
   background-color: #fff;
   box-shadow: 0 0 70px #ccc;
   margin: 4rem 0 !important;
   padding: 3rem 0 !important;
   width: 700px;
+  border-radius: 5px;
   
   h4{
     font-weight: bold;
