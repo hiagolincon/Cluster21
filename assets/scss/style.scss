@@ -28,12 +28,6 @@ $breakpoints: (
     }
   }
 }
-.fs-16 {
-  font-size: 16px;
-}
-.fs-14 {
-  font-size: 14px;
-}
 html, body {
   font-family: 'Nunito Sans';
   width: 100vw;
@@ -151,4 +145,16 @@ a {
 @import "pages/home";
 @import "pages/oferta-interna";
 @import "pages/quero-captar";
+<<<<<<< HEAD
 @import "pages/quero-investir";
+=======
+
+
+
+.fs-16 {
+  font-size: 16px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+>>>>>>> 3aad71ddd34c15cf6a72584d9963797834e3891d
