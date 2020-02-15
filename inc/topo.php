@@ -9,6 +9,8 @@
 
     <meta name="title" content="Cluster21">
     <meta name="description" content="Torne-se sócio de startups inovadoras a partir de R$ 500,00">
+    <meta name="theme-color" content="#CF3736">
+
     <!--  Bootstrap  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <!-- SlickSlide -->

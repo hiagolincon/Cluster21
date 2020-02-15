@@ -87,6 +87,11 @@ hr {
   right: 55px;
 }
 
+.slick-prev:hover {
+  background: #ecb2b2;
+  color: #CF3736;
+}
+
 .slick-next {
   height: 50px;
   width: 50px;
@@ -96,6 +101,11 @@ hr {
   position: absolute;
   bottom: -55px;
   right: 0px;
+}
+
+.slick-next:hover {
+  background: #aa2928;
+  color: #fff;
 }
 
 .navbar-brand {
@@ -157,13 +167,60 @@ section h2 {
   font-size: 36px;
 }
 
+.video_preview {
+  width: 100%;
+}
+
+.video_preview img {
+  width: 100%;
+  z-index: -1;
+}
+
+.video_preview .overlay {
+  /*margin-left: 15px*/
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(93, 120, 158, 0.4);
+  height: 100%;
+  border-radius: 10px;
+  width: calc(100%);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.video_preview .overlay .play {
+  z-index: 3;
+  height: 80px;
+  width: 80px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: calc(80px - 6px);
+  font-size: 24px;
+  position: absolute;
+  top: calc(50% - (80px/3)  - 12px);
+  left: calc(50% - (80px/3));
+}
+
+.video_preview .overlay .play-text {
+  position: absolute;
+  top: calc(50% + 60px);
+  width: 50%;
+  text-align: center;
+  left: 25%;
+}
+
 #topo {
   display: block;
   width: 100%;
-  height: 100%;
   background: url("/assets/img/bg.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: right;
+  padding-bottom: 20px;
 }
 
 #topo #topbar {
@@ -395,6 +452,7 @@ section h2 {
   background: #0f9d58;
   color: #fff;
   margin: 10px -1.25rem -0.75rem;
+  text-transform: uppercase;
 }
 
 #ofertas .is_capturing span {
@@ -448,8 +506,20 @@ section h2 {
 }
 
 #depoimentos #depoimentos_container .slide-depoimento .card {
+  background: transparent;
+}
+
+#depoimentos #depoimentos_container .slide-depoimento .card .left-arrow {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  z-index: 3;
+}
+
+#depoimentos #depoimentos_container .slide-depoimento .card .card-body {
+  margin-left: 30px;
   border-radius: 5px;
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
 }
 
 #depoimentos #depoimentos_container .slide-depoimento .card .name {
@@ -603,6 +673,11 @@ section h2 {
       flex-wrap: wrap-reverse;
 }
 
+#duvida .read-container {
+  max-height: 300px;
+  overflow: hidden;
+}
+
 #parceiros {
   padding-top: 100px;
 }
@@ -614,19 +689,6 @@ section h2 {
 #parceiros p {
   font-size: 18px;
   color: #37475E;
-}
-
-#parceiros .selected-tab {
-  position: relative;
-  margin-top: -27px;
-  margin-left: 12.5%;
-  z-index: 1;
-  height: 50px;
-}
-
-#parceiros .selected-tab .seta {
-  -webkit-filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
-  filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
 }
 
 #card-footer h2 {
@@ -738,10 +800,9 @@ section h2 {
   width: calc(33.3% - 10px);
   -webkit-box-shadow: 0 0 2px;
           box-shadow: 0 0 2px;
-  padding: 5px;
   float: left;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -750,10 +811,20 @@ section h2 {
   }
 }
 
-.customTab li img {
-  vertical-align: unset;
+.customTab li img:not(.selected-tab) {
+  vertical-align: middle;
   -webkit-transition: ease-in-out 1s;
   transition: ease-in-out 1s;
+}
+
+.customTab li .selected-tab {
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
+  position: relative;
+  bottom: -37px;
+  left: 40%;
+  margin-top: -50px;
+  display: none;
 }
 
 .customTab .list {

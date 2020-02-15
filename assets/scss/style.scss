@@ -99,6 +99,10 @@ hr {
   position: absolute;
   bottom: -55px;
   right: 55px;
+  &:hover{
+    background: darken(lighten($red,40%),10%);
+    color: $red;
+  }
 }
 .slick-next {
   height: 50px;
@@ -109,6 +113,10 @@ hr {
   position: absolute;
   bottom: -55px;
   right: 0px;
+  &:hover{
+    background: darken($red,10%);
+    color: #fff;
+  }
 }
 .navbar-brand {
   @include mq('tablet1', 'max') {

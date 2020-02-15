@@ -1,14 +1,11 @@
-wow = new WOW(
-    {
-        boxClass:     'wow',      // default
-        animateClass: 'animated', // default
-        offset:       0,          // default
-        mobile:       true,       // default
-        live:         true        // default
-    }
-)
-wow.init();
+
 $(document).ready(function () {
+
+    wow = new WOW( {
+        animateClass: 'animated',
+        offset:       100
+    });
+    wow.init();
 
     $(function(){
         $('.chart').easyPieChart({
@@ -60,22 +57,11 @@ $(document).ready(function () {
     });
     $(".customTab a").click(function() {
         var parent = $(this).parents('.customTab').children('li').children('a[data-tag="'+$(this).data('tag')+'"]');
-        var i = parent.parents('li').index();
-        if (i == 0) {
-            $('.selected-tab').css({
-                marginLeft: '12.5%'
-            });
-        } else if (i == 1){
-            $('.selected-tab').css({
-                marginLeft: '41%'
-            });
-        } else {
-            $('.selected-tab').css({
-                marginLeft: '71%'
-            });
-        }
-
         $(".customTab a").removeClass("activelink");
+        $('.selected-tab').hide();
+        var i = parent.parents('li').children('.selected-tab');
+        i.show();
+
         $(this).addClass("activelink");
         var tagid = $(this).data("tag");
         $(".list")
@@ -84,5 +70,13 @@ $(document).ready(function () {
         $("#" + tagid)
             .addClass("active")
             .removeClass("hide");
+    });
+
+    $('.read-more').click(function() {
+        var parent = $(this).parents('.card');
+        var container = parent.children('.read-container');
+        container.css({
+            overflow: 'auto'
+        });
     });
 });
