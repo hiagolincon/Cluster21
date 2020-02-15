@@ -34,7 +34,7 @@ section {
       line-height: calc(80px - 6px);
       font-size: 24px;
       position: absolute;
-      top: calc(50% - (80px/3));
+      top: calc(50% - (80px/3)  - 12px);
       left: calc(50% - (80px/3));
     }
     .play-text {
@@ -251,6 +251,7 @@ section {
     background: rgba(15,157,88,1);
     color: #fff;
     margin: 10px -1.25rem -0.75rem;
+    text-transform: uppercase;
     span {
       margin: auto;
     }
@@ -288,9 +289,18 @@ section {
     }
     .slide-depoimento {
       .card {
+        .left-arrow {
+          position: absolute;
+          top: 20px;
+          left: 0px;
+          z-index: 3;
+        }
         background: transparent;
-        border-radius: 5px;
-        border: 2px solid #ccc;
+        .card-body {
+          margin-left: 30px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+        }
         .name {
           color: $red;
           font-weight: bold;
@@ -407,6 +417,10 @@ section {
   .p-freq {
     flex-wrap: wrap-reverse;
   }
+  .read-container {
+    max-height: 300px;
+    overflow: hidden;
+  }
 }
 #parceiros {
   padding-top: 100px;
@@ -416,18 +430,6 @@ section {
   p {
     font-size: 18px;
     color: $dark-blue;
-  }
-  .selected-tab {
-    position: relative;
-    margin-top: -27px;
-    margin-left: 12.5%;
-    z-index: 1;
-    height: 50px;
-    .seta {
-      -webkit-filter: drop-shadow(0 0 15px rgba(0,0,0,0.5));
-      filter: drop-shadow(0 0 15px rgba(0,0,0,0.5));
-
-    }
   }
 }
 #card-footer{
@@ -525,14 +527,25 @@ section {
       width: 100%;
     }
     box-shadow: 0 0 2px;
-    padding: 5px;
     float: left;
     margin-right: 10px;
 
-    margin-bottom: 10px;
-    img {
-      vertical-align: unset;
+    margin-bottom: 40px;
+    img:not(.selected-tab) {
+      vertical-align: middle;
       transition: ease-in-out 1s;
+    }
+    .selected-tab {
+      -webkit-transition: ease 1s;
+      -moz-transition: ease 1s;
+      -ms-transition: ease 1s;
+      -o-transition: ease 1s;
+      transition: ease 1s;
+      position: relative;
+      bottom: -37px;
+      left: 40%;
+      margin-top: -50px;
+      display: none;
     }
   }
 

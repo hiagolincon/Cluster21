@@ -65,42 +65,65 @@ include 'inc/menu.php';
         </div>
 
         <div class="row">
-            <?php
-
-                for ($i=0; $i < 6; $i++) {
-            ?>
-            <div class="col-lg-4">
-                <div class="oferta card shadow mt-4">
-                    <div class="d-flex meta">
-                        <div class="d-inline">
-                            <span><i class="fas fa-star"></i> META Garantida na Rodada</span>
-                        </div>
-                    </div>
-                    <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
-                    <div class="card-body">
-                        <div class="card-brand shadow">
-                            <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
-                        </div>
-                        <h3 class="card-title">Wolf Coffee</h3>
-                        <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
-                    </div>
-                    <div class="card-footer">
-                        <div class="d-flex">
-                            <div class="box">
-                                <div class="chart" data-percent="75">75%<canvas></canvas></div>
-                            </div>
-                            <div class="d-inline oferta-info">
-                                <p class="text-blue">Investido: R$ 700,00</p>
-                                <p class="text-red">Garantia: R$ 333,33</p>
+            <?php for ($i=0; $i < 3; $i++) { ?>
+                <div class="col-lg-4">
+                    <div class="oferta card shadow mt-4">
+                        <div class="d-flex meta">
+                            <div class="d-inline">
+                                <span><i class="fas fa-star"></i> META Garantida na Rodada</span>
                             </div>
                         </div>
+                        <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
+                        <div class="card-body">
+                            <div class="card-brand shadow">
+                                <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                            </div>
+                            <h3 class="card-title">Wolf Coffee</h3>
+                            <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex">
+                                <div class="box">
+                                    <div class="chart" data-percent="75">75%<canvas></canvas></div>
+                                </div>
+                                <div class="d-inline oferta-info">
+                                    <p class="text-blue">Investido: R$ 700,00</p>
+                                    <p class="text-red">Garantia: R$ 333,33</p>
+                                </div>
+                            </div>
 
-                        <div class="d-flex is_capturing">
-                            <span class="d-inline">ainda captando</span>
+                            <div class="d-flex is_capturing">
+                                <span class="d-inline">ainda captando</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            <?php } ?>
+            <?php for ($i=0; $i < 3; $i++) { ?>
+                <div class="col-lg-4">
+                    <div class="oferta card shadow mt-4">
+                        <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
+                        <div class="card-body">
+                            <div class="card-brand shadow">
+                                <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                            </div>
+                            <h3 class="card-title">Wolf Coffee</h3>
+                            <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex">
+                                <div class="box">
+                                    <div class="chart" data-percent="75">75%<canvas></canvas></div>
+                                </div>
+                                <div class="d-inline oferta-info">
+                                    <p class="text-blue">Alvo Máximo: R$ 300.000,00</p>
+                                    <p class="text-blue">Investido: R$ 13.000,00</p>
+                                    <p class="text-red">Garantia: R$ 1.333,33</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <?php } ?>
         </div>
         <div class="d-flex mt-4">
@@ -146,12 +169,23 @@ include 'inc/menu.php';
                         <?php
                             for ($i=0;$i<4;$i++) {
                         ?>
-                                <div class="card">
+                                <div class="card pb-2">
+                                    <img src="assets/img/Grupo45.png" class="left-arrow">
                                     <div class="card-body">
+
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
 
-                                        <h3 class="name">Dr. João da Silva</h3>
-                                        <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
+
+                                        <div class="d-flex">
+                                            <div class="d-inline">
+                                                <h3 class="name">Dr. João da Silva</h3>
+                                                <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
+                                            </div>
+                                            <div class="d-inline ml-auto">
+                                                <img src="assets/img/quote-left-solid.png" class="float-right">
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                         <?php
@@ -287,17 +321,16 @@ include 'inc/menu.php';
                     $arr = ['one','two','three'];
                     foreach ($arr as $i=>$item) {
                         ?>
-                        <li class="clickme shadow"><a href="javascript:void(0);" data-tag="<?=$item;?>" class="<?=($i===0)?'activelink':'';?>">
+                        <li class="clickme shadow">
+                            <a href="javascript:void(0);" data-tag="<?=$item;?>" class="<?=($i===0)?'activelink':'';?>">
                                 <img src="/assets/img/logo_lactec_uk.png" alt="Lactec">
                             </a>
+                            <img src="/assets/img/Poligono2.png" class="selected-tab">
                         </li>
                         <?php
                     }
                 ?>
             </ul>
-            <div class="selected-tab">
-                <img class="seta" src="/assets/img/Caminho%20624.png" alt="">
-            </div>
             <div style="clear: both;"></div>
             <div id="container">
                 <div class="list" id="one">
@@ -354,11 +387,13 @@ include 'inc/menu.php';
             <?php
                 for($i=0;$i<8;$i++){
                     ?>
-                    <div class="card d-inline-block bg-light pl-2 pt-3 m-1">
-                        <h3>Lorem Ipsum is simply dummy is simply</h3>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything</p>
+                        <div class="card d-inline-block bg-light pl-2 pb-2 pt-3 m-1">
+                            <h3>Lorem Ipsum is simply dummy is simply</h3>
+                        <div class="read-container">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                        </div>
                         <div class="text-center">
-                            <a href="" class="text-red font-weight-bold mb-2">Leia mais</a>
+                            <a href="javascript:void(0)" class="text-red font-weight-bold mt-1 mb-2 read-more">Leia mais</a>
                         </div>
                     </div>
                     <?php
