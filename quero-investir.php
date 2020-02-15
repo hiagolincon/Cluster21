@@ -4,14 +4,14 @@ include 'inc/menu.php';
 ?>
   <div class="row" id="banner-content">
             <div class="col-lg-6">
-                <h1>Seja um <strong>investidor</strong> de <strong>sucesso</strong></h1>
-                <h5>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h5>
+                <h2>Seja um <strong>investidor</strong> de <strong>sucesso</strong></h2>
+                <h3>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h3>
                 <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
                     Quero investir agora
                 </a>
             </div>
             <div class="col-lg-6">
-                <img src="assets/img/ilustracao-arrow-topo.png" class="img-fluid pt-5" alt="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora." title="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora.">
+                <img src="assets/img/ilustracao-arrow-topo.png" class="img-fluid" alt="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora." title="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora.">
             </div>
         </div>
     </div>
@@ -21,7 +21,7 @@ include 'inc/menu.php';
     <div class="container">
         <div class="row" id="como_comecar">
             <div class="col-lg-12">
-                <h3 class="text-blue font-weight-bold text-center">Como começar</h3>
+                <h2 class="text-blue font-weight-bold text-center">COMO COMEÇAR</h2>
             </div>
         </div>
         <div class="hto mx-auto">
@@ -31,7 +31,7 @@ include 'inc/menu.php';
                     <div class="image-howto">
                         <img src="/assets/img/icon-processo.png" alt="Escolher" title="Escolher">
                     </div>
-                    <h5 class="text-blue text-center font-weight-bold">Escolher</h5>
+                    <h3 class="text-blue text-center font-weight-bold">Escolher</h3>
                     <p class="text-center howto-text">Escolha uma startup que você gosta. Revise o discurso da empresa, os termos e decida se você acredita que eles serão bem-sucedidos.</p>
                     <div class="d-flex">
                         <a class="btn btn-red mx-auto">Passo 1</a>
@@ -41,7 +41,7 @@ include 'inc/menu.php';
                     <div class="image-howto">
                         <img src="/assets/img/icon-investir1.png" alt="Investir" title="Investir">
                     </div>
-                    <h5 class="text-blue text-center font-weight-bold">Investir</h5>
+                    <h3 class="text-blue text-center font-weight-bold">Investir</h3>
                     <p class="text-center howto-text">Invista uma pequena quantia para começar. Planeje diversificar, o que significa investir quantias menores em várias empresas.</p>
                     <div class="d-flex">
                         <a class="btn btn-red mx-auto">Passo 2</a>
@@ -51,17 +51,16 @@ include 'inc/menu.php';
                     <div class="image-howto">
                         <img src="/assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
                     </div>
-                    <h5 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h5>
+                    <h3 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h3>
                     <p class="text-center howto-text">Aguarde para ver se a inicialização foi bem-sucedida. Se a startup funcionar bem, seu investimento poderá trazer um retorno.</p>
                     <div class="d-flex">
                         <a class="btn btn-red mx-auto">Passo 3</a>
                     </div>
                 </div>
             </div>
-        </div>
 
         <div class="box-unicornio">
-            <h1>Invista em um <strong>Unicórnio</strong></h1>
+            <h2>Invista em um <strong>Unicórnio</strong></h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
         </div>
@@ -74,7 +73,7 @@ include 'inc/menu.php';
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="como-funciona">
     <div class="container">
-        <h1>Como funciona?</h1>
+        <h2>Como funciona?</h2>
         <div class="row"> 
             <div class="col-sm-12 col-md-12 col-lg-6">
                 <div class="como_funciona-texto">
@@ -102,13 +101,13 @@ include 'inc/menu.php';
             </div>
 
             <div class="col-sm-12 col-md-12 col-lg-6">
-                <img src="" title="" alt="">
+                <img src="assets/img/Grupo 255.png" title="Celular" alt="Celular">
             </div>
         </div>
 
-        <div class="row pt-5">
+        <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-6">
-                <img src="" title="" alt="">
+                <img src="assets/img/Grupo 318.png" title="Segurança" alt="Segurança">
             </div>
 
             <div class="col-sm-12 col-md-12 col-lg-6">
@@ -145,7 +144,7 @@ include 'inc/menu.php';
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-5" id="nav">
-                <h1 class="title-style2 pb-3">Saiba Mais</h1>
+                <h2 class="title-style2">Saiba Mais</h2>
                   <ul class="list_item">
                     <li id="li-1" class="active">
                       <a href="#list-item-1" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba1" role="button" aria-expanded="false" aria-controls="list-item-1"><i class="fas fa-long-arrow-alt-right mr-2 icone"></i>Como funciona</a>
@@ -167,7 +166,7 @@ include 'inc/menu.php';
                 <div data-spy="scroll" data-offset="0" >
                   <div id="div_aba1">
                     <div id="list-item-1">  
-                      <h4>O que há de tão especial?</h4>
+                      <h3>O que há de tão especial?</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      </div> 
@@ -175,7 +174,7 @@ include 'inc/menu.php';
                    
                   <div id="div_aba2" style="display: none;">
                     <div id="list-item-2">
-                      <h4>Por que Equity Crowdfunding?</h4>
+                      <h3>Por que Equity Crowdfunding?</h3>
                       <p>L has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -183,7 +182,7 @@ include 'inc/menu.php';
 
                   <div id="div_aba3" style="display: none;">
                     <div id="list-item-3">
-                      <h4>Quem pode arrecadar fundos?</h4>
+                      <h3>Quem pode arrecadar fundos?</h3>
                       <p>f the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -191,7 +190,7 @@ include 'inc/menu.php';
 
                   <div id="div_aba4" style="display: none;">
                     <div id="list-item-4">
-                      <h4>O que há l?</h4>
+                      <h3>O que há l?</h3>
                       <p>g and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -199,7 +198,7 @@ include 'inc/menu.php';
 
                   <div id="div_aba5" style="display: none;">
                     <div id="list-item-5">  
-                      <h4>O que há de tão especial?</h4>
+                      <h3>O que há de tão especial?</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -207,7 +206,7 @@ include 'inc/menu.php';
                    
                   <div id="div_aba6" style="display: none;">
                     <div id="list-item-6">
-                      <h4>Por que Equity Crowdfunding?</h4>
+                      <h3>Por que Equity Crowdfunding?</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -215,7 +214,7 @@ include 'inc/menu.php';
 
                   <div id="div_aba7" style="display: none;">
                     <div id="list-item-7">
-                      <h4>Quem pode arrecadar fundos?</h4>
+                      <h3>Quem pode arrecadar fundos?</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -223,7 +222,7 @@ include 'inc/menu.php';
 
                   <div id="div_aba8" style="display: none;">
                     <div id="list-item-8">
-                      <h4>O que há l?</h4>
+                      <h3>O que há l?</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -234,12 +233,9 @@ include 'inc/menu.php';
                 </div>
             </div>
         </div>
-        
     </div>
 </section>
-
 <!--DEPOIMENTOS-->
-
 <section class="wow slideInLeft" data-wow-duration="2s" id="depoimentos">
     <svg class="bg_p" viewBox="-22.5 0 2000 1112.212">
         <path fill="rgba(249,249,249,1)" id="bg_mw" d="M -22.5 321.1930236816406 L 1977.499877929688 0 L 1977.499877929688 1282.2119140625 L -22.5 1282.2119140625 L -22.5 321.1930236816406 Z">
@@ -250,7 +246,17 @@ include 'inc/menu.php';
             <div class="col-lg-6">
                 <div id="video">
                     <div class="preview-video">
-                        <img src="/assets/img/foto_vj_pattern.png" class="img-fluid" alt="Aperte o play para conhecer mais" title="Aperte o play para conhecer mais">
+                        <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo2">
+                            <img src="/assets/img/foto_vj_pattern.png" alt="Dr. João da Silva" title="Dr. João da Silva">
+                            <div class="overlay">
+                                <div>
+                                    <div class="play">
+                                        <i class="fas fa-play text-white"></i>
+                                    </div>
+                                    <p class="play-text text-white">APERTE O PLAY PARA CONHECER MAIS</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <svg class="Caminho_375" viewBox="119.738 -73.106 615.437 695.583">
                         <path fill="rgba(246,215,214,1)" id="Caminho_375" d="M 442.2153930664063 -73.10621643066406 C 505.3286743164063 -73.10621643066406 536.917724609375 -9.876947402954102 588.3456420898438 19.36474418640137 C 694.4686279296875 79.70550537109375 735.1754760742188 201.0425262451172 735.1754760742188 332.124267578125 C 735.1754760742188 526.3192138671875 487.9191284179688 622.4124755859375 293.7241821289063 622.4124755859375 C 290.4228515625 622.4124755859375 296.9515380859375 622.5567626953125 293.7241821289063 622.4124755859375 C 106.9826126098633 614.0654296875 119.9301910400391 428.0609741210938 119.9301910400391 237.1673278808594 C 119.9301910400391 136.9633178710938 208.2841339111328 111.5718536376953 267.8978271484375 58.2515869140625 C 323.9686279296875 8.100099563598633 348.2244873046875 -73.10621643066406 442.2153930664063 -73.10621643066406 Z">
@@ -260,22 +266,44 @@ include 'inc/menu.php';
             </div>
             <div class="col-lg-6">
                 <div id="depoimentos_container">
-                    <h1 class="text-right"><b>Depoimentos de</b><br>QUEM INVESTE</h1>
+                    <h2 class="text-right"><b>Depoimentos de</b><br>QUEM INVESTE</h2>
                     <div class="slide-depoimento">
                         <?php
                             for ($i=0;$i<4;$i++) {
                         ?>
-                                <div class="card">
+                                <div class="card pb-2">
+                                    <img src="assets/img/Grupo45.png" class="left-arrow">
                                     <div class="card-body">
+
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
 
-                                        <h5 class="name">Dr. João da Silva</h5>
-                                        <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
+
+                                        <div class="d-flex">
+                                            <div class="d-inline">
+                                                <h3 class="name">Dr. João da Silva</h3>
+                                                <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
+                                            </div>
+                                            <div class="d-inline ml-auto">
+                                                <img src="assets/img/quote-left-solid.png" class="float-right">
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                         <?php
                             }
                         ?>
+                    </div>
+
+                    <!--Modal Dr João-->
+                    <div class="modal fade modalVideo2" tabindex="-1" role="dialog" aria-labelledby="modalVideo2" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0&autoplay" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -287,7 +315,7 @@ include 'inc/menu.php';
 
 <!--OFERTAS-->
 
-<section class="wow slideInLeft pb-5" data-wow-duration="2s" id="ofertas">
+<section class="wow slideInLeft" data-wow-duration="2s" id="ofertas">
     <svg class="bg_p" viewBox="-22.5 48.096 2000 1108.908">
         <linearGradient id="bg_p" spreadMethod="pad" x1="0.5" x2="0.5" y1="0" y2="1">
             <stop offset="0" stop-color="#f9f9f9" stop-opacity="1"></stop>
@@ -298,54 +326,76 @@ include 'inc/menu.php';
     </svg>
     <div class="container">
         <div class="title">
-            <h1 class="text-center">Ofertas em Destaque</h1>
+            <h2 class="text-center">Ofertas em Destaque</h2>
             <p>Todas as empresas são rigorosamente analisadas por quem entende do mercado</p>
         </div>
 
         <div class="row">
-            <?php
-
-                for ($i=0; $i < 6; $i++) {
-            ?>
-            <div class="col-lg-4">
-                <div class="oferta card shadow mt-4">
-                    <div class="d-flex meta">
-                        <div class="d-inline">
-                            <span><i class="fas fa-star"></i> META Garantida na Rodada</span>
-                        </div>
-                    </div>
-                    <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
-                    <div class="card-body">
-                        <div class="card-brand shadow">
-                            <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
-                        </div>
-                        <h5 class="card-title">Wolf Coffee</h5>
-                        <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
-                    </div>
-                    <div class="card-footer">
-                        <div class="d-flex">
-                            <div class="d-inline-block circle-percent">
-                                <p>100%</p>
-                            </div>
-                            <div class="d-inline oferta-info">
-                                <p class="text-blue">Investido: R$ 700,00</p>
-                                <p class="text-red">Garantia: R$ 333,33</p>
+            <?php for ($i=0; $i < 3; $i++) { ?>
+                <div class="col-lg-4">
+                    <div class="oferta card shadow mt-4">
+                        <div class="d-flex meta">
+                            <div class="d-inline">
+                                <span><i class="fas fa-star"></i> META Garantida na Rodada</span>
                             </div>
                         </div>
+                        <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
+                        <div class="card-body">
+                            <div class="card-brand shadow">
+                                <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                            </div>
+                            <h3 class="card-title">Wolf Coffee</h3>
+                            <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex">
+                                <div class="box">
+                                    <div class="chart" data-percent="75">75%<canvas></canvas></div>
+                                </div>
+                                <div class="d-inline oferta-info">
+                                    <p class="text-blue">Investido: R$ 700,00</p>
+                                    <p class="text-red">Garantia: R$ 333,33</p>
+                                </div>
+                            </div>
 
-                        <div class="d-flex is_capturing">
-                            <span class="d-inline">ainda captando</span>
+                            <div class="d-flex is_capturing">
+                                <span class="d-inline">ainda captando</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            <?php } ?>
+            <?php for ($i=0; $i < 3; $i++) { ?>
+                <div class="col-lg-4">
+                    <div class="oferta card shadow mt-4">
+                        <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
+                        <div class="card-body">
+                            <div class="card-brand shadow">
+                                <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                            </div>
+                            <h3 class="card-title">Wolf Coffee</h3>
+                            <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex">
+                                <div class="box">
+                                    <div class="chart" data-percent="75">75%<canvas></canvas></div>
+                                </div>
+                                <div class="d-inline oferta-info">
+                                    <p class="text-blue">Alvo Máximo: R$ 300.000,00</p>
+                                    <p class="text-blue">Investido: R$ 13.000,00</p>
+                                    <p class="text-red">Garantia: R$ 1.333,33</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <?php } ?>
         </div>
     </div>
 </section>
 
 <!--RADAPÉ-->
-
 <footer id="footer">
     <svg class="bg_p" viewBox="0 0 2000 555">
         <path fill="rgba(245,245,245,1)" id="bg_footer_q" d="M 0 194.146484375 L 2000 0 L 2000 555 L 0 555 L 0 194.146484375 Z">
@@ -396,7 +446,7 @@ include 'inc/menu.php';
                 </div>
             </div>
             <div class="col-lg-3 my-auto">
-                <h5>Para investidores</h5>
+                <h2>Para investidores</h2>
                 <hr>
                 <ul>
                     <li><a href="/quero-investir.php">Quero Investir</a></li>
@@ -406,7 +456,7 @@ include 'inc/menu.php';
                 </ul>
             </div>
             <div class="col-lg-3 my-auto">
-                <h5>Para startups</h5>
+                <h2>Para startups</h2>
                 <hr>
                 <ul>
                     <li><a href="/quero-captar.php">Quero captar</a></li>
@@ -416,7 +466,7 @@ include 'inc/menu.php';
                 </ul>
             </div>
             <div class="col-lg-3 my-auto">
-                <h5>Institucional</h5>
+                <h2>Institucional</h2>
                 <hr>
                 <ul>
                     <li><a href="/sobre.php">Sobre</a></li>
@@ -426,10 +476,27 @@ include 'inc/menu.php';
                     <li><a href="/trabalhe-conosco.php">Trabalhe Conosco</a></li>
                 </ul>
             </div>
+            <div class="col-lg-12 mt-4 mb-4">
+                <hr>
+            </div>
+            <div class="col-lg-2 my-auto">
+                <img src="assets/img/logocvm_color.png" alt="Logo CVM" title="CVM" class="img-fluid">
+            </div>
+            <div class="col-lg-10">
+                <p class="text-blue text-center fs-16">Você está SEGURO, somos regulados pela CVM 588.</p>
+                <p class="text-blue fs-14">As sociedades empresárias de pequeno porte e as ofertas apresentadas nesta plataforma estão automaticamente dispensadas de registro pela Comissão de Valores Mobiliários - CVM. A CVM não analisa previamente as ofertas. As ofertas realizadas não implicam por parte da CVM a garantia da veracidade das informações prestadas, de adequação à legislação vigente ou julgamento sobre a qualidade da sociedade empresária de pequeno porte. Antes de aceitar uma oferta leia com atenção as informações essenciais da oferta, em especial a seção de alertas sobre riscos.</p>
+            </div>
+            <div class="col-lg-6">
+                <p class="text-blue fs-16">© Copyright 2020 Cluster21. Todos os direitos reservados</p>
+            </div>
+            <div class="col-lg-6">
+                <a href="https://agenciapublicidade.com.br/" class="float-right text-blue fs-16">
+                    Desenvolvido por Segundo Andar
+                </a>
+            </div>
         </div>
     </div>
 </footer>
-
 
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

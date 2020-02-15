@@ -6,8 +6,8 @@
   padding: 5rem 10rem;
   margin: 15rem 0 7rem 0;
   border-radius: 7px;
-  h1{
-    font-size: 50px;
+  h2{
+    font-size: 50px !important;
   }
   p{
     opacity: 0.8;
@@ -26,7 +26,7 @@
     justify-content: center;
     padding: 2rem;
     margin: 80px 3px;
-    h1{
+    h2{
       font-size: 30px;
     }
     p{
@@ -35,10 +35,18 @@
   } 
 }
 
+//DEPOIMENTOS
+
+@media screen and (max-width: 600px) {
+  img{
+    padding-left: 13px;
+  }
+}
+
+//COMO FUNCIONA
 
 #como-funciona {
-  padding-bottom: 6rem;
-  h1{
+  h2{
     font-size: 35px;
     text-align: center;
     padding-bottom: 3rem;
@@ -68,10 +76,26 @@
     font-size: 37px;
     font-weight: bold;
   }
+  img{
+    position: relative;
+    bottom: 5rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
   #como-funciona {
-    padding-bottom: 0;
+    img{
+      text-align: center;
+      justify-content: center;
+      width: 300px;
+      position: relative;
+      bottom: 0;
+    }
+    span{
+      width: 125px; 
+      height: 50px;
+      font-size: 30px;
+      padding-top: 4px;
+    }
   }
 }

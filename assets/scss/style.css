@@ -1157,6 +1157,9 @@ section h2 {
   #vantagens {
     text-align: center;
   }
+  #vantagens img {
+    padding-left: 13px;
+  }
 }
 
 #carousel {
@@ -1380,8 +1383,8 @@ section h2 {
   border-radius: 7px;
 }
 
-.box-unicornio h1 {
-  font-size: 50px;
+.box-unicornio h2 {
+  font-size: 50px !important;
 }
 
 .box-unicornio p {
@@ -1405,7 +1408,7 @@ section h2 {
     padding: 2rem;
     margin: 80px 3px;
   }
-  .box-unicornio h1 {
+  .box-unicornio h2 {
     font-size: 30px;
   }
   .box-unicornio p {
@@ -1413,11 +1416,13 @@ section h2 {
   }
 }
 
-#como-funciona {
-  padding-bottom: 6rem;
+@media screen and (max-width: 600px) {
+  img {
+    padding-left: 13px;
+  }
 }
 
-#como-funciona h1 {
+#como-funciona h2 {
   font-size: 35px;
   text-align: center;
   padding-bottom: 3rem;
@@ -1458,9 +1463,26 @@ section h2 {
   font-weight: bold;
 }
 
+#como-funciona img {
+  position: relative;
+  bottom: 5rem;
+}
+
 @media screen and (max-width: 600px) {
-  #como-funciona {
-    padding-bottom: 0;
+  #como-funciona img {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 300px;
+    position: relative;
+    bottom: 0;
+  }
+  #como-funciona span {
+    width: 125px;
+    height: 50px;
+    font-size: 30px;
+    padding-top: 4px;
   }
 }
 /*# sourceMappingURL=style.css.map */

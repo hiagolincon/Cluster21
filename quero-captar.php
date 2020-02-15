@@ -22,7 +22,7 @@ include 'inc/menu.php';
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="segurança">
   <div class="container">
-  <img src="assets/img/Componente 2 – 1.png" title="" alt="" class="img-style" >
+  <img src="assets/img/Componente 2 – 1.png" title="Segurança" alt="Segurança" class="img-style" >
 
     <div class="row my-2">
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex flex-column text-box my-3">
@@ -66,13 +66,13 @@ include 'inc/menu.php';
 
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-        <img src="assets/img/Grupo1.png" title="" alt="">
+        <img src="assets/img/Grupo1.png" title="Gráfico" alt="Gráfico">
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6">
-        <img src="assets/img/chat mockup.png" title="" alt="" class="img-chat">
+        <img src="assets/img/chat mockup.png" title="Chat de bate-papo" alt="Chat de bate-papo" class="img-chat">
       </div>
 
       <div class="col-sm-12 col-md-12 col-lg-6">
