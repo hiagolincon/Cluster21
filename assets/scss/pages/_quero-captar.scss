@@ -1,3 +1,9 @@
+@media screen and (max-width: 900px) {
+  img{
+    padding-top: 30px;
+  }
+}
+
 //SEGURANÇA
 
 #segurança {
@@ -20,6 +26,16 @@
     font-size: 18px;
     color: $dark-blue;
   }
+  .row{
+    padding-top: 2rem;
+  }
+  .title-style3{
+    padding-top: 5rem;
+  }
+  .img-chat{
+    position: relative;
+    bottom: 5rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -36,6 +52,17 @@
     span:nth-of-type(2) {
       width: 320px;
     }
+    img{
+      text-align: center;
+      justify-content: center;
+      width: 300px;
+    }
+    .img-cvm{
+      width: 130px;
+      margin-left: 5rem;
+      text-align: center;
+      
+    }
     .text-box{
       position: relative;
       right: 60px;
@@ -44,6 +71,10 @@
     }
     .title-style2{
       padding-top: 5rem;
+    }
+    .img-chat{
+      position: relative;
+      bottom: 0;
     }
   }
 }
@@ -79,10 +110,12 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
+  padding-bottom: 13px;
 }
 
 .title-style3 {
   font-size: 35px;
+  padding-bottom: 13px;
 }
 
 .font-strong {
@@ -139,8 +172,8 @@
     font-weight: 600;
     
   }
-  h4{
-    font-weight: bold;
+  h3{
+    font-weight: 700;
   }
   .font-text {
     font-size: large;
@@ -195,8 +228,9 @@
 
 #saiba-mais {
   padding-top: 30px;
-  h4 {
+  h3 {
     font-weight: 700 !important;
+    font-size: 25px;
   }
   ul li {
     font-size: 20px;
@@ -214,7 +248,7 @@
     font-size: 18px;
     color: gray;
     font-weight: 500 !important;
-    padding: 10px 0;
+    padding-bottom: 10px;
   }
 }
 
@@ -256,8 +290,9 @@
   width: 700px;
   border-radius: 5px;
   
-  h4{
+  h2{
     font-weight: bold;
+    font-size: 25px;
   }
   a {
     box-shadow: 0 0 5px $red;
@@ -276,6 +311,9 @@
 
 @media screen and (max-width:600px) {
   .box-button {
+    h2{
+      font-weight: 900;
+    }
     a {
       text-transform: uppercase;
       color: #fff;

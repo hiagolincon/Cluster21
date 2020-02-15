@@ -4,10 +4,10 @@ include 'inc/menu.php';
 ?>
         <div class="row" id="banner-content">
             <div class="col-lg-6">
-                <h1>Impulsione o <strong>sucesso</strong> do <strong>seu negócio</strong></h1>
-                <h5>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h5>
+                <h2>Impulsione o <strong>sucesso</strong> do <strong>seu negócio</strong></h2>
+                <h3>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h3>
                 <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
-                    Quero investir agora
+                    Começar agora
                 </a>
             </div>
             <div class="col-lg-6">
@@ -32,7 +32,7 @@ include 'inc/menu.php';
       </div>
 
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-        <h1 class="title-style2">Tranquilidade e segurança</h1>
+        <h2 class="title-style2">Tranquilidade e segurança</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Duis vitae aliquam libero. Nulla volutpat velit eu neque 
             commodo porttitor. Nullam accumsan ornare tortor id laoreet.
@@ -44,7 +44,7 @@ include 'inc/menu.php';
              <div class="pt-4">
                 <img src="assets/img/logocvm_color.png" 
                 title="Comissão de Valores Mobiliários"
-                 alt="Comissão de Valores Mobiliários" class="float-left mr-2">
+                 alt="Comissão de Valores Mobiliários" class="float-left mr-2 img-cvm">
 
                  <p class="float-left p-4"><strong>Você está </strong><strong class="font-strong">SEGURO</strong><br>
                     Somos regulados pela CVM 588.
@@ -57,7 +57,7 @@ include 'inc/menu.php';
 
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-        <h1 class="title-style3 pb-3">Tenha <strong>total controle</strong> do que está acontecendo com <strong>seu negócio</strong></h1>
+        <h2 class="title-style3">Tenha <strong>total controle</strong> do que está acontecendo com <strong>seu negócio</strong></h2>
 
         <p><i class="fas fa-check text-red"></i> Análises por quem entende do mercado.</p>
         <p><i class="fas fa-check text-red"></i> Acesso a análises gráficas e fundamentalistas.</p>
@@ -66,17 +66,17 @@ include 'inc/menu.php';
 
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-        <img src="" title="" alt="">
+        <img src="assets/img/Grupo1.png" title="" alt="">
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6">
-        <img src="" title="" alt="">
+        <img src="assets/img/chat mockup.png" title="" alt="" class="img-chat">
       </div>
 
       <div class="col-sm-12 col-md-12 col-lg-6">
-        <h1 class="title-style3 pb-3"><strong>Orientação profissional </strong> por quem entende de <strong>mercado</strong></h1>
+        <h2 class="title-style3"><strong>Orientação profissional </strong> por quem entende de <strong>mercado</strong></h2>
 
         <p><i class="fas fa-check text-red"></i> Análises por quem entende do mercado.</p>
         <p><i class="fas fa-check text-red"></i> Acesso a análises gráficas e fundamentalistas.</p>
@@ -91,43 +91,36 @@ include 'inc/menu.php';
 
 <!--VANTAGENS-->
 
-
 <section class="wow slideInLeft" data-wow-duration="2s" id="vantagens">
-    
-    <svg class="bg_p" viewBox="-22.5 48.096 2000 1108.908">
-        <linearGradient id="bg_p" spreadMethod="pad" x1="0.5" x2="0.5" y1="0" y2="1">
-            <stop offset="0" stop-color="#f9f9f9" stop-opacity="1"></stop>
-            <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
-        </linearGradient>
-        <path fill="url(#bg_p)" id="bg_p" d="M -22.5 48.095703125 L 1977.499877929688 160.142578125 L 1977.499877929688 1157.00390625 L -22.5 1157.00390625 L -22.5 48.095703125 Z">
-        </path>
-    </svg>
-
-    <div class="container">
-        <h1 class="text-center">Vantagens de investir conosco</h1>
-        <div class="row">
-            <div class="col-lg-3 vntg-box">
-                <img src="assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
-                <h2>Alta Rentabilidade</h2>
-                <p>Possibilidade de rendimento acima de qualquer ativo do mercado financeiro, para investidores;</p>
-            </div>
-            <div class="col-lg-3 vntg-box">
-                <img src="assets/img/icon-processo.png" class="img-circle" alt="Processo Seletivo" title="Processo Seletivo">
-                <h2>Processo Seletivo</h2>
-                <p>Sinta-se confiante para investir em nossas startups que foram analisadas por quem entende do mercado;</p>
-            </div>
-            <div class="col-lg-3 vntg-box">
-                <img src="assets/img/icon-investir.png" class="img-circle" alt="Fácil Investir" title="Fácil Investir">
-                <h2>Fácil Investir</h2>
-                <p>Modalidade permite que pequenos investidores, não profissionais, realizem investimentos.</p>
-            </div>
-            <div class="col-lg-3 vntg-box">
-                <img src="assets/img/icon-ajude.png" class="img-circle" alt="Ajude a financiar o futuro" title="Ajude a financiar o futuro">
-                <h2>Ajude a financiar o futuro</h2>
-                <p>Os empresários são inovadores, sonhadores, loucos o suficiente para potencialmente mudar o mundo. Ao apoiá-los, você também pode fazer a diferença.</p>
-            </div>
-        </div>
-    </div>
+  <svg class="STICKER" viewBox="119.738 -73.106 615.437 695.583">
+      <path fill="rgba(246,215,214,1)" id="STICKER" d="M 442.2153930664063 -73.10621643066406 C 505.3286743164063 -73.10621643066406 536.917724609375 -9.876947402954102 588.3456420898438 19.36474418640137 C 694.4686279296875 79.70550537109375 735.1754760742188 201.0425262451172 735.1754760742188 332.124267578125 C 735.1754760742188 526.3192138671875 487.9191284179688 622.4124755859375 293.7241821289063 622.4124755859375 C 290.4228515625 622.4124755859375 296.9515380859375 622.5567626953125 293.7241821289063 622.4124755859375 C 106.9826126098633 614.0654296875 119.9301910400391 428.0609741210938 119.9301910400391 237.1673278808594 C 119.9301910400391 136.9633178710938 208.2841339111328 111.5718536376953 267.8978271484375 58.2515869140625 C 323.9686279296875 8.100099563598633 348.2244873046875 -73.10621643066406 442.2153930664063 -73.10621643066406 Z">
+      </path>
+  </svg>
+  <div class="container">
+      <h2 class="text-center">Vantagens de Investir Conosco</h2>
+      <div class="row">
+          <div class="col-lg-3 vntg-box">
+              <img src="/assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
+              <h3>Alta Rentabilidade</h3>
+              <p>Possibilidade de rendimento acima de qualquer ativo do mercado financeiro, para investidores;</p>
+          </div>
+          <div class="col-lg-3 vntg-box">
+              <img src="/assets/img/icon-processo.png" class="img-circle" alt="Processo Seletivo" title="Processo Seletivo">
+              <h3>Processo Seletivo</h3>
+              <p>Sinta-se confiante para investir em nossas startups que foram analisadas por quem entende do mercado;</p>
+          </div>
+          <div class="col-lg-3 vntg-box">
+              <img src="/assets/img/icon-investir.png" class="img-circle" alt="Fácil Investir" title="Fácil Investir">
+              <h3>Fácil Investir</h3>
+              <p>Modalidade permite que pequenos investidores, não profissionais, realizem investimentos.</p>
+          </div>
+          <div class="col-lg-3 vntg-box">
+              <img src="/assets/img/icon-ajude.png" class="img-circle" alt="Ajude a financiar o futuro" title="Ajude a financiar o futuro">
+              <h3>Ajude a financiar o futuro</h3>
+              <p>Os empresários são inovadores, sonhadores, loucos o suficiente para potencialmente mudar o mundo. Ao apoiá-los, você também pode fazer a diferença.</p>
+          </div>
+      </div>
+  </div>
 </section>
 
 <!--CAROUSEL-->
@@ -135,7 +128,7 @@ include 'inc/menu.php';
 <section class="wow slideInLeft" data-wow-duration="2s" id="carousel">
   <div class="container">
     <div class="row justify-content-center">
-      <h1 class="title-style2 mb-5">Startups brasileiras que decolaram com Equity Crowdfunding</h1>
+      <h2 class="title-style2 mb-5">Startups brasileiras que decolaram com Equity Crowdfunding</h2>
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
         
@@ -147,7 +140,7 @@ include 'inc/menu.php';
                       <img src="" title="" alt="">
                       <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
                       
-                      <h4 class="pt-3 pb-2">Resultados da campanha</h4>                    
+                      <h3 class="pt-3 pb-2">Resultados da campanha</h3>                    
   
                       <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
                       <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
@@ -204,7 +197,7 @@ include 'inc/menu.php';
                       <img src="" title="" alt="">
                       <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
                       
-                      <h4 class="pt-3 pb-2">Resultados da campanha</h4>                    
+                      <h3 class="pt-3 pb-2">Resultados da campanha</h3>                    
   
                       <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
                       <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
@@ -260,7 +253,7 @@ include 'inc/menu.php';
                       <img src="" title="" alt="">
                       <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
                       
-                      <h4 class="pt-3 pb-2">Resultados da campanha</h4>                    
+                      <h3 class="pt-3 pb-2">Resultados da campanha</h3>                    
   
                       <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
                       <p><i class="fas fa-check text-success"></i> Levantou R$ 270.206 de 849 investidores</p>
@@ -331,7 +324,7 @@ include 'inc/menu.php';
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-5" id="nav">
-                <h1 class="title-style2 pb-3">Saiba Mais</h1>
+                <h2 class="title-style2">Saiba Mais</h2>
                   <ul class="list_item">
                     <li id="li-1" class="active">
                       <a href="#list-item-1" title="" alt="" onclick="mostrar_abas(this);" id="mostra_aba1" role="button" aria-expanded="false" aria-controls="list-item-1"><i class="fas fa-long-arrow-alt-right mr-2 icone"></i>Como funciona</a>
@@ -353,7 +346,7 @@ include 'inc/menu.php';
                 <div data-spy="scroll" data-offset="0" >
                   <div id="div_aba1">
                     <div id="list-item-1">  
-                      <h4>O que há de tão especial?</h4>
+                      <h3>O que há de tão especial?</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      </div> 
@@ -361,7 +354,7 @@ include 'inc/menu.php';
                    
                   <div id="div_aba2" style="display: none;">
                     <div id="list-item-2">
-                      <h4>Por que Equity Crowdfunding?</h4>
+                      <h3>Por que Equity Crowdfunding?</h3>
                       <p>L has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -369,7 +362,7 @@ include 'inc/menu.php';
 
                   <div id="div_aba3" style="display: none;">
                     <div id="list-item-3">
-                      <h4>Quem pode arrecadar fundos?</h4>
+                      <h3>Quem pode arrecadar fundos?</h3>
                       <p>f the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -377,7 +370,7 @@ include 'inc/menu.php';
 
                   <div id="div_aba4" style="display: none;">
                     <div id="list-item-4">
-                      <h4>O que há l?</h4>
+                      <h3>O que há l?</h3>
                       <p>g and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -385,7 +378,7 @@ include 'inc/menu.php';
 
                   <div id="div_aba5" style="display: none;">
                     <div id="list-item-5">  
-                      <h4>O que há de tão especial?</h4>
+                      <h3>O que há de tão especial?</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -393,7 +386,7 @@ include 'inc/menu.php';
                    
                   <div id="div_aba6" style="display: none;">
                     <div id="list-item-6">
-                      <h4>Por que Equity Crowdfunding?</h4>
+                      <h3>Por que Equity Crowdfunding?</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -401,7 +394,7 @@ include 'inc/menu.php';
 
                   <div id="div_aba7" style="display: none;">
                     <div id="list-item-7">
-                      <h4>Quem pode arrecadar fundos?</h4>
+                      <h3>Quem pode arrecadar fundos?</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -409,7 +402,7 @@ include 'inc/menu.php';
 
                   <div id="div_aba8" style="display: none;">
                     <div id="list-item-8">
-                      <h4>O que há l?</h4>
+                      <h3>O que há l?</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                      
                      </div> 
@@ -422,7 +415,7 @@ include 'inc/menu.php';
         </div>
         <div class="row justify-content-center">
           <div class="box-button">
-            <h4>INSCREVA SUA EMPRESA</h4>
+            <h2>INSCREVA SUA EMPRESA</h2>
             <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
                 COMEÇAR AGORA
             </a>
