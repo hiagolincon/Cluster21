@@ -1,4 +1,5 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
+  #banner-content
   img{
     padding-top: 30px;
   }
@@ -136,8 +137,8 @@
 @media screen and (max-width: 600px) {
   #vantagens{
     text-align: center;
-    img{
-      padding-left: 13px;
+    .img-circle{
+      padding-left: 60px;
     }
   }
 }
@@ -219,7 +220,7 @@
 @media screen and (max-width: 600px) {
   .carousel-img-logo{
     display: flex;
-    flex-direction: column !important;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }

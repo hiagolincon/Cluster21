@@ -154,13 +154,13 @@ include 'inc/menu.php';
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
                       <div class="carousel-img-logo">
-                        <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle " alt="..." width="55" height="55">
+                        <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle " alt="John Silva" title="John Silva" width="55" height="55">
                           <div class="flex-column mx-2">
                             <strong>John Silva</strong>
                             <p>Co-fundador e CEO</p>
                           </div>
                      
-                          <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mx-2" alt="..." width="55" height="55">
+                          <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mx-2" alt="John Silva" title="John Silva" width="55" height="55">
                           <div class="flex-column">
                             <strong>John Silva</strong>
                             <p>Co-fundador e CEO</p>
@@ -212,19 +212,19 @@ include 'inc/menu.php';
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
                       <div class="carousel-img-logo">
-                        <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle " alt="..." width="55" height="55">
+                        <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle " alt="John Silva" title="John Silva" width="55" height="55">
                           <div class="flex-column mx-2">
                             <strong>John Silva</strong>
                             <p>Co-fundador e CEO</p>
                           </div>
                      
-                          <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mx-2" alt="..." width="55" height="55">
+                          <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mx-2" alt="John Silva" title="John Silva" width="55" height="55">
                           <div class="flex-column">
                             <strong>John Silva</strong>
                             <p>Co-fundador e CEO</p>
                           </div>
                       </div>
-                      
+          
                         <div class="dados-text">
                           <p class="text-muted">Nome:</p>
                           <p class="font-text">OSSOPIM</p>
@@ -267,20 +267,18 @@ include 'inc/menu.php';
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
                       <div class="carousel-img-logo">
-                        <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle " alt="..." width="55" height="55">
+                        <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle " alt="John Silva" title="John Silva" width="55" height="55">
                           <div class="flex-column mx-2">
                             <strong>John Silva</strong>
                             <p>Co-fundador e CEO</p>
                           </div>
                      
-                        <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mx-2" alt="..." width="55" height="55">
+                          <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mx-2" alt="John Silva" title="John Silva" width="55" height="55">
                           <div class="flex-column">
                             <strong>John Silva</strong>
                             <p>Co-fundador e CEO</p>
                           </div>
                       </div>
-
-
                         <div class="dados-text">
                           <p class="text-muted">Nome:</p>
                           <p class="font-text">OSSOPIM</p>

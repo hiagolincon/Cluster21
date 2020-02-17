@@ -1018,8 +1018,9 @@ section h2 {
   left: 0;
 }
 
-@media screen and (max-width: 900px) {
-  img {
+@media screen and (max-width: 600px) {
+  #banner-content
+img {
     padding-top: 30px;
   }
 }
@@ -1157,8 +1158,8 @@ section h2 {
   #vantagens {
     text-align: center;
   }
-  #vantagens img {
-    padding-left: 13px;
+  #vantagens .img-circle {
+    padding-left: 60px;
   }
 }
 
@@ -1250,10 +1251,10 @@ section h2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical !important;
-    -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -1417,8 +1418,8 @@ section h2 {
 }
 
 @media screen and (max-width: 600px) {
-  img {
-    padding-left: 13px;
+  .image {
+    padding-left: 4px;
   }
 }
 
@@ -1484,5 +1485,380 @@ section h2 {
     font-size: 30px;
     padding-top: 4px;
   }
+}
+
+#quem-nos-somos .artigo {
+  background-color: #fff;
+  padding: 0rem 10rem;
+  margin: 0rem 0 7rem 0;
+}
+
+#quem-nos-somos .artigo .title-quem-somos h2 {
+  font-size: 35px;
+  padding-top: 0 !important;
+}
+
+#quem-nos-somos .artigo .title-quem-somos h2 span {
+  font-size: 20px;
+  color: #CF3736;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#quem-nos-somos .artigo p {
+  opacity: 0.8;
+  padding-top: 1rem;
+  line-height: 35px;
+  font-size: 19px;
+  color: #37475E;
+}
+
+@media screen and (max-width: 600px) {
+  #quem-nos-somos .artigo {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 2rem;
+    margin: 80px 3px;
+  }
+  #quem-nos-somos .artigo h2 {
+    font-size: 30px;
+  }
+  #quem-nos-somos .artigo p {
+    font-size: 15px;
+  }
+}
+
+#vantagens h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 991px) {
+  #vantagens h2 {
+    margin: 20px 120px 80px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  #vantagens .vntg-box2 {
+    -webkit-transform: translateY(-17%);
+            transform: translateY(-17%);
+    display: -webkit-inline-box;
+    width: 300px;
+    margin: 0 40px;
+  }
+}
+
+#vantagens .vntg-box2 img {
+  margin: 30px 0 !important;
+  position: relative;
+  bottom: 4rem;
+  left: 1rem;
+}
+
+#vantagens .vntg-box2 h3 {
+  color: #CF3736;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+#vantagens .vntg-box2 p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #37475E;
+}
+
+@media screen and (max-width: 600px) {
+  #vantagens {
+    padding-bottom: 3rem;
+  }
+  #vantagens img {
+    padding-right: 40px;
+    position: relative;
+    bottom: 0 !important;
+  }
+}
+
+#cluster-na-midia {
+  text-align: center;
+}
+
+#cluster-na-midia h2 {
+  font-weight: bold;
+}
+
+#cluster-na-midia p {
+  color: #37475E;
+}
+
+#cluster-na-midia img {
+  position: relative;
+  right: 6rem;
+  bottom: 5rem;
+}
+
+@media screen and (max-width: 600px) {
+  #cluster-na-midia img {
+    position: relative;
+    right: 58px !important;
+    padding-top: 40px;
+    width: 450px;
+  }
+}
+
+#proposta-inovadora p {
+  color: #37475E;
+  padding-top: 7rem;
+}
+
+#Conheça-nosso-time {
+  text-align: center;
+}
+
+#Conheça-nosso-time img {
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+#Conheça-nosso-time h2 {
+  font-weight: bold;
+}
+
+#Conheça-nosso-time h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #CF3736;
+  margin-top: 25px;
+}
+
+#Conheça-nosso-time span {
+  color: #37475E;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+#Conheça-nosso-time p {
+  color: #37475E;
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/*!*
+* Slick Custom Theme
+*/
+#banner-content-blog {
+  padding-top: 80px;
+}
+
+#banner-content-blog .btn-investir {
+  background: linear-gradient(135deg, #CF3736 0%, #C76666 50%);
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  width: 200px;
+  border-radius: 50px;
+  height: 50px;
+  line-height: 35px;
+  margin-top: 20px;
+}
+
+#banner-content-blog h2 {
+  font-size: 58px;
+  line-height: 65px;
+  font-weight: 600;
+}
+
+#banner-content-blog p {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: none;
+  color: #3b4b62;
+}
+
+#banner-content-blog h3 {
+  margin-top: 20px;
+  color: #37475e;
+  opacity: 0.6;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+#cards-article {
+  padding-top: 8rem;
+  font-size: 20px;
+}
+
+#cards-article .card {
+  -webkit-box-shadow: 10px 10px 15px #ccc;
+          box-shadow: 10px 10px 15px #ccc;
+  border-radius: 10px;
+}
+
+#cards-article .hover:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#cards-article h2 {
+  font-weight: 700;
+  padding-bottom: 35px;
+}
+
+#cards-article h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#cards-article p {
+  font-size: 15px;
+  color: #37475E;
+}
+
+#cards-article footer {
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+#cards-article .card-2-seçao {
+  margin-top: 8rem;
+}
+
+@media screen and (max-width: 900px) {
+  #cards-article {
+    text-align: center;
+  }
+  #cards-article .card {
+    margin-bottom: 40px;
+    width: 95%;
+    height: 95%;
+    margin-left: 5px;
+  }
+}
+
+#topo-blog-interno {
+  display: block;
+  width: 100%;
+  background: url("/assets/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  padding-bottom: 20px;
+}
+
+#topo-blog-interno #topbar {
+  padding-top: 30px;
+}
+
+#topo-blog-interno #topbar a + a {
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 990px) {
+  #topo-blog-interno #topbar .b-lft a {
+    float: left;
+  }
+}
+
+#topo-blog-interno #topbar .b-lft a {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  color: #37475E;
+}
+
+#topo-blog-interno #topbar .b-lft svg {
+  width: 12px;
+  vertical-align: middle;
+}
+
+#topo-blog-interno #topbar .ml-auto {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 990px) {
+  #topo-blog-interno #topbar .ml-auto * {
+    float: right;
+  }
+}
+
+#topo-blog-interno #topbar .ml-auto svg {
+  vertical-align: middle;
+}
+
+#topo-blog-interno #topbar .ml-auto .btn-topbar {
+  font-weight: bold;
+  background: #fff;
+  color: #CF3736;
+  border-radius: 20px;
+}
+
+#article-blog-interno .icone {
+  border-radius: 50px !important;
+  -webkit-box-shadow: 0 5 15px #ccc !important;
+          box-shadow: 0 5 15px #ccc !important;
+  width: 80px !important;
+  z-index: 10 !important;
+}
+
+#article-blog-interno .img-zuckerberg img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#article-blog-interno .artigo {
+  position: relative;
+  bottom: 6rem;
+  left: 4.5rem;
+  background-color: #fff;
+  border-radius: 15px;
+  width: 950px;
+  padding: 0 2rem;
+}
+
+#article-blog-interno .artigo img {
+  position: relative;
+  bottom: 2rem;
+  -webkit-box-shadow: 0 0 30px #9b9b9b;
+          box-shadow: 0 0 30px #9b9b9b;
+}
+
+#article-blog-interno .artigo h3 {
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  bottom: 2rem;
+}
+
+#article-blog-interno .artigo h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#article-blog-interno .artigo small {
+  color: #37475E;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+#article-blog-interno .artigo small span {
+  opacity: 0.8;
+  background-color: #CF3736;
+  color: #fff;
+  padding: 3px 15px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-right: 15px;
 }
 /*# sourceMappingURL=style.css.map */

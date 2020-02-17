@@ -29,7 +29,7 @@ include 'inc/menu.php';
                 <div class="line"></div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-processo.png" alt="Escolher" title="Escolher">
+                        <img src="/assets/img/icon-processo.png" alt="Escolher" title="Escolher" class="image">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Escolher</h3>
                     <p class="text-center howto-text">Escolha uma startup que você gosta. Revise o discurso da empresa, os termos e decida se você acredita que eles serão bem-sucedidos.</p>
@@ -39,7 +39,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-investir1.png" alt="Investir" title="Investir">
+                        <img src="/assets/img/icon-investir1.png" alt="Investir" title="Investir" class="image">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Investir</h3>
                     <p class="text-center howto-text">Invista uma pequena quantia para começar. Planeje diversificar, o que significa investir quantias menores em várias empresas.</p>
@@ -49,7 +49,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
+                        <img src="/assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento" class="image">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h3>
                     <p class="text-center howto-text">Aguarde para ver se a inicialização foi bem-sucedida. Se a startup funcionar bem, seu investimento poderá trazer um retorno.</p>
