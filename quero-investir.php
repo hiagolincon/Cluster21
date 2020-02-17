@@ -11,17 +11,17 @@ include 'inc/menu.php';
                 </a>
             </div>
             <div class="col-lg-6">
-                <img src="assets/img/ilustracao-arrow-topo.png" class="img-fluid" alt="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora." title="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora.">
+                <img src="assets/img/ilustracao-escada-topo.png" class="img-fluid" alt="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora." title="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora.">
             </div>
         </div>
     </div>
 </section>
 
-<section class="wow slideInLeft" data-wow-duration="2s" id="depoimentos">
+<section class="wow slideInLeft" data-wow-duration="2s" id="comocomecar">
     <div class="container">
         <div class="row" id="como_comecar">
             <div class="col-lg-12">
-                <h2 class="text-blue font-weight-bold text-center">COMO COMEÇAR</h2>
+                <h2 class="text-blue font-weight-bold text-center">Como começar?</h2>
             </div>
         </div>
         <div class="hto mx-auto">
@@ -326,8 +326,7 @@ include 'inc/menu.php';
     </svg>
     <div class="container">
         <div class="title">
-            <h2 class="text-center">Ofertas em Destaque</h2>
-            <p>Todas as empresas são rigorosamente analisadas por quem entende do mercado</p>
+            <h2 class="text-center">Conheça algumas ofertas em captação</h2>
         </div>
 
         <div class="row">
