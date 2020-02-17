@@ -326,8 +326,7 @@ include 'inc/menu.php';
     </svg>
     <div class="container">
         <div class="title">
-            <h2 class="text-center">Ofertas em Destaque</h2>
-            <p>Todas as empresas são rigorosamente analisadas por quem entende do mercado</p>
+            <h2 class="text-center">Conheça algumas ofertas em captação</h2>
         </div>
 
         <div class="row">
