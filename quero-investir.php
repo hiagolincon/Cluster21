@@ -17,7 +17,7 @@ include 'inc/menu.php';
     </div>
 </section>
 
-<section class="wow slideInLeft" data-wow-duration="2s" id="depoimentos">
+<section class="wow slideInLeft" data-wow-duration="2s" id="comocomecar">
     <div class="container">
         <div class="row" id="como_comecar">
             <div class="col-lg-12">
