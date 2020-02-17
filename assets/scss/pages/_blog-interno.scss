@@ -54,12 +54,6 @@
 }
 
 #article-blog-interno{
-  .icone{
-    border-radius: 50px !important;
-    box-shadow: 0 5 15px #ccc!important;
-    width: 80px !important;
-    z-index: 10 !important;
-  }
   .img-zuckerberg{
     img{
       width: 100%;
@@ -77,13 +71,17 @@
     img{
       position: relative;
       bottom: 2rem;
-      box-shadow: 0 0 30px rgb(155, 155, 155);
+      box-shadow: 0 0 25px rgb(155, 155, 155);
     }
-    h3{
+    h4{
       font-size: 15px;
       font-weight: bold;
       position: relative;
       bottom: 2rem;
+    }
+    h3{
+      font-weight: bold;
+      
     }
     h2{
       font-weight: bold;
@@ -103,6 +101,34 @@
         margin-right: 15px;
       }
     }
+    p{
+      font-size: 20px;
+      margin-bottom: 3rem;
+      line-height: 40px;
+      
+    }
   }   
 }
 
+
+.icon-arrow{
+  text-align: center;
+  margin: auto;
+  color: $dark-blue;
+  font-size: 22px;
+}
+.span-icon{
+  position: relative;
+  bottom: 18rem;
+  left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0.3px 3px 8px #ccc;
+  width: 39px;
+  height: 39px;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+  z-index: 30 !important;
+}  

@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,cAAc,CAAA;EACZ,UAAU,EAAE,MAAM;EAClB,eAAe,EAAE,MAAM;EACvB,gBAAgB,EAAE,IAAI;EACtB,UAAU,EAAE,aAAa;EACzB,MAAM,EAAE,KAAK;CACd",
-    "sources": [
-        "quero-investir.scss"
-    ],
-    "names": [],
-    "file": "quero-investir.css"
-}

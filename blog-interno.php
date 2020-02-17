@@ -48,30 +48,47 @@ include 'inc/topo.php';
 </section>
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="article-blog-interno">
-    
     <div class="container">
         <div class="img-zuckerberg">
             <img src="assets/img/Mark Zuckerberg.png" alt="Mark Zuckerberg" title="Mark Zuckerberg">
         </div>
-        <div class="artigo">
 
+        <div class="artigo">
             <div class="container">
                 <div class="text-center">
-                    <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mb-2" alt="..." width="60" height="60">
-                    <h3>John Silva</h3>
+                    <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mb-2" alt="John Silva" title="John Silva" width="60" height="60">
+                    <h4>John Silva</h4>
                 </div>
     
                 <h2>Mark Zuckerberg e as chaves do sucesso empresarial</h2>
                 <small><span>Empreendedores</span><i class="far fa-calendar"></i> Postado em 02 de janeiro de 2020</small>
 
-                <p></p>
+                <p class="mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                <h3>Ter uma Visão Específica</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <h3>Construir uma Equipe Forte</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <h3>Abraçar a Crítica</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                
             </div>
         </div>
-    </div>
+    </div>   
+    
 </section>
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="cards-article">
     <div class="container">
+        <div class="icon-box-index">
+             <div class="icon-div"><span class="span-icon"><i class="fab fa-facebook-f icon-arrow"></i></span></div>
+             <div class="icon-div"><span class="span-icon"><i class="fab fa-twitter icon-arrow"></i></span></div>
+             <div class="icon-div"><span class="span-icon"><i class="fas fa-envelope icon-arrow"></i></span></div>
+             <div class="icon-div"><span class="span-icon"><i class="fab fa-whatsapp icon-arrow"></i></span></div>
+            </div>
    <h2>Mais lidas</h2>
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-4">

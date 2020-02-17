@@ -1804,14 +1804,6 @@ img {
   border-radius: 20px;
 }
 
-#article-blog-interno .icone {
-  border-radius: 50px !important;
-  -webkit-box-shadow: 0 5 15px #ccc !important;
-          box-shadow: 0 5 15px #ccc !important;
-  width: 80px !important;
-  z-index: 10 !important;
-}
-
 #article-blog-interno .img-zuckerberg img {
   width: 100%;
   border-radius: 15px;
@@ -1830,15 +1822,19 @@ img {
 #article-blog-interno .artigo img {
   position: relative;
   bottom: 2rem;
-  -webkit-box-shadow: 0 0 30px #9b9b9b;
-          box-shadow: 0 0 30px #9b9b9b;
+  -webkit-box-shadow: 0 0 25px #9b9b9b;
+          box-shadow: 0 0 25px #9b9b9b;
 }
 
-#article-blog-interno .artigo h3 {
+#article-blog-interno .artigo h4 {
   font-size: 15px;
   font-weight: bold;
   position: relative;
   bottom: 2rem;
+}
+
+#article-blog-interno .artigo h3 {
+  font-weight: bold;
 }
 
 #article-blog-interno .artigo h2 {
@@ -1860,5 +1856,42 @@ img {
   border-radius: 5px;
   font-size: 12px;
   margin-right: 15px;
+}
+
+#article-blog-interno .artigo p {
+  font-size: 20px;
+  margin-bottom: 3rem;
+  line-height: 40px;
+}
+
+.icon-arrow {
+  text-align: center;
+  margin: auto;
+  color: #37475E;
+  font-size: 22px;
+}
+
+.span-icon {
+  position: relative;
+  bottom: 18rem;
+  left: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0.3px 3px 8px #ccc;
+          box-shadow: 0.3px 3px 8px #ccc;
+  width: 39px;
+  height: 39px;
+  border-radius: 100%;
+  margin-bottom: 2rem;
+  z-index: 30 !important;
 }
 /*# sourceMappingURL=style.css.map */
