@@ -40,12 +40,14 @@
     box-shadow: 10px 10px 15px #ccc;
     border-radius: 10px;
   }
+  .hover {
+    transition: ease-in-out 0.3s;
+  }
   .hover:hover{
-    -webkit-transform:scale(1.1); 
-    -moz-transform:scale(1.1); 
-    -o-transform:scale(1.1);
-    transform:scale(1.1);
-    transition:  0.3s;
+    -webkit-transform:scale(1.05); 
+    -moz-transform:scale(1.05); 
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
   }
   h2{
     font-weight: 700;
