@@ -44,9 +44,10 @@ include 'inc/menu.php';
   
 </section>
 
-<!--VANTAGENS-->
+<!--NOSSOS VALORES-->
 
-<section class="wow slideInLeft" data-wow-duration="2s" id="vantagens">
+<section class="wow slideInLeft" data-wow-duration="2s" id="nossos-valores">
+  <div class="container">
     <h2>Nossos valores</h2>
         <div class="col-lg-3 vntg-box2">
             <img src="/assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
@@ -74,50 +75,47 @@ include 'inc/menu.php';
        </div>
     </div>
     
+  </div>
+    
 </section>
 
 <!--Cluster21 na mídia-->
 
-<section class="wow slideInLeft" data-wow-duration="2s" id="cluster-na-midia">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-5">
-        <h2>Cluster21 na mídia</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-      </div>
-      <div class="col-sm-12 col-md-12 col-lg-7">
-        <img src="assets/img/print_reportagem_gaucha.png" alt="" title="" width="800">
-      </div>
+<section class="wow slideInLeft" data-wow-duration="2s" id="midia">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 my-auto">
+                <h2 class="font-weight-bold">Cluster21 na mídia</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
+                <a href="#" title="Ver Mais" class="btn btn-vermais d-inline mx-auto">
+                    Ver Mais
+                    <div class="d-inline-block square"><i class="fas fa-long-arrow-alt-right"></i></div>
+                </a>
+            </div>
+            <div class="col-lg-7">
+                <img class="img-fluid" src="/assets/img/print_reportagem_gaucha.png" alt="Cluster21 na mídia" title="Cluster21 na midia">
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
 
-
-
 <section class="wow slideInLeft" data-wow-duration="2s" id="proposta-inovadora">
-<!-- 
-  <div class="container-fluid">
-    
 
-      <div class="slider">
+      <div class="slider-area slider">
         <div><div class="slide-h3">2015</div></div>
         <div><div class="slide-h3">2016</div></div>
         <div><div class="slide-h3">2017</div></div>
         <div><div class="slide-h3">2018</div></div>
         <div><div class="slide-h3">2019</div></div>
         <div><div class="slide-h3">2020</div></div>
-        
       </div>
-    
-  </div>
   
-   -->
   <div class="container">
     <h2 class="text-center">Fundada em 2015 com uma <strong>PROPOSTA INOVADORA</strong></h2>
-    <div class="row">  
-      <div class="col-sm-12 col-md-12 col-lg-7">
-        <img src="" alt="" title="">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-7 img-escritorio">
+        <img src="assets/img/Imagem 18.png" alt="" title="" width="700" class="pl-5">
       </div>    
       <div class="col-sm-12 col-md-12 col-lg-5">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
@@ -131,6 +129,7 @@ include 'inc/menu.php';
     <h2>Conheça nosso time</h2>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-3">
+        
         <img src="assets/img/foto_vj_pattern.png" alt="John Silva" title="John Silva" width="200">
         <h3>John Silva<span> - CEO</span></h3>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. the printing and typesetting</p>

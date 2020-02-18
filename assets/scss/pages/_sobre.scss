@@ -45,28 +45,29 @@
 
 //vantagens
 
-#vantagens {
+#nossos-valores {
+  margin-left: -14rem;
   h2 {
     font-size: 36px;
     font-weight: 700;
     @include mq('tablet1') {
-      
       margin: 20px 120px 80px;
     }
   }
   .vntg-box2 {
+    
     @include mq('tablet1', 'min') {
       transform: translateY(-17%);
       display: -webkit-inline-box;
       width: 300px;
-      margin: 0 40px;
+      margin: 0 44px;
     }
     img {
       //box-shadow: #ccc 0px 0px 30px;
       margin: 30px 0 !important;
       position: relative;
       bottom: 4rem;
-      left: 1rem;
+      left: 2rem;
     }
     h3 {
       color: $red;
@@ -83,11 +84,17 @@
 }
 
 @media screen and (max-width: 600px) {
-  #vantagens{
-    padding-bottom: 3rem;
-    img{
-      padding-right: 40px;
+  #nossos-valores{
+    margin-left: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    h2{
+      margin: 0;
+    }
+    .img-circle{
       position: relative;
+      left: 0rem !important;
       bottom: 0 !important;
     }
   }
@@ -108,16 +115,6 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  #cluster-na-midia{
-    img{
-      position: relative;
-      right: 58px !important;
-      padding-top: 40px;
-      width: 450px;
-    }
-  }
-}
 
 #proposta-inovadora{
   p{
@@ -155,6 +152,61 @@
 }
 
 
+#proposta-inovadora{
+  .slider {
+    position: relative;
+    right: 7rem;
+    width: 100%;
+    margin: 100px auto;
+    
+  }
+  
+  .slick-slide {
+     margin: 30px 10px;
+     text-align: center;
+     padding: 8px 30px;
+     transition: all ease-in-out 0.3s;
+     color: #ccc;
+     .slide-h3{
+       width: 100%;
+        font-size: 50px;
+        font-weight: 600;
+        
+     }
+  
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+  
+  //ativos na tela
+  .slick-active{
+    background-color: #fff;
+    color: #ccc;
+    position: relative;
+    
+  }
+  
+  //center
+   .slick-current{
+     background-color:#fff;
+     box-shadow: 0 0 40px #ccc;
+     border-radius: 15px;
+     color: $dark-blue;
+   }
+   .slider-area {
+     position: absolute;
+     
+     z-index: 10;
+   }
+
+   .img-escritorio{
+    position: relative;
+    left: 1rem;
+   }
+}
 
 
 

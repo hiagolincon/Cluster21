@@ -17,9 +17,9 @@ include 'inc/menu.php';
     </div>
 </section>
 
-<section class="wow slideInLeft" data-wow-duration="2s" id="comocomecar">
+<section class="wow slideInLeft" data-wow-duration="2s" id="depoimentos2">
     <div class="container">
-        <div class="row" id="como_comecar">
+    <div class="row" id="como_comecar">
             <div class="col-lg-12">
                 <h2 class="text-blue font-weight-bold text-center">Como começar?</h2>
             </div>
@@ -29,7 +29,7 @@ include 'inc/menu.php';
                 <div class="line"></div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-processo.png" alt="Escolher" title="Escolher" class="image">
+                        <img src="/assets/img/icon-processo.png" alt="Escolher" title="Escolher">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Escolher</h3>
                     <p class="text-center howto-text">Escolha uma startup que você gosta. Revise o discurso da empresa, os termos e decida se você acredita que eles serão bem-sucedidos.</p>
@@ -39,7 +39,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-investir1.png" alt="Investir" title="Investir" class="image">
+                        <img src="/assets/img/icon-investir1.png" alt="Investir" title="Investir">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Investir</h3>
                     <p class="text-center howto-text">Invista uma pequena quantia para começar. Planeje diversificar, o que significa investir quantias menores em várias empresas.</p>
@@ -49,7 +49,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento" class="image">
+                        <img src="/assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h3>
                     <p class="text-center howto-text">Aguarde para ver se a inicialização foi bem-sucedida. Se a startup funcionar bem, seu investimento poderá trazer um retorno.</p>
@@ -57,8 +57,9 @@ include 'inc/menu.php';
                         <a class="btn btn-red mx-auto">Passo 3</a>
                     </div>
                 </div>
-            </div>
+        
 
+        </div>
         <div class="box-unicornio">
             <h2>Invista em um <strong>Unicórnio</strong></h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book

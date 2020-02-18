@@ -65,3 +65,13 @@
 //   ]
 // });
 //     });
+
+
+$(".slider-area").slick({
+  infinite:false,
+  slidesToShow: 5,
+  slidesToSCroll: 5,
+  centerMode: true,
+  speed: 100,
+  
+})
