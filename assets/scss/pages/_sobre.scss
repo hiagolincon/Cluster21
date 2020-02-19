@@ -43,6 +43,7 @@
   
 }
 
+
 //vantagens
 
 #nossos-valores {
@@ -100,6 +101,33 @@
   }
 }
 
+
+@media screen and (max-width: 768px) {
+  #nossos-valores{
+    margin-left: 0;
+    text-align: center;
+    .vntg-box2 {
+      
+      .img-circle{
+        position: relative;
+        left: 0rem !important;
+        bottom: 0 !important;
+      }
+      h3 {
+        color: $red;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 24px;
+        color: $dark-blue;
+      }
+    }
+  }
+}
+
 #cluster-na-midia{
   text-align: center;
   h2{
@@ -121,59 +149,35 @@
     color: $dark-blue;
     padding-top: 7rem;
   }
-}
-
-#Conheça-nosso-time{
-  text-align: center;
-  img{
-    margin-top: 2rem;
-    border-radius: 5px;
-  }
-  h2{
-    font-weight: bold;
-  }
-  h3{
-    font-size: 20px;
-    font-weight: 700;
-    color: $red;
-    margin-top: 25px;
-  }
-  span{
-    color: $dark-blue;
-    font-weight: 100;
-    font-size: 18px;
-  }
-  p{
-    color: $dark-blue;
-    font-size: 15px;
-    opacity: 0.9;
-
-  }
-}
-
-
-#proposta-inovadora{
   .slider {
     position: relative;
     right: 7rem;
     width: 100%;
     margin: 100px auto;
+    display: inline-flex;
+    justify-content: right;
     
+    flex-flow: row nowrap;   
   }
   
   .slick-slide {
-     margin: 30px 10px;
+     margin: 30px 40px;
      text-align: center;
-     padding: 8px 30px;
+     padding: 8px 10px;
      transition: all ease-in-out 0.3s;
      color: #ccc;
      .slide-h3{
        width: 100%;
         font-size: 50px;
         font-weight: 600;
+        justify-content: center;
         
      }
-  
+  }
+
+  .slick-list{
+    margin:30px -40px;
+    padding:  8px -10px;
   }
   
   .slick-prev:before,
@@ -195,9 +199,13 @@
      box-shadow: 0 0 40px #ccc;
      border-radius: 15px;
      color: $dark-blue;
+      justify-content: end;
+       flex-grow: 1;
+       padding: auto;
    }
    .slider-area {
      position: absolute;
+     
      
      z-index: 10;
    }
@@ -207,6 +215,123 @@
     left: 1rem;
    }
 }
+
+#Conheça-nosso-time{
+  text-align: center;
+  img{
+    margin-top: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 50px #ccc;
+  }
+  h2{
+    font-weight: bold;
+  }
+  h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: $red;
+    margin-top: 25px;
+  }
+  span{
+    color: $dark-blue;
+    font-weight: 100;
+    font-size: 18px;
+  }
+  p{
+    color: $dark-blue;
+    font-size: 15px;
+    opacity: 0.9;
+
+  }
+  .Caminho_375 {
+    width: 255px;
+    position: absolute;
+    top: 35px;
+    right: 8px;
+    transform: rotate(135deg);
+    transform-origin: center;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #Conheça-nosso-time{
+    .Caminho_375 {
+      width: 255px;
+      position: absolute;
+      top: 35px;
+      left: 70px;
+    } 
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  #Conheça-nosso-time{
+    .Caminho_375 {
+      width: 255px;
+      position: absolute;
+      top: 35px;
+      right: 14rem;
+    } 
+  }  
+}
+
+
+// #proposta-inovadora{
+//   .slider {
+//     position: relative;
+//     right: 7rem;
+//     width: 100%;
+//     margin: 100px auto;
+    
+//   }
+  
+//   .slick-slide {
+//      margin: 30px 10px;
+//      text-align: center;
+//      padding: 8px 30px;
+//      transition: all ease-in-out 0.3s;
+//      color: #ccc;
+//      .slide-h3{
+//        width: 100%;
+//         font-size: 50px;
+//         font-weight: 600;
+        
+//      }
+  
+//   }
+  
+//   .slick-prev:before,
+//   .slick-next:before {
+//     color: black;
+//   }
+  
+//   //ativos na tela
+//   .slick-active{
+//     background-color: #fff;
+//     color: #ccc;
+//     position: relative;
+    
+//   }
+  
+//   //center
+//    .slick-current{
+//      background-color:#fff;
+//      box-shadow: 0 0 40px #ccc;
+//      border-radius: 15px;
+//      color: $dark-blue;
+//    }
+//    .slider-area {
+//      position: absolute;
+     
+//      z-index: 10;
+//    }
+
+//    .img-escritorio{
+//     position: relative;
+//     left: 1rem;
+//    }
+// }
 
 
 

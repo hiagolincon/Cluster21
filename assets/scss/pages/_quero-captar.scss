@@ -136,12 +136,42 @@
 
 @media screen and (max-width: 600px) {
   #vantagens{
+    margin-left: 0;
+    padding: 0;
+    justify-content: center;
     text-align: center;
+    h2{
+      margin: 0;
+    }
     .img-circle{
-      padding-left: 60px;
+      position: relative;
+      left: 10px !important;
+      bottom: 0 !important;
     }
   }
 }
+@media screen and (max-width: 768px) {
+  #vantagens{
+    margin-left: 0;
+    text-align: center;
+    .vntg-box {
+     img {
+      margin-bottom: 10px;
+      margin-left: calc(0) !important;
+      @include mq('tablet1') {
+        margin-left: 0 !important;
+      }
+    }
+      .img-circle{
+        margin-left: 0 !important;
+        position: relative;
+        left: 0rem !important;
+        bottom: 0 !important;
+      }
+    }
+  }
+}
+
 
 
 
@@ -150,6 +180,9 @@
 #carousel {
   margin-top: 10rem;
   margin-bottom: 4rem;
+  .carousel-inner{
+    width: 100% !important;
+  }
   .card {
     border-radius: 10px;
     width: 85% !important;

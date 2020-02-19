@@ -69,6 +69,7 @@
 
 $(".slider-area").slick({
   infinite:false,
+  initialSlide: 3,
   slidesToShow: 5,
   slidesToSCroll: 5,
   centerMode: true,

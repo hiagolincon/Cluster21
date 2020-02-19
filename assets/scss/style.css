@@ -370,6 +370,32 @@ section h2 {
   color: #37475E;
 }
 
+@media screen and (max-width: 768px) {
+  #vantagens {
+    margin-left: 0;
+    text-align: center;
+  }
+  #vantagens .vntg-box img {
+    margin-bottom: 10px;
+    margin-left: calc(0) !important;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 991px) {
+  #vantagens .vntg-box img {
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #vantagens .vntg-box .img-circle {
+    margin-left: 0 !important;
+    position: relative;
+    left: 0rem !important;
+    bottom: 0 !important;
+  }
+}
+
 #ofertas .circle-percent {
   width: 81px;
   border-radius: 100%;
@@ -1156,16 +1182,56 @@ img {
 
 @media screen and (max-width: 600px) {
   #vantagens {
+    margin-left: 0;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
   }
+  #vantagens h2 {
+    margin: 0;
+  }
   #vantagens .img-circle {
-    padding-left: 60px;
+    position: relative;
+    left: 10px !important;
+    bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #vantagens {
+    margin-left: 0;
+    text-align: center;
+  }
+  #vantagens .vntg-box img {
+    margin-bottom: 10px;
+    margin-left: calc(0) !important;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 991px) {
+  #vantagens .vntg-box img {
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #vantagens .vntg-box .img-circle {
+    margin-left: 0 !important;
+    position: relative;
+    left: 0rem !important;
+    bottom: 0 !important;
   }
 }
 
 #carousel {
   margin-top: 10rem;
   margin-bottom: 4rem;
+}
+
+#carousel .carousel-inner {
+  width: 100% !important;
 }
 
 #carousel .card {
@@ -1685,6 +1751,29 @@ img {
   }
 }
 
+@media screen and (max-width: 768px) {
+  #nossos-valores {
+    margin-left: 0;
+    text-align: center;
+  }
+  #nossos-valores .vntg-box2 .img-circle {
+    position: relative;
+    left: 0rem !important;
+    bottom: 0 !important;
+  }
+  #nossos-valores .vntg-box2 h3 {
+    color: #CF3736;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  #nossos-valores .vntg-box2 p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #37475E;
+  }
+}
+
 #cluster-na-midia {
   text-align: center;
 }
@@ -1708,6 +1797,82 @@ img {
   padding-top: 7rem;
 }
 
+#proposta-inovadora .slider {
+  position: relative;
+  right: 7rem;
+  width: 100%;
+  margin: 100px auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+#proposta-inovadora .slick-slide {
+  margin: 30px 40px;
+  text-align: center;
+  padding: 8px 10px;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+  color: #ccc;
+}
+
+#proposta-inovadora .slick-slide .slide-h3 {
+  width: 100%;
+  font-size: 50px;
+  font-weight: 600;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#proposta-inovadora .slick-list {
+  margin: 30px -40px;
+  padding: 8px -10px;
+}
+
+#proposta-inovadora .slick-prev:before,
+#proposta-inovadora .slick-next:before {
+  color: black;
+}
+
+#proposta-inovadora .slick-active {
+  background-color: #fff;
+  color: #ccc;
+  position: relative;
+}
+
+#proposta-inovadora .slick-current {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 40px #ccc;
+          box-shadow: 0 0 40px #ccc;
+  border-radius: 15px;
+  color: #37475E;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: auto;
+}
+
+#proposta-inovadora .slider-area {
+  position: absolute;
+  z-index: 10;
+}
+
+#proposta-inovadora .img-escritorio {
+  position: relative;
+  left: 1rem;
+}
+
 #Conheça-nosso-time {
   text-align: center;
 }
@@ -1715,6 +1880,8 @@ img {
 #Conheça-nosso-time img {
   margin-top: 2rem;
   border-radius: 5px;
+  -webkit-box-shadow: 0 0 50px #ccc;
+          box-shadow: 0 0 50px #ccc;
 }
 
 #Conheça-nosso-time h2 {
@@ -1740,55 +1907,34 @@ img {
   opacity: 0.9;
 }
 
-#proposta-inovadora .slider {
-  position: relative;
-  right: 7rem;
-  width: 100%;
-  margin: 100px auto;
-}
-
-#proposta-inovadora .slick-slide {
-  margin: 30px 10px;
-  text-align: center;
-  padding: 8px 30px;
-  -webkit-transition: all ease-in-out 0.3s;
-  transition: all ease-in-out 0.3s;
-  color: #ccc;
-}
-
-#proposta-inovadora .slick-slide .slide-h3 {
-  width: 100%;
-  font-size: 50px;
-  font-weight: 600;
-}
-
-#proposta-inovadora .slick-prev:before,
-#proposta-inovadora .slick-next:before {
-  color: black;
-}
-
-#proposta-inovadora .slick-active {
-  background-color: #fff;
-  color: #ccc;
-  position: relative;
-}
-
-#proposta-inovadora .slick-current {
-  background-color: #fff;
-  -webkit-box-shadow: 0 0 40px #ccc;
-          box-shadow: 0 0 40px #ccc;
-  border-radius: 15px;
-  color: #37475E;
-}
-
-#proposta-inovadora .slider-area {
+#Conheça-nosso-time .Caminho_375 {
+  width: 255px;
   position: absolute;
-  z-index: 10;
+  top: 35px;
+  right: 8px;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  z-index: -1;
 }
 
-#proposta-inovadora .img-escritorio {
-  position: relative;
-  left: 1rem;
+@media screen and (max-width: 600px) {
+  #Conheça-nosso-time .Caminho_375 {
+    width: 255px;
+    position: absolute;
+    top: 35px;
+    left: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #Conheça-nosso-time .Caminho_375 {
+    width: 255px;
+    position: absolute;
+    top: 35px;
+    right: 14rem;
+  }
 }
 
 /*!*
@@ -2044,7 +2190,7 @@ img {
   margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   #article-blog-interno .img-john-silva {
     position: relative;
     bottom: 2rem;

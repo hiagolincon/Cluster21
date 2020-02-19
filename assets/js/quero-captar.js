@@ -107,6 +107,12 @@ switch (obj.id) {
 } 
 
 
+// $(document).ready(function(){
+//    $('.carousel').slick({
+//    infinite: false,
+//    slidesToShow: 1,
+//    centerMode: true,
 
-
+//    });
+//  });
 
