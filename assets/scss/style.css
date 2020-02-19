@@ -1465,6 +1465,32 @@ img {
           justify-content: center;
 }
 
+.box-unicornio .Caminho_375 {
+  opacity: 0.5;
+  width: 255px;
+  position: absolute;
+  top: 97rem;
+  right: 3rem;
+  -webkit-transform: rotate(160deg);
+          transform: rotate(160deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  z-index: -1;
+}
+
+.box-unicornio .Caminho_379 {
+  opacity: 0.5;
+  width: 255px;
+  position: absolute;
+  top: 84rem;
+  right: 63rem;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  z-index: -1;
+}
+
 @media screen and (max-width: 600px) {
   .box-unicornio {
     text-align: center;
@@ -1479,6 +1505,41 @@ img {
   }
   .box-unicornio p {
     font-size: 15px;
+  }
+  .box-unicornio .Caminho_375 {
+    width: 160px;
+    position: absolute;
+    top: 182rem !important;
+    right: 0;
+    -webkit-transform: rotate(160deg);
+            transform: rotate(160deg);
+  }
+  .box-unicornio .Caminho_379 {
+    width: 160px;
+    position: absolute;
+    top: 143rem !important;
+    right: 12rem !important;
+    -webkit-transform: rotate(160deg);
+            transform: rotate(160deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box-unicornio .Caminho_375 {
+    width: 200px;
+    position: absolute;
+    top: 175rem;
+    right: 0;
+    -webkit-transform: rotate(160deg);
+            transform: rotate(160deg);
+  }
+  .box-unicornio .Caminho_379 {
+    width: 200px;
+    position: absolute;
+    top: 140rem;
+    right: 38rem;
+    -webkit-transform: rotate(160deg);
+            transform: rotate(160deg);
   }
 }
 
