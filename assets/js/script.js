@@ -80,4 +80,20 @@ $(document).ready(function () {
             overflow: 'auto'
         });
     });
+    $(".customTab a").click(function() {
+        var parent = $(this).parents('.customTab').children('li').children('a[data-tag="'+$(this).data('tag')+'"]');
+        $(".customTab a").removeClass("activelink");
+        $('.selected-tab').hide();
+        var i = parent.parents('li').children('.selected-tab');
+        i.show();
+
+        $(this).addClass("activelink");
+        var tagid = $(this).data("tag");
+        $(".list")
+            .removeClass("active")
+            .addClass("hide");
+        $("#" + tagid)
+            .addClass("active")
+            .removeClass("hide");
+    });
 });
