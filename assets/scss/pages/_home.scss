@@ -229,6 +229,10 @@ section {
     }
   }
   .oferta {
+    transition: ease 0.6s;
+    &:hover {
+      transform: scale(1.05);
+    }
     border-radius: 5px;
     .card-brand {
       width: 70px;
@@ -439,11 +443,13 @@ section {
   }
   .p-freq {
     flex-wrap: wrap-reverse;
+    margin-right: -35%;
   }
   .read-container {
     max-height: 300px;
     overflow: hidden;
   }
+  //.slick-list { }
 }
 #parceiros {
   padding-top: 100px;
@@ -545,15 +551,16 @@ section {
   padding: 0px;
   list-style: none;
   li {
+    margin-bottom: 70px;
     width: calc(33.3% - 10px);
     @include mq('tablet1', 'max') {
       width: 100%;
     }
-    box-shadow: 0 0 2px;
+    box-shadow: 0px 3px 60px rgba(55, 71, 94, 0.31);
     float: left;
+    padding: 10px;
     margin-right: 10px;
 
-    margin-bottom: 40px;
     img:not(.selected-tab) {
       vertical-align: middle;
       transition: ease-in-out 1s;
@@ -565,7 +572,7 @@ section {
       -o-transition: ease 1s;
       transition: ease 1s;
       position: relative;
-      bottom: -37px;
+      bottom: -55px;
       left: 40%;
       margin-top: -50px;
       display: none;
