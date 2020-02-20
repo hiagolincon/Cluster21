@@ -142,7 +142,51 @@
     bottom: 5rem;
   }
 }
+.slick-slider {
+  position: relative;
+  top: 200px;
+  right: 20px;
+  z-index: 1000;
 
+  .slick-track {
+    width: 4000px!important;
+  }
+  .slick-current {
+    margin-left: 430px!important;
+    width: 30%!important;
+    h1 {
+      color: $dark-blue!important;
+      width: 12%;
+      width: 18%;
+      padding: 5px 63px;
+      border-radius: 13px;
+    background-color: #fff;
+    }
+  }
+}
+
+.position-prev {
+  margin: 10px;
+  position: absolute;
+  top: -6px;
+  z-index: 3000;
+  right: 25rem;
+}
+.position-next {
+  margin: 10px;
+  position: absolute;
+  top: -6px;
+  z-index: 3000;
+  right: 15.1rem;
+}
+
+.slide-h3{
+  h1 {
+   font-size: 40px!important;
+   font-weight: 600;
+   color: #eeee;
+   justify-content: center;
+  }
 
 #proposta-inovadora{
   p{
@@ -161,20 +205,14 @@
   }
   
   .slick-slide {
-     margin: 30px 40px;
+     margin: 30px 100px!important;
      text-align: center;
      padding: 8px 10px;
      transition: all ease-in-out 0.3s;
      color: #ccc;
-     .slide-h3{
-       width: 100%;
-        font-size: 50px;
-        font-weight: 600;
-        justify-content: center;
         
      }
   }
-
   .slick-list{
     margin:30px -40px;
     padding:  8px -10px;
@@ -203,12 +241,12 @@
        flex-grow: 1;
        padding: auto;
    }
-   .slider-area {
-     position: absolute;
+  //  .slider-area {
+  //    position: absolute;
      
      
-     z-index: 10;
-   }
+  //    z-index: 10;
+  //  }
 
    .img-escritorio{
     position: relative;
@@ -396,3 +434,4 @@
 
 
 //   }
+

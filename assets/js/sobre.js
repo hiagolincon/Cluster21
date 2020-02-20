@@ -1,78 +1,11 @@
-// $(function() {
-//   $('.slick-carousel').slick({
-//     centerMode: true,
-//     centerPadding: '60px',
-//     slidesToShow: 3,
-//     responsive: [
-//       {
-//         breakpoint: 768,
-//         settings: {
-//           arrows: false,
-//           centerMode: true,
-//           centerPadding: '40px',
-//           slidesToShow: 3
-//         }
-//       },
-//       {
-//         breakpoint: 480,
-//         settings: {
-//           arrows: false,
-//           centerMode: true,
-//           centerPadding: '40px',
-//           slidesToShow: 1
-//         }
-//       }
-//     ]
-//   });
-  
-//     $('.slick-item').on('click', function(e) {
-//     e.preventDefault();
-    
-//     $("body").append(html);
-    
-//     return false;
-//   });
-  
-// }); // (function)
-
-
-
-//     $(document).ready(function(){
-//      $('.slider').slick({
-//   centerMode: true,
-//   centerPadding: '60px',
-//   slidesToShow: 3,
-//   index: 2,
-//   responsive: [
-//     {
-//       breakpoint: 768,
-//       settings: {
-//         arrows: false,
-//         centerMode: true,
-//         centerPadding: '40px',
-//         slidesToShow: 3
-//       }
-//     },
-//     {
-//       breakpoint: 480,
-//       settings: {
-//         arrows: false,
-//         centerMode: true,
-//         centerPadding: '40px',
-//         slidesToShow: 1
-//       }
-//     }
-//   ]
-// });
-//     });
-
-
-$(".slider-area").slick({
+$('.slideprev').slick({
   infinite:false,
   initialSlide: 3,
-  slidesToShow: 5,
-  slidesToSCroll: 5,
+  slidesToShow: 3,
   centerMode: true,
   speed: 100,
-  
-})
+  prevArrow: "<button type=\"button\" class=\"btn btn-red position-prev slick-prev\"><i class='fas fa-long-arrow-alt-left'></i></button>",
+  nextArrow: "<button type=\"button\" class=\"btn btn-red position-next slick-next\"><i class='fas fa-long-arrow-alt-right'></i></button>",
+  zindex: 100,
+  setPosition: 'absolute'
+});
