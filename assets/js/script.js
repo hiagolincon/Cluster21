@@ -96,4 +96,11 @@ $(document).ready(function () {
             .addClass("active")
             .removeClass("hide");
     });
+
+
+    $('.slide-depoimento').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        var current = $('.slide-depoimento .slick-slide')[currentSlide];
+        $('.modalVideo2 iframe').attr('src',$(current).data('video'));
+        $('#video img').attr('src',$(current).data('image'));
+    });
 });
