@@ -67,7 +67,7 @@ include 'inc/menu.php';
         <div class="row">
             <?php for ($i=0; $i < 3; $i++) { ?>
                 <div class="col-lg-4">
-                    <div class="oferta card shadow mt-4">
+                    <a href="oferta-interna.php" class="oferta card shadow mt-4">
                         <div class="d-flex meta">
                             <div class="d-inline">
                                 <span><i class="fas fa-star"></i> META Garantida na Rodada</span>
@@ -96,12 +96,12 @@ include 'inc/menu.php';
                                 <span class="d-inline">ainda captando</span>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             <?php } ?>
             <?php for ($i=0; $i < 3; $i++) { ?>
                 <div class="col-lg-4">
-                    <div class="oferta card shadow mt-4">
+                    <a href="oferta-interna.php" class="oferta card shadow mt-4">
                         <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
                         <div class="card-body">
                             <div class="card-brand shadow">
@@ -122,7 +122,7 @@ include 'inc/menu.php';
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             <?php } ?>
         </div>
@@ -166,31 +166,47 @@ include 'inc/menu.php';
                 <div id="depoimentos_container">
                     <h2 class="text-right"><b>Depoimentos de</b><br>QUEM INVESTE</h2>
                     <div class="slide-depoimento">
-                        <?php
-                            for ($i=0;$i<4;$i++) {
-                        ?>
-                                <div class="card pb-2">
-                                    <img src="assets/img/Grupo45.png" class="left-arrow">
-                                    <div class="card-body">
+                        <!-- Data-video e data-image servem para alterar a imagem/video ao trocar de depoimento -->
+                        <div class="card pb-2" data-image="assets/img/foto_vj_pattern.png" data-video="https://www.youtube.com/embed/zpOULjyy-n8?rel=0&autoplay">
+                            <img src="assets/img/Grupo45.png" class="left-arrow">
+                            <div class="card-body">
 
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
 
 
-                                        <div class="d-flex">
-                                            <div class="d-inline">
-                                                <h3 class="name">Dr. João da Silva</h3>
-                                                <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
-                                            </div>
-                                            <div class="d-inline ml-auto">
-                                                <img src="assets/img/quote-left-solid.png" class="float-right">
-                                            </div>
-                                        </div>
-
+                                <div class="d-flex">
+                                    <div class="d-inline">
+                                        <h3 class="name">Dr. João da Silva</h3>
+                                        <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
+                                    </div>
+                                    <div class="d-inline ml-auto">
+                                        <img src="assets/img/quote-left-solid.png" class="float-right">
                                     </div>
                                 </div>
-                        <?php
-                            }
-                        ?>
+
+                            </div>
+                        </div>
+
+                        <!-- Data-video e data-image servem para alterar a imagem/video ao trocar de depoimento -->
+                        <div class="card pb-2" data-image="assets/img/unnamed.jpg" data-video="https://www.youtube.com/embed/ytnD6UQKvV4?rel=0&autoplay">
+                            <img src="assets/img/Grupo45.png" class="left-arrow">
+                            <div class="card-body">
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
+
+
+                                <div class="d-flex">
+                                    <div class="d-inline">
+                                        <h3 class="name">Dr. João da Silva</h3>
+                                        <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
+                                    </div>
+                                    <div class="d-inline ml-auto">
+                                        <img src="assets/img/quote-left-solid.png" class="float-right">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
 
                     <!--Modal Dr João-->
@@ -273,7 +289,7 @@ include 'inc/menu.php';
 <section class="wow slideInLeft" data-wow-duration="2s" id="regulamentacao">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 pl-0 pr-0">
+            <div class="col-lg-7 pl-0 pr-0">
                 <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo1">
                     <img src="/assets/img/img_vk_pattern.png" alt="Cluster21" title="Cluster21">
                     <div class="overlay">
@@ -295,7 +311,7 @@ include 'inc/menu.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 my-auto">
+            <div class="col-lg-5 my-auto">
                 <h2 class="font-weight-bold">Cluster21</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
                 <a href="#" title="Ver Mais" class="btn btn-vermais d-inline mx-auto">
@@ -321,7 +337,7 @@ include 'inc/menu.php';
                     $arr = ['one','two','three'];
                     foreach ($arr as $i=>$item) {
                         ?>
-                        <li class="clickme shadow">
+                        <li class="clickme">
                             <a href="javascript:void(0);" data-tag="<?=$item;?>" class="<?=($i===0)?'activelink':'';?>">
                                 <img src="/assets/img/logo_lactec_uk.png" alt="Lactec">
                             </a>
@@ -334,7 +350,7 @@ include 'inc/menu.php';
             <div style="clear: both;"></div>
             <div id="container">
                 <div class="list" id="one">
-                    <div class="card shadow border">
+                    <div class="card border">
                         <div class="card-body">
                             <h2 class="text-center text-blue font-weight-bold">Lactec</h2>
                             <p>Aqui, a inovação está presente em cada projeto, em cada serviço que prestamos. Isso é ser inovador.
@@ -348,7 +364,7 @@ include 'inc/menu.php';
                     </div>
                 </div>
                 <div class="list hide" id="two">
-                    <div class="card shadow border">
+                    <div class="card border">
                         <div class="card-body">
                             <h2 class="text-center text-blue font-weight-bold">Lactec</h2>
                             <p>Aqui, a inovação está presente em cada projeto, em cada serviço que prestamos. Isso é ser inovador.
@@ -362,7 +378,7 @@ include 'inc/menu.php';
                     </div>
                 </div>
                 <div class="list hide" id="three">
-                    <div class="card shadow border">
+                    <div class="card border">
                         <div class="card-body">
                             <h2 class="text-center text-blue font-weight-bold">Lactec</h2>
                             <p>Aqui, a inovação está presente em cada projeto, em cada serviço que prestamos. Isso é ser inovador.
@@ -387,7 +403,7 @@ include 'inc/menu.php';
             <?php
                 for($i=0;$i<8;$i++){
                     ?>
-                        <div class="card d-inline-block bg-light pl-2 pb-2 pt-3 m-1">
+                    <div class="card d-inline-block bg-light pl-2 pb-2 pt-3 m- bv1">
                             <h3>Lorem Ipsum is simply dummy is simply</h3>
                         <div class="read-container">
                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
