@@ -1853,12 +1853,62 @@ img {
   bottom: 5rem;
 }
 
-#proposta-inovadora p {
+.slick-slider {
+  position: relative;
+  top: 200px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.slick-slider .slick-track {
+  width: 4000px !important;
+}
+
+.slick-slider .slick-current {
+  margin-left: 430px !important;
+  width: 30% !important;
+}
+
+.slick-slider .slick-current h1 {
+  color: #37475E !important;
+  width: 12%;
+  width: 18%;
+  padding: 5px 63px;
+  border-radius: 13px;
+  background-color: #fff;
+}
+
+.position-prev {
+  margin: 10px;
+  position: absolute;
+  top: -6px;
+  z-index: 3000;
+  right: 25rem;
+}
+
+.position-next {
+  margin: 10px;
+  position: absolute;
+  top: -6px;
+  z-index: 3000;
+  right: 15.1rem;
+}
+
+.slide-h3 h1 {
+  font-size: 40px !important;
+  font-weight: 600;
+  color: #eeee;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slide-h3 #proposta-inovadora p {
   color: #37475E;
   padding-top: 7rem;
 }
 
-#proposta-inovadora .slider {
+.slide-h3 #proposta-inovadora .slider {
   position: relative;
   right: 7rem;
   width: 100%;
@@ -1875,8 +1925,8 @@ img {
           flex-flow: row nowrap;
 }
 
-#proposta-inovadora .slick-slide {
-  margin: 30px 40px;
+.slide-h3 #proposta-inovadora .slick-slide {
+  margin: 30px 100px !important;
   text-align: center;
   padding: 8px 10px;
   -webkit-transition: all ease-in-out 0.3s;
@@ -1884,32 +1934,23 @@ img {
   color: #ccc;
 }
 
-#proposta-inovadora .slick-slide .slide-h3 {
-  width: 100%;
-  font-size: 50px;
-  font-weight: 600;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#proposta-inovadora .slick-list {
+.slide-h3 .slick-list {
   margin: 30px -40px;
   padding: 8px -10px;
 }
 
-#proposta-inovadora .slick-prev:before,
-#proposta-inovadora .slick-next:before {
+.slide-h3 .slick-prev:before,
+.slide-h3 .slick-next:before {
   color: black;
 }
 
-#proposta-inovadora .slick-active {
+.slide-h3 .slick-active {
   background-color: #fff;
   color: #ccc;
   position: relative;
 }
 
-#proposta-inovadora .slick-current {
+.slide-h3 .slick-current {
   background-color: #fff;
   -webkit-box-shadow: 0 0 40px #ccc;
           box-shadow: 0 0 40px #ccc;
@@ -1924,12 +1965,7 @@ img {
   padding: auto;
 }
 
-#proposta-inovadora .slider-area {
-  position: absolute;
-  z-index: 10;
-}
-
-#proposta-inovadora .img-escritorio {
+.slide-h3 .img-escritorio {
   position: relative;
   left: 1rem;
 }

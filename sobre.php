@@ -81,7 +81,7 @@ include 'inc/menu.php';
 
 <!--Cluster21 na mídia-->
 
-<section class="wow slideInLeft" data-wow-duration="2s" id="midia">
+<section class="wow slideInLeft"  data-wow-duration="2s" id="midia">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 my-auto">
@@ -101,15 +101,18 @@ include 'inc/menu.php';
 
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="proposta-inovadora">
-
-      <div class="slider-area slider">
-        <div><div class="slide-h3">2015</div></div>
-        <div><div class="slide-h3">2016</div></div>
-        <div><div class="slide-h3">2017</div></div>
-        <div><div class="slide-h3">2018</div></div>
-        <div><div class="slide-h3">2019</div></div>
-        <div><div class="slide-h3">2020</div></div>
-      </div>
+<!-- <i class='fas fa-long-arrow-alt-left'></i> -->
+  <div class="sli">
+    <div class="slideprev">
+      <div class="slide-h3"><h1>2015</h1></div>
+      <div class="slide-h3"><h1>2016</h1></div>
+      <div class="slide-h3"><h1>2017</h1></div>
+      <div class="slide-h3"><h1>2018</h1></div>
+      <div class="slide-h3"><h1>2019</h1></div>
+      <div class="slide-h3"><h1>2020</h1></div>
+    </div>
+  </div>    
+  
   
   <div class="container">
     <h2 class="text-center">Fundada em 2015 com uma <strong>PROPOSTA INOVADORA</strong></h2>

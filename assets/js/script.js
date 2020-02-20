@@ -21,6 +21,7 @@ $(document).ready(function () {
         prevArrow: "<button type=\"button\" class=\"btn btn-red slick-prev\"><i class='fas fa-long-arrow-alt-left'></i></button>",
         nextArrow: "<button type=\"button\" class=\"btn btn-red slick-next\"><i class='fas fa-long-arrow-alt-right'></i></button>"
     });
+   
     $('.p-freq').slick({
         slidesToShow: 4,
         slidesToScroll: 4,
