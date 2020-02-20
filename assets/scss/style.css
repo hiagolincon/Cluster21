@@ -423,7 +423,14 @@ section h2 {
 }
 
 #ofertas .oferta {
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
   border-radius: 5px;
+}
+
+#ofertas .oferta:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 #ofertas .oferta .card-brand {
@@ -697,6 +704,7 @@ section h2 {
 #duvida .p-freq {
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
+  margin-right: -35%;
 }
 
 #duvida .read-container {
@@ -823,12 +831,13 @@ section h2 {
 }
 
 .customTab li {
+  margin-bottom: 70px;
   width: calc(33.3% - 10px);
-  -webkit-box-shadow: 0 0 2px;
-          box-shadow: 0 0 2px;
+  -webkit-box-shadow: 0px 3px 60px rgba(55, 71, 94, 0.31);
+          box-shadow: 0px 3px 60px rgba(55, 71, 94, 0.31);
   float: left;
+  padding: 10px;
   margin-right: 10px;
-  margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -847,7 +856,7 @@ section h2 {
   -webkit-transition: ease 1s;
   transition: ease 1s;
   position: relative;
-  bottom: -37px;
+  bottom: -55px;
   left: 40%;
   margin-top: -50px;
   display: none;
@@ -1857,7 +1866,7 @@ img {
   -webkit-box-shadow: 0 0 70px #ccc;
           box-shadow: 0 0 70px #ccc;
   border-radius: 10px;
-  margin: 3rem 0 3rem 3rem;
+  margin: 3rem 0 3rem 4rem;
 }
 
 #proposta-inovadora p {
@@ -1919,13 +1928,9 @@ img {
           justify-content: center;
 }
 
-#proposta-inovadora .img-escritorio {
-  position: relative;
-  left: 1rem;
-}
-
 #Conheça-nosso-time {
   text-align: center;
+  margin-top: 6rem;
 }
 
 #Conheça-nosso-time img {

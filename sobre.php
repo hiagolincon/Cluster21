@@ -102,27 +102,62 @@ include 'inc/menu.php';
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="proposta-inovadora">
 <!-- <i class='fas fa-long-arrow-alt-left'></i> -->
-  <div class="slider">
-    <div class="slideprev">
-      <div class="slide-h3"><h3>2015</h3></div>
-      <div class="slide-h3"><h3>2016</h3></div>
-      <div class="slide-h3"><h3>2017</h3></div>
-      <div class="slide-h3"><h3>2018</h3></div>
-      <div class="slide-h3"><h3>2019</h3></div>
-      <div class="slide-h3"><h3>2020</h3></div>
-    </div>
-  </div>
   
+    <div class="slideprev">
+      <div class="slide-h3" id="li-1"><h3>2015</h3></div>
+      <div class="slide-h3" id="li-2"><h3>2016</h3></div>
+      <div class="slide-h3" id="li-3"><h3>2017</h3></div>
+      <div class="slide-h3" id="li-4"><h3>2018</h3></div>
+      <div class="slide-h3" id="li-5"><h3>2019</h3></div>
+      <div class="slide-h3" id="li-6"><h3>2020</h3></div>
+    </div>
   
   <div class="container">
     <h2 class="text-center">Fundada em 2015 com uma <strong>PROPOSTA INOVADORA</strong></h2>
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-7 img-escritorio">
+    <div class="row" id="div-1">
+      <div class="col-sm-12 col-md-12 col-lg-7">
         <img src="assets/img/Imagem 18.png" alt="" title="">
       </div>    
       <div class="col-sm-12 col-md-12 col-lg-5">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
       </div>
+    </div>
+
+    <div class="row" id="div-2">
+      <div class="col-sm-12 col-md-12 col-lg-7">
+        <img src="assets/img/Imagem 18.png" alt="" title="">
+      </div>    
+      <div class="col-sm-12 col-md-12 col-lg-5">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+      </div>
+    </div>
+
+    <div class="row" id="div-3">
+      <div class="col-sm-12 col-md-12 col-lg-7">
+        <img src="assets/img/Imagem 18.png" alt="" title="">
+      </div>    
+      <div class="col-sm-12 col-md-12 col-lg-5">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+      </div>
+    </div>
+
+    <div class="row" id="div-4">
+      <div class="col-sm-12 col-md-12 col-lg-7">
+        <img src="assets/img/Imagem 18.png" alt="" title="">
+      </div>    
+      <div class="col-sm-12 col-md-12 col-lg-5">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+      </div>
+    </div>
+
+    <div class="row" id="div-5">
+      <div class="col-sm-12 col-md-12 col-lg-7">
+        <img src="assets/img/Imagem 18.png" alt="" title="">
+      </div>    
+      <div class="col-sm-12 col-md-12 col-lg-5">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+      </div>
+    </div>
   </div>
 </section>
 

@@ -143,12 +143,13 @@
   }
 }
 
+//PROPOSTA INOVADORA
 #proposta-inovadora{
   
 img{
   box-shadow: 0 0 70px #ccc; 
   border-radius: 10px;
-  margin: 3rem 0 3rem 3rem;
+  margin: 3rem 0 3rem 4rem;
 }
 p{
   margin: 14rem 0 0 5rem;
@@ -203,71 +204,15 @@ p{
    color: rgb(168, 168, 168);
    justify-content: center;
   }
-
-  // .slider {
-  //   position: relative;
-  //   right: 7rem;
-  //   width: 100%;
-  //   margin: 100px auto;
-  //   display: inline-flex;
-  //   justify-content: right;
     
-  //   flex-flow: row nowrap;   
-  // }
-  
-  // .slick-slide {
-  //    margin: 30px 100px!important;
-  //    text-align: center;
-  //    padding: 8px 10px;
-  //    transition: all ease-in-out 0.3s;
-  //    color: #ccc;
-        
-  //    }
-  // }
-  // .slick-list{
-  //   margin:30px -40px;
-  //   padding:  8px -10px;
-  // }
-  
-  // .slick-prev:before,
-  // .slick-next:before {
-  //   color: black;
-  // }
-  
-  // //ativos na tela
-  // .slick-active{
-  //   background-color: #fff;
-  //   color: #ccc;
-  //   position: relative;
-    
-  // }
-  
-  // //center
-  //  .slick-current{
-  //    background-color:#fff;
-  //    box-shadow: 0 0 40px #ccc;
-  //    border-radius: 15px;
-  //    color: $dark-blue;
-  //     justify-content: end;
-  //      flex-grow: 1;
-  //      padding: auto;
-  //  }
+  }
 }
-  //  .slider-area {
-  //    position: absolute;
-     
-     
-  //    z-index: 10;
-  //  }
 
-   .img-escritorio{
-    position: relative;
-    left: 1rem;
-   }
-}
+// CONHEÇA NOSSO TIME
 
 #Conheça-nosso-time{
   text-align: center;
+  margin-top: 6rem;
   img{
     margin-top: 2rem;
     border-radius: 5px;
