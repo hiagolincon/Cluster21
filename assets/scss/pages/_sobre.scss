@@ -142,25 +142,40 @@
     bottom: 5rem;
   }
 }
+
+#proposta-inovadora{
+  
+img{
+  box-shadow: 0 0 70px #ccc; 
+  border-radius: 10px;
+  margin: 3rem 0 3rem 3rem;
+}
+p{
+  margin: 14rem 0 0 5rem;
+}
 .slick-slider {
   position: relative;
-  top: 200px;
+  top: 270px;
   right: 20px;
-  z-index: 1000;
+  z-index: 20;
+  
 
   .slick-track {
     width: 4000px!important;
   }
   .slick-current {
-    margin-left: 430px!important;
+    margin-left: 300px!important;
     width: 30%!important;
-    h1 {
+    h3 {
       color: $dark-blue!important;
       width: 12%;
-      width: 18%;
-      padding: 5px 63px;
+      width: 23%;
+      font-size: 50px !important;
+      font-weight: 600;
+      padding: 10px 78px;
       border-radius: 13px;
-    background-color: #fff;
+      background-color: #fff;
+      box-shadow: 0 0 20px #ccc;
     }
   }
 }
@@ -168,79 +183,76 @@
 .position-prev {
   margin: 10px;
   position: absolute;
-  top: -6px;
+  top: 37px;
   z-index: 3000;
-  right: 25rem;
+  right: 30.7rem
 }
 .position-next {
   margin: 10px;
   position: absolute;
-  top: -6px;
+  top: 37px;
   z-index: 3000;
-  right: 15.1rem;
+  right: 17.9rem
 }
 
 .slide-h3{
-  h1 {
-   font-size: 40px!important;
+  h3 {
+    margin: 2rem;
+   font-size: 50px!important;
    font-weight: 600;
-   color: #eeee;
+   color: rgb(168, 168, 168);
    justify-content: center;
   }
 
-#proposta-inovadora{
-  p{
-    color: $dark-blue;
-    padding-top: 7rem;
-  }
-  .slider {
-    position: relative;
-    right: 7rem;
-    width: 100%;
-    margin: 100px auto;
-    display: inline-flex;
-    justify-content: right;
+  // .slider {
+  //   position: relative;
+  //   right: 7rem;
+  //   width: 100%;
+  //   margin: 100px auto;
+  //   display: inline-flex;
+  //   justify-content: right;
     
-    flex-flow: row nowrap;   
-  }
+  //   flex-flow: row nowrap;   
+  // }
   
-  .slick-slide {
-     margin: 30px 100px!important;
-     text-align: center;
-     padding: 8px 10px;
-     transition: all ease-in-out 0.3s;
-     color: #ccc;
+  // .slick-slide {
+  //    margin: 30px 100px!important;
+  //    text-align: center;
+  //    padding: 8px 10px;
+  //    transition: all ease-in-out 0.3s;
+  //    color: #ccc;
         
-     }
-  }
-  .slick-list{
-    margin:30px -40px;
-    padding:  8px -10px;
-  }
+  //    }
+  // }
+  // .slick-list{
+  //   margin:30px -40px;
+  //   padding:  8px -10px;
+  // }
   
-  .slick-prev:before,
-  .slick-next:before {
-    color: black;
-  }
+  // .slick-prev:before,
+  // .slick-next:before {
+  //   color: black;
+  // }
   
-  //ativos na tela
-  .slick-active{
-    background-color: #fff;
-    color: #ccc;
-    position: relative;
+  // //ativos na tela
+  // .slick-active{
+  //   background-color: #fff;
+  //   color: #ccc;
+  //   position: relative;
     
-  }
+  // }
   
-  //center
-   .slick-current{
-     background-color:#fff;
-     box-shadow: 0 0 40px #ccc;
-     border-radius: 15px;
-     color: $dark-blue;
-      justify-content: end;
-       flex-grow: 1;
-       padding: auto;
-   }
+  // //center
+  //  .slick-current{
+  //    background-color:#fff;
+  //    box-shadow: 0 0 40px #ccc;
+  //    border-radius: 15px;
+  //    color: $dark-blue;
+  //     justify-content: end;
+  //      flex-grow: 1;
+  //      padding: auto;
+  //  }
+}
   //  .slider-area {
   //    position: absolute;
      

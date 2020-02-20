@@ -1853,119 +1853,73 @@ img {
   bottom: 5rem;
 }
 
-.slick-slider {
-  position: relative;
-  top: 200px;
-  right: 20px;
-  z-index: 1000;
+#proposta-inovadora img {
+  -webkit-box-shadow: 0 0 70px #ccc;
+          box-shadow: 0 0 70px #ccc;
+  border-radius: 10px;
+  margin: 3rem 0 3rem 3rem;
 }
 
-.slick-slider .slick-track {
+#proposta-inovadora p {
+  margin: 14rem 0 0 5rem;
+}
+
+#proposta-inovadora .slick-slider {
+  position: relative;
+  top: 270px;
+  right: 20px;
+  z-index: 20;
+}
+
+#proposta-inovadora .slick-slider .slick-track {
   width: 4000px !important;
 }
 
-.slick-slider .slick-current {
-  margin-left: 430px !important;
+#proposta-inovadora .slick-slider .slick-current {
+  margin-left: 300px !important;
   width: 30% !important;
 }
 
-.slick-slider .slick-current h1 {
+#proposta-inovadora .slick-slider .slick-current h3 {
   color: #37475E !important;
   width: 12%;
-  width: 18%;
-  padding: 5px 63px;
+  width: 23%;
+  font-size: 50px !important;
+  font-weight: 600;
+  padding: 10px 78px;
   border-radius: 13px;
   background-color: #fff;
+  -webkit-box-shadow: 0 0 20px #ccc;
+          box-shadow: 0 0 20px #ccc;
 }
 
-.position-prev {
+#proposta-inovadora .position-prev {
   margin: 10px;
   position: absolute;
-  top: -6px;
+  top: 37px;
   z-index: 3000;
-  right: 25rem;
+  right: 30.7rem;
 }
 
-.position-next {
+#proposta-inovadora .position-next {
   margin: 10px;
   position: absolute;
-  top: -6px;
+  top: 37px;
   z-index: 3000;
-  right: 15.1rem;
+  right: 17.9rem;
 }
 
-.slide-h3 h1 {
-  font-size: 40px !important;
+#proposta-inovadora .slide-h3 h3 {
+  margin: 2rem;
+  font-size: 50px !important;
   font-weight: 600;
-  color: #eeee;
+  color: #a8a8a8;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.slide-h3 #proposta-inovadora p {
-  color: #37475E;
-  padding-top: 7rem;
-}
-
-.slide-h3 #proposta-inovadora .slider {
-  position: relative;
-  right: 7rem;
-  width: 100%;
-  margin: 100px auto;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-}
-
-.slide-h3 #proposta-inovadora .slick-slide {
-  margin: 30px 100px !important;
-  text-align: center;
-  padding: 8px 10px;
-  -webkit-transition: all ease-in-out 0.3s;
-  transition: all ease-in-out 0.3s;
-  color: #ccc;
-}
-
-.slide-h3 .slick-list {
-  margin: 30px -40px;
-  padding: 8px -10px;
-}
-
-.slide-h3 .slick-prev:before,
-.slide-h3 .slick-next:before {
-  color: black;
-}
-
-.slide-h3 .slick-active {
-  background-color: #fff;
-  color: #ccc;
-  position: relative;
-}
-
-.slide-h3 .slick-current {
-  background-color: #fff;
-  -webkit-box-shadow: 0 0 40px #ccc;
-          box-shadow: 0 0 40px #ccc;
-  border-radius: 15px;
-  color: #37475E;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  padding: auto;
-}
-
-.slide-h3 .img-escritorio {
+#proposta-inovadora .img-escritorio {
   position: relative;
   left: 1rem;
 }

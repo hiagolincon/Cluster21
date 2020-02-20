@@ -102,23 +102,23 @@ include 'inc/menu.php';
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="proposta-inovadora">
 <!-- <i class='fas fa-long-arrow-alt-left'></i> -->
-  <div class="sli">
+  <div class="slider">
     <div class="slideprev">
-      <div class="slide-h3"><h1>2015</h1></div>
-      <div class="slide-h3"><h1>2016</h1></div>
-      <div class="slide-h3"><h1>2017</h1></div>
-      <div class="slide-h3"><h1>2018</h1></div>
-      <div class="slide-h3"><h1>2019</h1></div>
-      <div class="slide-h3"><h1>2020</h1></div>
+      <div class="slide-h3"><h3>2015</h3></div>
+      <div class="slide-h3"><h3>2016</h3></div>
+      <div class="slide-h3"><h3>2017</h3></div>
+      <div class="slide-h3"><h3>2018</h3></div>
+      <div class="slide-h3"><h3>2019</h3></div>
+      <div class="slide-h3"><h3>2020</h3></div>
     </div>
-  </div>    
+  </div>
   
   
   <div class="container">
     <h2 class="text-center">Fundada em 2015 com uma <strong>PROPOSTA INOVADORA</strong></h2>
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-7 img-escritorio">
-        <img src="assets/img/Imagem 18.png" alt="" title="" width="700" class="pl-5">
+        <img src="assets/img/Imagem 18.png" alt="" title="">
       </div>    
       <div class="col-sm-12 col-md-12 col-lg-5">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
