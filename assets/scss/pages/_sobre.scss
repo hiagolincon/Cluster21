@@ -165,8 +165,8 @@ p{
     width: 4000px!important;
   }
   .slick-current {
-    margin-left: 300px!important;
-    width: 30%!important;
+    margin-left: 300px !important;
+    width: 11% !important;
     h3 {
       color: $dark-blue!important;
       width: 12%;
@@ -174,6 +174,7 @@ p{
       font-size: 50px !important;
       font-weight: 600;
       padding: 10px 78px;
+      padding-right: 200px;
       border-radius: 13px;
       background-color: #fff;
       box-shadow: 0 0 20px #ccc;
@@ -205,6 +206,63 @@ p{
    justify-content: center;
   }
     
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #proposta-inovadora{
+    .slick-slider {
+      position: relative;
+      top: 315px;
+      right: 0px;
+      z-index: 20;
+      
+    
+      .slick-track {
+        width: 2000px!important;
+      }
+      .slick-current {
+        margin-left: -92px !important;
+        width: 59% !important;
+        h3 {
+          color: $dark-blue!important;
+          width: 12%;
+          width: 23%;
+          font-size: 50px !important;
+          font-weight: 600;
+          padding: 10px 78px;
+          border-radius: 13px;
+          background-color: #fff;
+          box-shadow: 0 0 20px #ccc;
+        }
+      }
+    }
+    
+    .position-prev {
+      margin: 10px;
+      position: absolute;
+      top: 37px;
+      z-index: 3000;
+      right: 215px;
+    }
+    .position-next {
+      margin: 10px;
+      position: absolute;
+      top: 37px;
+      z-index: 3000;
+      right: 10px;
+    }
+
+.slide-h3{
+  h3 {
+    margin: 2rem;
+   font-size: 50px!important;
+   font-weight: 600;
+   color: rgba(168, 168, 168, 0);
+   justify-content: center;
+  }
+    
+  }
   }
 }
 

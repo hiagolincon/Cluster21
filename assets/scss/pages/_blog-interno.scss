@@ -6,9 +6,11 @@
   background-size: cover;
   background-position: right;
   padding-bottom: 20px;
+  .navbar-expand-lg .navbar-nav {
+    width: 600px !important;
+  }
   #topbar {
     padding-top: 30px;
-
     a+a{
       margin-left:15px;
     }

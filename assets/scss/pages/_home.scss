@@ -453,6 +453,38 @@ section {
   }
   //.slick-list { }
 }
+
+
+@media screen and (max-width: 600px) {
+  #duvida {
+    width: 77%;
+    h2{
+      position: relative;
+      left: 3rem;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #duvida {
+    width: 74%;
+    h2{
+      position: relative;
+      left: 8rem;
+    }
+  }
+}
+
+// @media screen and (min-width: 1200px) {
+//   #duvida {
+//     width: 74%;
+//     h2{
+//       position: relative;
+//       left: 8rem;
+//     }
+//   }
+// }
+
 #parceiros {
   padding-top: 100px;
   .title {
