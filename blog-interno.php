@@ -3,6 +3,7 @@ include 'inc/topo.php';
 ?>
 
 <!--Seção topo-->
+
 <section id="topo-blog-interno">
     <div class="container">
         <div class="d-flex" id="topbar">
@@ -47,6 +48,8 @@ include 'inc/topo.php';
     </div>
 </section>
 
+<!--ARTIGO-->
+
 <section class="wow slideInLeft" data-wow-duration="2s" id="article-blog-interno">
     <div class="container">
         <div class="img-zuckerberg">
@@ -85,6 +88,8 @@ include 'inc/topo.php';
     </div>   
     
 </section>
+
+<!--CARDS-->
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="cards-article2">
     <div class="container">
@@ -137,6 +142,7 @@ include 'inc/topo.php';
     </div>
 </section>
 
+<!--RODAPÉ-->
 
 <div class="container" id="card-footer">
   <div class="row">
@@ -279,7 +285,7 @@ include 'inc/topo.php';
 <!--WowJS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <!--EasyPieChart-->
-<script src="assets/js/jquery.easypiechart.js"></script>
+<script src="assets/js/easypiechart/jquery.easypiechart.js"></script>
 <!-- Main -->
 <script src="/assets/js/script.js"></script>
 <script src="/assets/js/sobre.js"></script>
