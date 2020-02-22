@@ -134,6 +134,7 @@
 //MÍDIA
 
 #midia{
+  padding-bottom: 70px !important;
   p{
     color: $dark-blue;
   }
@@ -180,14 +181,14 @@
     position: absolute;
     top: 37px;
     z-index: 3000;
-    right: 30.7rem
+    right: 30.7rem;
   }
   .position-next {
     margin: 10px;
     position: absolute;
     top: 37px;
     z-index: 3000;
-    right: 17.9rem
+    right: 17.9rem;
   }
   .slide-h3{
     h3 {
@@ -198,10 +199,7 @@
     justify-content: center;
     }    
   }
-    
   }
-}
-
   .slider{
     p{
       color: $dark-blue;
@@ -212,182 +210,195 @@
       }
     } 
   }
+}
+
+  
 
 
 @media screen and (max-width: 600px) {
   #proposta-inovadora{
-    .slick-slider {
-      position: relative;
-      top:340px !important;
-      right: 0px;
-      z-index: 20;
-      
-      .slick-track {
-        width: 2000px!important;
-      }
-      .slick-current {
-        margin-left: -92px !important;
-        width: 59% !important;
-        h3 {
-          color: $dark-blue!important;
-          width: 12%;
-          width: 23%;
-          font-size: 50px !important;
-          font-weight: 600;
-          padding: 10px 78px;
-          border-radius: 13px;
-          background-color: #fff;
-          box-shadow: 0 0 20px #ccc;
+    .carousel{
+      .slick-slider {
+        position: relative;
+        top:300px !important;
+        right: 0px;
+        z-index: 20;
+        
+        .slick-track {
+          width: 2000px!important;
+        }
+        .slick-current {
+          margin-left: -106px !important;
+          width: 59% !important;
         }
       }
-    }
-    
-    .position-prev {
-      margin: 10px;
-      position: absolute;
-      top: 37px;
-      z-index: 3000;
-      right: 215px !important;
-    }
-    .position-next {
-      margin: 10px;
-      position: absolute;
-      top: 37px;
-      z-index: 3000;
-      right: 10px !important;
-    }
-
-.slide-h3{
-  h3 {
-    margin: 2rem;
-   font-size: 50px!important;
-   font-weight: 600;
-   color: rgba(168, 168, 168, 0) !important;
-   justify-content: center;
-  }
-    
-  }
-  }
-}
-
-
-@media screen and (max-width: 1200px) {
-  #proposta-inovadora{
-    .slick-slider {
-      position: relative;
-      top: 270px;
-      right: 20px;
-      z-index: 20;
       
-    
-      .slick-track {
-        width: 4000px!important;
+      .position-prev {
+        margin: 10px;
+        margin-right: -23% !important;
+        position: absolute;
+        top: 37px;
+        z-index: 3000;
+        right: 215px !important;
       }
-      .slick-current {
-        margin-left: 72px ;
-        width: 11% !important;
-        h3 {
-          color: $dark-blue!important;
-          width: 12%;
-          width: 23%;
-          font-size: 50px !important;
-          font-weight: 600;
-          padding: 10px 78px;
-          padding-right: 200px;
-          border-radius: 13px;
-          background-color: #fff;
-          box-shadow: 0 0 20px #ccc;
-        }
+      .position-next {
+        margin: 10px;
+        margin-right: -23% !important;
+        position: absolute;
+        top: 37px;
+        z-index: 3000;
+        right: 10px !important;
       }
-    }
-    
-    .position-prev {
-      margin: 10px;
-      position: absolute;
-      top: 37px;
-      z-index: 3000;
-      right: 30.7rem
-    }
-    .position-next {
-      margin: 10px;
-      position: absolute;
-      top: 37px;
-      z-index: 3000;
-      right: 17.9rem
-    }
     
     .slide-h3{
       h3 {
-        margin: 2rem;
-       font-size: 50px!important;
-       font-weight: 600;
-       color: rgb(168, 168, 168);
-       justify-content: center;
+      margin: 2rem;
+      font-size: 50px!important;
+      font-weight: 600;
+      color: rgba(168, 168, 168, 0) !important;
+      justify-content: center;
+      }    
+    }
+  }
+    .slider{
+      img{
+        width: 100%;
+        position: relative;
+        right: 4rem;
       }
-        
+      p{
+        justify-content: center;
+        margin: auto;
+        color: $dark-blue;
+      } 
+      .slick-slider {  
+        .slick-track {
+          width: 1000px !important;
+        }
+      }    
     }
   }
 }
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and(max-width: 992px) {
   #proposta-inovadora{
-    .slick-slider {
-      position: relative;
-      top: 270px;
-      right: 20px;
-      z-index: 20;
+    .carousel{
+      .slick-slider {
+        position: relative;
+        top: 270px;
+        right: 20px;
+        z-index: 20;
+        
       
-    
-      .slick-track {
-        width: 4000px!important;
-      }
-      .slick-current {
-        margin-left: 72px ;
-        width: 11% !important;
-        h3 {
-          color: $dark-blue!important;
-          width: 12%;
-          width: 23%;
-          font-size: 50px !important;
-          font-weight: 600;
-          padding: 10px 78px;
-          padding-right: 200px;
-          border-radius: 13px;
-          background-color: #fff;
-          box-shadow: 0 0 20px #ccc;
+        .slick-track {
+          width: 4000px!important;
+        }
+        .slick-current {
+          margin-left: 72px ;
+          width: 11% !important;
         }
       }
-    }
-    
-    .position-prev {
-      margin: 10px;
-      position: absolute;
-      top: 37px;
-      z-index: 3000;
-      right: 30.7rem
-    }
-    .position-next {
-      margin: 10px;
-      position: absolute;
-      top: 37px;
-      z-index: 3000;
-      right: 17.9rem
-    }
-    
-    .slide-h3{
-      h3 {
-        margin: 2rem;
-       font-size: 50px!important;
-       font-weight: 600;
-       color: rgb(168, 168, 168);
-       justify-content: center;
+      
+      .position-prev {
+        margin: 10px;
+        position: absolute;
+        top: 37px;
+        z-index: 3000;
+        right: 19.7rem !important;
       }
-        
+      .position-next {
+        margin: 10px;
+        position: absolute;
+        top: 37px;
+        z-index: 3000;
+        right: 7.2rem !important;
+      }
+    }
+    
+    .slider{
+      img{
+        width: 100%;
+        position: relative;
+        right: 4rem !important;
+      }
+      p{
+        position: relative;
+        top: 0 !important;   
+        justify-content: center;
+        margin: auto;
+        color: $dark-blue;
+      } 
+      .slick-slider {  
+        .slick-track {
+          width: 1000px !important;
+        }
+      }  
     }
   }
 }
+
+
+
+@media screen and(max-width: 1365px) {
+  #proposta-inovadora{
+.carousel{
+  .slick-slider {
+    position: relative;
+    top: 270px;
+    right: 20px;
+    z-index: 20;
+    
+  
+    .slick-track {
+      width: 4000px!important;
+    }
+    .slick-current {
+      margin-left: 72px ;
+      width: 11% !important;
+    }
+  }
+  
+  .position-prev {
+    margin: 10px;
+    position: absolute;
+    top: 37px;
+    z-index: 3000;
+    right: 30.7rem;
+  }
+  .position-next {
+    margin: 10px;
+    position: absolute;
+    top: 37px;
+    z-index: 3000;
+    right: 17.9rem;
+  }
+}    
+    
+    .slider{
+      img{
+        width: 100%;
+        position: relative;
+        right: 2.5rem;
+      }
+      p{
+        position: relative;
+        top: 14rem;   
+        justify-content: center;
+        margin: 0;
+        color: $dark-blue;
+      } 
+      .slick-slider {  
+        .slick-track {
+          width: 1000px !important;
+        }
+      }  
+    }
+  }
+}
+
+
 
 // CONHEÇA NOSSO TIME
 

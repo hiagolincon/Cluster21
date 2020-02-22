@@ -599,6 +599,10 @@ section h2 {
      object-fit: cover;
 }
 
+#depoimentos #como_comecar {
+  padding-top: 100px;
+}
+
 #depoimentos #como_comecar h3 {
   font-size: 24px;
 }
@@ -683,8 +687,8 @@ section h2 {
 }
 
 #midia {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #duvida {
@@ -1864,6 +1868,10 @@ img {
   }
 }
 
+#midia {
+  padding-bottom: 70px !important;
+}
+
 #midia p {
   color: #37475E;
 }
@@ -1935,55 +1943,45 @@ img {
           justify-content: center;
 }
 
-.slider p {
+#proposta-inovadora .slider p {
   color: #37475E;
 }
 
-.slider .slick-slider .slick-track {
+#proposta-inovadora .slider .slick-slider .slick-track {
   width: 1000px !important;
 }
 
 @media screen and (max-width: 600px) {
-  #proposta-inovadora .slick-slider {
+  #proposta-inovadora .carousel .slick-slider {
     position: relative;
-    top: 340px !important;
+    top: 300px !important;
     right: 0px;
     z-index: 20;
   }
-  #proposta-inovadora .slick-slider .slick-track {
+  #proposta-inovadora .carousel .slick-slider .slick-track {
     width: 2000px !important;
   }
-  #proposta-inovadora .slick-slider .slick-current {
-    margin-left: -92px !important;
+  #proposta-inovadora .carousel .slick-slider .slick-current {
+    margin-left: -106px !important;
     width: 59% !important;
   }
-  #proposta-inovadora .slick-slider .slick-current h3 {
-    color: #37475E !important;
-    width: 12%;
-    width: 23%;
-    font-size: 50px !important;
-    font-weight: 600;
-    padding: 10px 78px;
-    border-radius: 13px;
-    background-color: #fff;
-    -webkit-box-shadow: 0 0 20px #ccc;
-            box-shadow: 0 0 20px #ccc;
-  }
-  #proposta-inovadora .position-prev {
+  #proposta-inovadora .carousel .position-prev {
     margin: 10px;
+    margin-right: -23% !important;
     position: absolute;
     top: 37px;
     z-index: 3000;
     right: 215px !important;
   }
-  #proposta-inovadora .position-next {
+  #proposta-inovadora .carousel .position-next {
     margin: 10px;
+    margin-right: -23% !important;
     position: absolute;
     top: 37px;
     z-index: 3000;
     right: 10px !important;
   }
-  #proposta-inovadora .slide-h3 h3 {
+  #proposta-inovadora .carousel .slide-h3 h3 {
     margin: 2rem;
     font-size: 50px !important;
     font-weight: 600;
@@ -1992,109 +1990,114 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  #proposta-inovadora .slider img {
+    width: 100%;
+    position: relative;
+    right: 4rem;
+  }
+  #proposta-inovadora .slider p {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    color: #37475E;
+  }
+  #proposta-inovadora .slider .slick-slider .slick-track {
+    width: 1000px !important;
+  }
 }
 
-@media screen and (max-width: 1200px) {
-  #proposta-inovadora .slick-slider {
+@media screen and (max-width: 992px) {
+  #proposta-inovadora .carousel .slick-slider {
     position: relative;
     top: 270px;
     right: 20px;
     z-index: 20;
   }
-  #proposta-inovadora .slick-slider .slick-track {
+  #proposta-inovadora .carousel .slick-slider .slick-track {
     width: 4000px !important;
   }
-  #proposta-inovadora .slick-slider .slick-current {
+  #proposta-inovadora .carousel .slick-slider .slick-current {
     margin-left: 72px;
     width: 11% !important;
   }
-  #proposta-inovadora .slick-slider .slick-current h3 {
-    color: #37475E !important;
-    width: 12%;
-    width: 23%;
-    font-size: 50px !important;
-    font-weight: 600;
-    padding: 10px 78px;
-    padding-right: 200px;
-    border-radius: 13px;
-    background-color: #fff;
-    -webkit-box-shadow: 0 0 20px #ccc;
-            box-shadow: 0 0 20px #ccc;
+  #proposta-inovadora .carousel .position-prev {
+    margin: 10px;
+    position: absolute;
+    top: 37px;
+    z-index: 3000;
+    right: 19.7rem !important;
   }
-  #proposta-inovadora .position-prev {
+  #proposta-inovadora .carousel .position-next {
+    margin: 10px;
+    position: absolute;
+    top: 37px;
+    z-index: 3000;
+    right: 7.2rem !important;
+  }
+  #proposta-inovadora .slider img {
+    width: 100%;
+    position: relative;
+    right: 4rem !important;
+  }
+  #proposta-inovadora .slider p {
+    position: relative;
+    top: 0 !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    color: #37475E;
+  }
+  #proposta-inovadora .slider .slick-slider .slick-track {
+    width: 1000px !important;
+  }
+}
+
+@media screen and (max-width: 1365px) {
+  #proposta-inovadora .carousel .slick-slider {
+    position: relative;
+    top: 270px;
+    right: 20px;
+    z-index: 20;
+  }
+  #proposta-inovadora .carousel .slick-slider .slick-track {
+    width: 4000px !important;
+  }
+  #proposta-inovadora .carousel .slick-slider .slick-current {
+    margin-left: 72px;
+    width: 11% !important;
+  }
+  #proposta-inovadora .carousel .position-prev {
     margin: 10px;
     position: absolute;
     top: 37px;
     z-index: 3000;
     right: 30.7rem;
   }
-  #proposta-inovadora .position-next {
+  #proposta-inovadora .carousel .position-next {
     margin: 10px;
     position: absolute;
     top: 37px;
     z-index: 3000;
     right: 17.9rem;
   }
-  #proposta-inovadora .slide-h3 h3 {
-    margin: 2rem;
-    font-size: 50px !important;
-    font-weight: 600;
-    color: #a8a8a8;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  #proposta-inovadora .slick-slider {
+  #proposta-inovadora .slider img {
+    width: 100%;
     position: relative;
-    top: 270px;
-    right: 20px;
-    z-index: 20;
+    right: 2.5rem;
   }
-  #proposta-inovadora .slick-slider .slick-track {
-    width: 4000px !important;
-  }
-  #proposta-inovadora .slick-slider .slick-current {
-    margin-left: 72px;
-    width: 11% !important;
-  }
-  #proposta-inovadora .slick-slider .slick-current h3 {
-    color: #37475E !important;
-    width: 12%;
-    width: 23%;
-    font-size: 50px !important;
-    font-weight: 600;
-    padding: 10px 78px;
-    padding-right: 200px;
-    border-radius: 13px;
-    background-color: #fff;
-    -webkit-box-shadow: 0 0 20px #ccc;
-            box-shadow: 0 0 20px #ccc;
-  }
-  #proposta-inovadora .position-prev {
-    margin: 10px;
-    position: absolute;
-    top: 37px;
-    z-index: 3000;
-    right: 30.7rem;
-  }
-  #proposta-inovadora .position-next {
-    margin: 10px;
-    position: absolute;
-    top: 37px;
-    z-index: 3000;
-    right: 17.9rem;
-  }
-  #proposta-inovadora .slide-h3 h3 {
-    margin: 2rem;
-    font-size: 50px !important;
-    font-weight: 600;
-    color: #a8a8a8;
+  #proposta-inovadora .slider p {
+    position: relative;
+    top: 14rem;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin: 0;
+    color: #37475E;
+  }
+  #proposta-inovadora .slider .slick-slider .slick-track {
+    width: 1000px !important;
   }
 }
 

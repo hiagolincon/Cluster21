@@ -421,7 +421,7 @@ include 'inc/menu.php';
 <!--DÚVIDA-->
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="duvida" class="mt-4">
-    <div class="container">
+    <div class="container px-5">
         <h2 class="font-weight-bold text-center">Ficou com alguma dúvida?</h2>
         <h2 class="text-center">Conheça nossas Perguntas frequentes</h2>
         <div class="p-freq d-flex">

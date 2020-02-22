@@ -117,12 +117,11 @@ include 'inc/menu.php';
 
   <div class="container">
     <h2 class="text-center">Fundada em 2015 com uma <strong>PROPOSTA INOVADORA</strong></h2>
-  
     <div class="slider-nav slider">
       <div class="row d-flex d-row">
         <div class="col-sm-12 col-md-12 col-lg-7">
           <img src="assets/img/Imagem 18.png" alt="" title=""/>
-        </div>    
+        </div>
         <div class="col-sm-12 col-md-12 col-lg-5">
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
         </div>
@@ -163,6 +162,17 @@ include 'inc/menu.php';
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
         </div>
       </div>
+
+
+      <div class="row d-flex d-row">
+        <div class="col-sm-12 col-md-12 col-lg-7">
+          <img src="assets/img/Imagem 18.png" alt="" title="">
+        </div>    
+        <div class="col-sm-12 col-md-12 col-lg-5">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        </div>
+      </div>
+  
     </div>
 
   </div>
@@ -392,9 +402,7 @@ include 'inc/menu.php';
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <!-- SlickSlide -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+
 
 <!--WowJS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
