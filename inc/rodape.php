@@ -3,7 +3,9 @@
         <a href="quero-investir.php" class="col-lg-6">
             <div class="card shadow">
                 <div class="card-body">
-                    <img class="d-inline" src="/assets/img/figura-footer.png" alt="Quero investir" title="Quero investir">
+                    <div class="d-inline-block w-25">
+                        <img src="/assets/img/figura-footer.png" alt="Quero investir" title="Quero investir">
+                    </div>
                     <div class="cfo-text w-75">
                         <h2 class="text-red font-weight-bold">QUERO INVESTIR <i class="fas fa-long-arrow-alt-right"></i></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor.</p>
@@ -14,8 +16,10 @@
         <a href="quero-captar.php" class="col-lg-6">
             <div class="card shadow">
                 <div class="card-body">
-                    <img class="d-inline" src="/assets/img/figura-footer-02.png" alt="Quero captar" title="Quero captar">
-                    <div class="cfo-text ">
+                    <div class="d-inline-block w-25">
+                        <img src="/assets/img/figura-footer-02.png" alt="Quero captar" title="Quero captar">
+                    </div>
+                    <div class="cfo-text w-75">
                         <h2 class="text-blue font-weight-bold">QUERO CAPTAR <i class="fas fa-long-arrow-alt-right"></i></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor.</p>
                     </div>

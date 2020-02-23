@@ -135,10 +135,6 @@ include 'inc/menu.php';
     </div>
 </section>
 <section class="wow slideInLeft" data-wow-duration="2s" id="depoimentos">
-    <svg class="bg_p" viewBox="-22.5 0 2000 1112.212">
-        <path fill="rgba(249,249,249,1)" id="bg_mw" d="M -22.5 321.1930236816406 L 1977.499877929688 0 L 1977.499877929688 1282.2119140625 L -22.5 1282.2119140625 L -22.5 321.1930236816406 Z">
-        </path>
-    </svg>
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -275,7 +271,7 @@ include 'inc/menu.php';
             <div class="col-lg-5 my-auto">
                 <h2 class="font-weight-bold">Cluster21 na mídia</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
-                <a href="#" title="Ver Mais" class="btn btn-vermais d-inline mx-auto">
+                <a href="#" title="Ver Mais" class="btn btn-vermais mx-auto">
                     Ver Mais
                     <div class="d-inline-block square"><i class="fas fa-long-arrow-alt-right"></i></div>
                 </a>
@@ -314,11 +310,11 @@ include 'inc/menu.php';
             <div class="col-lg-5 my-auto">
                 <h2 class="font-weight-bold">Cluster21</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
-                <a href="#" title="Ver Mais" class="btn btn-vermais d-inline mx-auto">
+                <a href="#" title="Ver Mais" class="btn btn-vermais mx-auto">
                     Ver Mais
                     <div class="d-inline-block square"><i class="fas fa-long-arrow-alt-right"></i></div>
                 </a>
-                <hr>
+                <hr class="mb-4 mt-4">
                 <div class="d-flex" style="height: auto">
                     <img class="d-inline-block" style="width: 100px" src="/assets/img/logocvm_color.png" alt="Você está SEGURO! Somos regulados pela CVM 588.">
                     <p class="d-inline ml-1 text-blue my-auto"><b>Você está </b>SEGURO <br>
@@ -396,28 +392,29 @@ include 'inc/menu.php';
     </div>
 </section>
 <section class="wow slideInLeft" data-wow-duration="2s" id="duvida" class="mt-4">
-    <div class="container">
         <h2 class="font-weight-bold text-center">Ficou com alguma dúvida?</h2>
         <h2 class="text-center">Conheça nossas Perguntas frequentes</h2>
-        <div class="p-freq d-flex">
-            <?php
-                for($i=0;$i<8;$i++){
-                    ?>
-                    <div class="card d-inline-block bg-light pl-2 pb-2 pt-3 m- bv1">
-                            <h3>Lorem Ipsum is simply dummy is simply</h3>
-                        <div class="read-container">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                        </div>
-                        <div class="text-center">
-                            <a href="javascript:void(0)" class="text-red font-weight-bold mt-1 mb-2 read-more">Leia mais</a>
-                        </div>
-                    </div>
+        <div class="container-faq">
+            <div class="p-freq d-flex">
                     <?php
-                }
-            ?>
+                        for($i=0;$i<8;$i++){
+                            ?>
+                            <div class="card d-inline-block bg-light pl-2 pb-2 pt-3 m- bv1">
+                                    <h3>Lorem Ipsum is simply dummy is simply</h3>
+                                <div class="read-container">
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                                </div>
+                                <div class="text-center">
+                                    <a href="javascript:void(0)" class="text-red font-weight-bold mt-1 mb-2 read-more">Leia mais</a>
+                                </div>
+                            </div>
+                            <?php
+                        }
+                    ?>
+            </div>
         </div>
-        <p class="text-center mt-3">Ainda está com alguma dúvida? <a class="text-red font-weight-bold" href="">Clique aqui</a> que respondemos agora mesmo.</p>
-    </div>
+
+    <p class="text-center mt-3">Ainda está com alguma dúvida? <a class="text-red font-weight-bold" href="">Clique aqui</a> que respondemos agora mesmo.</p>
 </section>
 
 <?php

@@ -6,7 +6,7 @@
                 <a title="contato@cluster21.com.br" href="mailto:contato@cluster21.com.br"><i class="fas fa-paper-plane"></i> contato@cluster21.com.br</a>
                 <a title="(51) 3407-4707" href="tel:+555134074707"><i class="fas fa-phone-alt"></i> (51) 3407-4707</a>
             </div>
-            <div class="ml-auto d-inline-block">
+            <div class="btns ml-auto d-inline-block">
                 <a class="text-red" href="/login" title="Entrar">Entrar <i class="fas fa-sign-in-alt"></i></a>
                 <a class="btn btn-topbar" href="/cadastro" title="Abrir conta">Abrir conta</a>
             </div>

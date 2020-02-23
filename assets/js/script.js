@@ -23,8 +23,8 @@ $(document).ready(function () {
     });
    
     $('.p-freq').slick({
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 6,
+        slidesToScroll: 6,
         responsive: [
             {
                 breakpoint: 1024,
@@ -97,6 +97,7 @@ $(document).ready(function () {
             .removeClass("hide");
     });
 
+    $($($('.customTab .clickme .activelink').parents('.clickme')).children('.selected-tab')).show();
 
     $('.slide-depoimento').on('beforeChange', function(event, slick, currentSlide, nextSlide){
         var current = $('.slide-depoimento .slick-slide')[currentSlide];

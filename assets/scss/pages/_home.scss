@@ -56,12 +56,13 @@ section {
   padding-bottom: 20px;
   #topbar {
     padding-top: 30px;
-
+    flex-wrap: wrap;
     a+a{
       margin-left:15px;
     }
     .b-lft {
       @include mq('tablet1', 'max') {
+        width: 100%;
         a{
           float: left;
         }
@@ -80,8 +81,17 @@ section {
 
     .ml-auto {
       @include mq('tablet1', 'max') {
-        *{
-          float: right;
+        .btns {
+          display: flex;
+          width: 100%;
+        }
+        .btn-topbar {
+          display: inline-block;
+          margin-left: auto;
+        }
+        .text-red {
+          display: inline-block;
+          margin-right: auto;
         }
       }
       text-transform: uppercase;
@@ -306,7 +316,10 @@ section {
   }
 }
 #depoimentos {
-
+  background: url('../img/bg_dep.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
   h2 {
     font-size: 36px;
   }
@@ -445,32 +458,33 @@ section {
   }
   .p-freq {
     flex-wrap: wrap-reverse;
-    margin-right: -35%;
   }
   .read-container {
     max-height: 300px;
     overflow: hidden;
   }
-  //.slick-list { }
+  .container-faq {
+    width: 85%;
+    margin-left: auto;
+    margin-right:25px;
+  }
 }
 
 
 @media screen and (max-width: 600px) {
   #duvida {
-    width: 77%;
     h2{
       position: relative;
-      left: 3rem;
+      //left: 3rem;
     }
   }
 }
 
 @media screen and (min-width: 768px) {
   #duvida {
-    width: 74%;
     h2{
       position: relative;
-      left: 8rem;
+      //left: 8rem;
     }
   }
 }
@@ -527,10 +541,10 @@ section {
         margin-left: auto;
       }
       img {
+        width: 100%;
+        object-fit: cover;
         @include mq('tablet1') {
           transform: translateX(-33%);
-          width: 25%;
-          object-fit: cover;
         }
       }
     }
@@ -584,20 +598,31 @@ section {
   flex-wrap: wrap;
   padding: 0px;
   list-style: none;
+  margin-bottom: 70px;
   li {
-    margin-bottom: 70px;
+    padding: 30px 30px 5px 5px;
+    height: 100px;
     width: calc(33.3% - 10px);
     @include mq('tablet1', 'max') {
       width: 100%;
     }
-    box-shadow: 0px 3px 60px rgba(55, 71, 94, 0.31);
+
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.16);
+
     float: left;
     padding: 10px;
     margin-right: 10px;
-
-    img:not(.selected-tab) {
+    a img {
+      height: 100%;
       vertical-align: middle;
       transition: ease-in-out 1s;
+    }
+    a:not(.activelink) img {
+
+      @include unify-parent(&) {
+        opacity: 0.6;
+
+      }
     }
     .selected-tab {
       -webkit-transition: ease 1s;
@@ -606,7 +631,7 @@ section {
       -o-transition: ease 1s;
       transition: ease 1s;
       position: relative;
-      bottom: -55px;
+      bottom: -30px;
       left: 40%;
       margin-top: -50px;
       display: none;
@@ -622,10 +647,8 @@ section {
   .activelink {
     background-position-y: bottom;
     img {
-      filter: saturate(3);
-      transform: scale(105%);
-      -wekit-transform: scale(105%);
-      -moz-transform: scale(105%);
+      filter: brightness(1.4);
+      opacity: 1;
     }
   }
 }
