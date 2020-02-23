@@ -2,6 +2,8 @@
 include 'inc/topo.php';
 include 'inc/menu.php';
 ?>
+
+<!--BANNER-->
         <div class="row" id="banner-content">
             <div class="col-lg-6">
                 <h2>Impulsione o <strong>sucesso</strong> do <strong>seu negócio</strong></h2>
@@ -547,18 +549,3 @@ include 'inc/menu.php';
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

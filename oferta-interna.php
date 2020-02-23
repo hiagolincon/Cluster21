@@ -89,7 +89,8 @@
   </section>  
 
 
-  <!--ARTICLE-->
+  <!--ARTIGO-->
+
   <section class="wow slideInLeft" data-wow-duration="2s" id="artigo">
     <div class="container">
       <div class="row">

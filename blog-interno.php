@@ -3,6 +3,7 @@ include 'inc/topo.php';
 ?>
 
 <!--Seção topo-->
+
 <section id="topo-blog-interno">
     <div class="container">
         <div class="d-flex" id="topbar">
@@ -47,6 +48,8 @@ include 'inc/topo.php';
     </div>
 </section>
 
+<!--ARTIGO-->
+
 <section class="wow slideInLeft" data-wow-duration="2s" id="article-blog-interno">
     <div class="container">
         <div class="img-zuckerberg">
@@ -85,6 +88,8 @@ include 'inc/topo.php';
     </div>   
     
 </section>
+
+<!--CARDS-->
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="cards-article2">
     <div class="container">
@@ -137,6 +142,7 @@ include 'inc/topo.php';
     </div>
 </section>
 
+<!--RODAPÉ-->
 
 <div class="container" id="card-footer">
   <div class="row">

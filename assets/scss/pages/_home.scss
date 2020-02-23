@@ -46,6 +46,9 @@ section {
     }
   }
 }
+
+//TOPO
+
 #topo {
   display: block;
   width: 100%;
@@ -109,6 +112,9 @@ section {
       }
     }
   }
+
+  //BANNER
+
   #banner-content {
     padding-top: 80px;
     .btn-investir {
@@ -141,6 +147,8 @@ section {
     width: 320px !important;
   }
 }
+
+///VANTAGENS
 
 #vantagens {
   .STICKER {
@@ -214,6 +222,8 @@ section {
     }
   }
 }
+
+//OFERTAS
 
 #ofertas {
   .circle-percent {
@@ -315,6 +325,9 @@ section {
     }
   }
 }
+
+//DEPOIMENTOS
+
 #depoimentos {
   background: url('../img/bg_dep.svg');
   background-size: cover;
@@ -381,9 +394,11 @@ section {
       }
     }
   }
+
+  //COMO COMEÇAR
+
   #como_comecar {
-/*    margin-top: 20px;
-    padding-bottom: 30px;*/
+    padding-top: 100px;
     h3 {
       font-size: 24px;
     }
@@ -447,10 +462,16 @@ section {
     }
   }
 }
+
+//MÍDIA
+
 #midia {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
+//DÚVIDA
+
 #duvida {
   margin-top: 100px;
   @include mq('tablet1', 'max') {
@@ -489,15 +510,7 @@ section {
   }
 }
 
-// @media screen and (min-width: 1200px) {
-//   #duvida {
-//     width: 74%;
-//     h2{
-//       position: relative;
-//       left: 8rem;
-//     }
-//   }
-// }
+//PARCEIROS
 
 #parceiros {
   padding-top: 100px;
@@ -509,6 +522,9 @@ section {
     color: $dark-blue;
   }
 }
+
+///RODAPÉ
+
 #card-footer{
   h2 {
     font-size: 20px;

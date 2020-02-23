@@ -2,6 +2,7 @@
 include 'inc/topo.php';
 include 'inc/menu.php';
 ?>
+<!--BANNER-->
 
  <div class="row" id="banner-content-blog">
             <div class="col-lg-7">
@@ -18,6 +19,8 @@ include 'inc/menu.php';
         </div>
     </div>
 </section>
+
+<!--MAIS LIDAS-->
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="cards-article">
     <div class="container">
@@ -116,6 +119,7 @@ include 'inc/menu.php';
         
     </div>
 
+    <!--ADICIONADAS RECENTEMENTE-->
 
     <div class="container card-2-seçao">
         <h2>Adicionadas recentemente</h2>
@@ -214,6 +218,7 @@ include 'inc/menu.php';
     </div>
 </section>
 
+<!--RODAPÉ-->
 
 <div class="container" id="card-footer">
     <div class="row">

@@ -24,7 +24,7 @@ include 'inc/menu.php';
 </div>
 </section>
 
-<!--QUEM SMOS NÓS-->
+<!--QUEM SOMOS NÓS-->
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="quem-nos-somos">
   <div class="container">
@@ -79,7 +79,7 @@ include 'inc/menu.php';
     
 </section>
 
-<!--Cluster21 na mídia-->
+<!--CLUSTER21 NA MÍDIA-->
 
 <section class="wow slideInLeft"  data-wow-duration="2s" id="midia">
     <div class="container">
@@ -99,67 +99,86 @@ include 'inc/menu.php';
     </div>
 </section>
 
+<!--PROPOSTA INOVADORA-->
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="proposta-inovadora">
-<!-- <i class='fas fa-long-arrow-alt-left'></i> -->
-  
-    <div class="slideprev">
-      <div class="slide-h3" id="li-1"><h3>2015</h3></div>
-      <div class="slide-h3" id="li-2"><h3>2016</h3></div>
-      <div class="slide-h3" id="li-3"><h3>2017</h3></div>
-      <div class="slide-h3" id="li-4"><h3>2018</h3></div>
-      <div class="slide-h3" id="li-5"><h3>2019</h3></div>
-      <div class="slide-h3" id="li-6"><h3>2020</h3></div>
-    </div>
-  
+
+<div class="carousel">
+  <div class="slider-single slide-h3">
+    <div><h3>2015</h3></div>
+    <div><h3>2016</h3></div>
+    <div><h3>2017</h3></div>
+    <div><h3>2018</h3></div>
+    <div><h3>2019</h3></div>
+    <div><h3>2020</h3></div>
+  </div>
+</div>
+
+
   <div class="container">
     <h2 class="text-center">Fundada em 2015 com uma <strong>PROPOSTA INOVADORA</strong></h2>
-    <div class="row" id="div-1">
-      <div class="col-sm-12 col-md-12 col-lg-7">
-        <img src="assets/img/Imagem 18.png" alt="" title="">
-      </div>    
-      <div class="col-sm-12 col-md-12 col-lg-5">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+    <div class="slider-nav slider">
+      <div class="row d-flex d-row">
+        <div class="col-sm-12 col-md-12 col-lg-7">
+          <img src="assets/img/Imagem 18.png" alt="" title=""/>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-5">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        </div>
       </div>
+  
+      <div class="row d-flex d-row">
+        <div class="col-sm-12 col-md-12 col-lg-7">
+          <img src="assets/img/image-5.png" alt="" title=""/>
+        </div>    
+        <div class="col-sm-12 col-md-12 col-lg-5">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        </div>
+      </div>
+  
+      <div class="row d-flex d-row">
+        <div class="col-sm-12 col-md-12 col-lg-7">
+          <img src="assets/img/Grupo1.png" alt="" title="">
+        </div>    
+        <div class="col-sm-12 col-md-12 col-lg-5">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        </div>
+      </div>
+  
+      <div class="row d-flex d-row">
+        <div class="col-sm-12 col-md-12 col-lg-7">
+          <img src="assets/img/Imagem 18.png" alt="" title="">
+        </div>    
+        <div class="col-sm-12 col-md-12 col-lg-5">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        </div>
+      </div>
+  
+      <div class="row d-flex d-row">
+        <div class="col-sm-12 col-md-12 col-lg-7">
+          <img src="assets/img/Imagem 18.png" alt="" title="">
+        </div>    
+        <div class="col-sm-12 col-md-12 col-lg-5">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        </div>
+      </div>
+
+
+      <div class="row d-flex d-row">
+        <div class="col-sm-12 col-md-12 col-lg-7">
+          <img src="assets/img/Imagem 18.png" alt="" title="">
+        </div>    
+        <div class="col-sm-12 col-md-12 col-lg-5">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+        </div>
+      </div>
+  
     </div>
 
-    <div class="row" id="div-2">
-      <div class="col-sm-12 col-md-12 col-lg-7">
-        <img src="assets/img/image-5.png" alt="" title="">
-      </div>    
-      <div class="col-sm-12 col-md-12 col-lg-5">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-      </div>
-    </div>
-
-    <div class="row" id="div-3">
-      <div class="col-sm-12 col-md-12 col-lg-7">
-        <img src="assets/img/Grupo1.png" alt="" title="">
-      </div>    
-      <div class="col-sm-12 col-md-12 col-lg-5">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-      </div>
-    </div>
-
-    <div class="row" id="div-4">
-      <div class="col-sm-12 col-md-12 col-lg-7">
-        <img src="assets/img/Imagem 18.png" alt="" title="">
-      </div>    
-      <div class="col-sm-12 col-md-12 col-lg-5">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-      </div>
-    </div>
-
-    <div class="row" id="div-5">
-      <div class="col-sm-12 col-md-12 col-lg-7">
-        <img src="assets/img/Imagem 18.png" alt="" title="">
-      </div>    
-      <div class="col-sm-12 col-md-12 col-lg-5">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-      </div>
-    </div>
   </div>
 </section>
+
+<!--CONHEÇA NOSSO TIME-->
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="Conheça-nosso-time">
   <div class="container">
@@ -243,6 +262,8 @@ include 'inc/menu.php';
     </div>
   </div>
 </section>
+
+<!--RODAPÉ-->
 
 <div class="container" id="card-footer">
   <div class="row">
@@ -381,9 +402,6 @@ include 'inc/menu.php';
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <!-- SlickSlide -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
 
 
 <!--WowJS-->
@@ -393,6 +411,7 @@ include 'inc/menu.php';
 <!-- Main -->
 <script src="/assets/js/script.js"></script>
 <script src="/assets/js/sobre.js"></script>
+
 
 
 </body>
