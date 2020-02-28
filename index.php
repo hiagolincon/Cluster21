@@ -417,8 +417,6 @@ include 'inc/menu.php';
 <!--DÚVIDA-->
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="duvida" class="mt-4">
-
-    <div class="container px-5">
         <h2 class="font-weight-bold text-center">Ficou com alguma dúvida?</h2>
         <h2 class="text-center">Conheça nossas Perguntas frequentes</h2>
         <div class="container-faq">
@@ -441,7 +439,6 @@ include 'inc/menu.php';
             </div>
         </div>
         <p class="text-center mt-3">Ainda está com alguma dúvida? <a class="text-red font-weight-bold" href="">Clique aqui</a> que respondemos agora mesmo.</p>
-    </div>
 </section>
 
 <?php
