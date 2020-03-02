@@ -92,7 +92,7 @@ include 'inc/menu.php';
                         <div class="card-footer">
                             <div class="d-flex">
                                 <div class="box">
-                                    <div class="chart" data-percent="75">75%<canvas></canvas></div>
+                                    <div class="chart" data-percent="75%">75%<canvas></canvas></div>
                                 </div>
                                 <div class="d-inline oferta-info">
                                     <p class="text-blue">Investido: R$ 700,00</p>
@@ -121,7 +121,7 @@ include 'inc/menu.php';
                         <div class="card-footer">
                             <div class="d-flex">
                                 <div class="box">
-                                    <div class="chart" data-percent="75">75%<canvas></canvas></div>
+                                    <div class="chart" data-percent="75%">75%<canvas></canvas></div>
                                 </div>
                                 <div class="d-inline oferta-info">
                                     <p class="text-blue">Alvo Máximo: R$ 300.000,00</p>
@@ -328,17 +328,24 @@ include 'inc/menu.php';
             </div>
             <div class="col-lg-5 my-auto">
                 <h2 class="font-weight-bold">Cluster21</h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
+                <p class="text-blue"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
                 <a href="#" title="Ver Mais" class="btn btn-vermais mx-auto">
                     Ver Mais
                     <div class="d-inline-block square"><i class="fas fa-long-arrow-alt-right"></i></div>
                 </a>
                 <hr class="mb-4 mt-4">
-                <div class="d-flex" style="height: auto">
-                    <img class="d-inline-block" style="width: 100px" src="/assets/img/logocvm_color.png" alt="Você está SEGURO! Somos regulados pela CVM 588.">
-                    <p class="d-inline ml-1 text-blue my-auto"><b>Você está </b>SEGURO <br>
-                Somos regulados pela CVM 588.</p>
-                </div>
+                
+                 <div>
+                <img src="assets/img/logocvm_color.png" 
+                title="Comissão de Valores Mobiliários"
+                 alt="Comissão de Valores Mobiliários" class="float-left mr-2 img-cvm">
+
+                 <p class="float-left pt-4 text-blue"><strong>Você está </strong><strong class="font-strong">SEGURO</strong><br>
+                    Somos regulados pela CVM 588.
+                </p>
+
+             </div>
+            
             </div>
         </div>
     </div>
@@ -424,7 +431,7 @@ include 'inc/menu.php';
                     <?php
                         for($i=0;$i<8;$i++){
                             ?>
-                            <div class="card d-inline-block bg-light pl-2 pb-2 pt-3 m- bv1">
+                            <div class="card d-inline-block bg-light px-3 pb-2 pt-4 ml-4 bv1">
                                     <h3>Lorem Ipsum is simply dummy is simply</h3>
                                 <div class="read-container">
                                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>

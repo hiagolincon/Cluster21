@@ -98,7 +98,7 @@
                     <li><a href="/quero-investir.php">Perguntas frequentes</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 my-auto">
+            <div class="col-lg-3 my-auto institucional">
                 <h2>Institucional</h2>
                 <hr>
                 <ul>
