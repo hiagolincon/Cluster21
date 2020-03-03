@@ -326,7 +326,7 @@ include 'inc/menu.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5 my-auto">
+            <div class="col-lg-5 my-auto pl-4">
                 <h2 class="font-weight-bold">Cluster21</h2>
                 <p class="text-blue"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
                 <a href="#" title="Ver Mais" class="btn btn-vermais mx-auto">
@@ -431,13 +431,15 @@ include 'inc/menu.php';
                     <?php
                         for($i=0;$i<8;$i++){
                             ?>
-                            <div class="card d-inline-block bg-light px-3 pb-2 pt-4 ml-4 bv1">
-                                    <h3>Lorem Ipsum is simply dummy is simply</h3>
-                                <div class="read-container">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                                </div>
-                                <div class="text-center">
-                                    <a href="javascript:void(0)" class="text-red font-weight-bold mt-1 mb-2 read-more">Leia mais</a>
+                            <div class="gradient">
+                                <div class="card d-inline-block bg-light px-3 pb-2 pt-4 ml-4">
+                                        <h3>Lorem Ipsum is simply dummy is simply</h3>
+                                    <div class="read-container">
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="javascript:void(0)" class="text-red font-weight-bold mt-1 mb-2 read-more">Leia mais</a>
+                                    </div>
                                 </div>
                             </div>
                             <?php

@@ -603,10 +603,11 @@ section h2 {
           transform: rotate(135deg);
   -webkit-transform-origin: center;
           transform-origin: center;
-  z-index: -1;
+  z-index: 1;
 }
 
 #depoimentos #video .preview-video {
+  z-index: 2;
   opacity: 0.9;
   border-radius: 5px;
   background: #000;
@@ -623,11 +624,7 @@ section h2 {
 }
 
 #depoimentos #como_comecar {
-  padding-top: 100px;
-}
-
-#depoimentos #como_comecar h3 {
-  font-size: 24px;
+  margin-top: 100px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -663,7 +660,6 @@ section h2 {
   width: 170px;
   height: 150px;
   margin: auto;
-  z-index: 1;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;
@@ -697,7 +693,6 @@ section h2 {
   width: 70%;
   background: rgba(230, 235, 241, 0.82);
   height: 2px;
-  z-index: -1;
   -webkit-transform: translateY(80px);
           transform: translateY(80px);
 }
@@ -718,6 +713,10 @@ section h2 {
           box-shadow: 0px 3px 60px rgba(55, 71, 94, 0.31);
 }
 
+#regulamentacao {
+  padding-top: 60px;
+}
+
 #duvida {
   margin-top: 100px;
 }
@@ -731,6 +730,7 @@ section h2 {
 #duvida .p-freq {
   -ms-flex-wrap: wrap-reverse;
       flex-wrap: wrap-reverse;
+  padding-top: 30px;
 }
 
 #duvida .p-freq .card {
@@ -743,9 +743,6 @@ section h2 {
 
 #duvida .p-freq .card h3 {
   color: #292929;
-}
-
-#duvida .card h3 {
   font-weight: bold;
   font-size: 18px;
 }
@@ -763,8 +760,12 @@ section h2 {
 }
 
 #duvida .read-container {
-  max-height: 250px;
+  max-height: 245px;
   overflow: hidden;
+}
+
+#duvida .read-more {
+  font-size: 18px;
 }
 
 #duvida .container-faq {
@@ -944,6 +945,10 @@ section h2 {
   transition: ease-in-out 1s;
 }
 
+selector(.customTab li a:not(.activelink) img, .customTab li a:not(.activelink) img) {
+  opacity: 0.6;
+}
+
 .customTab li .selected-tab {
   -webkit-transition: ease 1s;
   transition: ease 1s;
@@ -969,6 +974,21 @@ section h2 {
   -webkit-filter: brightness(1.4);
           filter: brightness(1.4);
   opacity: 1;
+}
+
+.customTab .customTab li {
+  -webkit-box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.16);
+}
+
+.customTab .customTab li .hover {
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.customTab .customTab li .hover:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 #banner {

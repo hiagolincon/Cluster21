@@ -29,13 +29,13 @@ $breakpoints: (
     }
   }
 }
-/// DANDO ERRO
 
-// @mixin unify-parent($child) {
-//   @at-root #{selector.unify(&, $child)} {
-//     @content;
-//   }
-// }
+
+@mixin parent($child) {
+  @at-root #{selector(&, $child)} {
+    @content;
+  }
+}
 html, body {
   font-family: 'Nunito Sans';
   width: 100vw;
