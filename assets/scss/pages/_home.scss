@@ -480,23 +480,39 @@ section {
 
 #duvida {
   margin-top: 100px;
+  p{
+    color: rgb(88, 99, 116);
+  }
   @include mq('tablet1', 'max') {
     margin-top: 50px;
   }
   .p-freq {
     flex-wrap: wrap-reverse;
     padding-top: 30px;
-    
-    .card{
-      color: rgb(88, 99, 116);
-      background-color:rgb(245, 245, 245) !important;
-      border-radius: 5px;
-      background: linear-gradient(to bottom,rgb(245, 245, 245) 60%, white);
-      
-      h3{
-        color: rgb(41, 41, 41);
-        font-weight: bold;
-        font-size: 18px;  
+    .slider{
+      .card{
+        margin: 0 10px;
+        padding: 20px 20px 10px 20px;
+        background-color:rgb(245, 245, 245) !important;
+        border-radius: 5px;
+        background: linear-gradient(to bottom,rgb(245, 245, 245) 60%, white);
+        h3{
+          color: rgb(41, 41, 41);
+          font-weight: 700;
+          font-size: 18px;  
+          letter-spacing: 1px;
+          line-height: 25px;
+        }
+        .gradient{
+          position: absolute;
+          bottom: 2rem;
+          margin-left: -14px;
+          border-radius: 5px;
+          z-index: 20;
+          width: 268px;
+          height: 321px;
+          background: linear-gradient(to bottom,transparent 75%,white);
+        }
       }
     }
   }
@@ -505,6 +521,10 @@ section {
     position: absolute;
     left:-60px;
     top: 50%;
+    @include mq('tablet1', 'max') {
+      left:-60px;
+      top: 50%;
+    }
   }
   .slick-prev {
     position: absolute;
@@ -514,6 +534,7 @@ section {
   .read-container {
     max-height: 245px;
     overflow: hidden;
+    position: relative !important;
   }
   .read-more{
     font-size: 18px;
@@ -521,29 +542,18 @@ section {
   .container-faq {
     width: 85%;
     margin-left: auto;
-    margin-right:25px;
-    
+    margin-right: 25px;
   }
-}
-
-
-@media screen and (max-width: 600px) {
-  #duvida {
-    h2{
-      position: relative;
-      
+  @media screen and (min-width: 1220px) {
+    .slider{
+      width: 280px !important;
+      margin-left: 11px;
     }
   }
+  
 }
 
-@media screen and (min-width: 768px) {
-  #duvida {
-    h2{
-      position: relative;
-      //left: 8rem;
-    }
-  }
-}
+
 
 //PARCEIROS
 

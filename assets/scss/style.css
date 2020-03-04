@@ -721,6 +721,10 @@ section h2 {
   margin-top: 100px;
 }
 
+#duvida p {
+  color: #586374;
+}
+
 @media only screen and (max-width: 990px) {
   #duvida {
     margin-top: 50px;
@@ -733,24 +737,46 @@ section h2 {
   padding-top: 30px;
 }
 
-#duvida .p-freq .card {
-  color: #586374;
+#duvida .p-freq .slider .card {
+  margin: 0 10px;
+  padding: 20px 20px 10px 20px;
   background-color: whitesmoke !important;
   border-radius: 5px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, whitesmoke), to(white));
   background: linear-gradient(to bottom, whitesmoke 60%, white);
 }
 
-#duvida .p-freq .card h3 {
+#duvida .p-freq .slider .card h3 {
   color: #292929;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+#duvida .p-freq .slider .card .gradient {
+  position: absolute;
+  bottom: 2rem;
+  margin-left: -14px;
+  border-radius: 5px;
+  z-index: 20;
+  width: 268px;
+  height: 321px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(75%, transparent), to(white));
+  background: linear-gradient(to bottom, transparent 75%, white);
 }
 
 #duvida .slick-next {
   position: absolute;
   left: -60px;
   top: 50%;
+}
+
+@media only screen and (max-width: 990px) {
+  #duvida .slick-next {
+    left: -60px;
+    top: 50%;
+  }
 }
 
 #duvida .slick-prev {
@@ -762,6 +788,7 @@ section h2 {
 #duvida .read-container {
   max-height: 245px;
   overflow: hidden;
+  position: relative !important;
 }
 
 #duvida .read-more {
@@ -774,15 +801,10 @@ section h2 {
   margin-right: 25px;
 }
 
-@media screen and (max-width: 600px) {
-  #duvida h2 {
-    position: relative;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  #duvida h2 {
-    position: relative;
+@media screen and (min-width: 1220px) {
+  #duvida .slider {
+    width: 280px !important;
+    margin-left: 11px;
   }
 }
 

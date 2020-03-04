@@ -482,7 +482,7 @@ include 'inc/menu.php';
                     <li><a href="/quero-investir.php">Perguntas frequentes</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 my-auto">
+            <div class="col-lg-3 my-auto institucional">
                 <h2>Institucional</h2>
                 <hr>
                 <ul>
@@ -503,6 +503,9 @@ include 'inc/menu.php';
                 <p class="text-blue text-center fs-16">Você está SEGURO, somos regulados pela CVM 588.</p>
                 <p class="text-blue fs-14">As sociedades empresárias de pequeno porte e as ofertas apresentadas nesta plataforma estão automaticamente dispensadas de registro pela Comissão de Valores Mobiliários - CVM. A CVM não analisa previamente as ofertas. As ofertas realizadas não implicam por parte da CVM a garantia da veracidade das informações prestadas, de adequação à legislação vigente ou julgamento sobre a qualidade da sociedade empresária de pequeno porte. Antes de aceitar uma oferta leia com atenção as informações essenciais da oferta, em especial a seção de alertas sobre riscos.</p>
             </div>
+            <div class="col-lg-12 mt-4 mb-4">
+                <hr>
+            </div>
             <div class="col-lg-6">
                 <p class="text-blue fs-16">© Copyright 2020 Cluster21. Todos os direitos reservados</p>
             </div>
@@ -514,7 +517,6 @@ include 'inc/menu.php';
         </div>
     </div>
 </footer>
-
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="assets/js/jquery.easypiechart.js"></script>

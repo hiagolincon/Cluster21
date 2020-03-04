@@ -25,6 +25,7 @@ $(document).ready(function () {
     $('.p-freq').slick({
         slidesToShow: 4,
         slidesToScroll: 4,
+        centerPadding: '100px',
         responsive: [
             {
                 breakpoint: 1024,
@@ -76,10 +77,14 @@ $(document).ready(function () {
     $('.read-more').click(function() {
         var parent = $(this).parents('.card');
         var container = parent.children('.read-container');
+        
         container.css({
             overflow: 'auto'
         });
+        parent.children('.gradient').remove();
     });
+
+
     $(".customTab a").click(function() {
         var parent = $(this).parents('.customTab').children('li').children('a[data-tag="'+$(this).data('tag')+'"]');
         $(".customTab a").removeClass("activelink");
@@ -105,3 +110,4 @@ $(document).ready(function () {
         $('#video img').attr('src',$(current).data('image'));
     });
 });
+
