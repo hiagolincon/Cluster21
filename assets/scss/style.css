@@ -169,6 +169,12 @@ section h2 {
   font-size: 36px;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+  .overlay2 {
+    height: 85% !important;
+  }
+}
+
 .video_preview {
   width: 100%;
 }
@@ -711,10 +717,28 @@ section h2 {
 #midia img {
   -webkit-box-shadow: 0px 3px 60px rgba(55, 71, 94, 0.31);
           box-shadow: 0px 3px 60px rgba(55, 71, 94, 0.31);
+  margin-top: 30px;
 }
 
 #regulamentacao {
   padding-top: 60px;
+}
+
+#parceiros {
+  padding-top: 100px;
+}
+
+#parceiros .title {
+  margin-bottom: 40px;
+}
+
+#parceiros p {
+  font-size: 18px;
+  color: #37475E;
+}
+
+#parceiros .customTab .clickme .activelink:active {
+  width: 20px !important;
 }
 
 #duvida {
@@ -774,8 +798,8 @@ section h2 {
 
 @media only screen and (max-width: 990px) {
   #duvida .slick-next {
-    left: -60px;
-    top: 50%;
+    left: 246px;
+    top: 89.4%;
   }
 }
 
@@ -783,6 +807,14 @@ section h2 {
   position: absolute;
   left: -60px;
   top: calc(50% - 60px);
+}
+
+@media only screen and (max-width: 990px) {
+  #duvida .slick-prev {
+    bottom: -3px;
+    position: relative;
+    left: 189px;
+  }
 }
 
 #duvida .read-container {
@@ -808,19 +840,6 @@ section h2 {
   }
 }
 
-#parceiros {
-  padding-top: 100px;
-}
-
-#parceiros .title {
-  margin-bottom: 40px;
-}
-
-#parceiros p {
-  font-size: 18px;
-  color: #37475E;
-}
-
 #card-footer h2 {
   font-size: 20px;
   font-weight: bolder;
@@ -844,6 +863,10 @@ section h2 {
           transform: scale(1.03);
   -webkit-transform-origin: center;
   transform-origin: center;
+}
+
+#card-footer .card {
+  margin-bottom: 20px;
 }
 
 #card-footer .card .card-body {
@@ -2062,7 +2085,7 @@ img {
   width: 1000px !important;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 320px) and (max-width: 639px) {
   #proposta-inovadora .carousel .slick-slider {
     position: relative;
     top: 300px !important;
@@ -2073,7 +2096,7 @@ img {
     width: 2000px !important;
   }
   #proposta-inovadora .carousel .slick-slider .slick-current {
-    margin-left: -106px !important;
+    margin-left: -128px !important;
     width: 59% !important;
   }
   #proposta-inovadora .carousel .position-prev {
@@ -2082,7 +2105,7 @@ img {
     position: absolute;
     top: 37px;
     z-index: 3000;
-    right: 215px !important;
+    right: 335px;
   }
   #proposta-inovadora .carousel .position-next {
     margin: 10px;
@@ -2090,7 +2113,7 @@ img {
     position: absolute;
     top: 37px;
     z-index: 3000;
-    right: 10px !important;
+    right: 140px;
   }
   #proposta-inovadora .carousel .slide-h3 h3 {
     margin: 2rem;
@@ -2118,7 +2141,16 @@ img {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 411px) and (max-width: 730px) {
+  .position-prev {
+    right: 381px !important;
+  }
+  .position-next {
+    right: 186px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   #proposta-inovadora .carousel .slick-slider {
     position: relative;
     top: 270px;
@@ -2126,25 +2158,25 @@ img {
     z-index: 20;
   }
   #proposta-inovadora .carousel .slick-slider .slick-track {
-    width: 4000px !important;
+    width: 4000px;
   }
   #proposta-inovadora .carousel .slick-slider .slick-current {
     margin-left: 72px;
-    width: 11% !important;
+    width: 11%;
   }
   #proposta-inovadora .carousel .position-prev {
     margin: 10px;
     position: absolute;
     top: 37px;
     z-index: 3000;
-    right: 19.7rem !important;
+    right: 19.7rem;
   }
   #proposta-inovadora .carousel .position-next {
     margin: 10px;
     position: absolute;
     top: 37px;
     z-index: 3000;
-    right: 7.2rem !important;
+    right: 7.2rem;
   }
   #proposta-inovadora .slider img {
     width: 100%;
@@ -2165,7 +2197,7 @@ img {
   }
 }
 
-@media screen and (max-width: 1365px) {
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
   #proposta-inovadora .carousel .slick-slider {
     position: relative;
     top: 270px;

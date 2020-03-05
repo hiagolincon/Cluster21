@@ -212,10 +212,8 @@
   }
 }
 
-  
 
-
-@media screen and (max-width: 600px) {
+@media screen and(min-width: 320px) and (max-width: 639px) {
   #proposta-inovadora{
     .carousel{
       .slick-slider {
@@ -228,7 +226,7 @@
           width: 2000px!important;
         }
         .slick-current {
-          margin-left: -106px !important;
+          margin-left: -128px !important;
           width: 59% !important;
         }
       }
@@ -239,7 +237,7 @@
         position: absolute;
         top: 37px;
         z-index: 3000;
-        right: 215px !important;
+        right: 335px;
       }
       .position-next {
         margin: 10px;
@@ -247,7 +245,7 @@
         position: absolute;
         top: 37px;
         z-index: 3000;
-        right: 10px !important;
+        right: 140px;
       }
     
     .slide-h3{
@@ -280,9 +278,16 @@
   }
 }
 
+@media screen and (min-width: 411px) and (max-width: 730px) {
+  .position-prev {
+    right: 381px !important;
+  }
+  .position-next {
+    right: 186px !important;
+  }
+}
 
-
-@media screen and(max-width: 992px) {
+@media screen and(min-width: 768px) and(max-width: 1023px) {
   #proposta-inovadora{
     .carousel{
       .slick-slider {
@@ -293,11 +298,11 @@
         
       
         .slick-track {
-          width: 4000px!important;
+          width: 4000px;
         }
         .slick-current {
           margin-left: 72px ;
-          width: 11% !important;
+          width: 11% ;
         }
       }
       
@@ -306,14 +311,14 @@
         position: absolute;
         top: 37px;
         z-index: 3000;
-        right: 19.7rem !important;
+        right: 19.7rem ;
       }
       .position-next {
         margin: 10px;
         position: absolute;
         top: 37px;
         z-index: 3000;
-        right: 7.2rem !important;
+        right: 7.2rem;
       }
     }
     
@@ -341,7 +346,7 @@
 
 
 
-@media screen and(max-width: 1365px) {
+@media screen and(min-width: 1024px) and(max-width: 1365px) {
   #proposta-inovadora{
 .carousel{
   .slick-slider {

@@ -307,7 +307,7 @@ include 'inc/menu.php';
             <div class="col-lg-7 pl-0 pr-0">
                 <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo1">
                     <img src="/assets/img/img_vk_pattern.png" alt="Cluster21" title="Cluster21">
-                    <div class="overlay">
+                    <div class="overlay overlay2">
                         <div>
                             <div class="play">
                                 <i class="fas fa-play text-white"></i>

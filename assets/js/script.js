@@ -25,7 +25,6 @@ $(document).ready(function () {
     $('.p-freq').slick({
         slidesToShow: 4,
         slidesToScroll: 4,
-        centerPadding: '100px',
         responsive: [
             {
                 breakpoint: 1024,
