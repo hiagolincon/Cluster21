@@ -357,7 +357,7 @@ include 'inc/menu.php';
     <div class="container">
         <h2 class="font-weight-bold text-center title">Conheça nossos parceiros</h2>
         <div class="w-75 mx-auto">
-            <ul class="customTab">
+            <ul class="customTab expandM15">
                 <?php
                     $arr = ['one','two','three'];
                     foreach ($arr as $i=>$item) {

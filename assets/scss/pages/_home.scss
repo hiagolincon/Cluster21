@@ -155,7 +155,10 @@ section {
 }
 
 ///VANTAGENS
-
+.expandM15 {
+  // margin-left: calc(-15%);
+  // margin-right: calc(-15%);
+}
 #vantagens {
   .STICKER {
     z-index: -1;
@@ -701,7 +704,7 @@ section {
       width: 100%;
     }
 
-    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 60px rgba(55, 71, 94, 0.31);
 
     float: left;
     padding: 10px;
@@ -715,11 +718,7 @@ section {
 
 
     a:not(.activelink) img {
-
-      @include parent(&) {
         opacity: 0.6;
-
-      }
     }
     .selected-tab {
       -webkit-transition: ease 1s;
@@ -744,13 +743,13 @@ section {
   .activelink {
     background-position-y: bottom;
     img {
-      filter: brightness(1.4);
+      // filter: brightness(1.4);
       opacity: 1;
     }
   }
   .customTab {
     li {
-      box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.16);
+      box-shadow: 0px 3px 60px rgba(55, 71, 94, 0.31);
       .hover {
         transition: ease-in-out 0.3s;
       }
