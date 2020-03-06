@@ -2404,9 +2404,12 @@ img {
   }
 }
 
-#topo-blog-interno {
+#topo-blog-interno .caminho {
   display: block;
   width: 100%;
+  height: 600px;
+  z-index: -1;
+  position: absolute;
   background: url("/assets/img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -2420,6 +2423,7 @@ img {
 
 #topo-blog-interno #topbar {
   padding-top: 30px;
+  z-index: 0 !important;
 }
 
 #topo-blog-interno #topbar a + a {
@@ -2464,6 +2468,10 @@ img {
   background: #fff;
   color: #CF3736;
   border-radius: 20px;
+}
+
+#article-blog-interno {
+  margin-top: 20px;
 }
 
 #article-blog-interno .img-zuckerberg img {

@@ -5,6 +5,7 @@ include 'inc/topo.php';
 <!--Seção topo-->
 
 <section id="topo-blog-interno">
+    <div class="caminho"></div>
     <div class="container">
         <div class="d-flex" id="topbar">
             <div class="d-inline-block b-lft">
