@@ -1196,7 +1196,6 @@ section h2 {
   text-align: center;
   font-size: 21px;
   color: #CF3736;
-  background: rgba(0, 0, 0, 0.03);
   line-height: 80px;
 }
 
@@ -1205,7 +1204,6 @@ section h2 {
   top: 0;
   left: 0;
   z-index: -1;
-  fill: rgba(0, 0, 0, 0.03);
 }
 
 @media screen and (max-width: 600px) {
