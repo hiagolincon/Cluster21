@@ -146,7 +146,7 @@ color: rgb(143, 143, 143);
 font-weight: 600 !important;
 font-size: normal;
 margin-top: 5rem;
-background-image: url('/assets/img/Caminho\ 624.png');
+background-image: url('assets/img/Caminho\ 624.png');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: contain;
@@ -157,9 +157,9 @@ background-size: contain;
     position: relative;
     height: 80px;
     width: 80px;
-    background: #fff;
     border-radius: 50%;
     z-index: 10;
+    background: #fff;
 
   .chart {
     position: relative;
@@ -169,7 +169,10 @@ background-size: contain;
     text-align: center;
     font-size: 21px;
     color: $red;
+<<<<<<< HEAD
     // background: rgba(0,0,0,.03);
+=======
+>>>>>>> 2ca50cb32c0409791b89b54403ba5c13e094d99d
     line-height: 80px;
 
     canvas {
@@ -177,7 +180,11 @@ background-size: contain;
       top: 0;
       left:0;
       z-index: -1;
+<<<<<<< HEAD
       // fill: rgba(0,0,0,.03);
+=======
+      fill: #fff;
+>>>>>>> 2ca50cb32c0409791b89b54403ba5c13e094d99d
     }
   }
 }

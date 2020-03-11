@@ -313,7 +313,7 @@
 <!--WowJS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <!-- Main -->
-<script src="/assets/js/script.js"></script>
+<script src="assets/js/script.js"></script>
 
 <script>
   $(function(){

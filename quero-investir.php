@@ -33,7 +33,7 @@ include 'inc/menu.php';
                 <div class="line"></div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-processo.png" alt="Escolher" title="Escolher">
+                        <img src="assets/img/icon-processo.png" alt="Escolher" title="Escolher">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Escolher</h3>
                     <p class="text-center howto-text">Escolha uma startup que você gosta. Revise o discurso da empresa, os termos e decida se você acredita que eles serão bem-sucedidos.</p>
@@ -43,7 +43,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-investir1.png" alt="Investir" title="Investir">
+                        <img src="assets/img/icon-investir1.png" alt="Investir" title="Investir">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Investir</h3>
                     <p class="text-center howto-text">Invista uma pequena quantia para começar. Planeje diversificar, o que significa investir quantias menores em várias empresas.</p>
@@ -53,7 +53,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
+                        <img src="assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h3>
                     <p class="text-center howto-text">Aguarde para ver se a inicialização foi bem-sucedida. Se a startup funcionar bem, seu investimento poderá trazer um retorno.</p>
@@ -254,17 +254,13 @@ include 'inc/menu.php';
 <!--DEPOIMENTOS-->
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="depoimentos">
-    <svg class="bg_p" viewBox="-22.5 0 2000 1112.212">
-        <path fill="rgba(249,249,249,1)" id="bg_mw" d="M -22.5 321.1930236816406 L 1977.499877929688 0 L 1977.499877929688 1282.2119140625 L -22.5 1282.2119140625 L -22.5 321.1930236816406 Z">
-        </path>
-    </svg>
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
                 <div id="video">
                     <div class="preview-video">
                         <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo2">
-                            <img src="/assets/img/foto_vj_pattern.png" alt="Dr. João da Silva" title="Dr. João da Silva">
+                            <img src="assets/img/foto_vj_pattern.png" alt="Dr. João da Silva" title="Dr. João da Silva">
                             <div class="overlay">
                                 <div>
                                     <div class="play">
@@ -285,31 +281,47 @@ include 'inc/menu.php';
                 <div id="depoimentos_container">
                     <h2 class="text-right"><b>Depoimentos de</b><br>QUEM INVESTE</h2>
                     <div class="slide-depoimento">
-                        <?php
-                            for ($i=0;$i<4;$i++) {
-                        ?>
-                                <div class="card pb-2">
-                                    <img src="assets/img/Grupo45.png" class="left-arrow">
-                                    <div class="card-body">
+                        <!-- Data-video e data-image servem para alterar a imagem/video ao trocar de depoimento -->
+                        <div class="card pb-2" data-image="assets/img/foto_vj_pattern.png" data-video="https://www.youtube.com/embed/zpOULjyy-n8?rel=0&autoplay">
+                            <img src="assets/img/Grupo45.png" class="left-arrow">
+                            <div class="card-body">
 
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
 
 
-                                        <div class="d-flex">
-                                            <div class="d-inline">
-                                                <h3 class="name">Dr. João da Silva</h3>
-                                                <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
-                                            </div>
-                                            <div class="d-inline ml-auto">
-                                                <img src="assets/img/quote-left-solid.png" class="float-right">
-                                            </div>
-                                        </div>
-
+                                <div class="d-flex">
+                                    <div class="d-inline">
+                                        <h3 class="name">Dr. João da Silva</h3>
+                                        <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
+                                    </div>
+                                    <div class="d-inline ml-auto">
+                                        <img src="assets/img/quote-left-solid.png" class="float-right">
                                     </div>
                                 </div>
-                        <?php
-                            }
-                        ?>
+
+                            </div>
+                        </div>
+
+                        <!-- Data-video e data-image servem para alterar a imagem/video ao trocar de depoimento -->
+                        <div class="card pb-2" data-image="assets/img/unnamed.jpg" data-video="https://www.youtube.com/embed/ytnD6UQKvV4?rel=0&autoplay">
+                            <img src="assets/img/Grupo45.png" class="left-arrow">
+                            <div class="card-body">
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
+
+
+                                <div class="d-flex">
+                                    <div class="d-inline">
+                                        <h3 class="name">Dr. João da Silva</h3>
+                                        <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
+                                    </div>
+                                    <div class="d-inline ml-auto">
+                                        <img src="assets/img/quote-left-solid.png" class="float-right">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
 
                     <!--Modal Dr João-->
@@ -326,6 +338,51 @@ include 'inc/menu.php';
 
             </div>
         </div>
+
+        <!--COMO COMEÇAR-->
+
+        <div class="row" id="como_comecar">
+            <div class="col-lg-12">
+                <h2 class="text-blue font-weight-bold text-center">COMO COMEÇAR</h2>
+            </div>
+        </div>
+        <div class="hto mx-auto">
+            <div class="d-flex howto">
+                <div class="line"></div>
+                <div class="d-inline-block howto-item">
+                    <div class="image-howto">
+                        <img src="assets/img/icon-processo.png" alt="Escolher" title="Escolher">
+                    </div>
+                    <h3 class="text-blue text-center font-weight-bold">Escolher</h3>
+                    <p class="text-center howto-text">Escolha uma startup que você gosta. Revise o discurso da empresa, os termos e decida se você acredita que eles serão bem-sucedidos.</p>
+                    <div class="d-flex">
+                        <a class="btn btn-red mx-auto">Passo 1</a>
+                    </div>
+                </div>
+                <div class="d-inline-block howto-item">
+                    <div class="image-howto">
+                        <img src="assets/img/icon-investir1.png" alt="Investir" title="Investir">
+                    </div>
+                    <h3 class="text-blue text-center font-weight-bold">Investir</h3>
+                    <p class="text-center howto-text">Invista uma pequena quantia para começar. Planeje diversificar, o que significa investir quantias menores em várias empresas.</p>
+                    <div class="d-flex">
+                        <a class="btn btn-red mx-auto">Passo 2</a>
+                    </div>
+                </div>
+                <div class="d-inline-block howto-item">
+                    <div class="image-howto">
+                        <img src="assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
+                    </div>
+                    <h3 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h3>
+                    <p class="text-center howto-text">Aguarde para ver se a inicialização foi bem-sucedida. Se a startup funcionar bem, seu investimento poderá trazer um retorno.</p>
+                    <div class="d-flex">
+                        <a class="btn btn-red mx-auto">Passo 3</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
 </section>
@@ -355,10 +412,10 @@ include 'inc/menu.php';
                                 <span><i class="fas fa-star"></i> META Garantida na Rodada</span>
                             </div>
                         </div>
-                        <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
+                        <img src="assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
                         <div class="card-body">
                             <div class="card-brand shadow">
-                                <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                                <img src="assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
                             </div>
                             <h3 class="card-title">Wolf Coffee</h3>
                             <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
@@ -384,10 +441,10 @@ include 'inc/menu.php';
             <?php for ($i=0; $i < 3; $i++) { ?>
                 <div class="col-lg-4">
                     <div class="oferta card shadow mt-4">
-                        <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
+                        <img src="assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
                         <div class="card-body">
                             <div class="card-brand shadow">
-                                <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                                <img src="assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
                             </div>
                             <h3 class="card-title">Wolf Coffee</h3>
                             <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
@@ -421,7 +478,7 @@ include 'inc/menu.php';
     <div class="container" id="content">
         <div class="row">
             <div class="col-lg-3">
-                <img src="/assets/img/logo.png" class="img-fluid" alt="Cluster21">
+                <img src="assets/img/logo.png" class="img-fluid" alt="Cluster21">
                 <ul>
                     <li>
                         <i class="fas fa-phone-alt"></i> (51) 3407-4707
@@ -437,27 +494,27 @@ include 'inc/menu.php';
                 <div class="d-flex" id="brands">
                     <div class="d-inline">
                         <a href="https://www.facebook.com/clustervinteum/">
-                            <img src="/assets/img/facebook-square-brands.png" alt="Siga-nos no facebook!" title="Siga-nos no Facebook!">
+                            <img src="assets/img/facebook-square-brands.png" alt="Siga-nos no facebook!" title="Siga-nos no Facebook!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="https://www.instagram.com/clustervinteum/?hl=pt-br">
-                            <img src="/assets/img/instagram-brands.png" alt="Siga-nos no Instagram!" title="Siga-nos no Instgram!">
+                            <img src="assets/img/instagram-brands.png" alt="Siga-nos no Instagram!" title="Siga-nos no Instgram!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="https://br.linkedin.com/company/clustervinteum">
-                            <img src="/assets/img/linkedin-brands.png" alt="Siga-nos no Linkedin!" title="Siga-nos no Linkedin!">
+                            <img src="assets/img/linkedin-brands.png" alt="Siga-nos no Linkedin!" title="Siga-nos no Linkedin!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="https://twitter.com/Cluster_vinteum">
-                            <img src="/assets/img/twitter-square-brands.png" alt="Siga-nos no Twitter!" title="Siga-nos no Twitter!">
+                            <img src="assets/img/twitter-square-brands.png" alt="Siga-nos no Twitter!" title="Siga-nos no Twitter!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="">
-                            <img src="/assets/img/whatsapp-square-brands.png" alt="Entre em contato via whatsapp" title="Entre em contato via whatsapp">
+                            <img src="assets/img/whatsapp-square-brands.png" alt="Entre em contato via whatsapp" title="Entre em contato via whatsapp">
                         </a>
                     </div>
                 </div>
@@ -528,8 +585,8 @@ include 'inc/menu.php';
 <!--WowJS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <!-- Main -->
-<script src="/assets/js/script.js"></script>
-<script src="/assets/js/quero-captar.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/quero-captar.js"></script>
 
 
 

@@ -4,7 +4,7 @@
             <div class="card shadow">
                 <div class="card-body">
                     <div class="d-inline-block w-25">
-                        <img src="/assets/img/figura-footer.png" alt="Quero investir" title="Quero investir">
+                        <img src="assets/img/figura-footer.png" alt="Quero investir" title="Quero investir">
                     </div>
                     <div class="cfo-text w-75">
                         <h2 class="text-red font-weight-bold">QUERO INVESTIR <i class="fas fa-long-arrow-alt-right"></i></h2>
@@ -17,7 +17,7 @@
             <div class="card shadow">
                 <div class="card-body">
                     <div class="d-inline-block w-25">
-                        <img src="/assets/img/figura-footer-02.png" alt="Quero captar" title="Quero captar">
+                        <img src="assets/img/figura-footer-02.png" alt="Quero captar" title="Quero captar">
                     </div>
                     <div class="cfo-text w-75">
                         <h2 class="text-blue font-weight-bold">QUERO CAPTAR <i class="fas fa-long-arrow-alt-right"></i></h2>
@@ -37,7 +37,7 @@
     <div class="container" id="content">
         <div class="row">
             <div class="col-lg-3">
-                <img src="/assets/img/logo.png" class="img-fluid" alt="Cluster21">
+                <img src="assets/img/logo.png" class="img-fluid" alt="Cluster21">
                 <ul>
                     <li>
                         <i class="fas fa-phone-alt"></i> (51) 3407-4707
@@ -53,27 +53,27 @@
                 <div class="d-flex" id="brands">
                     <div class="d-inline">
                         <a href="https://www.facebook.com/clustervinteum/">
-                            <img src="/assets/img/facebook-square-brands.png" alt="Siga-nos no facebook!" title="Siga-nos no Facebook!">
+                            <img src="assets/img/facebook-square-brands.png" alt="Siga-nos no facebook!" title="Siga-nos no Facebook!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="https://www.instagram.com/clustervinteum/?hl=pt-br">
-                            <img src="/assets/img/instagram-brands.png" alt="Siga-nos no Instagram!" title="Siga-nos no Instgram!">
+                            <img src="assets/img/instagram-brands.png" alt="Siga-nos no Instagram!" title="Siga-nos no Instgram!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="https://br.linkedin.com/company/clustervinteum">
-                            <img src="/assets/img/linkedin-brands.png" alt="Siga-nos no Linkedin!" title="Siga-nos no Linkedin!">
+                            <img src="assets/img/linkedin-brands.png" alt="Siga-nos no Linkedin!" title="Siga-nos no Linkedin!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="https://twitter.com/Cluster_vinteum">
-                            <img src="/assets/img/twitter-square-brands.png" alt="Siga-nos no Twitter!" title="Siga-nos no Twitter!">
+                            <img src="assets/img/twitter-square-brands.png" alt="Siga-nos no Twitter!" title="Siga-nos no Twitter!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="">
-                            <img src="/assets/img/whatsapp-square-brands.png" alt="Entre em contato via whatsapp" title="Entre em contato via whatsapp">
+                            <img src="assets/img/whatsapp-square-brands.png" alt="Entre em contato via whatsapp" title="Entre em contato via whatsapp">
                         </a>
                     </div>
                 </div>
@@ -145,9 +145,9 @@
 <!--EasyPieChart-->
 <script src="assets/js/jquery.easypiechart.js"></script>
 <!-- Main -->
-<script src="/assets/js/script.js"></script>
-<script src="/assets/js/sobre.js"></script>
-<script src="/assets/js/quero-captar.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/sobre.js"></script>
+<script src="assets/js/quero-captar.js"></script>
 
 
 </body>
