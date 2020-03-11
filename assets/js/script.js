@@ -1,5 +1,8 @@
 
 $(document).ready(function () {
+    var parent = $('.customTab li a.activelink');
+    var i = parent.parents('li').children('div').children('.selected-tab');
+    i.show();
 
     wow = new WOW( {
         animateClass: 'animated',
