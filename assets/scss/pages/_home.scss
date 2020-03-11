@@ -517,9 +517,11 @@ section {
   .p-freq {
     flex-wrap: wrap-reverse;
     padding-top: 30px;
+
     .slider{
+
       .card{
-        margin: 0 10px;
+        // margin: 0 10px;
         padding: 20px 20px 10px 20px;
         background-color:rgb(245, 245, 245) !important;
         border-radius: 5px;
@@ -574,6 +576,7 @@ section {
   }
   .container-faq {
     width: 85%;
+    position: relative;
     margin-left: auto;
     margin-right: 25px;
   }
@@ -691,6 +694,8 @@ section {
 }
 }
 .customTab {
+  margin-left: -15%;
+  margin-right: -15%;
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
@@ -727,9 +732,8 @@ section {
       -o-transition: ease 1s;
       transition: ease 1s;
       position: relative;
-      bottom: -30px;
-      left: 40%;
       margin-top: -50px;
+      margin: auto auto;
       display: none;
     }
   }

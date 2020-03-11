@@ -92,7 +92,8 @@ include 'inc/menu.php';
                         <div class="card-footer">
                             <div class="d-flex">
                                 <div class="box">
-                                    <div class="chart" data-percent="75%">75%<canvas></canvas></div>
+                                    <!-- Data-percent define a barra do gráfico -->
+                                    <div class="chart" data-percent="100%">100%<canvas></canvas></div>
                                 </div>
                                 <div class="d-inline oferta-info">
                                     <p class="text-blue">Investido: R$ 700,00</p>
@@ -363,10 +364,10 @@ include 'inc/menu.php';
                     foreach ($arr as $i=>$item) {
                         ?>
                         <li class="clickme">
-                            <a href="javascript:void(0);" data-tag="<?=$item;?>" class="<?=($i===0)?'activelink':'';?>">
+                            <a href="javascript:void(0);" data-tag="<?=$item;?>" class="<?=($i===1)?'activelink':'';?>">
                                 <img src="/assets/img/logo_lactec_uk.png" alt="Lactec">
                             </a>
-                            <img src="/assets/img/Poligono2.png" class="selected-tab">
+                            <div style="width: 100%;position: relative;display: flex;"><img src="/assets/img/Poligono2.png" class="selected-tab"></div>
                         </li>
                         <?php
                     }
@@ -374,7 +375,7 @@ include 'inc/menu.php';
             </ul>
             <div style="clear: both;"></div>
             <div id="container">
-                <div class="list" id="one">
+                <div class="list hide" id="one">
                     <div class="card border">
                         <div class="card-body">
                             <h2 class="text-center text-blue font-weight-bold">Lactec</h2>
@@ -388,7 +389,7 @@ include 'inc/menu.php';
                         </div>
                     </div>
                 </div>
-                <div class="list hide" id="two">
+                <div class="list" id="two">
                     <div class="card border">
                         <div class="card-body">
                             <h2 class="text-center text-blue font-weight-bold">Lactec</h2>

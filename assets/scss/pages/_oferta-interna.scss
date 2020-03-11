@@ -157,9 +157,9 @@ background-size: contain;
     position: relative;
     height: 80px;
     width: 80px;
-    background: #fff;
     border-radius: 50%;
     z-index: 10;
+    background: #fff;
 
   .chart {
     position: relative;
@@ -169,7 +169,6 @@ background-size: contain;
     text-align: center;
     font-size: 21px;
     color: $red;
-    background: rgba(0,0,0,.03);
     line-height: 80px;
 
     canvas {
@@ -177,7 +176,7 @@ background-size: contain;
       top: 0;
       left:0;
       z-index: -1;
-      fill: rgba(0,0,0,.03);
+      fill: #fff;
     }
   }
 }

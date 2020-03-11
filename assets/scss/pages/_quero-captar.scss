@@ -327,12 +327,12 @@
   padding: 3rem 0 !important;
   width: 700px;
   border-radius: 5px;
-  
   h2{
     font-weight: bold;
     font-size: 25px;
   }
   a {
+    transition: ease 0.6s;
     box-shadow: 0 0 5px $red;
     background: linear-gradient(135deg, $red 0%, $red_1 50%);
     text-transform: uppercase;
@@ -343,6 +343,10 @@
     border-radius: 50px;
     height: 50px;
     line-height: 35px;
+    &:hover {
+      color: #fff;
+      background: linear-gradient(135deg, darken($red,10%) 0%, darken($red_1,10%) 50%);
+    }
   }
 }
 
