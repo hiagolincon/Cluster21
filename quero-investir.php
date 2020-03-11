@@ -33,7 +33,7 @@ include 'inc/menu.php';
                 <div class="line"></div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-processo.png" alt="Escolher" title="Escolher">
+                        <img src="assets/img/icon-processo.png" alt="Escolher" title="Escolher">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Escolher</h3>
                     <p class="text-center howto-text">Escolha uma startup que você gosta. Revise o discurso da empresa, os termos e decida se você acredita que eles serão bem-sucedidos.</p>
@@ -43,7 +43,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-investir1.png" alt="Investir" title="Investir">
+                        <img src="assets/img/icon-investir1.png" alt="Investir" title="Investir">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Investir</h3>
                     <p class="text-center howto-text">Invista uma pequena quantia para começar. Planeje diversificar, o que significa investir quantias menores em várias empresas.</p>
@@ -53,7 +53,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
+                        <img src="assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h3>
                     <p class="text-center howto-text">Aguarde para ver se a inicialização foi bem-sucedida. Se a startup funcionar bem, seu investimento poderá trazer um retorno.</p>
@@ -260,7 +260,7 @@ include 'inc/menu.php';
                 <div id="video">
                     <div class="preview-video">
                         <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo2">
-                            <img src="/assets/img/foto_vj_pattern.png" alt="Dr. João da Silva" title="Dr. João da Silva">
+                            <img src="assets/img/foto_vj_pattern.png" alt="Dr. João da Silva" title="Dr. João da Silva">
                             <div class="overlay">
                                 <div>
                                     <div class="play">
@@ -351,7 +351,7 @@ include 'inc/menu.php';
                 <div class="line"></div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-processo.png" alt="Escolher" title="Escolher">
+                        <img src="assets/img/icon-processo.png" alt="Escolher" title="Escolher">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Escolher</h3>
                     <p class="text-center howto-text">Escolha uma startup que você gosta. Revise o discurso da empresa, os termos e decida se você acredita que eles serão bem-sucedidos.</p>
@@ -361,7 +361,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-investir1.png" alt="Investir" title="Investir">
+                        <img src="assets/img/icon-investir1.png" alt="Investir" title="Investir">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Investir</h3>
                     <p class="text-center howto-text">Invista uma pequena quantia para começar. Planeje diversificar, o que significa investir quantias menores em várias empresas.</p>
@@ -371,7 +371,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
+                        <img src="assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h3>
                     <p class="text-center howto-text">Aguarde para ver se a inicialização foi bem-sucedida. Se a startup funcionar bem, seu investimento poderá trazer um retorno.</p>
@@ -412,10 +412,10 @@ include 'inc/menu.php';
                                 <span><i class="fas fa-star"></i> META Garantida na Rodada</span>
                             </div>
                         </div>
-                        <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
+                        <img src="assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
                         <div class="card-body">
                             <div class="card-brand shadow">
-                                <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                                <img src="assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
                             </div>
                             <h3 class="card-title">Wolf Coffee</h3>
                             <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
@@ -441,10 +441,10 @@ include 'inc/menu.php';
             <?php for ($i=0; $i < 3; $i++) { ?>
                 <div class="col-lg-4">
                     <div class="oferta card shadow mt-4">
-                        <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
+                        <img src="assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
                         <div class="card-body">
                             <div class="card-brand shadow">
-                                <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                                <img src="assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
                             </div>
                             <h3 class="card-title">Wolf Coffee</h3>
                             <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
@@ -478,7 +478,7 @@ include 'inc/menu.php';
     <div class="container" id="content">
         <div class="row">
             <div class="col-lg-3">
-                <img src="/assets/img/logo.png" class="img-fluid" alt="Cluster21">
+                <img src="assets/img/logo.png" class="img-fluid" alt="Cluster21">
                 <ul>
                     <li>
                         <i class="fas fa-phone-alt"></i> (51) 3407-4707
@@ -494,27 +494,27 @@ include 'inc/menu.php';
                 <div class="d-flex" id="brands">
                     <div class="d-inline">
                         <a href="https://www.facebook.com/clustervinteum/">
-                            <img src="/assets/img/facebook-square-brands.png" alt="Siga-nos no facebook!" title="Siga-nos no Facebook!">
+                            <img src="assets/img/facebook-square-brands.png" alt="Siga-nos no facebook!" title="Siga-nos no Facebook!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="https://www.instagram.com/clustervinteum/?hl=pt-br">
-                            <img src="/assets/img/instagram-brands.png" alt="Siga-nos no Instagram!" title="Siga-nos no Instgram!">
+                            <img src="assets/img/instagram-brands.png" alt="Siga-nos no Instagram!" title="Siga-nos no Instgram!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="https://br.linkedin.com/company/clustervinteum">
-                            <img src="/assets/img/linkedin-brands.png" alt="Siga-nos no Linkedin!" title="Siga-nos no Linkedin!">
+                            <img src="assets/img/linkedin-brands.png" alt="Siga-nos no Linkedin!" title="Siga-nos no Linkedin!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="https://twitter.com/Cluster_vinteum">
-                            <img src="/assets/img/twitter-square-brands.png" alt="Siga-nos no Twitter!" title="Siga-nos no Twitter!">
+                            <img src="assets/img/twitter-square-brands.png" alt="Siga-nos no Twitter!" title="Siga-nos no Twitter!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="">
-                            <img src="/assets/img/whatsapp-square-brands.png" alt="Entre em contato via whatsapp" title="Entre em contato via whatsapp">
+                            <img src="assets/img/whatsapp-square-brands.png" alt="Entre em contato via whatsapp" title="Entre em contato via whatsapp">
                         </a>
                     </div>
                 </div>
@@ -585,8 +585,8 @@ include 'inc/menu.php';
 <!--WowJS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <!-- Main -->
-<script src="/assets/js/script.js"></script>
-<script src="/assets/js/quero-captar.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/quero-captar.js"></script>
 
 
 

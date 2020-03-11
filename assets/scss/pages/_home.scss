@@ -58,7 +58,7 @@ section {
 #topo {
   display: block;
   width: 100%;
-  background: url("/assets/img/bg.png");
+  background: url("assets/img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -641,7 +641,7 @@ section {
     font-weight: bold;
   }
   padding-bottom: 20px;
-  background: url(/assets/img/bg-footer.png) no-repeat;
+  background: url(assets/img/bg-footer.png) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   #brands {

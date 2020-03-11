@@ -102,22 +102,22 @@ include 'inc/menu.php';
       <h2 class="text-center">Vantagens de Investir Conosco</h2>
       <div class="row">
           <div class="col-lg-3 vntg-box">
-              <img src="/assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
+              <img src="assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
               <h3>Alta Rentabilidade</h3>
               <p>Possibilidade de rendimento acima de qualquer ativo do mercado financeiro, para investidores;</p>
           </div>
           <div class="col-lg-3 vntg-box">
-              <img src="/assets/img/icon-processo.png" class="img-circle" alt="Processo Seletivo" title="Processo Seletivo">
+              <img src="assets/img/icon-processo.png" class="img-circle" alt="Processo Seletivo" title="Processo Seletivo">
               <h3>Processo Seletivo</h3>
               <p>Sinta-se confiante para investir em nossas startups que foram analisadas por quem entende do mercado;</p>
           </div>
           <div class="col-lg-3 vntg-box">
-              <img src="/assets/img/icon-investir.png" class="img-circle" alt="Fácil Investir" title="Fácil Investir">
+              <img src="assets/img/icon-investir.png" class="img-circle" alt="Fácil Investir" title="Fácil Investir">
               <h3>Fácil Investir</h3>
               <p>Modalidade permite que pequenos investidores, não profissionais, realizem investimentos.</p>
           </div>
           <div class="col-lg-3 vntg-box">
-              <img src="/assets/img/icon-ajude.png" class="img-circle" alt="Ajude a financiar o futuro" title="Ajude a financiar o futuro">
+              <img src="assets/img/icon-ajude.png" class="img-circle" alt="Ajude a financiar o futuro" title="Ajude a financiar o futuro">
               <h3>Ajude a financiar o futuro</h3>
               <p>Os empresários são inovadores, sonhadores, loucos o suficiente para potencialmente mudar o mundo. Ao apoiá-los, você também pode fazer a diferença.</p>
           </div>
@@ -434,7 +434,7 @@ include 'inc/menu.php';
     <div class="container" id="content">
         <div class="row">
             <div class="col-lg-3">
-                <img src="/assets/img/logo.png" class="img-fluid" alt="Cluster21">
+                <img src="assets/img/logo.png" class="img-fluid" alt="Cluster21">
                 <ul>
                     <li>
                         <i class="fas fa-phone-alt"></i> (51) 3407-4707
@@ -450,27 +450,27 @@ include 'inc/menu.php';
                 <div class="d-flex" id="brands">
                     <div class="d-inline">
                         <a href="https://www.facebook.com/clustervinteum/">
-                            <img src="/assets/img/facebook-square-brands.png" alt="Siga-nos no facebook!" title="Siga-nos no Facebook!">
+                            <img src="assets/img/facebook-square-brands.png" alt="Siga-nos no facebook!" title="Siga-nos no Facebook!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="https://www.instagram.com/clustervinteum/?hl=pt-br">
-                            <img src="/assets/img/instagram-brands.png" alt="Siga-nos no Instagram!" title="Siga-nos no Instgram!">
+                            <img src="assets/img/instagram-brands.png" alt="Siga-nos no Instagram!" title="Siga-nos no Instgram!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="https://br.linkedin.com/company/clustervinteum">
-                            <img src="/assets/img/linkedin-brands.png" alt="Siga-nos no Linkedin!" title="Siga-nos no Linkedin!">
+                            <img src="assets/img/linkedin-brands.png" alt="Siga-nos no Linkedin!" title="Siga-nos no Linkedin!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="https://twitter.com/Cluster_vinteum">
-                            <img src="/assets/img/twitter-square-brands.png" alt="Siga-nos no Twitter!" title="Siga-nos no Twitter!">
+                            <img src="assets/img/twitter-square-brands.png" alt="Siga-nos no Twitter!" title="Siga-nos no Twitter!">
                         </a>
                     </div>
                     <div class="d-inline">
                         <a href="">
-                            <img src="/assets/img/whatsapp-square-brands.png" alt="Entre em contato via whatsapp" title="Entre em contato via whatsapp">
+                            <img src="assets/img/whatsapp-square-brands.png" alt="Entre em contato via whatsapp" title="Entre em contato via whatsapp">
                         </a>
                     </div>
                 </div>
@@ -542,8 +542,8 @@ include 'inc/menu.php';
 <!--WowJS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <!-- Main -->
-<script src="/assets/js/script.js"></script>
-<script src="/assets/js/quero-captar.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/quero-captar.js"></script>
 
 
 

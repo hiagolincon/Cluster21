@@ -19,7 +19,7 @@
     <!-- FontAwesome -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js"></script>
     <!-- Estilo  -->
-    <link rel="stylesheet" href="/assets/scss/style.css">
+    <link rel="stylesheet" href="assets/scss/style.css">
 </head>
 <body>
 <h1 style="font-size: 0px;display: none;">Cluster21</h1>

@@ -50,7 +50,7 @@ include 'inc/menu.php';
   <div class="container">
     <h2>Nossos valores</h2>
         <div class="col-lg-3 vntg-box2">
-            <img src="/assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
+            <img src="assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
 
            <div class="flex-column">
             <h3>Alta Rentabilidade</h3>
@@ -59,7 +59,7 @@ include 'inc/menu.php';
         </div>
 
         <div class="col-lg-3 vntg-box2">
-          <img src="/assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
+          <img src="assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
 
          <div class="flex-column">
           <h3>Alta Rentabilidade</h3>
@@ -67,7 +67,7 @@ include 'inc/menu.php';
          </div>
       </div>
       <div class="col-lg-3 vntg-box2">
-        <img src="/assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
+        <img src="assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
 
        <div class="flex-column">
         <h3>Alta Rentabilidade</h3>
@@ -93,7 +93,7 @@ include 'inc/menu.php';
                 </a>
             </div>
             <div class="col-lg-7">
-                <img class="img-fluid" src="/assets/img/print_reportagem_gaucha.png" alt="Cluster21 na mídia" title="Cluster21 na midia">
+                <img class="img-fluid" src="assets/img/print_reportagem_gaucha.png" alt="Cluster21 na mídia" title="Cluster21 na midia">
             </div>
         </div>
     </div>

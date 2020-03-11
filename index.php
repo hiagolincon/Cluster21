@@ -14,7 +14,7 @@ include 'inc/menu.php';
             </a>
         </div>
         <div class="col-lg-6">
-            <img src="/assets/img/man-home.png" class="img-fluid" alt="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora." title="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora.">
+            <img src="assets/img/man-home.png" class="img-fluid" alt="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora." title="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora.">
         </div>
     </div>
     </div>
@@ -32,22 +32,22 @@ include 'inc/menu.php';
         <h2 class="text-center">Vantagens de Investir Conosco</h2>
         <div class="row">
             <div class="col-lg-3 vntg-box">
-                <img src="/assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
+                <img src="assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
                 <h3>Alta Rentabilidade</h3>
                 <p>Possibilidade de rendimento acima de qualquer ativo do mercado financeiro, para investidores;</p>
             </div>
             <div class="col-lg-3 vntg-box">
-                <img src="/assets/img/icon-processo.png" class="img-circle" alt="Processo Seletivo" title="Processo Seletivo">
+                <img src="assets/img/icon-processo.png" class="img-circle" alt="Processo Seletivo" title="Processo Seletivo">
                 <h3>Processo Seletivo</h3>
                 <p>Sinta-se confiante para investir em nossas startups que foram analisadas por quem entende do mercado;</p>
             </div>
             <div class="col-lg-3 vntg-box">
-                <img src="/assets/img/icon-investir.png" class="img-circle" alt="Fácil Investir" title="Fácil Investir">
+                <img src="assets/img/icon-investir.png" class="img-circle" alt="Fácil Investir" title="Fácil Investir">
                 <h3>Fácil Investir</h3>
                 <p>Modalidade permite que pequenos investidores, não profissionais, realizem investimentos.</p>
             </div>
             <div class="col-lg-3 vntg-box">
-                <img src="/assets/img/icon-ajude.png" class="img-circle" alt="Ajude a financiar o futuro" title="Ajude a financiar o futuro">
+                <img src="assets/img/icon-ajude.png" class="img-circle" alt="Ajude a financiar o futuro" title="Ajude a financiar o futuro">
                 <h3>Ajude a financiar o futuro</h3>
                 <p>Os empresários são inovadores, sonhadores, loucos o suficiente para potencialmente mudar o mundo. Ao apoiá-los, você também pode fazer a diferença.</p>
             </div>
@@ -81,10 +81,10 @@ include 'inc/menu.php';
                                 <span><i class="fas fa-star"></i> META Garantida na Rodada</span>
                             </div>
                         </div>
-                        <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
+                        <img src="assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
                         <div class="card-body">
                             <div class="card-brand shadow">
-                                <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                                <img src="assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
                             </div>
                             <h3 class="card-title">Wolf Coffee</h3>
                             <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
@@ -111,10 +111,10 @@ include 'inc/menu.php';
             <?php for ($i=0; $i < 3; $i++) { ?>
                 <div class="col-lg-4">
                     <a href="oferta-interna.php" class="oferta card shadow mt-4">
-                        <img src="/assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
+                        <img src="assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
                         <div class="card-body">
                             <div class="card-brand shadow">
-                                <img src="/assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                                <img src="assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
                             </div>
                             <h3 class="card-title">Wolf Coffee</h3>
                             <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
@@ -153,7 +153,7 @@ include 'inc/menu.php';
                 <div id="video">
                     <div class="preview-video">
                         <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo2">
-                            <img src="/assets/img/foto_vj_pattern.png" alt="Dr. João da Silva" title="Dr. João da Silva">
+                            <img src="assets/img/foto_vj_pattern.png" alt="Dr. João da Silva" title="Dr. João da Silva">
                             <div class="overlay">
                                 <div>
                                     <div class="play">
@@ -244,7 +244,7 @@ include 'inc/menu.php';
                 <div class="line"></div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-processo.png" alt="Escolher" title="Escolher">
+                        <img src="assets/img/icon-processo.png" alt="Escolher" title="Escolher">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Escolher</h3>
                     <p class="text-center howto-text">Escolha uma startup que você gosta. Revise o discurso da empresa, os termos e decida se você acredita que eles serão bem-sucedidos.</p>
@@ -254,7 +254,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-investir1.png" alt="Investir" title="Investir">
+                        <img src="assets/img/icon-investir1.png" alt="Investir" title="Investir">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Investir</h3>
                     <p class="text-center howto-text">Invista uma pequena quantia para começar. Planeje diversificar, o que significa investir quantias menores em várias empresas.</p>
@@ -264,7 +264,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="/assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
+                        <img src="assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h3>
                     <p class="text-center howto-text">Aguarde para ver se a inicialização foi bem-sucedida. Se a startup funcionar bem, seu investimento poderá trazer um retorno.</p>
@@ -294,7 +294,7 @@ include 'inc/menu.php';
                 </a>
             </div>
             <div class="col-lg-7">
-                <img class="img-fluid" src="/assets/img/print_reportagem_gaucha.png" alt="Cluster21 na mídia" title="Cluster21 na midia">
+                <img class="img-fluid" src="assets/img/print_reportagem_gaucha.png" alt="Cluster21 na mídia" title="Cluster21 na midia">
             </div>
         </div>
     </div>
@@ -307,7 +307,7 @@ include 'inc/menu.php';
         <div class="row">
             <div class="col-lg-7 pl-0 pr-0">
                 <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo1">
-                    <img src="/assets/img/img_vk_pattern.png" alt="Cluster21" title="Cluster21">
+                    <img src="assets/img/img_vk_pattern.png" alt="Cluster21" title="Cluster21">
                     <div class="overlay overlay2">
                         <div>
                             <div class="play">
@@ -365,9 +365,9 @@ include 'inc/menu.php';
                         ?>
                         <li class="clickme">
                             <a href="javascript:void(0);" data-tag="<?=$item;?>" class="<?=($i===1)?'activelink':'';?>">
-                                <img src="/assets/img/logo_lactec_uk.png" alt="Lactec">
+                                <img src="assets/img/logo_lactec_uk.png" alt="Lactec">
                             </a>
-                            <div style="width: 100%;position: relative;display: flex;"><img src="/assets/img/Poligono2.png" class="selected-tab"></div>
+                            <div style="width: 100%;position: relative;display: flex;"><img src="assets/img/Poligono2.png" class="selected-tab"></div>
                         </li>
                         <?php
                     }
