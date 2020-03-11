@@ -163,10 +163,10 @@ section {
 }
 
 ///VANTAGENS
-.expandM15 {
-  // margin-left: calc(-15%);
-  // margin-right: calc(-15%);
-}
+// .expandM15 {
+//   margin-left: calc(-15%);
+//   margin-right: calc(-15%);
+// }
 #vantagens {
   .STICKER {
     z-index: -1;
@@ -644,7 +644,7 @@ section {
     font-weight: bold;
   }
   padding-bottom: 20px;
-  background: url(assets/img/bg-footer.png) no-repeat;
+  background: url(/assets/img/bg-footer.png) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   #brands {
