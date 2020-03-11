@@ -545,7 +545,7 @@ section h2 {
 }
 
 #depoimentos {
-  background: url("../img/bg_dep.svg");
+  background: url("/assets/img/bg_dep.svg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 100px;
@@ -762,7 +762,6 @@ section h2 {
 }
 
 #duvida .p-freq .slider .card {
-  margin: 0 10px;
   padding: 20px 20px 10px 20px;
   background-color: whitesmoke !important;
   border-radius: 5px;
@@ -829,6 +828,7 @@ section h2 {
 
 #duvida .container-faq {
   width: 85%;
+  position: relative;
   margin-left: auto;
   margin-right: 25px;
 }
@@ -956,6 +956,8 @@ section h2 {
 }
 
 .customTab {
+  margin-left: -15%;
+  margin-right: -15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -998,9 +1000,8 @@ section h2 {
   -webkit-transition: ease 1s;
   transition: ease 1s;
   position: relative;
-  bottom: -30px;
-  left: 40%;
   margin-top: -50px;
+  margin: auto auto;
   display: none;
 }
 
@@ -1173,7 +1174,7 @@ section h2 {
   font-weight: 600 !important;
   font-size: normal;
   margin-top: 5rem;
-  background-image: url("/assets/img/Caminho 624.png");
+  background-image: url("assets/img/Caminho 624.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
@@ -1183,9 +1184,9 @@ section h2 {
   position: relative;
   height: 80px;
   width: 80px;
-  background: #fff;
   border-radius: 50%;
   z-index: 10;
+  background: #fff;
 }
 
 .box .chart {
@@ -1321,7 +1322,7 @@ img {
 .title-style2 {
   font-weight: 700 !important;
   font-size: 35px;
-  background-image: url("/assets/img/Caminho 624.png");
+  background-image: url("assets/img/Caminho 624.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
@@ -1569,6 +1570,8 @@ img {
 }
 
 .box-button a {
+  -webkit-transition: ease 0.6s;
+  transition: ease 0.6s;
   -webkit-box-shadow: 0 0 5px #CF3736;
           box-shadow: 0 0 5px #CF3736;
   background: linear-gradient(135deg, #CF3736 0%, #C76666 50%);
@@ -1580,6 +1583,11 @@ img {
   border-radius: 50px;
   height: 50px;
   line-height: 35px;
+}
+
+.box-button a:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #aa2928 0%, #b74343 50%);
 }
 
 @media screen and (max-width: 600px) {
@@ -2215,7 +2223,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   #proposta-inovadora .carousel .slick-slider {
     position: relative;
     top: 270px;
@@ -2434,7 +2442,7 @@ img {
 #topo-blog-interno .caminho {
   display: block;
   width: 100%;
-  height: 600px;
+  height: 700px;
   z-index: -1;
   position: absolute;
   background: url("/assets/img/bg.png");

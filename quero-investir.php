@@ -339,50 +339,6 @@ include 'inc/menu.php';
             </div>
         </div>
 
-        <!--COMO COMEÇAR-->
-
-        <div class="row" id="como_comecar">
-            <div class="col-lg-12">
-                <h2 class="text-blue font-weight-bold text-center">COMO COMEÇAR</h2>
-            </div>
-        </div>
-        <div class="hto mx-auto">
-            <div class="d-flex howto">
-                <div class="line"></div>
-                <div class="d-inline-block howto-item">
-                    <div class="image-howto">
-                        <img src="assets/img/icon-processo.png" alt="Escolher" title="Escolher">
-                    </div>
-                    <h3 class="text-blue text-center font-weight-bold">Escolher</h3>
-                    <p class="text-center howto-text">Escolha uma startup que você gosta. Revise o discurso da empresa, os termos e decida se você acredita que eles serão bem-sucedidos.</p>
-                    <div class="d-flex">
-                        <a class="btn btn-red mx-auto">Passo 1</a>
-                    </div>
-                </div>
-                <div class="d-inline-block howto-item">
-                    <div class="image-howto">
-                        <img src="assets/img/icon-investir1.png" alt="Investir" title="Investir">
-                    </div>
-                    <h3 class="text-blue text-center font-weight-bold">Investir</h3>
-                    <p class="text-center howto-text">Invista uma pequena quantia para começar. Planeje diversificar, o que significa investir quantias menores em várias empresas.</p>
-                    <div class="d-flex">
-                        <a class="btn btn-red mx-auto">Passo 2</a>
-                    </div>
-                </div>
-                <div class="d-inline-block howto-item">
-                    <div class="image-howto">
-                        <img src="assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
-                    </div>
-                    <h3 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h3>
-                    <p class="text-center howto-text">Aguarde para ver se a inicialização foi bem-sucedida. Se a startup funcionar bem, seu investimento poderá trazer um retorno.</p>
-                    <div class="d-flex">
-                        <a class="btn btn-red mx-auto">Passo 3</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
     </div>
 
 </section>
@@ -390,14 +346,14 @@ include 'inc/menu.php';
 <!--OFERTAS-->
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="ofertas">
-    <svg class="bg_p" viewBox="-22.5 48.096 2000 1108.908">
+    <!-- <svg class="bg_p" viewBox="-22.5 48.096 2000 1108.908">
         <linearGradient id="bg_p" spreadMethod="pad" x1="0.5" x2="0.5" y1="0" y2="1">
             <stop offset="0" stop-color="#f9f9f9" stop-opacity="1"></stop>
             <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
         </linearGradient>
         <path fill="url(#bg_p)" id="bg_p" d="M -22.5 48.095703125 L 1977.499877929688 160.142578125 L 1977.499877929688 1157.00390625 L -22.5 1157.00390625 L -22.5 48.095703125 Z">
         </path>
-    </svg>
+    </svg> -->
     <div class="container">
         <div class="title">
             <h2 class="text-center">Conheça algumas ofertas em captação</h2>
