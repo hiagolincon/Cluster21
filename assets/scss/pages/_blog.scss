@@ -14,6 +14,19 @@
       height: 50px;
       line-height: 35px;
       margin-top: 20px;
+      -webkit-transition: color 1000ms linear;
+      -moz-transition: color 1000ms linear;
+      -o-transition: color 1000ms linear;
+      -ms-transition: color 1000ms linear;
+      transition: color 1000ms linear;
+      -webkit-transition: background-color 1000ms linear;
+      -moz-transition: background-color 1000ms linear;
+      -o-transition: background-color 1000ms linear;
+      -ms-transition: background-color 1000ms linear;
+      transition: background-color 1000ms linear;
+      &:hover{
+        background: linear-gradient(135deg, darken($red,10%) 0%, darken($red_1,10%) 50%);
+      }
     }
     h2 {
       font-size: 58px;
