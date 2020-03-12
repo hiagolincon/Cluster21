@@ -140,6 +140,47 @@
   }
 }
 
+// #proposta-inovadora{
+//   .carousel{
+//     .slick-slider{
+//       width: 100%;
+//       margin: 0 auto;
+//       .slick-current{
+//         position: relative;
+//         // margin-left: 300px;
+//         width: 11% !important;
+//         .position-prev {
+//             margin: 10px;
+//             position: absolute;
+          
+//             z-index: 3000;
+//             right: 12.7rem;
+//           }
+//           .position-next {
+//             margin: 10px;
+//             position: absolute;
+            
+//             z-index: 3000;
+//             // right: 17.9rem;
+//           }
+//       h3 {
+//         position: relative;
+//         color: $dark-blue!important;
+//         width: 12%;
+//         // width: 23%;
+//         font-size: 50px !important;
+//         font-weight: 600;
+//         padding: 10px 78px;
+//         padding-right: 200px;
+//         border-radius: 13px;
+//         background-color: #fff;
+//         box-shadow: 0 0 20px #ccc;
+//       }
+//       }
+//     }
+//   }
+// }
+
 //PROPOSTA INOVADORA
 #proposta-inovadora{
   img{
@@ -151,17 +192,48 @@
     margin: 14rem 0 0 5rem;
   }
   .carousel{
+    width: 100%;
+    position: relative;
+    .slide-ativo{
+      position: absolute;
+      top: 301px;
+      left: 783px;
+      background-color: rgba(0, 0, 255, 0.425);
+      width: 280px;
+      height: 82px;
+      z-index: 50;
+      border-radius: 13px;
+    }
   .slick-slider {
+    width: 100%;
     position: relative;
     top: 270px;
     right: 20px;
     z-index: 20;
+    
     .slick-track {
       width: 4000px !important;
     }
     .slick-current {
+      position: relative;
       margin-left: 300px;
       width: 11% !important;
+      
+  .position-prev {
+    margin: 10px;
+    position: absolute;
+  
+    z-index: 3000;
+    // right: 30.7rem;
+  }
+  .position-next {
+    margin: 10px;
+    position: absolute;
+    
+    z-index: 3000;
+    // right: 17.9rem;
+  }
+
       h3 {
         color: $dark-blue!important;
         width: 12%;
@@ -176,20 +248,21 @@
       }
     }
   }
-  .position-prev {
-    margin: 10px;
-    position: absolute;
-    top: 37px;
-    z-index: 3000;
-    right: 30.7rem;
-  }
-  .position-next {
-    margin: 10px;
-    position: absolute;
-    top: 37px;
-    z-index: 3000;
-    right: 17.9rem;
-  }
+
+  // .position-prev {
+  //   margin: 10px;
+  //   position: absolute;
+  //   top: 37px;
+  //   z-index: 3000;
+  //   right: 30.7rem;
+  // }
+  // .position-next {
+  //   margin: 10px;
+  //   position: absolute;
+  //   top: 37px;
+  //   z-index: 3000;
+  //   right: 17.9rem;
+  // }
   .slide-h3{
     h3 {
     margin: 2rem;
@@ -262,198 +335,198 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  #proposta-inovadora{
-    .carousel{
-      .position-prev {
-        right: 216px !important;
-      }
-      .position-next {
-        right: 22px !important;
-      }
-    }
-  }
-}
+// @media screen and (max-width: 320px) {
+//   #proposta-inovadora{
+//     .carousel{
+//       .position-prev {
+//         right: 216px !important;
+//       }
+//       .position-next {
+//         right: 22px !important;
+//       }
+//     }
+//   }
+// }
 
-@media screen and(min-width: 321px) and(max-width: 360px) {
-  #proposta-inovadora{
-    .carousel{
-      .position-prev {
-        margin: 10px;
-        // margin-right: -23% !important;
-        position: absolute;
-        top: 37px;
-        z-index: 3000;
-        right: 244px;
-      }
-      .position-next {
-        margin: 10px;
-        // margin-right: -23% !important;
-        position: absolute;
-        top: 37px;
-        z-index: 3000;
-        right: 46px;
-      }
+// @media screen and(min-width: 321px) and(max-width: 360px) {
+//   #proposta-inovadora{
+//     .carousel{
+//       .position-prev {
+//         margin: 10px;
+//         // margin-right: -23% !important;
+//         position: absolute;
+//         top: 37px;
+//         z-index: 3000;
+//         right: 244px;
+//       }
+//       .position-next {
+//         margin: 10px;
+//         // margin-right: -23% !important;
+//         position: absolute;
+//         top: 37px;
+//         z-index: 3000;
+//         right: 46px;
+//       }
  
-    }
-  }
-}
+//     }
+//   }
+// }
 
 
-@media screen and (min-width: 362px) and (max-width: 375px) {
-  #proposta-inovadora{
-    .carousel{
-      .position-prev {
-        right: 254px !important;
-      }
-      .position-next {
-        right: 56px !important;
-      }
-    }
-  }
-}
+// @media screen and (min-width: 362px) and (max-width: 375px) {
+//   #proposta-inovadora{
+//     .carousel{
+//       .position-prev {
+//         right: 254px !important;
+//       }
+//       .position-next {
+//         right: 56px !important;
+//       }
+//     }
+//   }
+// }
 
-@media screen and (min-width: 376px) and (max-width: 414px) {
-  #proposta-inovadora{
-    .carousel{
-      .position-prev {
-        right: 277px !important;
-      }
-      .position-next {
-        right: 80px !important;
-      }
-    }
-  }
-}
+// @media screen and (min-width: 376px) and (max-width: 414px) {
+//   #proposta-inovadora{
+//     .carousel{
+//       .position-prev {
+//         right: 277px !important;
+//       }
+//       .position-next {
+//         right: 80px !important;
+//       }
+//     }
+//   }
+// }
 
-@media screen and(min-width: 415px) and(max-width: 768px) {
-  #proposta-inovadora{
-    .carousel{
-      .slick-slider {
-        position: relative;
-        top: 270px;
-        right: 20px;
-        z-index: 20;
+// @media screen and(min-width: 415px) and(max-width: 768px) {
+//   #proposta-inovadora{
+//     .carousel{
+//       .slick-slider {
+//         position: relative;
+//         top: 270px;
+//         right: 20px;
+//         z-index: 20;
         
       
-        .slick-track {
-          width: 4000px;
-        }
-        .slick-current {
-          margin-left: 72px ;
-          width: 11% ;
-        }
-      }
+//         .slick-track {
+//           width: 4000px;
+//         }
+//         .slick-current {
+//           margin-left: 72px ;
+//           width: 11% ;
+//         }
+//       }
       
-      .position-prev {
-        margin: 10px;
-        position: absolute;
-        top: 37px;
-        z-index: 3000;
-        right: 19.7rem ;
-      }
-      .position-next {
-        margin: 10px;
-        position: absolute;
-        top: 37px;
-        z-index: 3000;
-        right: 7.2rem;
-      }
-    }
+//       .position-prev {
+//         margin: 10px;
+//         position: absolute;
+//         top: 37px;
+//         z-index: 3000;
+//         right: 19.7rem ;
+//       }
+//       .position-next {
+//         margin: 10px;
+//         position: absolute;
+//         top: 37px;
+//         z-index: 3000;
+//         right: 7.2rem;
+//       }
+//     }
     
-    .slider{
-      img{
-        width: 100%;
-        position: relative;
-        right: 4rem !important;
-      }
-      p{
-        position: relative;
-        top: 0 !important;   
-        justify-content: center;
-        margin: auto;
-        color: $dark-blue;
-      } 
-      .slick-slider {  
-        .slick-track {
-          width: 1000px !important;
-        }
-      }  
-    }
-  }
-}
+//     .slider{
+//       img{
+//         width: 100%;
+//         position: relative;
+//         right: 4rem !important;
+//       }
+//       p{
+//         position: relative;
+//         top: 0 !important;   
+//         justify-content: center;
+//         margin: auto;
+//         color: $dark-blue;
+//       } 
+//       .slick-slider {  
+//         .slick-track {
+//           width: 1000px !important;
+//         }
+//       }  
+//     }
+//   }
+// }
 
 
 
-@media screen and(min-width: 769px) and(max-width: 1024px) {
-  #proposta-inovadora{
-.carousel{
-  .slick-slider {
-    position: relative;
-    top: 270px;
-    right: 20px;
-    z-index: 20;
+// @media screen and(min-width: 769px) and(max-width: 1024px) {
+//   #proposta-inovadora{
+// .carousel{
+//   .slick-slider {
+//     position: relative;
+//     top: 270px;
+//     right: 20px;
+//     z-index: 20;
     
   
-    .slick-track {
-      width: 4000px!important;
-    }
-    .slick-current {
-      margin-left: 72px ;
-      width: 11% !important;
-    }
-  }
+//     .slick-track {
+//       width: 4000px!important;
+//     }
+//     .slick-current {
+//       margin-left: 72px ;
+//       width: 11% !important;
+//     }
+//   }
   
-  .position-prev {
-    margin: 10px;
-    position: absolute;
-    top: 37px;
-    z-index: 3000;
-    right: 30.7rem;
-  }
-  .position-next {
-    margin: 10px;
-    position: absolute;
-    top: 37px;
-    z-index: 3000;
-    right: 17.9rem;
-  }
-}    
+//   .position-prev {
+//     margin: 10px;
+//     position: absolute;
+//     top: 37px;
+//     z-index: 3000;
+//     right: 30.7rem;
+//   }
+//   .position-next {
+//     margin: 10px;
+//     position: absolute;
+//     top: 37px;
+//     z-index: 3000;
+//     right: 17.9rem;
+//   }
+// }    
     
-    .slider{
-      img{
-        width: 100%;
-        position: relative;
-        right: 2.5rem;
-      }
-      p{
-        position: relative;
-        top: 14rem;   
-        justify-content: center;
-        margin: 0;
-        color: $dark-blue;
-      } 
-      .slick-slider {  
-        .slick-track {
-          width: 1000px !important;
-        }
-      }  
-    }
-  }
-}
+//     .slider{
+//       img{
+//         width: 100%;
+//         position: relative;
+//         right: 2.5rem;
+//       }
+//       p{
+//         position: relative;
+//         top: 14rem;   
+//         justify-content: center;
+//         margin: 0;
+//         color: $dark-blue;
+//       } 
+//       .slick-slider {  
+//         .slick-track {
+//           width: 1000px !important;
+//         }
+//       }  
+//     }
+//   }
+// }
 
-@media screen and(min-width: 1367px) {
-  #proposta-inovadora{
-    .carousel{
-      .position-prev {
-        right: 858px !important;
-      }
-      .position-next {
-        right: 655px !important;
-      }
-    }
-  }
-}
+// @media screen and(min-width: 1367px) {
+//   #proposta-inovadora{
+//     .carousel{
+//       .position-prev {
+//         right: 858px !important;
+//       }
+//       .position-next {
+//         right: 655px !important;
+//       }
+//     }
+//   }
+// }
 
 
 

@@ -2,16 +2,19 @@
 //SLIDE
 
 $('.slider-single').slick({
-  infinite:false,
+    infinite:false,
     initialSlide: 3,
     slidesToShow: 3,
     centerMode: true,
     speed: 100,
     focusOnSelect: true,
+    // prevArrow: $('.prev'),
+    // nextArrow: $('.next'),
+    appendArrows: '.slick-slider',
     prevArrow: "<button type=\"button\" class=\"btn btn-red position-prev slick-prev\"><i class='fas fa-long-arrow-alt-left'></i></button>",
     nextArrow: "<button type=\"button\" class=\"btn btn-red position-next slick-next\"><i class='fas fa-long-arrow-alt-right'></i></button>",
     zindex: 100,
-    setPosition: 'absolute'
+    // setPosition: 'absolute'
   });
   
    $('.slider-nav')

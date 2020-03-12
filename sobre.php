@@ -104,6 +104,7 @@ include 'inc/menu.php';
 <section class="wow slideInLeft" data-wow-duration="2s" id="proposta-inovadora">
 
 <div class="carousel">
+<div class="slide-ativo"></div>
   <div class="slider-single slide-h3">
     <div><h3>2015</h3></div>
     <div><h3>2016</h3></div>
@@ -111,7 +112,9 @@ include 'inc/menu.php';
     <div><h3>2018</h3></div>
     <div><h3>2019</h3></div>
     <div><h3>2020</h3></div>
+    
   </div>
+
 </div>
 
 
