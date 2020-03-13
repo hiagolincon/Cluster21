@@ -194,16 +194,37 @@
   .carousel{
     width: 100%;
     position: relative;
-    .slide-ativo{
+    .slick-prev {
+      height: 50px;
+      width: 50px;
+      background: lighten($red,40%);
+      color: $red;
+      border-radius: 5px;
       position: absolute;
-      top: 301px;
-      left: 783px;
-      background-color: rgba(0, 0, 255, 0.425);
-      width: 280px;
-      height: 82px;
-      z-index: 50;
-      border-radius: 13px;
+      left: 61%;
+      top: 48px;
+      transform: translateX(-40%);
+      z-index: 999999;
+      &:hover{
+        background: darken(lighten($red,40%),10%);
+        color: $red;
+      }
     }
+    .slick-next {
+      height: 50px;
+      width: 50px;
+      background: $red;
+      color: #fff;
+      border-radius: 5px;
+      position: absolute;
+      bottom: -55px;
+      right: 0px;
+      &:hover{
+        background: darken($red,10%);
+        color: #fff;
+      }
+    }
+    
   .slick-slider {
     width: 100%;
     position: relative;
@@ -218,22 +239,31 @@
       position: relative;
       margin-left: 300px;
       width: 11% !important;
+      // .slide-ativo{
+      //   position: absolute;
+      //   // top: 301px;
+      //   left: 783px;
+      //   background-color: rgba(0, 0, 255, 0.404);
+      //   width: 280px;
+      //   height: 82px;
+      //   z-index: 50;
+      //   border-radius: 13px;
+      // }  
       
-  .position-prev {
-    margin: 10px;
-    position: absolute;
-  
-    z-index: 3000;
-    // right: 30.7rem;
-  }
-  .position-next {
-    margin: 10px;
-    position: absolute;
-    
-    z-index: 3000;
-    // right: 17.9rem;
-  }
-
+      // .position-prev {
+      //   margin: 10px;
+      //   position: absolute;
+      //   bottom: 36px;
+      //   z-index: 3000;
+      //   // right: 20.9rem;
+      // }
+      // .position-next {
+      //   margin: 10px;
+      //   position: absolute;
+      //   bottom: 36px;
+      //   z-index: 3000;
+      //   // right: 8.3rem;
+      // }  
       h3 {
         color: $dark-blue!important;
         width: 12%;
@@ -245,6 +275,7 @@
         border-radius: 13px;
         background-color: #fff;
         box-shadow: 0 0 20px #ccc;
+        
       }
     }
   }
@@ -291,16 +322,16 @@
     .carousel{
       .slick-slider {
         position: relative;
-        top:300px !important;
+        top:300px ;
         right: 0px;
         z-index: 20;
         
         .slick-track {
-          width: 2000px!important;
+          width: 2000px;
         }
         .slick-current {
-          margin-left: -128px !important;
-          width: 0% !important;
+          margin-left: -128px ;
+          width: 0% ;
         }
       }
       
@@ -308,9 +339,9 @@
     .slide-h3{
       h3 {
       margin: 2rem;
-      font-size: 50px!important;
+      font-size: 50px;
       font-weight: 600;
-      color: rgba(168, 168, 168, 0) !important;
+      color: rgba(168, 168, 168, 0) ;
       justify-content: center;
       }    
     }
@@ -334,6 +365,9 @@
     }
   }
 }
+
+
+///media querys q estava usando quando os botões estavam soltos
 
 // @media screen and (max-width: 320px) {
 //   #proposta-inovadora{
