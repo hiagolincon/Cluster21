@@ -18,8 +18,8 @@ $(document).ready(function () {
             infinite: false,
             arrows: false,
             centerMode: true,
-            // prevArrow: "<button type=\"button\" class=\"btn btn-red slick-prev mx-auto\"><i class='fas fa-long-arrow-alt-left'></i></button>",
-            // nextArrow: "<button type=\"button\" class=\"btn btn-red slick-next mx-auto\"><i class='fas fa-long-arrow-alt-right'></i></button>",
+            // prevArrow: "<button type=\"button\" class=\"btn btn-red prev mx-auto\"><i class='fas fa-long-arrow-alt-left'></i></button>",
+            // nextArrow: "<button type=\"button\" class=\"btn btn-red next mx-auto\"><i class='fas fa-long-arrow-alt-right'></i></button>",
             responsive: [{
                 breakpoint: 900,
                 settings: 'unslick'
@@ -53,8 +53,8 @@ $(document).ready(function () {
     });
 
     $('.slide-depoimento').slick({
-        prevArrow: "<button type=\"button\" class=\"btn btn-red slick-prev\"><i class='fas fa-long-arrow-alt-left'></i></button>",
-        nextArrow: "<button type=\"button\" class=\"btn btn-red slick-next\"><i class='fas fa-long-arrow-alt-right'></i></button>"
+        prevArrow: $('#depoimentos_container .prev'),
+        nextArrow: $('#depoimentos_container .next')
     });
 
     $('.p-freq').slick({

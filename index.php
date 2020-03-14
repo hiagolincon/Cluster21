@@ -226,7 +226,12 @@ include 'inc/menu.php';
                             </div>
                         </div>
                     </div>
-
+                    <div class="d-flex">
+                        <div class="ml-auto">
+                            <button type="button" class="btn btn-red prev"><i class='fas fa-long-arrow-alt-left'></i></button>
+                            <button type="button" class="btn btn-red next"><i class='fas fa-long-arrow-alt-right'></i></button>
+                        </div>
+                    </div>
                     <!--Modal Dr João-->
                     <div class="modal fade modalVideo2" tabindex="-1" role="dialog" aria-labelledby="modalVideo2" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
