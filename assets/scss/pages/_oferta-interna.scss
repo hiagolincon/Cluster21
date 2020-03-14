@@ -2,88 +2,84 @@
 //BANNER
 
 #banner {
-background-color: darkgrey;
+  background-color: darkgrey;
 }
 
 .column-left {
-padding: 10px 2rem;
-text-align: end;
+  padding: 10px 2rem;
+  text-align: end;
 }
 
 .button-banner button {
-padding: 10px 0px;
+  padding: 10px 0px;
 }
-
 
 .card-style {
-width: 24rem;
-margin-right: 0;
-padding-top: 2rem;
-float: right;
-border-radius: 5px;
+  width: 24rem;
+  margin-right: 0;
+  padding-top: 2rem;
+  float: right;
+  border-radius: 5px;
 }
 
-.card-style p{
-margin: 7px 0;
-list-style: none;
- 
+.card-style p {
+  margin: 7px 0;
+  list-style: none;
 }
 
-.icon-style{
-font-size: 13px;
-margin-right: 9px !important ;
+.icon-style {
+  font-size: 13px;
+  margin-right: 9px !important ;
 }
 
 .embed-submit-field {
   position: relative;
-  
-    input {
-      width: 100%;
-      border-radius: 6px;
-      border: thin solid #ccc;
-      padding: 8px 0;
-      margin: 0;
-      
-      
-    }
-    input[placeholder] {
-      font-size: 20px;
-      font-weight: 400;
-      position: relative;
-      padding-left: 4rem;
-    }
-  
-    ::-webkit-input-placeholder {
-      color: #ccc;
-    }
-  
-    :-moz-placeholder { /* Firefox 18- */
-      color: #ccc;  
-    }
-  
-    ::-moz-placeholder {  /* Firefox 19+ */
-      color: #ccc;  
-    }
-  
-    :-ms-input-placeholder {  
-      color: #ccc;  
-    }
-    button {
-      position: absolute;
-      right: 5px;
-      top: 5px;
-      color: #fff;
-      background: $red;
-      padding: 6px 17px;
-  
-    }
+
+  input {
+    width: 100%;
+    border-radius: 6px;
+    border: thin solid #ccc;
+    padding: 8px 0;
+    margin: 0;
   }
-  
+  input[placeholder] {
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 4rem;
+  }
+
+  ::-webkit-input-placeholder {
+    color: #ccc;
+  }
+
+  :-moz-placeholder {
+    /* Firefox 18- */
+    color: #ccc;
+  }
+
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #ccc;
+  }
+
+  :-ms-input-placeholder {
+    color: #ccc;
+  }
+  button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #fff;
+    background: $red;
+    padding: 6px 17px;
+  }
+}
 
 .cartao-footer {
   margin-top: 10px;
   padding: 4px 0;
-  background-color:rgb(245, 245, 245);
+  background-color: rgb(245, 245, 245);
   border-radius: 0 0 5px 5px;
 }
 
@@ -91,8 +87,9 @@ margin-right: 9px !important ;
   font-size: 20px;
 }
 
-.captaçao p,small {
-  color:$dark-blue;
+.captaçao p,
+small {
+  color: $dark-blue;
   margin: 0 !important;
   padding: 0 !important;
   font-weight: 300;
@@ -106,59 +103,55 @@ margin-right: 9px !important ;
   font-size: 10px;
 }
 
-
 //ARTIGO
 
-#artigo p{
-font-weight: 500;
-font-size: 18px;
-color: rgb(143, 143, 143);
-padding-top: 1rem;
+#artigo p {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(143, 143, 143);
+  padding-top: 1rem;
 }
 
 #artigo ul li {
   font-weight: 500;
-font-size: 18px;
-color: rgb(143, 143, 143);
+  font-size: 18px;
+  color: rgb(143, 143, 143);
 }
 #artigo hr {
   margin: 2.5rem 0;
-  background-color: rgba(214, 214, 214, 0.87)!important;
+  background-color: rgba(214, 214, 214, 0.87) !important;
 }
 
 .texto-sm {
   color: rgb(143, 143, 143);
-
 }
 
 .style-span {
-   color: $dark-blue;
-   font-weight: 600;
-   font-size: 18px;
-    
+  color: $dark-blue;
+  font-weight: 600;
+  font-size: 18px;
 }
 .style-span i {
   font-size: 3rem;
 }
 
-
 .title-style {
-font-weight: 600 !important;
-font-size: normal;
-margin-top: 5rem;
-background-image: url('assets/img/Caminho\ 624.png');
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: contain;
+  font-weight: 600 !important;
+  font-size: normal;
+  margin-top: 5rem;
+  background-image: url("assets/img/Caminho\ 624.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
 }
 
-.box{
-    position: relative;
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    z-index: 10;
-    background: #fff;
+.box {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  z-index: 10;
+  background: #fff;
 
   .chart {
     position: relative;
@@ -174,11 +167,9 @@ background-size: contain;
     canvas {
       position: absolute;
       top: 0;
-      left:0;
+      left: 0;
       z-index: -1;
       // fill: rgba(0,0,0,.03);
     }
   }
 }
-
-
