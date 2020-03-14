@@ -61,7 +61,7 @@ $(document).ready(function () {
         slidesToShow: 3,
         initialSlide: 1,
         slidesToScroll: 3,
-        infinite: false,
+        infinite: true,
         responsive: [{
                 breakpoint: 1024,
                 settings: {
@@ -89,7 +89,7 @@ $(document).ready(function () {
             // instead of a settings object
         ],
         prevArrow: $('.container-faq .prev'),
-        nextArrow: $('.contaner-faq .next')
+        nextArrow: $('.container-faq .next')
     });
     $(".customTab a").click(function () {
         var parent = $(this).parents('.customTab').children('li').children('a[data-tag="' + $(this).data('tag') + '"]');
