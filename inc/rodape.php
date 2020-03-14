@@ -141,6 +141,8 @@
 <!-- SlickSlide -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!--WowJS-->
+<script src="https://use.fontawesome.com/releases/v5.12.1/js/solid.js" data-auto-replace-svg="nest"></script>
+<script src="https://use.fontawesome.com/releases/v5.12.1/js/fontawesome.js" data-auto-replace-svg="nest"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <!--EasyPieChart-->
 <script src="assets/js/jquery.easypiechart.js"></script>
@@ -151,4 +153,5 @@
 
 
 </body>
+
 </html>

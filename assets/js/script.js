@@ -1,18 +1,41 @@
-
 $(document).ready(function () {
     var parent = $('.customTab li a.activelink');
     var i = parent.parents('li').children('div').children('.selected-tab');
     i.show();
 
-    wow = new WOW( {
+    wow = new WOW({
         animateClass: 'animated',
-        offset:       100
+        offset: 100
     });
     wow.init();
 
-    $(function(){
+    function slickify() {
+        $('.customTab').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1,
+            mobileFirst: true,
+            centerMode: true,
+            prevArrow: "<button type=\"button\" class=\"btn btn-red slick-prev mx-auto\"><i class='fas fa-long-arrow-alt-left'></i></button>",
+            nextArrow: "<button type=\"button\" class=\"btn btn-red slick-next mx-auto\"><i class='fas fa-long-arrow-alt-right'></i></button>",
+            responsive: [{
+                breakpoint: 768,
+                settings: 'unslick'
+            }]
+        });
+    }
+
+    slickify();
+    $(window).resize(function () {
+        var $windowWidth = $(window).width();
+        if ($windowWidth > 500) {
+            slickify();
+        }
+    });
+
+    $(function () {
         $('.chart').easyPieChart({
-            size:80,
+            size: 80,
             barColor: '#CF3736',
             scaleColor: false,
             lineWidth: 4,
@@ -24,32 +47,32 @@ $(document).ready(function () {
         prevArrow: "<button type=\"button\" class=\"btn btn-red slick-prev\"><i class='fas fa-long-arrow-alt-left'></i></button>",
         nextArrow: "<button type=\"button\" class=\"btn btn-red slick-next\"><i class='fas fa-long-arrow-alt-right'></i></button>"
     });
-   
+
     $('.p-freq').slick({
         slidesToShow: 3,
-        initialSlide: 0,
+        initialSlide: 1,
         slidesToScroll: 3,
         infinite: false,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 3,                    
+                    slidesToScroll: 3,
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 2,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    centerMode: true,
                 }
             }
             // You can unslick at a given breakpoint now by adding:
@@ -59,8 +82,8 @@ $(document).ready(function () {
         prevArrow: "<button type=\"button\" class=\"btn btn-red slick-prev\"><i class='fas fa-long-arrow-alt-left'></i></button>",
         nextArrow: "<button type=\"button\" class=\"btn btn-red slick-next\"><i class='fas fa-long-arrow-alt-right'></i></button>"
     });
-    $(".customTab a").click(function() {
-        var parent = $(this).parents('.customTab').children('li').children('a[data-tag="'+$(this).data('tag')+'"]');
+    $(".customTab a").click(function () {
+        var parent = $(this).parents('.customTab').children('li').children('a[data-tag="' + $(this).data('tag') + '"]');
         $(".customTab a").removeClass("activelink");
         $('.selected-tab').hide();
         var i = parent.parents('li').children('.selected-tab');
@@ -76,10 +99,10 @@ $(document).ready(function () {
             .removeClass("hide");
     });
 
-    $('.read-more').click(function() {
+    $('.read-more').click(function () {
         var parent = $(this).parents('.card');
         var container = parent.children('.read-container');
-        
+
         container.css({
             overflow: 'auto'
         });
@@ -87,13 +110,13 @@ $(document).ready(function () {
     });
 
 
-    $(".customTab a").click(function() {
-        var parent = $(this).parents('.customTab').children('li').children('a[data-tag="'+$(this).data('tag')+'"]');
+    $(".customTab a").click(function () {
+        var parent = $(this).parents('.customTab').children('li').children('a[data-tag="' + $(this).data('tag') + '"]');
         $(".customTab a").removeClass("activelink");
         $('.selected-tab').hide();
         var i = parent.parents('li').children('div').children('.selected-tab');
         i.show();
-console.log(i);
+        console.log(i);
         $(this).addClass("activelink");
         var tagid = $(this).data("tag");
         $(".list")
@@ -106,10 +129,9 @@ console.log(i);
 
     $($($('.customTab .clickme .activelink').parents('.clickme')).children('.selected-tab')).show();
 
-    $('.slide-depoimento').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    $('.slide-depoimento').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
         var current = $('.slide-depoimento .slick-slide')[currentSlide];
-        $('.modalVideo2 iframe').attr('src',$(current).data('video'));
-        $('#video img').attr('src',$(current).data('image'));
+        $('.modalVideo2 iframe').attr('src', $(current).data('video'));
+        $('#video img').attr('src', $(current).data('image'));
     });
 });
-

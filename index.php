@@ -5,19 +5,19 @@ include 'inc/menu.php';
 
 <!--BANNER-->
 
-    <div class="row" id="banner-content">
-        <div class="col-lg-6">
-            <h2><strong>Torne-se sócio</strong> de startups inovadoras a partir de <strong>R$ 500,00</strong></h2>
-            <h3>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h3>
-            <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
-                Quero investir agora
-            </a>
-        </div>
-        <div class="col-lg-6">
-            <img src="assets/img/man-home.png" class="img-fluid" alt="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora." title="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora.">
-        </div>
+<div class="row" id="banner-content">
+    <div class="col-lg-6">
+        <h2><strong>Torne-se sócio</strong> de startups inovadoras a partir de <strong>R$ 500,00</strong></h2>
+        <h3>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h3>
+        <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
+            Quero investir agora
+        </a>
     </div>
+    <div class="col-lg-6">
+        <img lazyload src="assets/img/man-home.png" class="img-fluid" alt="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora." title="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora.">
     </div>
+</div>
+</div>
 </section>
 <!--Termina seção topo-->
 
@@ -31,23 +31,23 @@ include 'inc/menu.php';
     <div class="container">
         <h2 class="text-center">Vantagens de Investir Conosco</h2>
         <div class="row">
-            <div class="col-lg-3 vntg-box">
-                <img src="assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
+            <div class="col-lg-3 col-sm-6 vntg-box">
+                <div class="overlayImg"><img lazyload src="assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade"></div>
                 <h3>Alta Rentabilidade</h3>
                 <p>Possibilidade de rendimento acima de qualquer ativo do mercado financeiro, para investidores;</p>
             </div>
-            <div class="col-lg-3 vntg-box">
-                <img src="assets/img/icon-processo.png" class="img-circle" alt="Processo Seletivo" title="Processo Seletivo">
+            <div class="col-lg-3 col-sm-6 vntg-box">
+                <div class="overlayImg"><img lazyload src="assets/img/icon-processo.png" class="img-circle" alt="Processo Seletivo" title="Processo Seletivo"></div>
                 <h3>Processo Seletivo</h3>
                 <p>Sinta-se confiante para investir em nossas startups que foram analisadas por quem entende do mercado;</p>
             </div>
-            <div class="col-lg-3 vntg-box">
-                <img src="assets/img/icon-investir.png" class="img-circle" alt="Fácil Investir" title="Fácil Investir">
+            <div class="col-lg-3 col-sm-6 vntg-box">
+                <div class="overlayImg"><img lazyload src="assets/img/icon-investir.png" class="img-circle" alt="Fácil Investir" title="Fácil Investir"></div>
                 <h3>Fácil Investir</h3>
                 <p>Modalidade permite que pequenos investidores, não profissionais, realizem investimentos.</p>
             </div>
-            <div class="col-lg-3 vntg-box">
-                <img src="assets/img/icon-ajude.png" class="img-circle" alt="Ajude a financiar o futuro" title="Ajude a financiar o futuro">
+            <div class="col-lg-3 col-sm-6 vntg-box">
+                <div class="overlayImg"><img lazyload src="assets/img/icon-ajude.png" class="img-circle" alt="Ajude a financiar o futuro" title="Ajude a financiar o futuro"></div>
                 <h3>Ajude a financiar o futuro</h3>
                 <p>Os empresários são inovadores, sonhadores, loucos o suficiente para potencialmente mudar o mundo. Ao apoiá-los, você também pode fazer a diferença.</p>
             </div>
@@ -73,7 +73,7 @@ include 'inc/menu.php';
         </div>
 
         <div class="row">
-            <?php for ($i=0; $i < 3; $i++) { ?>
+            <?php for ($i = 0; $i < 3; $i++) { ?>
                 <div class="col-lg-4">
                     <a href="oferta-interna.php" class="oferta card shadow mt-4">
                         <div class="d-flex meta">
@@ -81,11 +81,16 @@ include 'inc/menu.php';
                                 <span><i class="fas fa-star"></i> META Garantida na Rodada</span>
                             </div>
                         </div>
-                        <img src="assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
+                        <img lazyload src="assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
                         <div class="card-body">
-                            <div class="card-brand shadow">
-                                <img src="assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                            <div class="d-flex">
+                                <div class="card-brand shadow">
+                                    <img lazyload src="assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                                </div>
+                                <div class="loteAdicional badge badge-light">LOTE ADICIONAL!</div>
+
                             </div>
+
                             <h3 class="card-title">Wolf Coffee</h3>
                             <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
                         </div>
@@ -108,13 +113,13 @@ include 'inc/menu.php';
                     </a>
                 </div>
             <?php } ?>
-            <?php for ($i=0; $i < 3; $i++) { ?>
+            <?php for ($i = 0; $i < 3; $i++) { ?>
                 <div class="col-lg-4">
                     <a href="oferta-interna.php" class="oferta card shadow mt-4">
-                        <img src="assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
+                        <img lazyload src="assets/img/ofertas/wolf.png" class="card-img-top" alt="Wolf Coffee" title="Wolf Coffee">
                         <div class="card-body">
                             <div class="card-brand shadow">
-                                <img src="assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
+                                <img lazyload src="assets/img/ofertas/wolf_logo.png" alt="Wolf Coffee" title="Wolf Coffee">
                             </div>
                             <h3 class="card-title">Wolf Coffee</h3>
                             <p class="card-text">Uma startup destinada em servir os melhores cafés de Porto Alegre</p>
@@ -150,33 +155,38 @@ include 'inc/menu.php';
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <div id="video">
-                    <div class="preview-video">
-                        <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo2">
-                            <img src="assets/img/foto_vj_pattern.png" alt="Dr. João da Silva" title="Dr. João da Silva">
-                            <div class="overlay">
-                                <div>
-                                    <div class="play">
-                                        <i class="fas fa-play text-white"></i>
+                <h2 class="text-center titulo-mobile hide"><b>Depoimentos de</b><br>QUEM INVESTE</h2>
+                <div id="depoimento_vid_container">
+                    <div id="video">
+                        <div class="preview-video">
+                            <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo2">
+                                <img lazyload src="assets/img/foto_vj_pattern.png" alt="Dr. João da Silva" title="Dr. João da Silva">
+                                <div class="overlay">
+                                    <div>
+                                        <div class="play">
+                                            <i class="fas fa-play text-white"></i>
+                                        </div>
+                                        <p class="play-text text-white">APERTE O PLAY PARA CONHECER MAIS</p>
                                     </div>
-                                    <p class="play-text text-white">APERTE O PLAY PARA CONHECER MAIS</p>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
-                    <svg class="Caminho_375" viewBox="119.738 -73.106 615.437 695.583">
-                        <path fill="rgba(246,215,214,1)" id="Caminho_375" d="M 442.2153930664063 -73.10621643066406 C 505.3286743164063 -73.10621643066406 536.917724609375 -9.876947402954102 588.3456420898438 19.36474418640137 C 694.4686279296875 79.70550537109375 735.1754760742188 201.0425262451172 735.1754760742188 332.124267578125 C 735.1754760742188 526.3192138671875 487.9191284179688 622.4124755859375 293.7241821289063 622.4124755859375 C 290.4228515625 622.4124755859375 296.9515380859375 622.5567626953125 293.7241821289063 622.4124755859375 C 106.9826126098633 614.0654296875 119.9301910400391 428.0609741210938 119.9301910400391 237.1673278808594 C 119.9301910400391 136.9633178710938 208.2841339111328 111.5718536376953 267.8978271484375 58.2515869140625 C 323.9686279296875 8.100099563598633 348.2244873046875 -73.10621643066406 442.2153930664063 -73.10621643066406 Z">
-                        </path>
-                    </svg>
+                    <div class="overflow-svg">
+                        <svg class="Caminho_375" viewBox="119.738 -73.106 615.437 695.583">
+                            <path fill="rgba(246,215,214,1)" id="Caminho_375" d="M 442.2153930664063 -73.10621643066406 C 505.3286743164063 -73.10621643066406 536.917724609375 -9.876947402954102 588.3456420898438 19.36474418640137 C 694.4686279296875 79.70550537109375 735.1754760742188 201.0425262451172 735.1754760742188 332.124267578125 C 735.1754760742188 526.3192138671875 487.9191284179688 622.4124755859375 293.7241821289063 622.4124755859375 C 290.4228515625 622.4124755859375 296.9515380859375 622.5567626953125 293.7241821289063 622.4124755859375 C 106.9826126098633 614.0654296875 119.9301910400391 428.0609741210938 119.9301910400391 237.1673278808594 C 119.9301910400391 136.9633178710938 208.2841339111328 111.5718536376953 267.8978271484375 58.2515869140625 C 323.9686279296875 8.100099563598633 348.2244873046875 -73.10621643066406 442.2153930664063 -73.10621643066406 Z">
+                            </path>
+                        </svg>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div id="depoimentos_container">
-                    <h2 class="text-right"><b>Depoimentos de</b><br>QUEM INVESTE</h2>
+                    <h2 class="text-right titulo"><b>Depoimentos de</b><br>QUEM INVESTE</h2>
                     <div class="slide-depoimento">
                         <!-- Data-video e data-image servem para alterar a imagem/video ao trocar de depoimento -->
                         <div class="card pb-2" data-image="assets/img/foto_vj_pattern.png" data-video="https://www.youtube.com/embed/zpOULjyy-n8?rel=0&autoplay">
-                            <img src="assets/img/Grupo45.png" class="left-arrow">
+                            <img lazyload src="assets/img/Grupo45.png" class="left-arrow">
                             <div class="card-body">
 
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
@@ -188,7 +198,7 @@ include 'inc/menu.php';
                                         <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
                                     </div>
                                     <div class="d-inline ml-auto">
-                                        <img src="assets/img/quote-left-solid.png" class="float-right">
+                                        <img lazyload src="assets/img/quote-left-solid.png" class="float-right">
                                     </div>
                                 </div>
 
@@ -197,7 +207,7 @@ include 'inc/menu.php';
 
                         <!-- Data-video e data-image servem para alterar a imagem/video ao trocar de depoimento -->
                         <div class="card pb-2" data-image="assets/img/unnamed.jpg" data-video="https://www.youtube.com/embed/ytnD6UQKvV4?rel=0&autoplay">
-                            <img src="assets/img/Grupo45.png" class="left-arrow">
+                            <img lazyload src="assets/img/Grupo45.png" class="left-arrow">
                             <div class="card-body">
 
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
@@ -209,7 +219,7 @@ include 'inc/menu.php';
                                         <p class="text-blue">Investidor do projeto <b>Wolf Coffee</b></p>
                                     </div>
                                     <div class="d-inline ml-auto">
-                                        <img src="assets/img/quote-left-solid.png" class="float-right">
+                                        <img lazyload src="assets/img/quote-left-solid.png" class="float-right">
                                     </div>
                                 </div>
 
@@ -244,7 +254,7 @@ include 'inc/menu.php';
                 <div class="line"></div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="assets/img/icon-processo.png" alt="Escolher" title="Escolher">
+                        <img lazyload src="assets/img/icon-processo.png" alt="Escolher" title="Escolher">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Escolher</h3>
                     <p class="text-center howto-text">Escolha uma startup que você gosta. Revise o discurso da empresa, os termos e decida se você acredita que eles serão bem-sucedidos.</p>
@@ -254,7 +264,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="assets/img/icon-investir1.png" alt="Investir" title="Investir">
+                        <img lazyload src="assets/img/icon-investir1.png" alt="Investir" title="Investir">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Investir</h3>
                     <p class="text-center howto-text">Invista uma pequena quantia para começar. Planeje diversificar, o que significa investir quantias menores em várias empresas.</p>
@@ -264,7 +274,7 @@ include 'inc/menu.php';
                 </div>
                 <div class="d-inline-block howto-item">
                     <div class="image-howto">
-                        <img src="assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
+                        <img lazyload src="assets/img/icon-hand.png" alt="Acompanhe o Crescimento" title="Acompanhe o Crescimento">
                     </div>
                     <h3 class="text-blue text-center font-weight-bold">Acompanhe o Crescimento</h3>
                     <p class="text-center howto-text">Aguarde para ver se a inicialização foi bem-sucedida. Se a startup funcionar bem, seu investimento poderá trazer um retorno.</p>
@@ -285,16 +295,16 @@ include 'inc/menu.php';
 <section class="wow slideInLeft" data-wow-duration="2s" id="midia">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 my-auto">
-                <h2 class="font-weight-bold">Cluster21 na mídia</h2>
+            <div class="col-lg-5 order-sm-2 my-auto">
+                <h2 class="font-weight-bold mt-3">Cluster21 na mídia</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
                 <a href="#" title="Ver Mais" class="btn btn-vermais mx-auto">
                     Ver Mais
                     <div class="d-inline-block square"><i class="fas fa-long-arrow-alt-right"></i></div>
                 </a>
             </div>
-            <div class="col-lg-7">
-                <img class="img-fluid" src="assets/img/print_reportagem_gaucha.png" alt="Cluster21 na mídia" title="Cluster21 na midia">
+            <div class="col-lg-7 order-sm-1">
+                <img lazyload class="img-fluid" src="assets/img/print_reportagem_gaucha.png" alt="Cluster21 na mídia" title="Cluster21 na midia">
             </div>
         </div>
     </div>
@@ -307,7 +317,7 @@ include 'inc/menu.php';
         <div class="row">
             <div class="col-lg-7 pl-0 pr-0">
                 <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo1">
-                    <img src="assets/img/img_vk_pattern.png" alt="Cluster21" title="Cluster21">
+                    <img lazyload src="assets/img/img_vk_pattern.png" alt="Cluster21" title="Cluster21">
                     <div class="overlay overlay2">
                         <div>
                             <div class="play">
@@ -328,25 +338,23 @@ include 'inc/menu.php';
                 </div>
             </div>
             <div class="col-lg-5 my-auto pl-4">
-                <h2 class="font-weight-bold">Cluster21</h2>
+                <h2 class="font-weight-bold mt-3">Cluster21</h2>
                 <p class="text-blue"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
                 <a href="#" title="Ver Mais" class="btn btn-vermais mx-auto">
                     Ver Mais
                     <div class="d-inline-block square"><i class="fas fa-long-arrow-alt-right"></i></div>
                 </a>
                 <hr class="mb-4 mt-4">
-                
-                 <div>
-                <img src="assets/img/logocvm_color.png" 
-                title="Comissão de Valores Mobiliários"
-                 alt="Comissão de Valores Mobiliários" class="float-left mr-2 img-cvm">
 
-                 <p class="float-left pt-4 text-blue"><strong>Você está </strong><strong class="font-strong">SEGURO</strong><br>
-                    Somos regulados pela CVM 588.
-                </p>
+                <div>
+                    <img lazyload src="assets/img/logocvm_color.png" title="Comissão de Valores Mobiliários" alt="Comissão de Valores Mobiliários" class="float-left mr-2 img-cvm">
 
-             </div>
-            
+                    <p class="float-left pt-4 text-blue"><strong>Você está </strong><strong class="font-strong">SEGURO</strong><br>
+                        Somos regulados pela CVM 588.
+                    </p>
+
+                </div>
+
             </div>
         </div>
     </div>
@@ -360,17 +368,17 @@ include 'inc/menu.php';
         <div class="w-75 mx-auto">
             <ul class="customTab expandM15">
                 <?php
-                    $arr = ['one','two','three'];
-                    foreach ($arr as $i=>$item) {
-                        ?>
-                        <li class="clickme">
-                            <a href="javascript:void(0);" data-tag="<?=$item;?>" class="<?=($i===1)?'activelink':'';?>">
-                                <img src="assets/img/logo_lactec_uk.png" alt="Lactec">
-                            </a>
-                            <div style="width: 100%;position: relative;display: flex;"><img src="assets/img/Poligono2.png" class="selected-tab"></div>
-                        </li>
-                        <?php
-                    }
+                $arr = ['one', 'two', 'three'];
+                foreach ($arr as $i => $item) {
+                ?>
+                    <li class="clickme">
+                        <a href="javascript:void(0);" data-tag="<?= $item; ?>" class="<?= ($i === 1) ? 'activelink' : ''; ?>">
+                            <img lazyload src="assets/img/logo_lactec_uk.png" alt="Lactec">
+                        </a>
+                        <div style="width: 100%;position: relative;display: flex;"><img lazyload src="assets/img/Poligono2.png" class="selected-tab"></div>
+                    </li>
+                <?php
+                }
                 ?>
             </ul>
             <div style="clear: both;"></div>
@@ -425,36 +433,36 @@ include 'inc/menu.php';
 <!--DÚVIDA-->
 
 <section class="wow slideInLeft" data-wow-duration="2s" id="duvida" class="mt-4">
-        <h2 class="font-weight-bold text-center">Ficou com alguma dúvida?</h2>
-        <h2 class="text-center">Conheça nossas Perguntas frequentes</h2>
-        <div class="container-faq">
-            <div class="p-freq d-flex">
-             
-             
-                    <?php
-                        for($i=0;$i<8;$i++){
-                            ?>
-                            
-                            <div class="slider">                          
-             
-                                <div class="card d-inline-block bg-light">
-                                    <div class="gradient">
-                                    </div>
-                                        <h3>Lorem Ipsum is simply dummy is simply</h3>
-                                    <div class="read-container">
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                                    </div>
-                                    <div class="text-center">
-                                        <a href="javascript:void(0)" class="text-red font-weight-bold mt-1 mb-2 read-more">Leia Mais</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <?php
-                        }
-                    ?>
-            </div>
+    <h2 class="font-weight-bold text-center">Ficou com alguma dúvida?</h2>
+    <h2 class="text-center">Conheça nossas Perguntas frequentes</h2>
+    <div class="container-faq">
+        <div class="p-freq d-flex">
+
+
+            <?php
+            for ($i = 0; $i < 8; $i++) {
+            ?>
+
+                <div class="slider">
+
+                    <div class="card d-inline-block bg-light">
+                        <div class="gradient">
+                        </div>
+                        <h3>Lorem Ipsum is simply dummy is simply</h3>
+                        <div class="read-container">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                        </div>
+                        <div class="text-center">
+                            <a href="javascript:void(0)" class="text-red font-weight-bold mt-1 mb-2 read-more">Leia Mais</a>
+                        </div>
+                    </div>
+                </div>
+            <?php
+            }
+            ?>
         </div>
-        <p class="text-center mt-3">Ainda está com alguma dúvida? <a class="text-red font-weight-bold" href="">Clique aqui</a> que respondemos agora mesmo.</p>
+    </div>
+    <p class="text-center mt-3">Ainda está com alguma dúvida? <a class="text-red font-weight-bold" href="">Clique aqui</a> que respondemos agora mesmo.</p>
 </section>
 
 <?php

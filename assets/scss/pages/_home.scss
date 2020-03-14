@@ -21,7 +21,7 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(93, 120, 158, 0.4);
+    background: rgba(93, 120, 158, 0.6);
     //opacity: 0.4;
     height: 100%;
     border-radius: 10px;
@@ -49,52 +49,63 @@ section {
       width: 50%;
       text-align: center;
       left: 25%;
+      font-weight: 700;
     }
   }
 }
 
 //TOPO
-
+.navbar-toggler {
+  color: $dark-blue !important;
+  border-color: transparent !important;
+  .navbar-toggler-icon {
+    width: 2em;
+    height: 2em;
+  }
+}
 #topo {
   display: block;
   width: 100%;
-  background: url("../img/bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
+  @include mq("tablet1", "min") {
+    background: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+  }
   padding-bottom: 20px;
   #topbar {
     display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    a + a {
+      margin-left: 10px !important;
+    }
+
     @include mq("tablet1", "min") {
-      flex-wrap: wrap;
-    }
-    @include mq("tablet", "max") {
-      a+a{
-        margin-top:5px!important;
-      }
-    }
-    @include mq("tablet", "min") {
-      a+a{
-        margin-left:10px!important;
-      }
+      padding-top: 25px;
+      justify-content: space-between;
     }
     .b-lft {
+      line-height: 2;
       @include mq("tablet1", "max") {
         a {
-          float: left;
+          font-size: 14px;
         }
       }
       a {
-        font-size: 14px;
+        text-transform: lowercase;
+        font-size: 15px;
         font-style: normal;
-        font-weight: bold;
+        font-weight: 600;
         color: $dark-blue;
+        svg {
+          font-weight: bold;
+        }
       }
       svg {
         width: 12px;
-        vertical-align: middle;
       }
     }
 
@@ -119,7 +130,7 @@ section {
     }
     .btn-topbar {
       font-weight: bold;
-      //margin-left: 5px;
+      box-shadow: $default_shadow;
       background: #fff;
       color: $red;
       border-radius: 20px;
@@ -153,12 +164,35 @@ section {
       font-size: 20px;
       line-height: 25px;
     }
+    @include mq("tablet1", "max") {
+      h2 {
+        font-size: 36px;
+        line-height: 40px;
+      }
+      h3 {
+        margin-top: 16px;
+        color: $grey;
+        opacity: 0.6;
+        font-size: 20px;
+        line-height: 25px;
+      }
+      padding-top: 40px;
+      img {
+        display: none;
+      }
+      .btn-investir {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+      }
+    }
   }
 }
-
-@media screen and (max-width: 600px) {
-  .btn-investir {
-    width: 320px !important;
+@include mq("tablet1", "max") {
+  .STICKER {
+    display: none;
   }
 }
 
@@ -266,11 +300,21 @@ section {
     }
   }
   .oferta {
+    .loteAdicional {
+      position: relative;
+      width: 140px;
+      top: -35px;
+      font-size: 78%;
+      line-height: unset;
+      margin-left: auto !important;
+      box-shadow: 0px 5px 20px rgba(55, 71, 94, 0.31);
+      color: $green;
+    }
     transition: ease 0.6s;
     &:hover {
       transform: scale(1.05);
     }
-    border-radius: 5px;
+    border-radius: 7px;
     .card-brand {
       width: 70px;
       height: 70px;
@@ -296,11 +340,12 @@ section {
       opacity: 0.9;
     }
     .meta {
-      height: 30px;
+      height: 40px;
+      text-transform: uppercase;
       background: linear-gradient(135deg, $yellow 0%, $yellow_1 70%);
       position: absolute;
       width: 100%;
-      border-radius: 5px 5px 0px 0px;
+      border-radius: 7px 7px 0px 0px;
       div {
         margin: auto;
         span {
@@ -310,9 +355,9 @@ section {
     }
   }
   .is_capturing {
-    border-radius: 0px 0px 5px 5px;
-    height: 30px;
-    background: rgba(15, 157, 88, 1);
+    border-radius: 0px 0px 7px 7px;
+    height: 40px;
+    background: $green;
     color: #fff;
     margin: 10px -1.25rem -0.75rem;
     text-transform: uppercase;
@@ -354,11 +399,32 @@ section {
   z-index: -30 !important;
   h2 {
     font-size: 36px;
+    &.titulo {
+      b {
+        font-weight: 600;
+      }
+      font-weight: 900;
+    }
+    &.titulo-mobile {
+      b {
+        font-weight: 600;
+      }
+      font-weight: 900;
+    }
+    @include mq("tablet1", "max") {
+      &.titulo {
+        display: none;
+      }
+      &.titulo-mobile {
+        display: block !important;
+      }
+    }
   }
   #depoimentos_container {
     padding-top: 200px;
-    @include mq("tablet", "max") {
+    @include mq("tablet1", "max") {
       padding-top: 0;
+      margin-top: -100px;
     }
     .slide-depoimento {
       .card {
@@ -366,7 +432,13 @@ section {
           position: absolute;
           top: 20px;
           left: 0px;
-          z-index: 3;
+          z-index: 1000;
+          @include mq("tablet1", "max") {
+            position: relative;
+            top: 10px;
+            left: calc(50% - 5px);
+            transform: rotate(90deg);
+          }
         }
         background: transparent;
         .card-body {
@@ -382,43 +454,57 @@ section {
     }
   }
 
-  padding-top: 170px;
+  padding-top: 100px;
   @include mq("tablet1", "max") {
     padding-top: 80px;
   }
-  #video {
-    margin-top: 80px;
-    max-height: 600px;
-    display: flex;
-    .Caminho_375 {
+  #depoimento_vid_container {
+    .overflow-svg {
       position: absolute;
-      transform: rotate(135deg);
-      transform-origin: center;
-      z-index: 1;
+      top: 0;
+      // @include mq('tablet1', 'min') {top:20px;}
+      // @include mq('tablet-wide', 'min') {top:30px;}
+      // @include mq('desktop-wide', 'min') {top:60px;}
+      overflow: visible;
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+      object-position: center;
+
+      .Caminho_375 {
+        transform: rotate(135deg);
+        transform-origin: center;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+      }
     }
-    .preview-video {
-      z-index: 2;
-      opacity: 0.9;
-      border-radius: 5px;
-      background: #000;
-      -webkit-transform: scale(0.8) translateY(-15%);
-      -moz-transform: scale(0.8) translateY(-15%);
-      -ms-transform: scale(0.8) translateY(-15%);
-      -o-transform: scale(0.8) translateY(-15%);
-      transform: scale(0.8) translateY(-15%);
-      margin: auto;
-      position: relative;
-      img {
+    #video {
+      margin-top: 80px;
+      // max-height: 600px;
+      display: flex;
+      .preview-video {
+        z-index: 2;
+        border-radius: 5px;
+        background: #000;
+        -webkit-transform: scale(0.8) translateY(-15%);
+        -moz-transform: scale(0.8) translateY(-15%);
+        -ms-transform: scale(0.8) translateY(-15%);
+        -o-transform: scale(0.8) translateY(-15%);
+        transform: scale(0.8) translateY(-15%);
+        margin: auto;
         position: relative;
-        object-fit: cover;
+        img {
+          position: relative;
+          object-fit: cover;
+        }
       }
     }
   }
 
   //COMO COMEÇAR
-
   #como_comecar {
-    margin-top: 100px;
+    // margin-top: 100px;
 
     @include mq("tablet1", "max") {
       padding-top: 80px;
@@ -442,7 +528,7 @@ section {
     width: 33.3%;
     .image-howto {
       width: 170px;
-      height: 150px;
+      height: 140px;
       margin: auto;
       object-fit: cover;
       object-position: top;
@@ -765,5 +851,12 @@ section {
         transform: scale(1.05);
       }
     }
+  }
+}
+
+.overlayImg {
+  height: calc(170px * (3 / 4));
+  img {
+    margin: auto;
   }
 }

@@ -2,8 +2,7 @@
 //BANNER
 
 @media screen and (max-width: 600px) {
-  #banner-content
-  img{
+  #banner-content img {
     padding-top: 30px;
   }
 }
@@ -30,20 +29,20 @@
     font-size: 18px;
     color: $dark-blue;
   }
-  .row{
+  .row {
     padding-top: 2rem;
   }
-  .title-style3{
+  .title-style3 {
     padding-top: 5rem;
   }
-  .img-chat{
+  .img-chat {
     position: relative;
     bottom: 5rem;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #segurança{
+  #segurança {
     text-align: center;
     padding-top: 0;
     padding-bottom: 7rem;
@@ -51,32 +50,31 @@
       background-color: #fff;
       padding: 18px 0 3px 0 !important;
       width: 320px;
-      margin: 5px 80px!important;
+      margin: 5px 80px !important;
     }
     span:nth-of-type(2) {
       width: 320px;
     }
-    img{
+    img {
       text-align: center;
       justify-content: center;
       width: 300px;
     }
-    .img-cvm{
+    .img-cvm {
       width: 130px;
       margin-left: 5rem;
       text-align: center;
-      
     }
-    .text-box{
+    .text-box {
       position: relative;
       right: 60px;
       padding: 0px 1px !important;
-      margin: 0!important;
+      margin: 0 !important;
     }
-    .title-style2{
+    .title-style2 {
       padding-top: 5rem;
     }
-    .img-chat{
+    .img-chat {
       position: relative;
       bottom: 0;
     }
@@ -84,21 +82,20 @@
 }
 
 @media screen and (max-width: 600px) {
-  .img-style{
+  .img-style {
     position: absolute;
-  top: 1.5rem !important;
-  right: 0rem !important;
-  width: 110px !important;  
-  z-index: 10;
+    top: 1.5rem !important;
+    right: 0rem !important;
+    width: 110px !important;
+    z-index: 10;
   }
 }
-
 
 .img-style {
   position: relative;
   top: 15rem;
   right: 2rem;
-  width: 180px;  
+  width: 180px;
   z-index: 10;
 }
 
@@ -110,7 +107,7 @@
 .title-style2 {
   font-weight: 700 !important;
   font-size: 35px;
-  background-image: url('assets/img/Caminho\ 624.png');
+  background-image: url("assets/img/Caminho\ 624.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
@@ -128,25 +125,23 @@
 }
 
 .activeItem {
-  p{
-    display: block!important;
+  p {
+    display: block !important;
   }
 }
-
-
 
 //VANTAGENS
 
 @media screen and (max-width: 600px) {
-  #vantagens{
+  #vantagens {
     margin-left: 0;
     padding: 0;
     justify-content: center;
     text-align: center;
-    h2{
+    h2 {
       margin: 0;
     }
-    .img-circle{
+    .img-circle {
       position: relative;
       left: 10px !important;
       bottom: 0 !important;
@@ -154,18 +149,18 @@
   }
 }
 @media screen and (max-width: 768px) {
-  #vantagens{
+  #vantagens {
     margin-left: 0;
     text-align: center;
     .vntg-box {
-     img {
-      margin-bottom: 10px;
-      margin-left: calc(0) !important;
-      @include mq('tablet1') {
-        margin-left: 0 !important;
+      img {
+        margin-bottom: 10px;
+        margin-left: calc(0) !important;
+        @include mq("tablet1") {
+          margin-left: 0 !important;
+        }
       }
-    }
-      .img-circle{
+      .img-circle {
         margin-left: 0 !important;
         position: relative;
         left: 0rem !important;
@@ -175,30 +170,29 @@
   }
 }
 
-
 //CAROUSEL
 
 #carousel {
   margin-top: 10rem;
   margin-bottom: 4rem;
-  .carousel-inner{
+  .carousel-inner {
     width: 100% !important;
   }
   .card {
     border-radius: 10px;
     width: 85% !important;
     height: 60%;
-    padding: 3rem 1rem ;
+    padding: 3rem 1rem;
     margin: auto;
     color: $dark-blue;
   }
-  .card1{
+  .card1 {
     background-color: rgba(251, 247, 210, 0.781);
   }
-  .card2{
+  .card2 {
     background-color: rgba(213, 249, 255, 0.828);
   }
-  .card3{
+  .card3 {
     background-color: rgba(234, 214, 251, 0.801);
   }
 
@@ -208,59 +202,54 @@
   .dados-text {
     padding-top: 2rem;
     font-weight: 600;
-    
   }
-  h3{
+  h3 {
     font-weight: 700;
   }
   .font-text {
     font-size: large;
   }
-  .text-muted{
+  .text-muted {
     margin: 0 !important;
     padding-top: 1rem;
     font-weight: 100;
   }
-  .icon-arrow{
+  .icon-arrow {
     color: $dark-blue;
     font-size: 23px;
   }
-  .span-icon{
+  .span-icon {
     background-color: #fff;
     box-shadow: 0 0 8px $dark-blue;
     width: 50px;
     height: 50px;
     padding: 13px 6px 0 6px;
     border-radius: 100%;
-  }  
-} 
-
+  }
+}
 
 @media screen and (max-width: 600px) {
-  #carousel{
+  #carousel {
     text-align: center;
-    .title-style2{
+    .title-style2 {
       text-align: center;
     }
   }
 }
 
-.carousel-img-logo{
+.carousel-img-logo {
   display: flex;
   flex-direction: row;
 }
 
-
 @media screen and (max-width: 600px) {
-  .carousel-img-logo{
+  .carousel-img-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 }
-
-
 
 //SAIBA MAIS
 
@@ -290,32 +279,29 @@
   }
 }
 
-.active{
-  a{
-    display:flex;
-  flex-direction: row;
-  color: $dark-blue !important;
+.active {
+  a {
+    display: flex;
+    flex-direction: row;
+    color: $dark-blue !important;
   }
-  .icone{
+  .icone {
     color: $dark-blue;
-    display:block;
+    display: block;
     text-align: center;
-  } 
+  }
 }
-.icone{
+.icone {
   display: none;
   text-align: center;
   margin-top: 3px;
 }
 
-
-
 @media screen and (max-width: 600px) {
-  #saiba-mais{
+  #saiba-mais {
     margin-top: 4rem;
   }
 }
-
 
 .box-button {
   position: relative;
@@ -327,7 +313,7 @@
   padding: 3rem 0 !important;
   width: 700px;
   border-radius: 5px;
-  h2{
+  h2 {
     font-weight: bold;
     font-size: 25px;
   }
@@ -345,15 +331,18 @@
     line-height: 35px;
     &:hover {
       color: #fff;
-      background: linear-gradient(135deg, darken($red,10%) 0%, darken($red_1,10%) 50%);
+      background: linear-gradient(
+        135deg,
+        darken($red, 10%) 0%,
+        darken($red_1, 10%) 50%
+      );
     }
   }
 }
 
-
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .box-button {
-    h2{
+    h2 {
       font-weight: 900;
     }
     a {
