@@ -105,29 +105,25 @@ hr {
   position: absolute;
   z-index: -1;
 }
-.slick-prev {
+.prev {
+  margin: 3px;
   height: 50px;
   width: 50px;
   background: lighten($red, 40%);
   color: $red;
   border-radius: 5px;
-  position: absolute;
-  bottom: -55px;
-  right: 55px;
   &:hover {
     background: darken(lighten($red, 40%), 10%);
     color: $red;
   }
 }
-.slick-next {
+.next {
+  margin: 3px;
   height: 50px;
   width: 50px;
   background: $red;
   color: #fff;
   border-radius: 5px;
-  position: absolute;
-  bottom: -55px;
-  right: 0px;
   &:hover {
     background: darken($red, 10%);
     color: #fff;

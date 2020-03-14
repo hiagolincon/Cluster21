@@ -295,7 +295,7 @@ include 'inc/menu.php';
 <section class="wow slideInLeft" data-wow-duration="2s" id="midia">
     <div class="container">
         <div class="row">
-            <div class="col-lg-5 order-sm-2 my-auto">
+            <div class="col-lg-5 order-sm-2 order-lg-1 order-md-1 my-auto">
                 <h2 class="font-weight-bold mt-3">Cluster21 na mídia</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
                 <a href="#" title="Ver Mais" class="btn btn-vermais mx-auto">
@@ -303,7 +303,7 @@ include 'inc/menu.php';
                     <div class="d-inline-block square"><i class="fas fa-long-arrow-alt-right"></i></div>
                 </a>
             </div>
-            <div class="col-lg-7 order-sm-1">
+            <div class="col-lg-7 order-sm-1 order-lg-2 order-md-2">
                 <img lazyload class="img-fluid" src="assets/img/print_reportagem_gaucha.png" alt="Cluster21 na mídia" title="Cluster21 na midia">
             </div>
         </div>
@@ -366,21 +366,21 @@ include 'inc/menu.php';
     <div class="container">
         <h2 class="font-weight-bold text-center title">Conheça nossos parceiros</h2>
         <div class="w-75 mx-auto">
-            <ul class="customTab expandM15">
+            <div class="customTab expandM15">
                 <?php
                 $arr = ['one', 'two', 'three'];
                 foreach ($arr as $i => $item) {
                 ?>
-                    <li class="clickme">
+                    <div class="clickme">
                         <a href="javascript:void(0);" data-tag="<?= $item; ?>" class="<?= ($i === 1) ? 'activelink' : ''; ?>">
                             <img lazyload src="assets/img/logo_lactec_uk.png" alt="Lactec">
                         </a>
                         <div style="width: 100%;position: relative;display: flex;"><img lazyload src="assets/img/Poligono2.png" class="selected-tab"></div>
-                    </li>
+                    </div>
                 <?php
                 }
                 ?>
-            </ul>
+            </div>
             <div style="clear: both;"></div>
             <div id="container">
                 <div class="list hide" id="one">
@@ -414,7 +414,7 @@ include 'inc/menu.php';
                 <div class="list hide" id="three">
                     <div class="card border">
                         <div class="card-body">
-                            <h2 class="text-center text-blue font-weight-bold">Lactec</h2>
+                            <h2 class="text-center text-blue font-weight-bold">Lactdec</h2>
                             <p>Aqui, a inovação está presente em cada projeto, em cada serviço que prestamos. Isso é ser inovador.
                                 <br>
                                 <br>
@@ -438,7 +438,6 @@ include 'inc/menu.php';
     <div class="container-faq">
         <div class="p-freq d-flex">
 
-
             <?php
             for ($i = 0; $i < 8; $i++) {
             ?>
@@ -460,6 +459,12 @@ include 'inc/menu.php';
             <?php
             }
             ?>
+        </div>
+        <div id="faq-arrows" class="d-flex justify-content-center">
+            <div>
+                <button type="button" class="btn btn-red prev"><i class='fas fa-long-arrow-alt-left'></i></button>
+                <button type="button" class="btn btn-red next"><i class='fas fa-long-arrow-alt-right'></i></button>
+            </div>
         </div>
     </div>
     <p class="text-center mt-3">Ainda está com alguma dúvida? <a class="text-red font-weight-bold" href="">Clique aqui</a> que respondemos agora mesmo.</p>

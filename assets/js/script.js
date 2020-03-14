@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    var parent = $('.customTab li a.activelink');
-    var i = parent.parents('li').children('div').children('.selected-tab');
+    var parent = $('.customTab .clickme a.activelink');
+    var i = parent.parents('.clickme').children('div').children('.selected-tab');
     i.show();
 
     wow = new WOW({
@@ -15,20 +15,29 @@ $(document).ready(function () {
             slidesToScroll: 1,
             initialSlide: 1,
             mobileFirst: true,
+            infinite: false,
+            arrows: false,
             centerMode: true,
-            prevArrow: "<button type=\"button\" class=\"btn btn-red slick-prev mx-auto\"><i class='fas fa-long-arrow-alt-left'></i></button>",
-            nextArrow: "<button type=\"button\" class=\"btn btn-red slick-next mx-auto\"><i class='fas fa-long-arrow-alt-right'></i></button>",
+            // prevArrow: "<button type=\"button\" class=\"btn btn-red slick-prev mx-auto\"><i class='fas fa-long-arrow-alt-left'></i></button>",
+            // nextArrow: "<button type=\"button\" class=\"btn btn-red slick-next mx-auto\"><i class='fas fa-long-arrow-alt-right'></i></button>",
             responsive: [{
-                breakpoint: 768,
+                breakpoint: 900,
                 settings: 'unslick'
             }]
+        });
+        $('.customTab').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+            var current = $('.customTab .clickme')[nextSlide];
+            // $(".customTab a").removeClass("activelink");
+            var tabLink = $(current).children('a');
+            $(tabLink).trigger('click');
+
         });
     }
 
     slickify();
     $(window).resize(function () {
         var $windowWidth = $(window).width();
-        if ($windowWidth > 500) {
+        if ($windowWidth < 900) {
             slickify();
         }
     });
@@ -79,14 +88,14 @@ $(document).ready(function () {
             // settings: "unslick"
             // instead of a settings object
         ],
-        prevArrow: "<button type=\"button\" class=\"btn btn-red slick-prev\"><i class='fas fa-long-arrow-alt-left'></i></button>",
-        nextArrow: "<button type=\"button\" class=\"btn btn-red slick-next\"><i class='fas fa-long-arrow-alt-right'></i></button>"
+        prevArrow: $('.container-faq .prev'),
+        nextArrow: $('.contaner-faq .next')
     });
     $(".customTab a").click(function () {
         var parent = $(this).parents('.customTab').children('li').children('a[data-tag="' + $(this).data('tag') + '"]');
         $(".customTab a").removeClass("activelink");
         $('.selected-tab').hide();
-        var i = parent.parents('li').children('.selected-tab');
+        var i = parent.parents('.clickme').children('.selected-tab');
         i.show();
 
         $(this).addClass("activelink");
@@ -110,15 +119,15 @@ $(document).ready(function () {
     });
 
 
-    $(".customTab a").click(function () {
-        var parent = $(this).parents('.customTab').children('li').children('a[data-tag="' + $(this).data('tag') + '"]');
+    $(".customTab .clickme").click(function (e) {
+        var parent = $(this).children('a');
         $(".customTab a").removeClass("activelink");
         $('.selected-tab').hide();
-        var i = parent.parents('li').children('div').children('.selected-tab');
+        var i = parent.parents('.clickme').children('div').children('.selected-tab');
         i.show();
-        console.log(i);
-        $(this).addClass("activelink");
-        var tagid = $(this).data("tag");
+        $(parent).addClass("activelink");
+        var tagid = $(parent).data("tag");
+
         $(".list")
             .removeClass("active")
             .addClass("hide");

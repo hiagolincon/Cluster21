@@ -30,10 +30,6 @@
 </div>
 
 <footer id="footer">
-    <svg class="bg_p" viewBox="0 0 2000 555">
-        <path fill="rgba(245,245,245,1)" id="bg_footer_q" d="M 0 194.146484375 L 2000 0 L 2000 555 L 0 555 L 0 194.146484375 Z">
-        </path>
-    </svg>
     <div class="container" id="content">
         <div class="row">
             <div class="col-lg-3">

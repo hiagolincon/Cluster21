@@ -606,57 +606,44 @@ section {
   @include mq("tablet1", "max") {
     margin-top: 50px;
   }
-  .p-freq {
-    flex-wrap: wrap-reverse;
-    padding-top: 30px;
+  .container-faq {
+    #faq-arrows {
+      width: 100vw;
+      margin-left: calc(-7.5vw - 116px / 2);
+    }
+    .p-freq {
+      flex-wrap: wrap-reverse;
+      padding-top: 30px;
 
-    .slider {
-      .card {
-        // margin: 0 10px;
-        padding: 20px 20px 10px 20px;
-        background-color: rgb(245, 245, 245) !important;
-        border-radius: 5px;
-        background: linear-gradient(to bottom, rgb(245, 245, 245) 60%, white);
-        h3 {
-          color: rgb(41, 41, 41);
-          font-weight: 700;
-          font-size: 18px;
-          letter-spacing: 1px;
-          line-height: 25px;
-        }
-        .gradient {
-          position: absolute;
-          bottom: 2rem;
-          margin-left: -14px;
+      .slider {
+        .card {
+          // margin: 0 10px;
+          padding: 20px 20px 10px 20px;
+          background-color: rgb(245, 245, 245) !important;
           border-radius: 5px;
-          z-index: 20;
-          width: 268px;
-          height: 321px;
-          background: linear-gradient(to bottom, transparent 75%, white);
+          background: linear-gradient(to bottom, rgb(245, 245, 245) 60%, white);
+          h3 {
+            color: rgb(41, 41, 41);
+            font-weight: 700;
+            font-size: 18px;
+            letter-spacing: 1px;
+            line-height: 25px;
+          }
+          .gradient {
+            position: absolute;
+            bottom: 2rem;
+            margin-left: -14px;
+            border-radius: 5px;
+            z-index: 20;
+            width: 268px;
+            height: 321px;
+            background: linear-gradient(to bottom, transparent 75%, white);
+          }
         }
       }
     }
   }
 
-  .slick-next {
-    position: absolute;
-    left: -60px;
-    top: 50%;
-    @include mq("tablet1", "max") {
-      left: 246px;
-      top: 89.4%;
-    }
-  }
-  .slick-prev {
-    position: absolute;
-    left: -60px;
-    top: calc(50% - 60px);
-    @include mq("tablet1", "max") {
-      bottom: -3px;
-      position: relative;
-      left: 189px;
-    }
-  }
   .read-container {
     max-height: 245px;
     overflow: hidden;
@@ -725,12 +712,13 @@ section {
   }
 }
 #footer {
+  width: 100%;
   h2 {
     font-size: 20px;
     font-weight: bold;
   }
   padding-bottom: 20px;
-  background: url(/assets/img/bg-footer.png) no-repeat;
+  background: url(/assets/img/footer.png) no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   #brands {
@@ -790,7 +778,8 @@ section {
   padding: 0px;
   list-style: none;
   margin-bottom: 70px;
-  li {
+  .clickme {
+    margin-bottom: 30px;
     padding: 30px 30px 5px 5px;
     height: 100px;
     width: calc(33.3% - 10px);
@@ -798,14 +787,17 @@ section {
       width: 100%;
     }
 
-    box-shadow: 0px 3px 60px rgba(55, 71, 94, 0.31);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+      0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+      0 10px 16px rgba(0, 0, 0, 0.12);
 
     float: left;
-    padding: 10px;
+    padding: 15px;
     margin-right: 10px;
     a img {
-      height: 100%;
-      vertical-align: middle;
+      max-width: 100%;
+      max-height: 100%;
+      margin: auto;
       transition: ease-in-out 1s;
     }
 
@@ -819,7 +811,7 @@ section {
       -o-transition: ease 1s;
       transition: ease 1s;
       position: relative;
-      margin-top: -50px;
+      margin-top: -43px;
       margin: auto auto;
       display: none;
     }
