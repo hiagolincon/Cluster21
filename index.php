@@ -465,11 +465,11 @@ include 'inc/menu.php';
             }
             ?>
         </div>
-        <div id="faq-arrows" class="d-flex justify-content-center">
-            <div>
-                <button type="button" class="btn btn-red prev"><i class='fas fa-long-arrow-alt-left'></i></button>
-                <button type="button" class="btn btn-red next"><i class='fas fa-long-arrow-alt-right'></i></button>
-            </div>
+    </div>
+    <div id="faq-arrows" class="d-flex justify-content-center">
+        <div>
+            <button type="button" class="btn btn-red prev"><i class='fas fa-long-arrow-alt-left'></i></button>
+            <button type="button" class="btn btn-red next"><i class='fas fa-long-arrow-alt-right'></i></button>
         </div>
     </div>
     <p class="text-center mt-3">Ainda está com alguma dúvida? <a class="text-red font-weight-bold" href="">Clique aqui</a> que respondemos agora mesmo.</p>
