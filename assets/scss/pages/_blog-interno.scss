@@ -1,32 +1,32 @@
 ///
 //TOPO
 
-#topo-blog-interno{
-  .caminho{
-  display: block;
-  width: 100%;
-  height: 700px;
-  z-index: -1;
-  position: absolute;
-  background: url("/assets/img/bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  padding-bottom: 20px;
+#topo-blog-interno {
+  .caminho {
+    display: block;
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    position: absolute;
+    background: url("/assets/img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding-bottom: 20px;
   }
-  
+
   .navbar-expand-lg .navbar-nav {
     width: 600px !important;
   }
   #topbar {
     padding-top: 30px;
-    z-index: 0!important;
-    a+a{
-      margin-left:15px;
+    z-index: 0 !important;
+    a + a {
+      margin-left: 15px;
     }
     .b-lft {
-      @include mq('tablet1', 'max') {
-        a{
+      @include mq("tablet1", "max") {
+        a {
           float: left;
         }
       }
@@ -43,8 +43,8 @@
     }
 
     .ml-auto {
-      @include mq('tablet1', 'max') {
-        *{
+      @include mq("tablet1", "max") {
+        * {
           float: right;
         }
       }
@@ -59,7 +59,6 @@
         background: #fff;
         color: $red;
         border-radius: 20px;
-
       }
     }
   }
@@ -67,28 +66,28 @@
 
 //ARTIGO
 
-#article-blog-interno{
+#article-blog-interno {
   margin-top: 20px;
-  .img-zuckerberg{
-    img{
+  .img-zuckerberg {
+    img {
       width: 100%;
       border-radius: 15px;
     }
   }
-  .img-john-silva{
+  .img-john-silva {
     position: relative;
     bottom: 7rem;
     left: 33rem;
     z-index: 30;
-    img{
-      box-shadow: 0 0 25px rgb(155, 155, 155); 
+    img {
+      box-shadow: 0 0 25px rgb(155, 155, 155);
     }
-    h4{
+    h4 {
       font-size: 15px;
       font-weight: bold;
     }
-  } 
-  .artigo{
+  }
+  .artigo {
     position: relative;
     bottom: 11rem;
     left: 5rem;
@@ -96,20 +95,19 @@
     border-radius: 15px;
     width: 950px;
     padding: 4rem 2rem;
-    
-    h3{
+
+    h3 {
       font-weight: bold;
-      
     }
-    h2{
+    h2 {
       font-weight: bold;
       font-size: 50px;
     }
-    small{
+    small {
       color: $dark-blue;
       font-weight: 100;
       font-size: 14px;
-      span{
+      span {
         opacity: 0.8;
         background-color: $red;
         color: #fff;
@@ -119,26 +117,25 @@
         margin-right: 15px;
       }
     }
-    p{
+    p {
       font-size: 20px;
       margin-bottom: 3rem;
       line-height: 40px;
-      
     }
-    .icons{
+    .icons {
       text-align: center;
       margin: auto;
       color: $dark-blue;
       font-size: 22px;
     }
-    .icon-box-index{
+    .icon-box-index {
       position: absolute;
       left: -4rem;
       top: 9rem;
       z-index: 30 !important;
     }
 
-    .span-icons{
+    .span-icons {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -147,28 +144,27 @@
       width: 39px;
       height: 39px;
       border-radius: 100%;
-      margin-bottom: 2rem; 
-    }  
-  }   
+      margin-bottom: 2rem;
+    }
+  }
 }
 
 @media screen and (max-width: 1200px) {
-  #article-blog-interno{
-    .img-john-silva{
+  #article-blog-interno {
+    .img-john-silva {
       position: relative;
       bottom: 2rem;
       left: 8rem;
       z-index: 30;
-      img{
-        box-shadow: 0 0 25px rgb(155, 155, 155); 
+      img {
+        box-shadow: 0 0 25px rgb(155, 155, 155);
       }
-      h4{
+      h4 {
         font-size: 15px;
         font-weight: bold;
-        
       }
     }
-    .artigo{
+    .artigo {
       position: relative;
       left: 0;
       bottom: 8rem;
@@ -178,87 +174,85 @@
       padding: 2rem 2rem 0 2rem;
       margin: 80px 3px 0 3px;
       z-index: -1;
-      small{
+      small {
         display: flex;
         flex-direction: column;
-        span{
+        span {
           text-align: center;
           width: 50%;
           margin-bottom: 5px;
         }
       }
-      h2{
+      h2 {
         font-size: 30px;
       }
-      p{
+      p {
         font-size: 15px;
         margin-top: 30px !important;
-        
       }
-      .icon-box-index{
+      .icon-box-index {
         position: absolute;
         top: -2rem;
         left: 0;
       }
-      .span-icons{
+      .span-icons {
         display: -webkit-inline-flex;
         width: 25px;
         height: 25px;
       }
-      .icons{
+      .icons {
         font-size: 18px;
       }
     }
   }
-  
 }
 
 //CARDS
 
-#cards-article2{
-    font-size: 20px;  
-    .card{
-      box-shadow: 10px 10px 15px #ccc;
-      border-radius: 10px;
-    }
-    .hover {
-      transition: ease-in-out 0.3s;
-    }
-    .hover:hover{
-      -webkit-transform:scale(1.05); 
-      -moz-transform:scale(1.05); 
-      -o-transform:scale(1.05);
-      transform:scale(1.05);
-    }
-    h2{
-      font-weight: 700;
-      padding-bottom: 35px;
-    }
-    h3{
-      font-size: 20px;
-      font-weight: 600;
-    }
-    p{
-      font-size: 15px;
-      color: $dark-blue;
-    }
-    footer{
-      font-size: 12px;
-      padding-bottom: 5px;
-    }
-    .card-2-seçao{
-      margin-top: 8rem;
+#cards-article2 {
+  font-size: 20px;
+  .card {
+    box-shadow: 10px 10px 15px #ccc;
+    border-radius: 10px;
+  }
+  .hover {
+    transition: ease-in-out 0.3s;
+  }
+  .hover:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  h2 {
+    font-weight: 700;
+    padding-bottom: 35px;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 15px;
+    color: $dark-blue;
+  }
+  footer {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .card-2-seçao {
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #cards-article2 {
+    text-align: center;
+    .card {
+      margin-bottom: 40px;
+      width: 95%;
+      height: 95%;
+      margin-left: 5px;
     }
   }
-  
-  @media screen and (max-width: 900px) {
-    #cards-article2{
-      text-align: center;
-      .card{
-        margin-bottom: 40px;
-        width: 95%;
-        height: 95%;
-        margin-left: 5px;
-      }
-    }
-  }
+}
