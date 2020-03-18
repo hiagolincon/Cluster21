@@ -8,9 +8,8 @@ $('.slider-single').slick({
   centerMode: true,
   speed: 100,
   focusOnSelect: true,
- 
-  prevArrow: "<button type=\"button\" class=\"btn btn-red position-prev slick-prev\"><i class='fas fa-long-arrow-alt-left'></i></button>",
-  nextArrow: "<button type=\"button\" class=\"btn btn-red position-next slick-next\"><i class='fas fa-long-arrow-alt-right'></i></button>",
+  prevArrow: $('#proposta-inovadora .carousel .arrows .prev'),
+  nextArrow: $('#proposta-inovadora .carousel  .arrows .next'),
   zindex: 100,
   // setPosition: 'absolute'
 });

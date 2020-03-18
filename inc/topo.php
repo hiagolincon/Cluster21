@@ -16,8 +16,7 @@
     <!-- SlickSlide -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- FontAwesome -->
-
-
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <!-- Estilo  -->
     <link rel="stylesheet" href="assets/scss/style.css">
 </head>

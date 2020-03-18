@@ -112,6 +112,13 @@ include 'inc/menu.php';
     <div><h3>2019</h3></div>
     <div><h3>2020</h3></div>
   </div>
+
+  
+  <div class="arrows">
+        <button type="button" class="btn btn-red prev"><i class='fas fa-long-arrow-alt-left'></i></button>
+        <button type="button" class="btn btn-red next"><i class='fas fa-long-arrow-alt-right'></i></button>
+    </div>
+
 </div>
 
 

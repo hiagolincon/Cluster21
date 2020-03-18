@@ -155,22 +155,23 @@
   .carousel {
     width: 100%;
     position: relative;
-    .slick-prev {
-      height: 50px;
-      width: 50px;
-      background: lighten($red, 40%);
-      color: $red;
-      border-radius: 5px;
+    .arrows{
+      position: relative;
+      top:  164px;
+      left: 789px;
+      .prev{
+        margin: 10px;
+        position: absolute;
+        z-index: 3000;
+      };
+      .next{
+      margin: 10px;
       position: absolute;
-      left: 61%;
-      top: 48px;
-      transform: translateX(-40%);
-      z-index: 999999;
-      &:hover {
-        background: darken(lighten($red, 40%), 10%);
-        color: $red;
-      }
+      z-index: 3000;
+      left: 200px;
+      }  
     }
+    
     .slick-next {
       height: 50px;
       width: 50px;

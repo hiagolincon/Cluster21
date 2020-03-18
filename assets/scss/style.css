@@ -2160,23 +2160,23 @@ small {
   position: relative;
 }
 
-#proposta-inovadora .carousel .slick-prev {
-  height: 50px;
-  width: 50px;
-  background: #f6dbdb;
-  color: #cf3736;
-  border-radius: 5px;
-  position: absolute;
-  left: 61%;
-  top: 48px;
-  -webkit-transform: translateX(-40%);
-          transform: translateX(-40%);
-  z-index: 999999;
+#proposta-inovadora .carousel .arrows {
+  position: relative;
+  top: 164px;
+  left: 789px;
 }
 
-#proposta-inovadora .carousel .slick-prev:hover {
-  background: #ecb2b2;
-  color: #cf3736;
+#proposta-inovadora .carousel .arrows .prev {
+  margin: 10px;
+  position: absolute;
+  z-index: 3000;
+}
+
+#proposta-inovadora .carousel .arrows .next {
+  margin: 10px;
+  position: absolute;
+  z-index: 3000;
+  left: 200px;
 }
 
 #proposta-inovadora .carousel .slick-next {
@@ -2459,7 +2459,7 @@ small {
   height: 700px;
   z-index: -1;
   position: absolute;
-  background: url("assets/img/bg.png");
+  background: url("/assets/img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
