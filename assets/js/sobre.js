@@ -8,8 +8,8 @@ $('.slider-single').slick({
   centerMode: true,
   speed: 100,
   focusOnSelect: true,
-  prevArrow: $('#proposta-inovadora .carousel .arrows .prev'),
-  nextArrow: $('#proposta-inovadora .carousel  .arrows .next'),
+  prevArrow: $('#proposta-inovadora .prev'),
+  nextArrow: $('#proposta-inovadora .next'),
   zindex: 100,
   // setPosition: 'absolute'
 });

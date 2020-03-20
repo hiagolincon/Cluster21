@@ -54,9 +54,6 @@
   h2 {
     font-size: 36px;
     font-weight: 700;
-    @include mq("tablet1") {
-      margin: 20px 120px 80px;
-    }
   }
   .vntg-box2 {
     .cartao {
@@ -155,35 +152,33 @@
   .carousel {
     width: 100%;
     position: relative;
-    .arrows{
+    .arrows {
       position: relative;
-      top:  164px;
+      top: 164px;
       left: 789px;
-      .prev{
+      .prev {
+        margin: 10px;
+        position: absolute;
+        left: 185px;
+        @include mq('desktop', 'max') {
+          left: -100px;
+        }
+        @include mq('desktop', 'min') {
+          left: 185px;
+        }
+        z-index: 3000;
+      }
+      .next {
         margin: 10px;
         position: absolute;
         z-index: 3000;
-      };
-      .next{
-      margin: 10px;
-      position: absolute;
-      z-index: 3000;
-      left: 200px;
-      }  
-    }
-    
-    .slick-next {
-      height: 50px;
-      width: 50px;
-      background: $red;
-      color: #fff;
-      border-radius: 5px;
-      position: absolute;
-      bottom: -55px;
-      right: 0px;
-      &:hover {
-        background: darken($red, 10%);
-        color: #fff;
+        left: 385px;
+        @include mq('desktop', 'max') {
+          left: 100px;
+        }
+        @include mq('desktop', 'min') {
+          left: 385px;
+        }
       }
     }
 
