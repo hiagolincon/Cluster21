@@ -78,7 +78,7 @@ include 'inc/menu.php';
     <h2>Nossos valores</h2>
     <div class="row">
       <div class="col-lg-4 vntg-box2">
-        <img src="assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
+        <img src="assets/img/icon-rentabilidade.png" class="circle_mask" alt="Alta Rentabilidade" title="Alta Rentabilidade">
 
         <div class="flex-column">
           <h3>Alta Rentabilidade</h3>
@@ -87,7 +87,7 @@ include 'inc/menu.php';
       </div>
 
       <div class="col-lg-4 vntg-box2">
-        <img src="assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
+        <img src="assets/img/icon-rentabilidade.png" class="circle_mask" alt="Alta Rentabilidade" title="Alta Rentabilidade">
 
         <div class="flex-column">
           <h3>Alta Rentabilidade</h3>
@@ -95,7 +95,7 @@ include 'inc/menu.php';
         </div>
       </div>
       <div class="col-lg-4 vntg-box2">
-        <img src="assets/img/icon-rentabilidade.png" class="img-circle" alt="Alta Rentabilidade" title="Alta Rentabilidade">
+        <img src="assets/img/icon-rentabilidade.png" class="circle_mask" alt="Alta Rentabilidade" title="Alta Rentabilidade">
 
         <div class="flex-column">
           <h3>Alta Rentabilidade</h3>

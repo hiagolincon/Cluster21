@@ -75,14 +75,15 @@
       display: flex;
       width: 100%;
     }
-    @include mq("tablet1", "min") {
+    @include mq("tablet1", "max") {
       // transform: translateY(-17%);
       // width: 300px;
       // margin: 0 44px;
+      text-align: center;
     }
     .circle_mask {
-      flex-direction: column;
-      width: 300px;
+      flex-direction: row;
+      width: 50%;
       overflow: hidden;
       border-radius: 50%;
       img {
