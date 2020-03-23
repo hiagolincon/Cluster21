@@ -19,51 +19,69 @@
     width: 600px !important;
   }
   #topbar {
-    padding-top: 30px;
-    z-index: 0 !important;
+    display: flex;
+    padding-top: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
     a + a {
-      margin-left: 15px;
+      margin-left: 10px !important;
+    }
+
+    @include mq("tablet1", "min") {
+      padding-top: 25px;
+      justify-content: space-between;
     }
     .b-lft {
+      line-height: 2;
       @include mq("tablet1", "max") {
         a {
-          float: left;
+          font-size: 14px;
         }
       }
       a {
-        font-size: 14px;
+        text-transform: lowercase;
+        font-size: 15px;
         font-style: normal;
-        font-weight: bold;
+        font-weight: 600;
         color: $dark-blue;
+        svg {
+          font-weight: bold;
+        }
       }
       svg {
         width: 12px;
-        vertical-align: middle;
       }
     }
 
-    .ml-auto {
-      @include mq("tablet1", "max") {
-        * {
-          float: right;
-        }
-      }
-      text-transform: uppercase;
-      font-weight: bold;
-      svg {
-        vertical-align: middle;
+    @include mq("tablet1", "max") {
+      .btns {
+        display: inline-block;
+        text-align: right;
       }
       .btn-topbar {
-        font-weight: bold;
-        //margin-left: 5px;
-        background: #fff;
-        color: $red;
-        border-radius: 20px;
+        display: inline-block;
+        margin-left: auto;
       }
+      .text-red {
+        display: inline-block;
+        margin-right: auto;
+      }
+    }
+    text-transform: uppercase;
+    font-weight: bold;
+    svg {
+      vertical-align: middle;
+    }
+    .btn-topbar {
+      font-weight: bold;
+      box-shadow: $default_shadow;
+      background: #fff;
+      color: $red;
+      border-radius: 20px;
     }
   }
 }
-
 //ARTIGO
 
 #article-blog-interno {
@@ -74,28 +92,27 @@
       border-radius: 15px;
     }
   }
-  .img-john-silva {
-    position: relative;
-    bottom: 7rem;
-    left: 33rem;
-    z-index: 30;
-    img {
-      box-shadow: 0 0 25px rgb(155, 155, 155);
-    }
-    h4 {
-      font-size: 15px;
-      font-weight: bold;
-    }
-  }
+  
   .artigo {
     position: relative;
-    bottom: 11rem;
+    bottom: 5rem;
     left: 5rem;
     background-color: #fff;
     border-radius: 15px;
     width: 950px;
     padding: 4rem 2rem;
-
+    .img-john-silva {
+      text-align: center;
+      margin-top: -6rem;   
+      z-index: 30;
+      img {
+        box-shadow: 0 0 25px rgb(155, 155, 155);
+      }
+      h4 {
+        font-size: 15px;
+        font-weight: bold;
+      }
+    }
     h3 {
       font-weight: bold;
     }
@@ -107,6 +124,8 @@
       color: $dark-blue;
       font-weight: 100;
       font-size: 14px;
+      display: flex;
+      flex-direction: row;
       span {
         opacity: 0.8;
         background-color: $red;
@@ -132,7 +151,11 @@
       position: absolute;
       left: -4rem;
       top: 9rem;
-      z-index: 30 !important;
+      z-index: 30;
+    }
+    .icon-box-index-mobile {
+      display: none;
+      z-index: 30;
     }
 
     .span-icons {
@@ -149,13 +172,19 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   #article-blog-interno {
+    .artigo {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%;
+    padding: 4rem 1rem;
     .img-john-silva {
-      position: relative;
-      bottom: 2rem;
-      left: 8rem;
-      z-index: 30;
+      text-align: center;
+      margin-top: -6rem;
       img {
         box-shadow: 0 0 25px rgb(155, 155, 155);
       }
@@ -164,16 +193,6 @@
         font-weight: bold;
       }
     }
-    .artigo {
-      position: relative;
-      left: 0;
-      bottom: 8rem;
-      width: 100%;
-      justify-content: center;
-      justify-content: center;
-      padding: 2rem 2rem 0 2rem;
-      margin: 80px 3px 0 3px;
-      z-index: -1;
       small {
         display: flex;
         flex-direction: column;
@@ -188,9 +207,10 @@
       }
       p {
         font-size: 15px;
-        margin-top: 30px !important;
+        margin-top: 30px;
       }
       .icon-box-index {
+        display: none;
         position: absolute;
         top: -2rem;
         left: 0;
@@ -199,13 +219,100 @@
         display: -webkit-inline-flex;
         width: 25px;
         height: 25px;
+        margin: 0 3px;
       }
       .icons {
         font-size: 18px;
       }
+      .icon-box-index-mobile {
+       display: block;
+        z-index: 30;
+      }
     }
   }
 }
+@media screen and(min-width: 768px) and (max-width: 1025px) {
+  #article-blog-interno {
+    .artigo {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    border-radius: 15px;
+    width: 93%;
+    margin-left: 4%;
+    padding: 0;
+    .img-john-silva {
+      text-align: center;
+      margin-top: -3rem;
+      img {
+        box-shadow: 0 0 25px rgb(155, 155, 155);
+      }
+      h4 {
+        font-size: 15px;
+        font-weight: bold;
+      }
+    }
+    h3 {
+      font-weight: bold;
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 50px;
+    }
+    small {
+      color: $dark-blue;
+      font-weight: 100;
+      font-size: 14px;
+      display: flex;
+      flex-direction: row;
+      span {
+        opacity: 0.8;
+        background-color: $red;
+        color: #fff;
+        padding: 3px 15px;
+        border-radius: 5px;
+        font-size: 12px;
+        margin-right: 15px;
+      }
+    }
+    p {
+      font-size: 20px;
+      margin-bottom: 3rem;
+      line-height: 40px;
+    }
+    .icons {
+      text-align: center;
+      margin: auto;
+      color: $dark-blue;
+      font-size: 22px;
+    }
+    .icon-box-index {
+      position: absolute;
+      left: -3rem;
+      top: 9rem;
+      z-index: 30;
+    }
+    .icon-box-index-mobile {
+      display: none;
+      z-index: 30;
+    }
+
+    .span-icons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #fff;
+      box-shadow: 0.3px 3px 8px #ccc;
+      width: 39px;
+      height: 39px;
+      border-radius: 100%;
+      margin-bottom: 2rem;
+    }
+  }
+  }
+}
+
 
 //CARDS
 

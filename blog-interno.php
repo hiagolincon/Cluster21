@@ -12,7 +12,7 @@ include 'inc/topo.php';
                 <a title="contato@cluster21.com.br" href="mailto:contato@cluster21.com.br"><i class="fas fa-paper-plane"></i> contato@cluster21.com.br</a>
                 <a title="(51) 3407-4707" href="tel:+555134074707"><i class="fas fa-phone-alt"></i> (51) 3407-4707</a>
             </div>
-            <div class="ml-auto d-inline-block">
+            <div class="btns d-inline-block">
                 <a class="text-red" href="/login" title="Entrar">Entrar <i class="fas fa-sign-in-alt"></i></a>
                 <a class="btn btn-topbar" href="/cadastro" title="Abrir conta">Abrir conta</a>
             </div>
@@ -27,7 +27,7 @@ include 'inc/topo.php';
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active px-2">
                         <a class="nav-link" href="/sobre.php">Videos</a>
                     </li>
@@ -56,38 +56,46 @@ include 'inc/topo.php';
         <div class="img-zuckerberg">
             <img src="assets/img/Mark Zuckerberg.png" alt="Mark Zuckerberg" title="Mark Zuckerberg">
         </div>
-        <div class="img-john-silva">
-    <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mb-2" alt="John Silva" title="John Silva" width="60" height="60">
-    <h4>John Silva</h4>
-    </div>
+        
+        
         <div class="artigo">
-        <div class="icon-box-index">
-             <a href="" title="facebook" alt="facebook"><span class="span-icons"><i class="fab fa-facebook-f icons"></i></span></a>
-             <a href="" title="twitter" alt="twitter"><span class="span-icons"><i class="fab fa-twitter icons"></i></span></a>
-             <a href="" title="email" alt="email"><span class="span-icons"><i class="fas fa-envelope icons"></i></span></a>
-             <a href="" title="whatsapp" alt="whatsapp"><span class="span-icons"><i class="fab fa-whatsapp icons"></i></span></a>
-        </div>
-            <div class="container">
-    
-                <h2>Mark Zuckerberg e as chaves do sucesso empresarial</h2>
-                <small><span>Empreendedores</span><div><i class="far fa-calendar"></i> Postado em 02 de janeiro de 2020</div></small>
-
-                <p class="mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-                <h3>Ter uma Visão Específica</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <h3>Construir uma Equipe Forte</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                <h3>Abraçar a Crítica</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                
+            <div class="img-john-silva">
+                <img src="assets/img/foto_vj_pattern-cortado.png" class="rounded-circle mb-2" alt="John Silva" title="John Silva" width="60" height="60">
+                <h4>John Silva</h4>
             </div>
-        </div>
-    </div>   
-    
+            <div class="icon-box-index">
+                <a href="" title="facebook" alt="facebook"><span class="span-icons"><i class="fab fa-facebook-f icons"></i></span></a>
+                <a href="" title="twitter" alt="twitter"><span class="span-icons"><i class="fab fa-twitter icons"></i></span></a>
+                <a href="" title="email" alt="email"><span class="span-icons"><i class="fas fa-envelope icons"></i></span></a>
+                <a href="" title="whatsapp" alt="whatsapp"><span class="span-icons"><i class="fab fa-whatsapp icons"></i></span></a>
+            </div>
+                <div class="container">
+                    <h2>Mark Zuckerberg e as chaves do sucesso empresarial</h2>
+                    <small><span>Empreendedores</span><div><i class="far fa-calendar"></i> Postado em 02 de janeiro de 2020</div></small>
+
+                    <p class="mt-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+                    <h3>Ter uma Visão Específica</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <h3>Construir uma Equipe Forte</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <h3>Abraçar a Crítica</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    
+                </div>
+                <!-- mobile -->
+                <div class="icon-box-index-mobile">
+                    <a href="" title="facebook" alt="facebook"><span class="span-icons"><i class="fab fa-facebook-f icons"></i></span></a>
+                    <a href="" title="twitter" alt="twitter"><span class="span-icons"><i class="fab fa-twitter icons"></i></span></a>
+                    <a href="" title="email" alt="email"><span class="span-icons"><i class="fas fa-envelope icons"></i></span></a>
+                    <a href="" title="whatsapp" alt="whatsapp"><span class="span-icons"><i class="fab fa-whatsapp icons"></i></span></a>
+                </div>
+                <!-- fim mobile -->
+        </div>   
+    </div>    
 </section>
 
 <!--CARDS-->

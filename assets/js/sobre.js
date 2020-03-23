@@ -10,6 +10,8 @@ $('.slider-single').slick({
   focusOnSelect: true,
   prevArrow: $('#proposta-inovadora .prev'),
   nextArrow: $('#proposta-inovadora .next'),
+  // prevArrow: "<button type=\"button\" class=\"btn btn-red prev mx-auto\"><i class='fas fa-long-arrow-alt-left'></i></button>",
+  // nextArrow: "<button type=\"button\" class=\"btn btn-red next mx-auto\"><i class='fas fa-long-arrow-alt-right'></i></button>",
   zindex: 100,
   // setPosition: 'absolute'
 });

@@ -10,7 +10,7 @@ include 'inc/menu.php';
                 <h2>O que os investidores procuram nas startups?</h2>
                 <h3>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h3>
                 <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
-                    Leia Mais<i class="fas fa-long-arrow-alt-right ml-1" style="font-size: 23px; vertical-align: text-bottom;"></i>
+                    Leia Mais<i class="fas fa-long-arrow-alt-right"></i>
                 </a>
             </div>
             <div class="col-lg-5">

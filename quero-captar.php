@@ -58,7 +58,13 @@ include 'inc/menu.php';
     </div>
 
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+    <!-- mobile -->
+    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 div-img-grafico-mobile">
+        <img src="assets/img/Grupo1.png" title="Gráfico" alt="Gráfico">
+      </div>
+<!-- mobile -->
+
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 div-total-controle">
         <h2 class="title-style3">Tenha <strong>total controle</strong> do que está acontecendo com <strong>seu negócio</strong></h2>
 
         <p><i class="fas fa-check text-red"></i> Análises por quem entende do mercado.</p>
@@ -67,7 +73,7 @@ include 'inc/menu.php';
         <p><i class="fas fa-check text-red"></i> Impulsione o crescimento enquanto aumenta o capital.</p>
 
       </div>
-      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 div-img-grafico">
         <img src="assets/img/Grupo1.png" title="Gráfico" alt="Gráfico">
       </div>
     </div>

@@ -15,10 +15,39 @@ include 'inc/menu.php';
     </p>
 
   </div>
+  
+  <svg class="clip-svg">
+      <defs>
+        <clipPath id="triangle-mask" clipPathUnits="objectBoundingBox">
+          <polygon points="0 0.87, 0.5 0, 0.5 0, 1 0.87" />
+        </clipPath>
+      </defs>
+    </svg>  
+    
   <div class="col-lg-6">
-    <img src="assets/img/ilustracao-arrow-topo.png" class="img-fluid" alt="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora." title="Conheça o modelo de Equity Crowdfunding, a partir de R$ 500,00 você se tornar sócio de uma empresa inovadora.">
+      
+                <a href="javascript:void(0)" class="video_preview triangle" data-toggle="modal" data-target=".modalVideo1">
+                    <img lazyload src="assets/img/img_vk_pattern.png" alt="Cluster21" title="Cluster21">
+                    <div class="overlay overlay2">
+                        <div>
+                            <div class="play">
+                                <i class="fas fa-play text-white"></i>
+                            </div>
+                            <p class="play-text text-white">APERTE O PLAY PARA CONHECER MAIS</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="modal fade modalVideo1" tabindex="-1" role="dialog" aria-labelledby="modalVideo1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0&autoplay" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
   </div>
-</div>
 </div>
 </section>
 
@@ -123,10 +152,7 @@ include 'inc/menu.php';
         <h3>2020</h3>
       </div>
     </div>
-    <div class="arrows">
-      <button type="button" class="btn btn-red prev"><i class='fas fa-long-arrow-alt-left'></i></button>
-      <button type="button" class="btn btn-red next"><i class='fas fa-long-arrow-alt-right'></i></button>
-    </div>
+   
   </div>
 
   <div class="container">
@@ -188,7 +214,12 @@ include 'inc/menu.php';
       </div>
 
     </div>
-
+    <div id="arrows">
+        
+            <button type="button" class="btn btn-red prev"><i class='fas fa-long-arrow-alt-left'></i></button>
+            <button type="button" class="btn btn-red next"><i class='fas fa-long-arrow-alt-right'></i></button>
+        
+    </div>
   </div>
 </section>
 

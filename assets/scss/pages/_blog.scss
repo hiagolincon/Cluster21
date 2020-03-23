@@ -4,6 +4,8 @@
 #banner-content-blog{
   padding-top: 80px;
     .btn-investir {
+      position: relative;
+      padding-right: 20px;
       background: linear-gradient(135deg, $red 0%, $red_1 50%);
       text-transform: uppercase;
       color: #fff;
@@ -26,6 +28,12 @@
       transition: background-color 1000ms linear;
       &:hover{
         background: linear-gradient(135deg, darken($red,10%) 0%, darken($red_1,10%) 50%);
+      }
+      i{
+        margin-left: 10px;
+        font-size: 23px;
+        position: absolute;
+        top: 5px !important;
       }
     }
     h2 {
