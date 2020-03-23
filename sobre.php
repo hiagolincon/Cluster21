@@ -26,7 +26,7 @@ include 'inc/menu.php';
     
   <div class="col-sm-12 col-md-12 col-lg-6">
       
-                <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo1">
+                <a href="javascript:void(0)" class="video_preview-2" data-toggle="modal" data-target=".modalVideo1">
                     <img lazyload src="assets/img/image-banner-blog.png" alt="Cluster21" title="Cluster21">
                     <div class="overlay-blog overlay2">
                         <div>

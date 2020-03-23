@@ -2047,18 +2047,18 @@ small {
   }
 }
 
-.video_preview {
+.video_preview-2 {
   width: 100%;
 }
 
-.video_preview img {
+.video_preview-2 img {
   width: 80%;
   z-index: -1;
   position: relative;
   bottom: 3rem;
 }
 
-.video_preview .overlay-blog {
+.video_preview-2 .overlay-blog {
   /*margin-left: 15px*/
   z-index: 1;
   position: absolute;
@@ -2072,7 +2072,7 @@ small {
      object-fit: cover;
 }
 
-.video_preview .overlay-blog .play {
+.video_preview-2 .overlay-blog .play {
   z-index: 3;
   height: 80px;
   width: 80px;
@@ -2087,7 +2087,7 @@ small {
   left: calc(50% - (80px / 3));
 }
 
-.video_preview .overlay-blog .play-text {
+.video_preview-2 .overlay-blog .play-text {
   position: absolute;
   top: calc(50% + 60px);
   width: 50%;
