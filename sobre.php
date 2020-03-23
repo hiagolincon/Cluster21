@@ -4,7 +4,7 @@ include 'inc/menu.php';
 ?>
 
 <div class="row" id="banner-content">
-  <div class="col-lg-6">
+  <div class="col-sm-12 col-md-12 col-lg-6">
     <h2>Conheça a <strong>Cluster21</strong></h2>
     <h3>Uma das mais inovadoras plataformas de Equity Crowdfunding do Brasil</h3>
     <hr class="my-4">
@@ -16,19 +16,19 @@ include 'inc/menu.php';
 
   </div>
   
-  <svg class="clip-svg">
+  <!-- <svg class="clip-svg">
       <defs>
         <clipPath id="triangle-mask" clipPathUnits="objectBoundingBox">
           <polygon points="0 0.87, 0.5 0, 0.5 0, 1 0.87" />
         </clipPath>
       </defs>
-    </svg>  
+    </svg>   -->
     
-  <div class="col-lg-6">
+  <div class="col-sm-12 col-md-12 col-lg-6">
       
-                <a href="javascript:void(0)" class="video_preview triangle" data-toggle="modal" data-target=".modalVideo1">
-                    <img lazyload src="assets/img/img_vk_pattern.png" alt="Cluster21" title="Cluster21">
-                    <div class="overlay overlay2">
+                <a href="javascript:void(0)" class="video_preview" data-toggle="modal" data-target=".modalVideo1">
+                    <img lazyload src="assets/img/image-banner-blog.png" alt="Cluster21" title="Cluster21">
+                    <div class="overlay-blog overlay2">
                         <div>
                             <div class="play">
                                 <i class="fas fa-play text-white"></i>

@@ -146,6 +146,7 @@
 <script src="assets/js/script.js"></script>
 <script src="assets/js/sobre.js"></script>
 <script src="assets/js/quero-captar.js"></script>
+<script src="assets/js/blog.js"></script>
 
 
 </body>

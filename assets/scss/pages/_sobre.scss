@@ -1,7 +1,60 @@
 ///
+@media screen and (max-width: 768px) {
+  .overlay-blog {
+    display: none;
+  }
+}
 
+.video_preview {
+  img {
+    width: 80%;
+    z-index: -1;
+    position: relative;
+    bottom: 3rem;
+  }
+  width: 100%;
+  .overlay-blog{
+    /*margin-left: 15px*/
+    z-index: 1;
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+    background-image: none;
+    //opacity: 0.4;
+    height: 100%;
+    border-radius: 10px;
+    width: calc(72%);
+    object-fit: cover;
+    .play {
+      z-index: 3;
+      height: 80px;
+      width: 80px;
+      background: rgba(0, 0, 0, 0.5);
+      border: 2px solid #fff;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      text-align: center;
+      line-height: calc(80px - 6px);
+      font-size: 24px;
+      position: absolute;
+      top: calc(50% - (80px / 3) - 12px);
+      left: calc(50% - (80px / 3));
+    }
+    .play-text {
+      position: absolute;
+      top: calc(50% + 60px);
+      width: 50%;
+      text-align: center;
+      left: 25%;
+      font-weight: 700;
+    }
+  }
+}
 //banner
 #banner-content{
+  
+  
   .clip-svg {
     height: 0;
     width: 0;

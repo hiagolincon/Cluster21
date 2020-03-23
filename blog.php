@@ -6,15 +6,51 @@ include 'inc/menu.php';
 
  <div class="row" id="banner-content-blog">
             <div class="col-lg-7">
-                <p>——— Destaques do Blog</p>
-                <h2>O que os investidores procuram nas startups?</h2>
-                <h3>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h3>
-                <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
-                    Leia Mais<i class="fas fa-long-arrow-alt-right"></i>
-                </a>
+                <div class="slide-blog">
+                    <div>
+                        <p>——— Destaques do Blog</p>
+                        <h2>O que os investidores procuram nas startups?</h2>
+                        <h3>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h3>
+                        <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
+                            Leia Mais<i class="fas fa-long-arrow-alt-right"></i>
+                        </a>
+                    </div>
+                
+                    <div>
+                        <p>——— Destaques do Blog</p>
+                        <h2>O que os investidores procuram nas startups?</h2>
+                        <h3>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h3>
+                        <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
+                            Leia Mais<i class="fas fa-long-arrow-alt-right"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <p>——— Destaques do Blog</p>
+                        <h2>O que os investidores procuram nas startups?</h2>
+                        <h3>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h3>
+                        <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
+                            Leia Mais<i class="fas fa-long-arrow-alt-right"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <p>——— Destaques do Blog</p>
+                        <h2>O que os investidores procuram nas startups?</h2>
+                        <h3>Conheça o modelo de Equity Crowdfunding, a partir de <br>R$ 500,00 você se tornar sócio de uma empresa inovadora.</h3>
+                        <a href="/quero-investir.php" title="Quero investir agora" class="btn btn-investir">
+                            Leia Mais<i class="fas fa-long-arrow-alt-right"></i>
+                        </a>
+                    </div>
+                    
+                
+                </div>
+                
             </div>
             <div class="col-lg-5">
-              <img src=""  alt="" title="">
+                <img src="assets/img/image-banner-blog.png" alt="Cluster21" title="Cluster21">
+                <div id="arrow-banner">
+                    <button type="button" class="btn btn-red prev"><i class='fas fa-long-arrow-alt-left'></i></button>
+                    <button type="button" class="btn btn-red next"><i class='fas fa-long-arrow-alt-right'></i></button>
+                </div>
             </div>
         </div>
     </div>

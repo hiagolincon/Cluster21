@@ -36,6 +36,9 @@
         top: 5px !important;
       }
     }
+    img{
+      margin-top: -41px;
+    }
     h2 {
       font-size: 58px;
       line-height: 65px;
@@ -54,6 +57,22 @@
       font-size: 20px;
       line-height: 25px;
     }
+    #arrow-banner {
+      position: relative;
+      bottom: 50px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #banner-content-blog {
+      img{
+        display: none;
+      }
+      #arrow-banner {
+        position: relative;
+        bottom: -20px;
+      }
+    }
+    
   }
 
 //CARDS
