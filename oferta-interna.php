@@ -13,7 +13,7 @@ include 'inc/menu.php';
 
 <section class="wow slideInLeft position-relative" data-wow-duration="2s" id="banner">
   <div class="img-topo">
-    <img src="https://i.imgur.com/Z2yLIa7.jpg">
+    <img src="assets/img/oferta_interna/bg.jpg">
   </div>
   <div class="position-absolute w-100 fixed-bottom" id="vectors">
     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 2200 183.87">
@@ -34,7 +34,7 @@ include 'inc/menu.php';
     <div class="row py-5">
       <div class="col-sm-12 col-md-12 col-lg-6">
         <div class="d-flex mb-1">
-          <img class=" d-inline-block" src="assets/img/oferta_interna/logo-ideal.jpg" alt="Ideal Engenharia">
+          <img class="logoEmpresa d-inline-block" src="assets/img/oferta_interna/logo-ideal.jpg" alt="Ideal Engenharia">
           <h1 class="title d-inline-block my-auto ml-2">Ideal Engenharia</h1>
         </div>
         <p class="slogan">Proteção de descargas atmosféricas</p>
@@ -60,9 +60,27 @@ include 'inc/menu.php';
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6 column-left">
         <div class="button-banner">
-          <button class="btn btn-outline-light mx-3 px-4">Dúvidas</button>
-          <button class="btn btn-outline-light  px-4">
-            <i class="fa fa-share-alt mr-2" aria-hidden="true"></i>Compartilhar</button>
+          <a href="#duvida" class="btn btn-outline-light mx-3 px-4">Dúvidas</a>
+          <a class="btn btn-outline-light px-4" data-toggle="modal" data-target="#modalShare">
+            <i class="fa fa-share-alt mr-2" aria-hidden="true"></i>Compartilhar</a>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="modalShare" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Compartilhe com seus amigos</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div id="share"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
 
@@ -105,10 +123,7 @@ include 'inc/menu.php';
               <div class="d-flex captaçao justify-content-center">
                 <p class="align-self-center">Esta captação finaliza em &nbsp;</p>
                 <div class="d-flex flex-column counter justify-content-center">
-                  <div class="">
-                    <div class="d-inline-block horas">71</div>
-                    <div class="d-inline-block min">57</div>
-                    <div class="d-inline-block seg">12</div>
+                  <div class="tempoContainer">
                   </div>
                   <div class="textos">
                     <div class="d-inline-block horas1">horas</div>
@@ -137,8 +152,8 @@ include 'inc/menu.php';
       <li><a href="#duvida">Dúvidas</a></li>
 
       <li class="ml-auto">
-        <button class="btn btn-outline-light  px-4">
-          <i class="fa fa-share-alt mr-2" aria-hidden="true"></i>Compartilhar</button>
+        <a class="btn btn-outline-light  px-4" data-toggle="modal" data-target="#modalShare">
+          <i class="fa fa-share-alt mr-2" aria-hidden="true"></i>Compartilhar</a>
       </li>
     </ul>
   </div>
@@ -304,40 +319,98 @@ include 'inc/menu.php';
 
         <hr class="mt-5">
         <h4 class="title-style">MAIS INFORMAÇÕES</h4>
-        <div id="informacoes">
-          <ul>
-            <li>Apresentação Ideal Engenharia
-              <div>
-                <i class="fas fa-chevron-right"></i>
+        <div id="informacoes1" class="mt-4">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <div class="d-flex">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Apresentação Ideal Engenharia
+                </button>
+                <div class="squad my-auto">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
               </div>
-            </li>
-            <li>Expectativa de retorno
-              <div>
-                <i class="fas fa-chevron-right"></i>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#informacoes1">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
               </div>
-            </li>
-            <li>Valuation
-              <div>
-                <i class="fas fa-chevron-right"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <div class="d-flex">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  Expectativa de retorno
+                </button>
+                <div class="squad my-auto">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
               </div>
-            </li>
-            <li>Projeções financeiras
-              <div>
-                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#informacoes1">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
               </div>
-            </li>
-            <li id="sobre">Plano de expansão
-              <div>
-                <i class="fas fa-chevron-right"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="heading3">
+              <div class="d-flex">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                  Valuation
+                </button>
+                <div class="squad my-auto">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
               </div>
-            </li>
-          </ul>
+            </div>
+            <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#informacoes1">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="heading4">
+              <div class="d-flex">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                  Projeções financeiras
+                </button>
+                <div class="squad my-auto">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#informacoes1">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="heading5">
+              <div class="d-flex">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                  Plano de expansão
+                </button>
+                <div class="squad my-auto">
+                  <i class="fas fa-chevron-right"></i>
+                </div>
+              </div>
+            </div>
+            <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#informacoes1">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
     <h4 class="title-style">SOBRE A IDEAL ENGENHARIA</h4>
-    <div class="row">
+    <div id="sobre" class="row">
       <div class="col-sm-12 col-md-6 col-lg-4">
         <span class="texto-sm">Razão Social</span class="texto-sm"><br>
         <span class="style-span">Ideal de Engenharia</span>
@@ -404,7 +477,7 @@ include 'inc/menu.php';
       </div>
 
       <div class="col-sm-12 col-md-6 col-lg-4">
-        <span class="texto-sm">Localização</span><br>
+        <span class="texto-sm" id="localizacao">Localização</span><br>
         <small>Porto Alegre - Rio Grande do Sul</small>
         <div class="embed-responsive embed-responsive-16by9">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220895.34554940995!2d-51.31722893437933!3d-30.108795732276384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199cd2566acb1d%3A0x603111a89f87e91f!2sPorto%20Alegre%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1581122730190!5m2!1spt-BR!2sbr" width="400" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -601,10 +674,6 @@ include 'inc/menu.php';
           <div class="col-lg-5 order-sm-2 order-lg-2 order-md-2 my-auto">
             <h2 class="font-weight-bold mt-3">GauchaZH</h2>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
-            <a href="#" title="Ver Mais" class="btn btn-vermais ml-auto">
-              Ver Mais
-              <div class="d-inline-block square ml-auto"><i class="fas fa-long-arrow-alt-right"></i></div>
-            </a>
           </div>
           <div class="col-lg-7 order-sm-1 order-lg-1 order-md-1">
             <img lazyload class="img-fluid rounded shadow-sm" src="assets/img/print_reportagem_gaucha.png" alt="Cluster21 na mídia" title="Cluster21 na midia">
@@ -616,10 +685,6 @@ include 'inc/menu.php';
           <div class="col-lg-5 order-sm-2 order-lg-2 order-md-2 my-auto">
             <h2 class="font-weight-bold mt-3">Prêmio engenharia 2019</h2>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
-            <a href="#" title="Ver Mais" class="btn btn-vermais ml-auto">
-              Ver Mais
-              <div class="d-inline-block square ml-auto"><i class="fas fa-long-arrow-alt-right"></i></div>
-            </a>
           </div>
           <div class="col-lg-7 order-sm-1 order-lg-1 order-md-1">
             <img lazyload class="img-fluid rounded shadow-sm" src="assets/img/oferta_interna/premio.jpg" alt="Prêmio engenharia 2019" title="Prêmio engenharia 2019">
@@ -677,10 +742,6 @@ include 'inc/menu.php';
           <div class="col-lg-5 order-sm-2 order-lg-2 order-md-2 my-auto">
             <h2 class="font-weight-bold mt-3">Patente</h2>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae aliquam libero. Nulla volutpat velit eu neque commodo porttitor. Nullam accumsan ornare tortor id laoreet. In malesuada ultrices lorem, porttitor suscipit tortor rhoncus vel.</p>
-            <a href="#" title="Ver Mais" class="btn btn-vermais ml-auto">
-              Ver Mais
-              <div class="d-inline-block square ml-auto"><i class="fas fa-long-arrow-alt-right"></i></div>
-            </a>
           </div>
           <div class="col-lg-7 order-sm-1 order-lg-1 order-md-1">
             <img lazyload class="img-fluid rounded shadow-sm" src="assets/img/oferta_interna/patente.jpg" alt="Patente" title="Patente">

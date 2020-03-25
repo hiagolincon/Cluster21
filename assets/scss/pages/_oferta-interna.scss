@@ -2,42 +2,55 @@
 //BANNER
 #cardOferta {
   z-index: 9000;
+  box-shadow: 0px 3px 60px rgba(0, 0, 0, 0.16);
 }
-#informacoes {
-  margin: 0;
-  ul {
-    margin: 0;
-    list-style: none;
-    li {
-      margin-left: -40px;
-      box-shadow: 0px 3px 60px rgba(55, 71, 94, 0.43);
-      padding-top: 15px;
-      padding-bottom: 15px;
+a.btn-outline-light {
+  color: #fff;
+  &:hover {
+    color: #000!important;
+  }
+}
+#informacoes1 {
+  .card {
+    .card-header {
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+      padding-top: 10px;
+      padding-bottom: 10px;
       padding-left: 10px;
       margin-bottom: 20px;
       border-radius: 10px;
-      line-height: 40px;
-      display: flex;
+      background: #fff;
       div {
-        background: #35475f;
-        height: 40px;
-        border-radius: 5px;
-        width: 40px;
-        display: inline-block;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: 15px;
-        i {
-          color: #fff;
-          font-weight: bold;
-          font-size: 24px;
+        display: flex;
+        button {
+          line-height: 35px;
+          color: #887;
+          font-size: 17px;
+          text-decoration: none;
+          box-shadow: none;
+        }
+        .squad {
+          margin-left: auto;
+          background: #35475f;
+          height: 40px;
+          border-radius: 5px;
+          width: 40px;
+          display: inline-block;
           line-height: 40px;
-          margin-left: 14px;
+          color: #fff;
+          justify-content: center;
           text-align: center;
+          margin-left: auto;
         }
       }
     }
   }
+}
+.logoEmpresa {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 5px;
 }
 #equipe {
   padding-top: 70px;
@@ -58,7 +71,7 @@
 }
 #stickySidebar {
   visibility: hidden;
-  @include mq('desktop','max') {
+  @include mq("desktop", "max") {
     display: none;
   }
   ul {
@@ -92,6 +105,22 @@
     }
   }
 }
+.jssocials-shares {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  .jssocials-share {
+    a {
+      width: 33.3%;
+      margin: auto;
+    }
+    width: 100%;
+  }
+}
+.modal {
+  z-index: 10000;
+}
 #menuOferta {
   visibility: hidden;
   background-color: #35475f;
@@ -100,6 +129,9 @@
   vertical-align: middle;
   line-height: 60px;
   z-index: 9500;
+  @include mq("tablet1", "max") {
+    display: none;
+  }
   ul {
     list-style: none;
     li {
@@ -177,6 +209,11 @@
     .min1 {
       margin-right: 5px;
     }
+    .tempoContainer{
+      color: $dark-blue;
+      font-size: 25px;
+      line-height: 1;
+    }
     .horas,
     .min,
     .seg {
@@ -240,8 +277,17 @@
   text-align: end;
 }
 
-.button-banner button {
-  padding: 10px 0px;
+.button-banner {
+  @include mq("tablet1", "max") {
+    display: flex;
+    justify-content: center;
+    button {
+      display: inline-block;
+    }
+  }
+  button {
+    padding: 10px 0px;
+  }
 }
 
 .card-style {
@@ -250,6 +296,18 @@
   padding-top: 2rem;
   float: right;
   border-radius: 5px;
+  @include mq("tablet1", "max") {
+    width: auto;
+    .cartao-footer {
+      .captaçao p {
+        width: 60%;
+        font-size: 14px;
+      }
+      .d-flex.flex-column {
+        width: 40%;
+      }
+    }
+  }
 }
 
 .card-style p {
@@ -270,13 +328,14 @@
     border-radius: 6px;
     border: thin solid #ccc;
     padding: 8px 0;
+    text-align: left;
     margin: 0;
   }
   input[placeholder] {
     font-size: 20px;
     font-weight: 400;
     position: relative;
-    padding-left: 4rem;
+    padding-left: 3px;
   }
 
   ::-webkit-input-placeholder {
@@ -337,8 +396,11 @@ small {
 
 //ARTIGO
 #artigo {
-  @include mq('tablet1') {
-    margin-top:-200px;
+  @include mq("tablet1") {
+    margin-top: -300px;
+  }
+  @include mq("phone-wide", "max") {
+    margin-top: 100px;
   }
 }
 #artigo p {

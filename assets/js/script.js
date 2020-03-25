@@ -57,13 +57,24 @@ $(document).ready(function() {
         $("#visao").offset().top,
         $("#financas").offset().top
       ];
-      var $scrollHeight = $(window).scrollTop();
-
       for (let index = 0; index < valores.length; index++) {
         const element = valores[index];
-        if ($scrollHeight >= element - 70) {
+        if ($(window).scrollTop() >= element - 70) {
           $("#stickySidebar li.current").removeClass("current");
           $($("#stickySidebar li")[index]).trigger("click");
+        }
+      }
+      var valoresMenuTopo = [
+        $("#pitch").offset().top,
+        $("#sobre").offset().top,
+        $("#equipe").offset().top,
+        $("#duvida").offset().top
+      ];
+      for (let index = 0; index < valoresMenuTopo.length; index++) {
+        const element = valoresMenuTopo[index];
+        if ($(window).scrollTop() >= element - 70) {
+          $("#menuOferta li.current").removeClass("current");
+          $($("#menuOferta li")[index]).addClass("current");
         }
       }
     }
@@ -76,12 +87,34 @@ $(document).ready(function() {
     if (typeof $("#menuOferta")[0] != "undefined") {
       if ($windowWidth < 500) {
         $("#cardOferta").unstick();
-        $("#cardOferta").css({ display: "none" });
+        // $("#cardOferta").css({ display: "none" });
       }
     }
   });
   // Oferta interna
+  // Countdown
+
+  $(".tempoContainer").countdown("2020/03/29", function(event) {
+    var totalHours = event.offset.totalDays * 24 + event.offset.hours;
+    $(this).text(event.strftime(totalHours+" %M %S"));
+  });
+
   if (typeof $("#menuOferta")[0] != "undefined") {
+    jsSocials.setDefaults("twitter", {
+      logo: "fab fa-twitter"
+    });
+    jsSocials.setDefaults("facebook", {
+      logo: "fab fa-facebook-square"
+    });
+    jsSocials.setDefaults("whatsapp", {
+      logo: "fab fa-whatsapp"
+    });
+    jsSocials.setDefaults("linkedin", {
+      logo: "fab fa-linkedin"
+    });
+    $("#share").jsSocials({
+      shares: ["twitter", "email", "whatsapp", "facebook", "linkedin"]
+    });
     /*Menu oferta */
     $("#menuOferta").sticky({
       topSpacing: 0,
@@ -95,7 +128,7 @@ $(document).ready(function() {
     $("#menuOferta").on("sticky-end", function() {
       $("#menuOferta").css({ visibility: "hidden" });
     });
-    $("#menuOferta li").click(function() {
+    $("#menuOferta li:not(:nth-of-type(5n))").click(function() {
       $("#menuOferta li.current").removeClass("current");
       $(this).addClass("current");
     });
@@ -103,13 +136,12 @@ $(document).ready(function() {
       $("#stickySidebar li.current").removeClass("current");
       $(this).addClass("current");
     });
-
     $("#stickySidebar").sticky({
       topSpacing: 80,
       zIndex: 9000,
       center: true,
       responsiveWidth: false,
-      bottomSpacing: $("#sobre").position().top + $("#sobre").outerHeight(true),
+      bottomSpacing: $("#localizacao").offset().top - $(window).height() + 250,
       widthFromWrapper: false
     });
     $("#stickySidebar").on("sticky-start", function() {
@@ -120,14 +152,17 @@ $(document).ready(function() {
     });
     // end menu oferta
 
-    $("#cardOferta").sticky({
-      topSpacing: 100,
-      bottomSpacing: $("#sobre").position().top + $("#sobre").outerHeight(true),
-      zIndex: 9000,
-      responsiveWidth: false,
-      widthFromWrapper: false,
-      center: true
-    });
+    if ($(window).width() >= 768) {
+      $("#cardOferta").sticky({
+        topSpacing: 50,
+        bottomSpacing:
+          $("#localizacao").offset().top - $(window).height() + 250,
+        zIndex: 9000,
+        responsiveWidth: false,
+        widthFromWrapper: true,
+        center: true
+      });
+    }
   }
 
   $(function() {
