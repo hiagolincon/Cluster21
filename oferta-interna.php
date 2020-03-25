@@ -325,10 +325,10 @@ include 'inc/menu.php';
               <div class="d-flex">
                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   Apresentação Ideal Engenharia
+                  <div class="squad my-auto">
+                    <i class="fas fa-chevron-right"></i>
+                  </div>
                 </button>
-                <div class="squad my-auto">
-                  <i class="fas fa-chevron-right"></i>
-                </div>
               </div>
             </div>
 
@@ -343,10 +343,10 @@ include 'inc/menu.php';
               <div class="d-flex">
                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                   Expectativa de retorno
+                  <div class="squad my-auto">
+                    <i class="fas fa-chevron-right"></i>
+                  </div>
                 </button>
-                <div class="squad my-auto">
-                  <i class="fas fa-chevron-right"></i>
-                </div>
               </div>
             </div>
             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#informacoes1">
@@ -360,10 +360,10 @@ include 'inc/menu.php';
               <div class="d-flex">
                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
                   Valuation
+                  <div class="squad my-auto">
+                    <i class="fas fa-chevron-right"></i>
+                  </div>
                 </button>
-                <div class="squad my-auto">
-                  <i class="fas fa-chevron-right"></i>
-                </div>
               </div>
             </div>
             <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#informacoes1">
@@ -377,10 +377,10 @@ include 'inc/menu.php';
               <div class="d-flex">
                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
                   Projeções financeiras
+                  <div class="squad my-auto">
+                    <i class="fas fa-chevron-right"></i>
+                  </div>
                 </button>
-                <div class="squad my-auto">
-                  <i class="fas fa-chevron-right"></i>
-                </div>
               </div>
             </div>
             <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#informacoes1">
@@ -394,10 +394,10 @@ include 'inc/menu.php';
               <div class="d-flex">
                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
                   Plano de expansão
+                  <div class="squad my-auto">
+                    <i class="fas fa-chevron-right"></i>
+                  </div>
                 </button>
-                <div class="squad my-auto">
-                  <i class="fas fa-chevron-right"></i>
-                </div>
               </div>
             </div>
             <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#informacoes1">

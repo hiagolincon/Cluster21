@@ -138,7 +138,7 @@ $(document).ready(function() {
     });
     $("#stickySidebar").sticky({
       topSpacing: 80,
-      zIndex: 9000,
+      zIndex: 1,
       center: true,
       responsiveWidth: false,
       bottomSpacing: $("#localizacao").offset().top - $(window).height() + 250,

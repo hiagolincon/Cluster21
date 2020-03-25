@@ -28,19 +28,20 @@ a.btn-outline-light {
           font-size: 17px;
           text-decoration: none;
           box-shadow: none;
-        }
-        .squad {
-          margin-left: auto;
-          background: #35475f;
-          height: 40px;
-          border-radius: 5px;
-          width: 40px;
-          display: inline-block;
-          line-height: 40px;
-          color: #fff;
-          justify-content: center;
-          text-align: center;
-          margin-left: auto;
+          width: 100%;
+          text-align: left;
+          .squad {
+            float: right;
+            background: #35475f;
+            height: 40px;
+            border-radius: 5px;
+            width: 40px;
+            display: inline-block;
+            line-height: 40px;
+            color: #fff;
+            text-align: center;
+            margin-left: auto;
+          }
         }
       }
     }
@@ -71,6 +72,12 @@ a.btn-outline-light {
 }
 #stickySidebar {
   visibility: hidden;
+  @include mq("desktop-mac", "min") {
+    left: -30px;
+  }
+  @include mq("desktop-wide", "min") {
+    left: 0;
+  }
   @include mq("desktop", "max") {
     display: none;
   }
