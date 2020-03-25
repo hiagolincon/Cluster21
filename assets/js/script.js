@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
   var parent = $(".customTab .clickme a.activelink");
   var i = parent
     .parents(".clickme")
@@ -23,12 +23,14 @@ $(document).ready(function () {
       centerMode: true,
       // prevArrow: "<button type=\"button\" class=\"btn btn-red prev mx-auto\"><i class='fas fa-long-arrow-alt-left'></i></button>",
       // nextArrow: "<button type=\"button\" class=\"btn btn-red next mx-auto\"><i class='fas fa-long-arrow-alt-right'></i></button>",
-      responsive: [{
-        breakpoint: 900,
-        settings: "unslick"
-      }]
+      responsive: [
+        {
+          breakpoint: 900,
+          settings: "unslick"
+        }
+      ]
     });
-    $(".customTab").on("beforeChange", function (
+    $(".customTab").on("beforeChange", function(
       event,
       slick,
       currentSlide,
@@ -42,14 +44,93 @@ $(document).ready(function () {
   }
 
   slickify();
-  $(window).resize(function () {
+  $(window).scroll(function() {
+    if (typeof $("#missao")[0] != "undefined") {
+      var valores = [
+        $("#missao").offset().top,
+        $("#problema").offset().top,
+        $("#solucao").offset().top,
+        $("#modelo").offset().top,
+        $("#mercado").offset().top,
+        $("#concorrentes").offset().top,
+        $("#tracao").offset().top,
+        $("#visao").offset().top,
+        $("#financas").offset().top
+      ];
+      var $scrollHeight = $(window).scrollTop();
+
+      for (let index = 0; index < valores.length; index++) {
+        const element = valores[index];
+        if ($scrollHeight >= element - 70) {
+          $("#stickySidebar li.current").removeClass("current");
+          $($("#stickySidebar li")[index]).trigger("click");
+        }
+      }
+    }
+  });
+  $(window).resize(function() {
     var $windowWidth = $(window).width();
     if ($windowWidth < 900) {
       slickify();
     }
+    if (typeof $("#menuOferta")[0] != "undefined") {
+      if ($windowWidth < 500) {
+        $("#cardOferta").unstick();
+        $("#cardOferta").css({ display: "none" });
+      }
+    }
   });
+  // Oferta interna
+  if (typeof $("#menuOferta")[0] != "undefined") {
+    /*Menu oferta */
+    $("#menuOferta").sticky({
+      topSpacing: 0,
+      zIndex: 9500,
+      responsiveWidth: true,
+      widthFromWrapper: true
+    });
+    $("#menuOferta").on("sticky-start", function() {
+      $("#menuOferta").css({ visibility: "visible" });
+    });
+    $("#menuOferta").on("sticky-end", function() {
+      $("#menuOferta").css({ visibility: "hidden" });
+    });
+    $("#menuOferta li").click(function() {
+      $("#menuOferta li.current").removeClass("current");
+      $(this).addClass("current");
+    });
+    $("#stickySidebar li").click(function() {
+      $("#stickySidebar li.current").removeClass("current");
+      $(this).addClass("current");
+    });
 
-  $(function () {
+    $("#stickySidebar").sticky({
+      topSpacing: 80,
+      zIndex: 9000,
+      center: true,
+      responsiveWidth: false,
+      bottomSpacing: $("#sobre").position().top + $("#sobre").outerHeight(true),
+      widthFromWrapper: false
+    });
+    $("#stickySidebar").on("sticky-start", function() {
+      $("#stickySidebar").css({ visibility: "visible" });
+    });
+    $("#stickySidebar").on("sticky-end", function() {
+      $("#stickySidebar").css({ visibility: "hidden" });
+    });
+    // end menu oferta
+
+    $("#cardOferta").sticky({
+      topSpacing: 100,
+      bottomSpacing: $("#sobre").position().top + $("#sobre").outerHeight(true),
+      zIndex: 9000,
+      responsiveWidth: false,
+      widthFromWrapper: false,
+      center: true
+    });
+  }
+
+  $(function() {
     $(".chart").easyPieChart({
       size: 80,
       barColor: "#CF3736",
@@ -73,7 +154,8 @@ $(document).ready(function () {
     prevArrow: $("#duvida #faq-arrows div .prev"),
     nextArrow: $("#duvida #faq-arrows div .next"),
     arrows: true,
-    responsive: [{
+    responsive: [
+      {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
@@ -98,9 +180,9 @@ $(document).ready(function () {
       // You can unslick at a given breakpoint now by adding:
       // settings: "unslick"
       // instead of a settings object
-    ],
+    ]
   });
-  $(".customTab a").click(function () {
+  $(".customTab a").click(function() {
     var parent = $(this)
       .parents(".customTab")
       .children("li")
@@ -120,7 +202,7 @@ $(document).ready(function () {
       .removeClass("hide");
   });
 
-  $(".read-more").click(function () {
+  $(".read-more").click(function() {
     var parent = $(this).parents(".card");
     var container = parent.children(".read-container");
 
@@ -130,7 +212,7 @@ $(document).ready(function () {
     parent.children(".gradient").remove();
   });
 
-  $(".customTab .clickme").click(function (e) {
+  $(".customTab .clickme").click(function(e) {
     var parent = $(this).children("a");
     $(".customTab a").removeClass("activelink");
     $(".selected-tab").hide();
@@ -156,7 +238,7 @@ $(document).ready(function () {
     )
   ).show();
 
-  $(".slide-depoimento").on("beforeChange", function (
+  $(".slide-depoimento").on("beforeChange", function(
     event,
     slick,
     currentSlide,

@@ -1,8 +1,238 @@
 ///
 //BANNER
-
+#cardOferta {
+  z-index: 9000;
+}
+#informacoes {
+  margin: 0;
+  ul {
+    margin: 0;
+    list-style: none;
+    li {
+      margin-left: -40px;
+      box-shadow: 0px 3px 60px rgba(55, 71, 94, 0.43);
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      line-height: 40px;
+      display: flex;
+      div {
+        background: #35475f;
+        height: 40px;
+        border-radius: 5px;
+        width: 40px;
+        display: inline-block;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: 15px;
+        i {
+          color: #fff;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 40px;
+          margin-left: 14px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+#equipe {
+  padding-top: 70px;
+}
+#duvida {
+  padding-top: 70px;
+}
+#problema,
+#solucao,
+#modelo,
+#mercado,
+#concorrentes,
+#tracao,
+#visao,
+#financas {
+  margin-top: -60px;
+  padding-top: 70px;
+}
+#stickySidebar {
+  visibility: hidden;
+  @include mq('desktop','max') {
+    display: none;
+  }
+  ul {
+    width: 140px;
+    position: relative;
+    li {
+      list-style-type: none;
+      font-weight: 700;
+      position: relative;
+      a {
+        position: relative;
+        color: #777;
+      }
+      &.current {
+        a {
+          color: $dark-blue !important;
+        }
+        &::before {
+          width: 0;
+          height: 0;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          border-top: 7px solid $dark-blue;
+          transform: rotate(-90deg);
+          content: "";
+          position: absolute;
+          top: 8px;
+          left: 100%;
+        }
+      }
+    }
+  }
+}
+#menuOferta {
+  visibility: hidden;
+  background-color: #35475f;
+  width: 100%;
+  height: 60px;
+  vertical-align: middle;
+  line-height: 60px;
+  z-index: 9500;
+  ul {
+    list-style: none;
+    li {
+      &:not(:nth-of-type(4n)):not(:nth-of-type(5n)) {
+        &::after {
+          content: "—";
+          margin-left: 10px;
+          color: #fff;
+        }
+      }
+      display: inline;
+      position: relative;
+      &.current {
+        &::before {
+          width: 0;
+          height: 0;
+          border-left: 12px solid transparent;
+          border-right: 12px solid transparent;
+          border-bottom: 13px solid #fff;
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 25%;
+        }
+      }
+      margin-right: 10px;
+      font-weight: bold;
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
 #banner {
-  background-color: darkgrey;
+  // background-color: #ddd;
+  height: 600px;
+  #vectors {
+    #layer103 {
+      fill: rgba(99, 110, 114, 0.3);
+    }
+    #layer102 {
+      fill: rgba(99, 110, 114, 0.2);
+    }
+    #layer101 {
+      fill: rgba(99, 110, 114, 0.3);
+    }
+  }
+  .img-topo {
+    position: absolute;
+    top: 0px;
+    &::before {
+      content: "";
+      display: block;
+      background-color: rgba(99, 110, 114, 0.4);
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
+    img {
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+      object-position: bottom;
+    }
+  }
+  .counter {
+    text-align: center;
+    .textos {
+      color: $dark-blue;
+      line-height: 1;
+    }
+    .horas,
+    .min,
+    .horas1,
+    .min1 {
+      margin-right: 5px;
+    }
+    .horas,
+    .min,
+    .seg {
+      color: $dark-blue;
+      font-size: 25px;
+      line-height: 1;
+    }
+  }
+  .slogan,
+  .title {
+    color: #fff;
+  }
+  .title {
+    font-weight: 700;
+  }
+  #video {
+    // max-height: 600px;
+    display: flex;
+    .preview-video {
+      z-index: 2;
+      border-radius: 0;
+      background: #000;
+      margin: auto;
+      position: relative;
+      .overlay {
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 0;
+        .play {
+          z-index: 3;
+          height: 80px;
+          width: 80px;
+          background: rgba(0, 0, 0, 0.5);
+          border: 2px solid #fff;
+          border-radius: 50%;
+          text-align: center;
+          line-height: calc(80px - 6px);
+          font-size: 24px;
+          position: absolute;
+          top: calc(50% - (150px / 3) - 12px);
+          left: calc(50% - (100px / 3));
+        }
+        .play-text {
+          position: absolute;
+          top: calc(50% + 30px);
+          width: 50%;
+          text-align: center;
+          left: 25%;
+          font-weight: 700;
+        }
+      }
+      img {
+        position: relative;
+        object-fit: cover;
+      }
+    }
+  }
 }
 
 .column-left {
@@ -78,7 +308,8 @@
 
 .cartao-footer {
   margin-top: 10px;
-  padding: 4px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: rgb(245, 245, 245);
   border-radius: 0 0 5px 5px;
 }
@@ -97,6 +328,7 @@ small {
 
 .captaçao p {
   text-align: bottom;
+  font-size: 16px;
 }
 
 .captaçao small {
@@ -104,7 +336,11 @@ small {
 }
 
 //ARTIGO
-
+#artigo {
+  @include mq('tablet1') {
+    margin-top:-200px;
+  }
+}
 #artigo p {
   font-weight: 500;
   font-size: 18px;
@@ -121,28 +357,74 @@ small {
   margin: 2.5rem 0;
   background-color: rgba(214, 214, 214, 0.87) !important;
 }
-
+.social-icons i {
+  font-size: 20px;
+}
 .texto-sm {
   color: rgb(143, 143, 143);
 }
-
+#mais {
+  @include mq("tablet1") {
+    padding-top: 100px;
+  }
+}
+#tabCaptar {
+  display: flex;
+  border: 1px solid $dark-blue;
+  justify-content: space-between;
+  border-radius: 30px;
+  @include mq("tablet1", "max") {
+    border: none;
+    li {
+      width: 100%;
+      a {
+        color: $dark-blue !important;
+        width: 100% !important;
+      }
+    }
+  }
+  li {
+    display: inline-block;
+    a {
+      width: 150px;
+      text-align: center;
+      &:hover,
+      &:focus {
+        border: none;
+        border-radius: 30px;
+      }
+      color: #888;
+      text-transform: uppercase;
+    }
+    .active {
+      background: $dark-blue !important;
+      border: 1px solid $dark-blue;
+      border-radius: 30px;
+      color: #fff !important;
+      font-weight: bold;
+    }
+  }
+}
 .style-span {
   color: $dark-blue;
   font-weight: 600;
   font-size: 18px;
+  a {
+    color: $dark-blue;
+    font-size: 18px;
+    i {
+      font-size: 18px;
+    }
+  }
 }
 .style-span i {
-  font-size: 3rem;
+  font-size: 1.4em;
 }
 
 .title-style {
-  font-weight: 600 !important;
+  font-weight: bold !important;
   font-size: normal;
   margin-top: 5rem;
-  background-image: url("assets/img/Caminho\ 624.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: contain;
 }
 
 .box {

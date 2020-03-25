@@ -428,7 +428,7 @@
 
 // CONHEÇA NOSSO TIME
 
-#Conheça-nosso-time {
+#Conheça-nosso-time,#equipe {
   text-align: center;
   margin-top: 6rem;
   img {
@@ -467,7 +467,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  #Conheça-nosso-time {
+  #Conheça-nosso-time,#equipe {
     .Caminho_375 {
       width: 255px;
       position: absolute;
@@ -478,7 +478,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  #Conheça-nosso-time {
+  #Conheça-nosso-time,#equipe {
     .Caminho_375 {
       width: 255px;
       position: absolute;
