@@ -94,7 +94,7 @@ $(document).ready(function() {
   // Oferta interna
   // Countdown
 
-  $(".tempoContainer").countdown("2020/03/29", function(event) {
+  $(".tempoContainer").countdown("2020/04/29", function(event) {
     var totalHours = event.offset.totalDays * 24 + event.offset.hours;
     $(this).text(event.strftime(totalHours+" %M %S"));
   });
